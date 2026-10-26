@@ -1,8 +1,17 @@
-export const clean = (value = '') => String(value).replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
+export const clean = (value = '') =>
+  String(value)
+    .replace(/\u00a0/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
 export const unique = (values) => [...new Set(values.filter(Boolean))];
 
 export function localDate(iso = new Date().toISOString()) {
-  return new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Minsk', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(iso));
+  return new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Europe/Minsk',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).format(new Date(iso));
 }
 
 export function parseMoney(text) {
@@ -10,7 +19,9 @@ export function parseMoney(text) {
   const result = { price: null, price_min: null, price_max: null, price_text_original: original };
   if (!original || /^(?:[-—–]|нет|по запросу)$/iu.test(original)) return result;
   const numeric = original.replace(/(?<=\d)[ \u202f](?=\d{3}(?:\D|$))/g, '');
-  const matches = [...numeric.matchAll(/\d+(?:[.,]\d+)?/g)].map((match) => Number(match[0].replace(',', '.')));
+  const matches = [...numeric.matchAll(/\d+(?:[.,]\d+)?/g)].map((match) =>
+    Number(match[0].replace(',', '.')),
+  );
   if (!matches.length) return result;
   if (matches.length === 1) {
     if (/(?:^|\s)от\s*|from|[+]/iu.test(original)) result.price_min = matches[0];
@@ -40,26 +51,43 @@ export function vehicleClass(label) {
 
 export function contactsFromText(text) {
   return {
-    phones: unique((text.match(/\+375[\s(]*\d{2}[)\s]*\d{3}[\s-]*\d{2}[\s-]*\d{2}/g) || []).map(clean)),
+    phones: unique(
+      (text.match(/\+375[\s(]*\d{2}[)\s]*\d{3}[\s-]*\d{2}[\s-]*\d{2}/g) || []).map(clean),
+    ),
     emails: unique(text.match(/[\w.+-]+@[\w.-]+\.[a-z]{2,}/gi) || []),
   };
 }
 
 export function claimsFromPages(pages) {
-  return pages.flatMap((page) => page.paragraphs
-    .filter((text) => /гарант|\d+\s*%|\d+\s*лет|основан|с\s+\d{4}\s+г/iu.test(text))
-    .map((text) => ({ text, source_url: page.url, verification: 'site_claim' })));
+  return pages.flatMap((page) =>
+    page.paragraphs
+      .filter((text) => /гарант|\d+\s*%|\d+\s*лет|основан|с\s+\d{4}\s+г/iu.test(text))
+      .map((text) => ({ text, source_url: page.url, verification: 'site_claim' })),
+  );
 }
 
 export function createPresentation(harvest) {
   const { metadata, sources, ...content } = harvest;
   return {
     schema_version: 'site-presentation-v1',
-    source: { site: metadata.source_site, brand: metadata.brand, retrieved_at: metadata.retrieved_at, source_urls: sources.map((item) => item.url) },
+    source: {
+      site: metadata.source_site,
+      brand: metadata.brand,
+      retrieved_at: metadata.retrieved_at,
+      source_urls: sources.map((item) => item.url),
+    },
     metadata,
     sources,
     content,
-    section_index: Object.fromEntries(Object.entries(content).map(([key, value]) => [key, { type: Array.isArray(value) ? 'array' : typeof value, count: value && typeof value === 'object' ? Object.keys(value).length : null }])),
+    section_index: Object.fromEntries(
+      Object.entries(content).map(([key, value]) => [
+        key,
+        {
+          type: Array.isArray(value) ? 'array' : typeof value,
+          count: value && typeof value === 'object' ? Object.keys(value).length : null,
+        },
+      ]),
+    ),
     claims_and_caveats: { site_claims: harvest.site_claims || [], notes: metadata.notes || [] },
   };
 }

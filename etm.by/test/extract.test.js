@@ -29,7 +29,9 @@ test('ETM contact parser keeps each branch phone and hours within its own sectio
 });
 
 test('ETM treatment duration is distinguished from an aftercare period', () => {
-  const value = completionTime('Полная обработка занимает около 2 суток. После работ в течение 1 суток не стоит ездить по грунту.');
+  const value = completionTime(
+    'Полная обработка занимает около 2 суток. После работ в течение 1 суток не стоит ездить по грунту.',
+  );
   assert.equal(value.min, 2);
   assert.equal(value.unit, 'days');
   assert.equal(completionTime('После обработки ждать 1 сутки.'), null);

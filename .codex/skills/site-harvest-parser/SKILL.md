@@ -1,4 +1,5 @@
 ---
+
 name: site-harvest-parser
 description: Parse a website-harvest JSON file against a configurable schema and write presentation-ready outputs into a user-specified folder. Use for structured site data normalization and packaging; not for live web scraping.
 ---

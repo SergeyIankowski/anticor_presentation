@@ -3,13 +3,23 @@
   "private": true,
   "type": "module",
   "packageManager": "pnpm@12.11.2",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
+    "lint": "biome lint . --error-on-warnings",
+    "lint:fix": "biome lint --write . --error-on-warnings",
+    "format": "biome format --write .",
+    "check": "biome check . --error-on-warnings",
+    "site:new": "node scripts/new-site.js",
     "parse": "pnpm -r --workspace-concurrency=1 --filter './*.*' run parse",
     "parse:krown": "pnpm --filter @anticor/krown-by run parse",
     "parse:etm": "pnpm --filter @anticor/etm-by run parse",
     "browser:install": "pnpm --filter @anticor/harvest-core exec playwright install chromium",
-    "test": "node --test packages/harvest-core/test/*.test.js krown.by/test/*.test.js etm.by/test/*.test.js",
+    "test": "node --test scripts/test/*.test.js packages/harvest-core/test/*.test.js krown.by/test/*.test.js etm.by/test/*.test.js",
     "test:browser": "node --test packages/harvest-core/integration/*.test.js"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.6.3"
   }
 }

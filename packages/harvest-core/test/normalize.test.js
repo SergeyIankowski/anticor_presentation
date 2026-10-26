@@ -3,7 +3,14 @@ import { mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import test from 'node:test';
-import { createPresentation, localDate, parseMoney, publishOutputs, repositoryRoot, validateJson } from '../src/index.js';
+import {
+  createPresentation,
+  localDate,
+  parseMoney,
+  publishOutputs,
+  repositoryRoot,
+  validateJson,
+} from '../src/index.js';
 
 test('price qualifiers, ranges, missing and ambiguous prices retain their meaning', () => {
   assert.equal(parseMoney('795 BYN').price, 795);
@@ -22,7 +29,11 @@ test('retrieval dates use Minsk time at midnight boundaries', () => {
 });
 
 test('presentation preserves source metadata and arbitrary site fields', () => {
-  const input = { metadata: { source_site: 'https://example.org/', retrieved_at: '2026-10-26', language: 'ru' }, sources: [{ url: 'https://example.org/', used_for: ['company'] }], arbitrary: { a: [1, 'от 20'] } };
+  const input = {
+    metadata: { source_site: 'https://example.org/', retrieved_at: '2026-10-26', language: 'ru' },
+    sources: [{ url: 'https://example.org/', used_for: ['company'] }],
+    arbitrary: { a: [1, 'от 20'] },
+  };
   const output = createPresentation(input);
   assert.deepEqual(output.content.arbitrary, input.arbitrary);
   assert.deepEqual(output.metadata, input.metadata);
@@ -31,19 +42,41 @@ test('presentation preserves source metadata and arbitrary site fields', () => {
 
 test('full JSON Schema validator rejects disallowed properties and invalid dates', async () => {
   const path = join(repositoryRoot, 'schema.json');
-  const input = { schema_version: '1.0', company: { name: 'Example', website: 'https://example.org/' }, source: { scraped_at: '2026-10-26', urls: ['https://example.org/'] }, currency: 'BYN', vehicle_types: [], services: [] };
+  const input = {
+    schema_version: '1.0',
+    company: { name: 'Example', website: 'https://example.org/' },
+    source: { scraped_at: '2026-10-26', urls: ['https://example.org/'] },
+    currency: 'BYN',
+    vehicle_types: [],
+    services: [],
+  };
   await validateJson(input, path);
-  await assert.rejects(validateJson({ ...input, extra: 'not allowed' }, path), /additional properties/);
-  await assert.rejects(validateJson({ ...input, source: { ...input.source, scraped_at: 'yesterday' } }, path), /format/);
+  await assert.rejects(
+    validateJson({ ...input, extra: 'not allowed' }, path),
+    /additional properties/,
+  );
+  await assert.rejects(
+    validateJson({ ...input, source: { ...input.source, scraped_at: 'yesterday' } }, path),
+    /format/,
+  );
 });
 
 test('publishing preserves previous datasets in a run-specific history folder', async () => {
   const folder = await mkdtemp(join(tmpdir(), 'harvest-output-'));
   try {
     await writeFile(join(folder, 'example.org.json'), '{"old":true}\n');
-    await publishOutputs(folder, { 'example.org.json': { fresh: true }, 'parsed/presentation_data.json': { valid: true } }, 'fixture-run');
-    assert.deepEqual(JSON.parse(await readFile(join(folder, 'example.org.json'), 'utf8')), { fresh: true });
-    assert.deepEqual(JSON.parse(await readFile(join(folder, '.history/fixture-run/example.org.json'), 'utf8')), { old: true });
+    await publishOutputs(
+      folder,
+      { 'example.org.json': { fresh: true }, 'parsed/presentation_data.json': { valid: true } },
+      'fixture-run',
+    );
+    assert.deepEqual(JSON.parse(await readFile(join(folder, 'example.org.json'), 'utf8')), {
+      fresh: true,
+    });
+    assert.deepEqual(
+      JSON.parse(await readFile(join(folder, '.history/fixture-run/example.org.json'), 'utf8')),
+      { old: true },
+    );
   } finally {
     await rm(folder, { recursive: true, force: true });
   }

@@ -26,6 +26,17 @@ pnpm test
 pnpm test:browser   # local HTML fixtures through real Chromium
 ```
 
+Biome runs across the workspace, including the template and tests:
+
+```sh
+pnpm lint          # lint; fail on warnings
+pnpm lint:fix      # apply safe lint fixes
+pnpm format        # format source and configuration files
+pnpm check         # lint, formatting, and import-order checks
+```
+
+Active harvested JSON files are linted but keep the parser's output formatting. Snapshots, historical backups, dependencies, and temporary output folders are excluded.
+
 Options can be passed to each site's command:
 
 ```sh
@@ -49,4 +60,27 @@ The full harvest uses `schemas/site-harvest.schema.json`. Existing manual datase
 
 Required pages or schema failures stop publication and return a nonzero exit code. Optional page failures are recorded as a partial run. The parsers retry navigation once, limit crawling to the relevant domain and sections, and preserve existing datasets if required pages cannot be fetched. Both sites require a working network/DNS connection; access challenges are reported as failures. A `.parse.lock` prevents simultaneous writes to the same output folder.
 
-For a new site, create `<domain>/package.json` with an `@anticor/harvest-core` workspace dependency and a `parse` script, then implement `<domain>/src/parse.js` and extraction functions. Configure the seed pages, required pages, content selectors, allowed discovery paths, and a `build(pages, date)` function returning `{ harvest, comparison, warnings }`. Run a refresh into a temporary output folder and inspect the results before replacing the site's dataset.
+Create a new site from the reusable `template/` folder:
+
+```sh
+pnpm site:new example.com
+pnpm install
+```
+
+This creates `example.com/package.json` and `example.com/src/{parse,site,extract}.js`, with the domain, URL, and package name filled in. Existing folders are never overwritten. Domain folders are discovered automatically by the workspace; `template/` itself is excluded.
+
+Each site instance follows this structure:
+
+```text
+<domain>/
+  package.json
+  src/
+    parse.js     # common command entry point, copied from template
+    site.js      # this site's URLs, required pages, selectors, discovery rules
+    extract.js   # this site's company, service, and price extraction
+    prices.js    # optional site-specific helper
+```
+
+Configure `src/site.js` and implement `parseCompany()` and `parseServices()` in `src/extract.js`. The starter extraction deliberately reports an error until service parsing is implemented. Return `{ harvest, comparison, warnings }` from `buildSite(pages, date)`; the shared runner handles browsing, schema validation, backups, and output files. `etm.by` and `krown.by` use this same layout with their own extraction implementations.
+
+After implementing extraction, run `npm run parse` inside the new folder. Use `--output-dir` to inspect a refresh in a temporary folder first. Future sites should always be created from `template/` using `pnpm site:new <domain>`.

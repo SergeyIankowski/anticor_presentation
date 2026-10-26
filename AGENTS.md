@@ -2,10 +2,13 @@
 
 This is a pnpm workspace. Each domain folder contains a separate Node.js project with its own `src/parse.js` Playwright parser and `npm run parse` command. Shared browser, normalization, validation, and output code lives in `packages/harvest-core`.
 
+Create every new site as an instance of `template/` using `pnpm site:new <domain>`, then run `pnpm install`. Keep `src/parse.js` consistent with the template; put domain-specific seeds/selectors in `src/site.js` and extraction logic in `src/extract.js` (plus optional helpers such as `src/prices.js`). Implement and validate the extraction before refreshing the site's output. The uninstantiated template is excluded from the workspace.
+
 - Install: `pnpm install`, then `pnpm browser:install`.
 - Refresh one site: run `npm run parse` in that domain's folder, or `pnpm --filter @anticor/<site-package> parse` from the root.
 - Refresh all sites: `pnpm parse`.
-- Verify changes: `pnpm test`, `pnpm test:browser`, and a live run with `--output-dir` pointing at a temporary folder when appropriate.
+- Verify changes: `pnpm check`, `pnpm test`, `pnpm test:browser`, and a live run with `--output-dir` pointing at a temporary folder when appropriate.
+- Biome is configured at the workspace root. Use `pnpm lint` for linting, `pnpm lint:fix` for safe lint fixes, and `pnpm format` for formatting. Keep the template and site entry points consistently formatted.
 - The root `schema.json` is the company comparison contract; `schemas/site-harvest.schema.json` validates full harvests.
 - Keep source URLs, original price text, qualified amounts, and per-page errors. Use current page content when refreshing data; do not fill missing prices from old JSON.
 - The local skill `.codex/skills/site-harvest-parser/SKILL.md` describes offline JSON packaging. Live refreshes use the site-specific Node.js projects.

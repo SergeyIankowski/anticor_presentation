@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "scripts": { "parse": "node src/parse.js" },
-  "dependencies": { "@anticor/harvest-core": "workspace:*" }
+  "scripts": {
+    "parse": "node src/parse.js"
+  },
+  "dependencies": {
+    "@anticor/harvest-core": "workspace:*"
+  }
 }

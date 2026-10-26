@@ -1,0 +1,13 @@
+{
+  "valid": true,
+  "schema": "/Users/sergei/proj/anticor_presentation/.codex/skills/site-harvest-parser/references/site-presentation-schema.json",
+  "input": "etm.by/etm.by.json",
+  "output": "etm.by/parsed/presentation_data.json",
+  "parsed_at": "2026-10-26T08:58:13.451642+00:00",
+  "warnings": [
+    "The site presents services, products, partner locations, FAQ content, publications, and work examples.",
+    "Prices were not included in the visible text of the main catalog pages harvested here; product detail pages may contain dynamic or separate pricing.",
+    "Some work-example pages and the processing-technology page were not fetchable by the browser extractor; their visible titles and URLs are preserved where available.",
+    "Guarantees, ratings, customer percentages, product performance, and market-history statements are represented as site claims, not independently verified facts."
+  ]
+}

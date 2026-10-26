@@ -1,0 +1,492 @@
+{
+  "schema_version": "site-presentation-v1",
+  "source": {
+    "site": "https://etm.by/",
+    "brand": "Евротехмаркет",
+    "retrieved_at": "2026-10-26",
+    "input_file": "etm.by/etm.by.json",
+    "source_urls": [
+      "https://etm.by/",
+      "https://etm.by/klientam/o-nas/",
+      "https://etm.by/nashi-uslugi/antikorrozionnaya-obrabotka/",
+      "https://etm.by/nashi-uslugi/shumoizolyacziya/",
+      "https://etm.by/nashi-uslugi/zashhita-voskom-avtomobilya-na-zimnij-period/",
+      "https://etm.by/nashi-uslugi/dopolnitelnyie-uslugi/",
+      "https://etm.by/katalog/",
+      "https://etm.by/katalog/mercasol/",
+      "https://etm.by/katalog/noxudol/",
+      "https://etm.by/katalog/oborudovanie/",
+      "https://etm.by/klientam/faq/",
+      "https://etm.by/klientam/publikaczii/",
+      "https://etm.by/kontakty/"
+    ]
+  },
+  "section_index": {
+    "company": {
+      "type": "dict",
+      "count": 9
+    },
+    "locations": {
+      "type": "list",
+      "count": 4
+    },
+    "services": {
+      "type": "list",
+      "count": 4
+    },
+    "product_catalog": {
+      "type": "dict",
+      "count": 5
+    },
+    "work_examples": {
+      "type": "dict",
+      "count": 3
+    },
+    "faq_topics": {
+      "type": "list",
+      "count": 4
+    },
+    "publications": {
+      "type": "list",
+      "count": 8
+    },
+    "site_claims": {
+      "type": "list",
+      "count": 4
+    },
+    "content_for_presentation": {
+      "type": "dict",
+      "count": 3
+    },
+    "site_content_inventory": {
+      "type": "dict",
+      "count": 2
+    }
+  },
+  "content": {
+    "company": {
+      "legal_name": "Частное торгово-производственное унитарное предприятие «Евротехмаркет»",
+      "brand": "Евротехмаркет",
+      "positioning": "Центр антикоррозийной обработки и шумоизоляции автомобилей",
+      "website_description": "Официальный представитель шведской компании AUSON AB в Республике Беларусь.",
+      "history": [
+        "Сайт указывает, что с 2005 года предприятие является официальным представителем в Беларуси шведской компании Geveko Industri AB.",
+        "В 2009 году антикоррозионное направление Geveko Industri AB было приобретено концерном Auson.",
+        "Auson AB, согласно сайту, основана в 1928 году."
+      ],
+      "main_contact": {
+        "city": "Минск",
+        "address": "пер. Солтыса, 5/1",
+        "postal_address": "220040, Республика Беларусь, г. Минск, ул. Восточная, 38-314",
+        "phones": [
+          "+375 (44) 776-71-88",
+          "+375 (29) 776-71-88"
+        ],
+        "email": "eurotechmarket@gmail.com",
+        "working_hours": "Пн–Пт: 09:00–18:00; Сб–Вс: выходной",
+        "legal_id": "УНП 190654587"
+      },
+      "site_claims": [
+        "Компания указывает 15 лет работы на рынке услуг.",
+        "Более 90% клиентов, по утверждению сайта, выбрали компанию по отзывам друзей и знакомых.",
+        "Сайт заявляет о документальной гарантии на проведённые работы до 8 лет.",
+        "Сайт утверждает, что технология и материалы Mercasol и Noxudol позволяют сохранять автомобиль на протяжении 10 лет."
+      ],
+      "social_links_visible_on_site": [
+        {
+          "network": "VK",
+          "url": "https://vk.com/"
+        },
+        {
+          "network": "Instagram",
+          "url": "https://www.instagram.com/"
+        }
+      ],
+      "source_urls": [
+        "https://etm.by/",
+        "https://etm.by/klientam/o-nas/",
+        "https://etm.by/kontakty/"
+      ]
+    },
+    "locations": [
+      {
+        "city": "Минск",
+        "type": "main center",
+        "address": "пер. Солтыса, 5/1",
+        "phones": [
+          "+375 (44) 776-71-88",
+          "+375 (29) 776-71-88"
+        ],
+        "working_hours": "Пн–Пт: 09:00–18:00; Сб–Вс: выходной"
+      },
+      {
+        "city": "Новополоцк",
+        "type": "partner center",
+        "operator": "ИП Гончаров С. А.",
+        "address": "ул. Нефтепереработчиков, 4",
+        "phones": [
+          "+375 (29) 513-60-70",
+          "+375 (29) 211-54-77"
+        ],
+        "working_hours": "Пн–Пт: 09:00–18:00; Сб–Вс: выходной"
+      },
+      {
+        "city": "Светлогорск",
+        "type": "partner center",
+        "operator": "ИП Бусел А. Л.",
+        "address": "ул. Свердлова, 9Г",
+        "phones": [
+          "+375 (29) 118-56-96"
+        ],
+        "working_hours": "Пн–Пт: 09:00–19:00; Сб: 09:00–17:00; Вс: выходной"
+      },
+      {
+        "city": "Брест",
+        "type": "partner center",
+        "operator": "ИП Бокша В. Н.",
+        "address": "ул. Спокойная, 5",
+        "phones": [
+          "+375 (29) 722-59-89"
+        ],
+        "working_hours": "Пн–Пт: 09:00–18:00; Сб–Вс: выходной",
+        "partner_site": "https://antikorplus.by/"
+      }
+    ],
+    "services": [
+      {
+        "category": "Антикоррозийная обработка автомобиля",
+        "description": "Комплексная обработка кузова легкового автомобиля или микроавтобуса с использованием материалов Mercasol и Noxudol, произведённых в Швеции.",
+        "materials": [
+          "Mercasol",
+          "Noxudol"
+        ],
+        "equipment": [
+          "Sata, Германия"
+        ],
+        "vehicle_types": [
+          "легковые автомобили",
+          "микроавтобусы"
+        ],
+        "process": [
+          "Мойка и сушка автомобиля",
+          "Нанесение защиты на двери и верхнюю часть автомобиля",
+          "Обработка днища и нижних полостей",
+          "Проверка качества работ",
+          "Профилактические меры"
+        ],
+        "possible_operations": [
+          "Полная обработка кузова или отдельных элементов",
+          "Удаление очагов коррозии с днища и арок ручными проволочными щётками",
+          "Нанесение цинкосодержащего грунта",
+          "Нанесение антигравийного покрытия",
+          "Покрытие днища и арок каучукосодержащим материалом («жидкие подкрылки»)",
+          "Дополнительная защита от шума и вибрации",
+          "Установка пластиковой защиты арок",
+          "Установка стальной защиты двигателя",
+          "Установка брызговиков",
+          "Оценка работ и рекомендации владельцу"
+        ],
+        "duration": "около 2 суток",
+        "aftercare": "После работ сайт рекомендует в течение 1 суток не ездить по дороге без асфальтового покрытия.",
+        "guarantee": "от 1 года до 8 лет, в зависимости от услуги и состояния автомобиля",
+        "source_url": "https://etm.by/nashi-uslugi/antikorrozionnaya-obrabotka/"
+      },
+      {
+        "category": "Шумоизоляция автомобиля",
+        "description": "Оклейка салона материалами для защиты от шума и вибрации с обработкой всего салона или отдельных зон.",
+        "materials": [
+          "StP",
+          "Mercasol",
+          "Noxudol"
+        ],
+        "zones": [
+          "салон",
+          "пол",
+          "потолок",
+          "двери",
+          "багажник",
+          "капот",
+          "колёсные арки"
+        ],
+        "process": [
+          "Аккуратная разборка салона",
+          "Очистка деталей специальным составом",
+          "Подгонка шумоизоляционных материалов",
+          "Нагрев и разглаживание материала",
+          "Сборка салона",
+          "Фотоотчёт для владельца"
+        ],
+        "guarantee": "Сайт сообщает о гарантии на выполненные работы; срок не указан на странице услуги.",
+        "site_claims": [
+          "Сайт заявляет о снижении уровня шума и вибраций внутри автомобиля на 60–80%.",
+          "Сайт утверждает, что материалы StP не выделяют вредных испарений в течение срока службы."
+        ],
+        "source_url": "https://etm.by/nashi-uslugi/shumoizolyacziya/"
+      },
+      {
+        "category": "Защита автомобиля воском",
+        "description": "Покрытие кузова твёрдым воском для защиты в зимний период.",
+        "protected_areas": [
+          "подвеска",
+          "днище",
+          "рама",
+          "арки",
+          "скрытые полости днища"
+        ],
+        "materials": [
+          "Noxudol 750",
+          "Coatex 652",
+          "Mercasol 831 ML"
+        ],
+        "process": [
+          "Мойка и сушка кузова",
+          "Нанесение воскового состава на чистую поверхность"
+        ],
+        "protected_from": [
+          "влага",
+          "щелочи",
+          "кислоты",
+          "соли",
+          "ультрафиолет",
+          "птичий помёт"
+        ],
+        "guarantee": "от 1 года",
+        "source_url": "https://etm.by/nashi-uslugi/zashhita-voskom-avtomobilya-na-zimnij-period/"
+      },
+      {
+        "category": "Дополнительные услуги",
+        "items": [
+          "Защита зон под бамперами и порогов антигравийными материалами",
+          "Защита арок и днища «бесшумкой»",
+          "Временная защита лакокрасочного покрытия бесцветным воском",
+          "Установка пластиковой защиты колёсных арок",
+          "Установка стальной защиты картера двигателя",
+          "Установка ТСУ / фаркопа",
+          "Шумоизоляция кузова"
+        ],
+        "source_url": "https://etm.by/nashi-uslugi/dopolnitelnyie-uslugi/"
+      }
+    ],
+    "product_catalog": {
+      "description": "Оптовая и розничная продажа антикоррозионных материалов для обработки автомобилей.",
+      "categories": [
+        "Антигравий",
+        "Антикор битумный",
+        "Жидкие подкрылки",
+        "Антикор для днища и арок",
+        "Аэрозольный антикор",
+        "Антикоррозийный грунт",
+        "Антикор под пистолет",
+        "Жидкая шумоизоляция"
+      ],
+      "brands": {
+        "Mercasol": [
+          "Mercasol 1",
+          "Mercasol 2",
+          "Mercasol 3",
+          "Mercasol 4",
+          "Mercasol 4S",
+          "Mercasol 5",
+          "Mercasol 831ML",
+          "Mercasol 845",
+          "Mercasol 827",
+          "Mercasol 845D",
+          "Mercasol 845AL",
+          "Mercasol 847",
+          "Mercasol 854",
+          "Mercasol 3102",
+          "Mercasol Coatex 652"
+        ],
+        "Noxudol": [
+          "Noxudol 700",
+          "Noxudol 750",
+          "Noxudol 900D",
+          "Noxudol Body",
+          "Noxudol Auto - Plastone",
+          "Noxudol Zinc",
+          "Noxudol 900",
+          "Noxudol 999",
+          "Noxudol 1100",
+          "Noxudol Degreaser",
+          "Noxudol UM 1600",
+          "Noxudol X9",
+          "Noxudol Action4",
+          "Noxudol 300",
+          "Noxudol 3100"
+        ]
+      },
+      "equipment": [
+        "Пистолет для антикора JWL / 1,2 л",
+        "Пистолет для антикора JWL под евробаллон 1 л",
+        "Гибкая насадка-шланг 900 мм для пистолета JWL",
+        "Гибкая насадка-шланг 1500 мм для пистолета JWL",
+        "Пистолет HRS Sata, рабочее давление до 10 bar",
+        "Пистолет HRS Sata для обработки днища"
+      ],
+      "source_urls": [
+        "https://etm.by/katalog/",
+        "https://etm.by/katalog/mercasol/",
+        "https://etm.by/katalog/noxudol/",
+        "https://etm.by/katalog/oborudovanie/"
+      ]
+    },
+    "work_examples": {
+      "anti_corrosion": [
+        {
+          "title": "Антикоррозионная обработка Skoda Yeti",
+          "url": "https://etm.by/nashi-uslugi/antikorrozionnaya-obrabotka/gallery/antikorrozijnaya-obrabotka-rabotyi/antikorrozionnaya-obrabotka-skoda-yeti/"
+        },
+        {
+          "title": "Антикоррозийная обработка Toyota RAV 4",
+          "url": "https://etm.by/nashi-uslugi/antikorrozionnaya-obrabotka/gallery/antikorrozijnaya-obrabotka-rabotyi/antikorrozijnaya-obrabotka-toyota-rav-4/"
+        },
+        {
+          "title": "Антикоррозионная обработка Renault Duster",
+          "url": "https://etm.by/nashi-uslugi/antikorrozionnaya-obrabotka/gallery/antikorrozijnaya-obrabotka-rabotyi/antikorrozionnaya-obrabotka-renault-duster-16-03-17/"
+        },
+        {
+          "title": "Антикоррозионная обработка Geely Coolray",
+          "url": "https://etm.by/nashi-uslugi/antikorrozionnaya-obrabotka/gallery/antikorrozijnaya-obrabotka-rabotyi/antikorrozionnaya-obrabotka-geely-coolray/"
+        }
+      ],
+      "soundproofing": [
+        {
+          "title": "Шумоизоляция автомобиля Nissan Qashqai 2019",
+          "url": "https://etm.by/nashi-uslugi/shumoizolyacziya/gallery/shumoizolyacziya-rabotyi/shumoizolyacziya-nissan-qashqai-22-10-2019/"
+        },
+        {
+          "title": "Шумоизоляция автомобиля Kia Sportage",
+          "url": "https://etm.by/nashi-uslugi/shumoizolyacziya/gallery/shumoizolyacziya-rabotyi/shumoizolyacziya-kuzova-kia-sportage/"
+        },
+        {
+          "title": "Шумоизоляционные работы — пример 1",
+          "url": "https://etm.by/nashi-uslugi/shumoizolyacziya/gallery/shumoizolyacziya-rabotyi/shumoizolyaczionnyie-rabotyi-primer-1/"
+        }
+      ],
+      "access_note": "Individual work-example pages were linked from the service pages but were not fetchable by the browser extractor during this harvest."
+    },
+    "faq_topics": [
+      {
+        "question": "Нужно ли делать антикор на иномарку?",
+        "answer_summary": "Сайт рекомендует оценивать состояние и планы эксплуатации автомобиля; он утверждает, что видимые очаги коррозии при средних пробегах могут появляться через 3–4 года.",
+        "source_url": "https://etm.by/klientam/faq/"
+      },
+      {
+        "question": "Чем материалы отличаются от других?",
+        "answer_summary": "Компания указывает на шведские материалы Mercasol и Noxudol и подчёркивает значение технологии мойки, сушки и правильного назначения составов.",
+        "source_url": "https://etm.by/klientam/faq/"
+      },
+      {
+        "question": "Сколько времени занимает обработка?",
+        "answer_summary": "Полная обработка, согласно сайту, занимает около двух суток, включая подготовку, промывку и сушку кузова.",
+        "source_url": "https://etm.by/nashi-uslugi/antikorrozionnaya-obrabotka/"
+      },
+      {
+        "question": "Что входит в полную обработку?",
+        "answer_summary": "Предварительная мойка и сушка, частичная разборка, обработка скрытых полостей, днища, колёсных арок и кузова.",
+        "source_url": "https://etm.by/nashi-uslugi/antikorrozionnaya-obrabotka/"
+      }
+    ],
+    "publications": [
+      "Антикор и ржавчина: популярные вопросы",
+      "Жидкая шумоизоляция автомобиля: типы и материалы",
+      "Жидкие подкрылки – что это?",
+      "Нужна ли антикоррозийная обработка нового автомобиля",
+      "Можно ли делать антикоррозионную обработку автомобиля осенью / зимой?",
+      "Чем обработать машину от коррозии в домашних условиях?",
+      "Средства для антикоррозийной обработки автомобиля",
+      "2 технологии антикоррозийной обработки автомобиля"
+    ],
+    "site_claims": [
+      "Рейтинг 5/5 на основе 5 отзывов отображается на сайте.",
+      "Сайт заявляет о документальной гарантии на антикоррозионные работы от 1 до 8 лет.",
+      "Сайт заявляет о снижении шума и вибраций на 60–80% после шумоизоляции.",
+      "Сайт указывает, что Auson AB была основана в 1928 году."
+    ],
+    "content_for_presentation": {
+      "suggested_story": [
+        "Компания с 2005 года представляет в Беларуси шведские антикоррозионные технологии.",
+        "Основные направления: антикоррозийная обработка, шумоизоляция и сезонная защита воском.",
+        "Сервис сочетает работы с продажей материалов Mercasol, Noxudol и оборудования.",
+        "Главный центр находится в Минске; партнёрские центры работают в Новополоцке, Светлогорске и Бресте.",
+        "Технология включает мойку, сушку, подготовку, обработку днища и скрытых полостей, контроль качества и профилактику.",
+        "Для презентации полезны фотографии работ, карта центров, схема процесса и продуктовые карточки материалов."
+      ],
+      "key_numbers": {
+        "company_start_claim": 2005,
+        "auson_foundation_claim": 1928,
+        "partner_centers_listed": 3,
+        "guarantee_years_range": "1–8",
+        "soundproofing_reduction_claim": "60–80%",
+        "visible_rating_claim": "5/5 на основе 5 отзывов"
+      },
+      "recommended_visual_assets": [
+        "Фото центра и автомобиля на подъёмнике",
+        "Схема этапов антикоррозионной обработки",
+        "Карта Минска и партнёрских центров",
+        "Карточки Mercasol и Noxudol",
+        "Фото до/после из раздела «Наши работы»",
+        "Сравнение полной обработки, шумоизоляции и восковой защиты"
+      ]
+    },
+    "site_content_inventory": {
+      "main_sections": [
+        "Наши услуги",
+        "Антикоррозийная обработка автомобиля",
+        "Шумоизоляция автомобиля",
+        "Защита воском",
+        "Дополнительные услуги",
+        "Каталог материалов",
+        "Mercasol",
+        "Noxudol",
+        "Оборудование",
+        "Наши работы",
+        "Клиентам",
+        "О нас",
+        "Частые вопросы",
+        "Технология обработки",
+        "Публикации",
+        "Контакты"
+      ],
+      "dynamic_or_unavailable_sections": [
+        "Страница технологии обработки returned an interstitial page to the browser extractor.",
+        "Individual gallery pages returned cache-miss errors during this harvest."
+      ]
+    }
+  },
+  "claims_and_caveats": {
+    "found_claim_sections": [
+      {
+        "path": "$.company.site_claims",
+        "value": [
+          "Компания указывает 15 лет работы на рынке услуг.",
+          "Более 90% клиентов, по утверждению сайта, выбрали компанию по отзывам друзей и знакомых.",
+          "Сайт заявляет о документальной гарантии на проведённые работы до 8 лет.",
+          "Сайт утверждает, что технология и материалы Mercasol и Noxudol позволяют сохранять автомобиль на протяжении 10 лет."
+        ]
+      },
+      {
+        "path": "$.services[1].site_claims",
+        "value": [
+          "Сайт заявляет о снижении уровня шума и вибраций внутри автомобиля на 60–80%.",
+          "Сайт утверждает, что материалы StP не выделяют вредных испарений в течение срока службы."
+        ]
+      },
+      {
+        "path": "$.site_claims",
+        "value": [
+          "Рейтинг 5/5 на основе 5 отзывов отображается на сайте.",
+          "Сайт заявляет о документальной гарантии на антикоррозионные работы от 1 до 8 лет.",
+          "Сайт заявляет о снижении шума и вибраций на 60–80% после шумоизоляции.",
+          "Сайт указывает, что Auson AB была основана в 1928 году."
+        ]
+      }
+    ],
+    "notes": [
+      "The site presents services, products, partner locations, FAQ content, publications, and work examples.",
+      "Prices were not included in the visible text of the main catalog pages harvested here; product detail pages may contain dynamic or separate pricing.",
+      "Some work-example pages and the processing-technology page were not fetchable by the browser extractor; their visible titles and URLs are preserved where available.",
+      "Guarantees, ratings, customer percentages, product performance, and market-history statements are represented as site claims, not independently verified facts."
+    ]
+  }
+}

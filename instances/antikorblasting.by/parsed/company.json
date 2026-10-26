@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "company": {
+    "name": "ООО \"Антикор Бластинг Кампани\"",
+    "website": "https://antikorblasting.by/",
+    "country": "BY",
+    "locations": [
+      {
+        "city": "Минск",
+        "address": "Минск, ул. Красноармейская 21/1 (заезд через КПП, бывший завод им. Кирова)",
+        "phones": [
+          "+375(25) 500-7968"
+        ],
+        "working_hours": "ПН-ПТ 10:00 – 19:00 СБ 12:00 – 15:00 (по договоренности)"
+      }
+    ]
+  },
+  "source": {
+    "scraped_at": "2026-10-26",
+    "urls": [
+      "https://antikorblasting.by/",
+      "https://antikorblasting.by/antikor-avto-blasting/",
+      "https://antikorblasting.by/contacts/"
+    ],
+    "notes": "Отдельные цены на услуги главной страницы не опубликованы; prices: []. Сайт не определяет классы автомобилей: авто — общий охват диапазона, а не единая фиксированная цена."
+  },
+  "currency": "BYN",
+  "vehicle_types": [
+    {
+      "id": "auto",
+      "name_original": "авто",
+      "class": "any"
+    }
+  ],
+  "services": [
+    {
+      "id": "full-complex",
+      "category": "anticorrosion",
+      "name_original": "Полный комплекс:",
+      "description": "пескоструйная очистка днища, колесных арок + холодное цинкование металла + антикор для днища (в зависимости от размера авто, слоя старого антикора и образовавшейся ржавчины под ним).",
+      "url": "https://antikorblasting.by/antikor-avto-blasting/",
+      "completion_time": null,
+      "prices": [
+        {
+          "vehicle_type_id": "auto",
+          "price": null,
+          "price_min": 1000,
+          "price_max": 3500,
+          "price_text_original": "от 1000 до 3500 бел. рублей.",
+          "notes": "Объем работ: Полный комплекс: (в зависимости от размера авто, слоя старого антикора и образовавшейся ржавчины под ним). Источник: https://antikorblasting.by/antikor-avto-blasting/"
+        }
+      ]
+    },
+    {
+      "id": "anticorrosion",
+      "category": "anticorrosion",
+      "name_original": "Антикоррозийная защита",
+      "description": "Выполняем любые виды работ. Надежная защита автомобилей и любых металлических конструкций, деталей, изделий с обязательной гарантией на работу",
+      "url": "https://antikorblasting.by/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "cold-zinc",
+      "category": "anticorrosion",
+      "name_original": "Холодное цинкование и антикор",
+      "description": "После проведения качественной очистки и обработки делаем холодного цинкование металла. А потом – антикор. Примеры работ",
+      "url": "https://antikorblasting.by/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "wood-blasting",
+      "category": "additional",
+      "name_original": "Пескоструйная очистка дерева (сруба, стен и т.п.)",
+      "description": "Технология, направленная на очистку и улучшение внешнего вида материала. Результатом обработки становится чистая поверхность с красивой фактурой. Буквально за несколько часов процедура удаляет следы механического, физического влияния и следы воздействия атмосферных факторов.",
+      "url": "https://antikorblasting.by/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "metal-blasting",
+      "category": "additional",
+      "name_original": "Пескоструйная очистка металлоконструкций, металла, авто, рам и кузовов",
+      "description": "В процессе абразивной обработки с поверхности металла «смывают» не только ржавчину, окалину и следы лакокрасочных покрытий, но и жировую пленку.",
+      "url": "https://antikorblasting.by/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "masonry-blasting",
+      "category": "additional",
+      "name_original": "Пескоструйная очистка бетона, кирпича",
+      "description": "Мельчайшие частицы песка воздействуют на поверхность кирпича удаляя старый слой, а также сажу, нагар и копоть после пожара.",
+      "url": "https://antikorblasting.by/",
+      "completion_time": null,
+      "prices": []
+    }
+  ]
+}

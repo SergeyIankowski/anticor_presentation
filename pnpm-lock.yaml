@@ -296,6 +296,12 @@ importers:
         specifier: workspace:*
         version: link:../../packages/harvest-core
 
+  instances/antikorblasting.by:
+    dependencies:
+      "@anticor/harvest-core":
+        specifier: workspace:*
+        version: link:../../packages/harvest-core
+
   instances/antikorim.by:
     dependencies:
       "@anticor/harvest-core":

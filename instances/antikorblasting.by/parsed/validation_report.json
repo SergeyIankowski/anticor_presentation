@@ -1,0 +1,14 @@
+{
+  "valid": true,
+  "parsed_at": "2026-10-26T18:28:34.320Z",
+  "schemas": [
+    "schemas/site-harvest.schema.json",
+    "schema.json"
+  ],
+  "warnings": [
+    "Claims, guarantees, technical statements and material references are statements by the source site.",
+    "BYN is supported by the published бел. рублей price label. No separate price unit or vehicle classes are published.",
+    "Отдельные цены на услуги главной страницы не опубликованы; prices: [].",
+    "Сайт не определяет классы автомобилей: авто — общий охват диапазона, а не единая фиксированная цена."
+  ]
+}

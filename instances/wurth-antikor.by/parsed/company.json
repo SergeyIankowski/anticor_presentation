@@ -1,0 +1,356 @@
+{
+  "schema_version": "1.0",
+  "company": {
+    "name": "Центр антикоррозийной обработки премиальными материалами немецких и шведских производителей",
+    "website": "https://wurth-antikor.by/",
+    "country": "BY",
+    "locations": [
+      {
+        "city": "Минск",
+        "address": "г. Минск ул. Ботаническая 6",
+        "phones": [
+          "+375 29 622 80 26",
+          "+375(29)622-80-26"
+        ],
+        "working_hours": "С понедельника по пятницу с 9.00 до 18.00; Суббота и воскресенье с 11.00 до 16.00"
+      }
+    ]
+  },
+  "source": {
+    "scraped_at": "2026-10-26",
+    "urls": [
+      "https://wurth-antikor.by/",
+      "https://wurth-antikor.by/antikorrozijnaya-obrabotka-avto/",
+      "https://wurth-antikor.by/lazernoe-udalenie-korrozii/",
+      "https://wurth-antikor.by/gazodinamicheskoe-udalenie-luzhenie/",
+      "https://wurth-antikor.by/gazotermicheskoe-udalenie-goryachee-cinkovanie/",
+      "https://wurth-antikor.by/about/",
+      "https://wurth-antikor.by/contacts/",
+      "https://wurth-antikor.by/services/"
+    ],
+    "notes": "Повторяющийся ценовой бейдж карточек противоречит описаниям. Использованы .t778__descr; бейджи сохранены только как исходное свидетельство. Подробные услуги лазерной, газодинамической и газотермической обработки указаны по запросу (prices: []). Начальные цены главной сохранены отдельно; единица расчёта и категория автомобиля не указаны. Стоимость удаления коррозии оплачивается отдельно"
+  },
+  "currency": "BYN",
+  "vehicle_types": [
+    {
+      "id": "vehicle-1",
+      "name_original": "Легковой автомобиль до 4м",
+      "class": "small"
+    },
+    {
+      "id": "vehicle-2",
+      "name_original": "Легковой автомобиль 4-5 метров",
+      "class": "sedan"
+    },
+    {
+      "id": "vehicle-3",
+      "name_original": "Кроссовер / Паркетник",
+      "class": "crossover"
+    },
+    {
+      "id": "vehicle-4",
+      "name_original": "Минивен",
+      "class": "minivan"
+    },
+    {
+      "id": "vehicle-5",
+      "name_original": "Внедорожник",
+      "class": "suv"
+    },
+    {
+      "id": "vehicle-6",
+      "name_original": "Микроавтобус (в зависимости от базы)",
+      "class": "van"
+    },
+    {
+      "id": "unspecified",
+      "name_original": "Категория автомобиля не указана",
+      "class": "other"
+    }
+  ],
+  "services": [
+    {
+      "id": "standard-treatment",
+      "category": "anticorrosion",
+      "name_original": "АНТИКОРРОЗИЙНАЯ ОБРАБОТКА АВТОМОБИЛЕЙ",
+      "url": "https://wurth-antikor.by/antikorrozijnaya-obrabotka-avto/",
+      "description": "Стоимость удаления коррозии оплачивается отдельно",
+      "completion_time": null,
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-1",
+          "price": 650,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "650 рублей",
+          "notes": "Легковой автомобиль до 4м, стандартный комплекс. Стоимость удаления коррозии оплачивается отдельно. Источник: https://wurth-antikor.by/antikorrozijnaya-obrabotka-avto/"
+        },
+        {
+          "vehicle_type_id": "vehicle-2",
+          "price": 750,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "750 рублей",
+          "notes": "Легковой автомобиль 4-5 метров, стандартный комплекс. Стоимость удаления коррозии оплачивается отдельно. Источник: https://wurth-antikor.by/antikorrozijnaya-obrabotka-avto/"
+        },
+        {
+          "vehicle_type_id": "vehicle-3",
+          "price": 850,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "850 рублей",
+          "notes": "Кроссовер / Паркетник, стандартный комплекс. Стоимость удаления коррозии оплачивается отдельно. Источник: https://wurth-antikor.by/antikorrozijnaya-obrabotka-avto/"
+        },
+        {
+          "vehicle_type_id": "vehicle-4",
+          "price": 950,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "950 рублей",
+          "notes": "Минивен, стандартный комплекс. Стоимость удаления коррозии оплачивается отдельно. Источник: https://wurth-antikor.by/antikorrozijnaya-obrabotka-avto/"
+        },
+        {
+          "vehicle_type_id": "vehicle-5",
+          "price": 1050,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "1050 рублей",
+          "notes": "Внедорожник, стандартный комплекс. Стоимость удаления коррозии оплачивается отдельно. Источник: https://wurth-antikor.by/antikorrozijnaya-obrabotka-avto/"
+        },
+        {
+          "vehicle_type_id": "vehicle-6",
+          "price": null,
+          "price_min": 1150,
+          "price_max": 1650,
+          "price_text_original": "1150-1650 рублей",
+          "notes": "Микроавтобус (в зависимости от базы), стандартный комплекс. Стоимость удаления коррозии оплачивается отдельно. Источник: https://wurth-antikor.by/antikorrozijnaya-obrabotka-avto/"
+        }
+      ]
+    },
+    {
+      "id": "section-1-service-1",
+      "category": "additional",
+      "name_original": "Лазерное удаление коррозии с кузовных элементов",
+      "url": "https://wurth-antikor.by/lazernoe-udalenie-korrozii/",
+      "description": "Цена по запросу",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "section-1-service-2",
+      "category": "additional",
+      "name_original": "Лазерная очистка сварных швов",
+      "url": "https://wurth-antikor.by/lazernoe-udalenie-korrozii/",
+      "description": "Цена по запросу",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "section-1-service-3",
+      "category": "additional",
+      "name_original": "Лазерное удаление ржавчины с рам и усилителей",
+      "url": "https://wurth-antikor.by/lazernoe-udalenie-korrozii/",
+      "description": "Цена по запросу",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "section-1-service-4",
+      "category": "additional",
+      "name_original": "Лазерная очистка труднодоступных мест",
+      "url": "https://wurth-antikor.by/lazernoe-udalenie-korrozii/",
+      "description": "Цена по запросу",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "section-1-service-5",
+      "category": "additional",
+      "name_original": "Лазерная очистка перед покраской",
+      "url": "https://wurth-antikor.by/lazernoe-udalenie-korrozii/",
+      "description": "Цена по запросу",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "section-1-service-6",
+      "category": "additional",
+      "name_original": "Лазерное удаление старых покрытий и окалины",
+      "url": "https://wurth-antikor.by/lazernoe-udalenie-korrozii/",
+      "description": "Цена по запросу",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "section-1-service-7",
+      "category": "additional",
+      "name_original": "Точечное лазерное удаление коррозии",
+      "url": "https://wurth-antikor.by/lazernoe-udalenie-korrozii/",
+      "description": "Цена по запросу",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "section-2-service-1",
+      "category": "anticorrosion",
+      "name_original": "Газодинамическое удаление коррозии с кузова",
+      "url": "https://wurth-antikor.by/gazodinamicheskoe-udalenie-luzhenie/",
+      "description": "Цена по запросу",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "section-2-service-2",
+      "category": "anticorrosion",
+      "name_original": "Газодинамическая очистка днища автомобиля",
+      "url": "https://wurth-antikor.by/gazodinamicheskoe-udalenie-luzhenie/",
+      "description": "Цена по запросу",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "section-2-service-3",
+      "category": "anticorrosion",
+      "name_original": "Очистка колёсных арок от коррозии",
+      "url": "https://wurth-antikor.by/gazodinamicheskoe-udalenie-luzhenie/",
+      "description": "Цена по запросу",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "section-2-service-4",
+      "category": "anticorrosion",
+      "name_original": "Газодинамическая очистка рам и лонжеронов",
+      "url": "https://wurth-antikor.by/gazodinamicheskoe-udalenie-luzhenie/",
+      "description": "Цена по запросу",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "section-2-service-5",
+      "category": "anticorrosion",
+      "name_original": "Очистка сложных и рельефных поверхностей",
+      "url": "https://wurth-antikor.by/gazodinamicheskoe-udalenie-luzhenie/",
+      "description": "Цена по запросу",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "section-3-service-1",
+      "category": "anticorrosion",
+      "name_original": "Газотермическое удаление коррозии с металлических деталей",
+      "url": "https://wurth-antikor.by/gazotermicheskoe-udalenie-goryachee-cinkovanie/",
+      "description": "Цена по запросу",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "section-3-service-2",
+      "category": "anticorrosion",
+      "name_original": "Газотермическая очистка перед нанесением покрытий",
+      "url": "https://wurth-antikor.by/gazotermicheskoe-udalenie-goryachee-cinkovanie/",
+      "description": "Цена по запросу",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "section-3-service-3",
+      "category": "anticorrosion",
+      "name_original": "Горячее цинкование металлических деталей",
+      "url": "https://wurth-antikor.by/gazotermicheskoe-udalenie-goryachee-cinkovanie/",
+      "description": "Цена по запросу",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "section-3-service-4",
+      "category": "anticorrosion",
+      "name_original": "Горячее цинкование рам и элементов конструкции",
+      "url": "https://wurth-antikor.by/gazotermicheskoe-udalenie-goryachee-cinkovanie/",
+      "description": "Цена по запросу",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "section-3-service-5",
+      "category": "anticorrosion",
+      "name_original": "Антикоррозийная защита методом горячего цинкования",
+      "url": "https://wurth-antikor.by/gazotermicheskoe-udalenie-goryachee-cinkovanie/",
+      "description": "Цена по запросу",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "section-3-service-6",
+      "category": "anticorrosion",
+      "name_original": "Восстановление защитного цинкового слоя",
+      "url": "https://wurth-antikor.by/gazotermicheskoe-udalenie-goryachee-cinkovanie/",
+      "description": "Цена по запросу",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "section-3-service-7",
+      "category": "anticorrosion",
+      "name_original": "Подготовка металла к горячему цинкованию",
+      "url": "https://wurth-antikor.by/gazotermicheskoe-udalenie-goryachee-cinkovanie/",
+      "description": "Цена по запросу",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "homepage-starting-price-1",
+      "category": "additional",
+      "name_original": "ЛАЗЕРНОЕ УДАЛЕНИЕ КОРРОЗИИ",
+      "url": "https://wurth-antikor.by/",
+      "description": "Начальная цена на главной; детальные услуги на профильной странице — по запросу.",
+      "completion_time": null,
+      "prices": [
+        {
+          "vehicle_type_id": "unspecified",
+          "price": null,
+          "price_min": 1000,
+          "price_max": null,
+          "price_text_original": "ОТ 1000 РУБЛЕЙ",
+          "notes": "Начальная цена общего направления; объём работ, категория автомобиля и единица расчёта не указаны. Источник: https://wurth-antikor.by/"
+        }
+      ]
+    },
+    {
+      "id": "homepage-starting-price-2",
+      "category": "anticorrosion",
+      "name_original": "ГАЗОДИНАМИЧЕСКОЕ УДАЛЕНИЕ И ЛУЖЕНИЕ",
+      "url": "https://wurth-antikor.by/",
+      "description": "Начальная цена на главной; детальные услуги на профильной странице — по запросу.",
+      "completion_time": null,
+      "prices": [
+        {
+          "vehicle_type_id": "unspecified",
+          "price": null,
+          "price_min": 1500,
+          "price_max": null,
+          "price_text_original": "ОТ 1500 РУБЛЕЙ",
+          "notes": "Начальная цена общего направления; объём работ, категория автомобиля и единица расчёта не указаны. Источник: https://wurth-antikor.by/"
+        }
+      ]
+    },
+    {
+      "id": "homepage-starting-price-3",
+      "category": "anticorrosion",
+      "name_original": "ГАЗОТЕРМИЧЕСКОЕ УДАЛЕНИЕ И ГОРЯЧЕЕ ЦИНКОВАНИЕ",
+      "url": "https://wurth-antikor.by/",
+      "description": "Начальная цена на главной; детальные услуги на профильной странице — по запросу.",
+      "completion_time": null,
+      "prices": [
+        {
+          "vehicle_type_id": "unspecified",
+          "price": null,
+          "price_min": 2000,
+          "price_max": null,
+          "price_text_original": "ОТ 2000 РУБЛЕЙ",
+          "notes": "Начальная цена общего направления; объём работ, категория автомобиля и единица расчёта не указаны. Источник: https://wurth-antikor.by/"
+        }
+      ]
+    }
+  ]
+}

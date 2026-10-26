@@ -1,0 +1,14 @@
+{
+  "valid": true,
+  "parsed_at": "2026-10-26T18:30:31.313Z",
+  "schemas": [
+    "schemas/site-harvest.schema.json",
+    "schema.json"
+  ],
+  "warnings": [
+    "Claims and guarantees are statements by the source site. Currency BYN is inferred from the Belarusian address and рубль prices; no conversion was applied.",
+    "Повторяющийся ценовой бейдж карточек противоречит описаниям. Использованы .t778__descr; бейджи сохранены только как исходное свидетельство.",
+    "Подробные услуги лазерной, газодинамической и газотермической обработки указаны по запросу (prices: []). Начальные цены главной сохранены отдельно; единица расчёта и категория автомобиля не указаны.",
+    "Стоимость удаления коррозии оплачивается отдельно"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "site": "https://dinitrol.by/",
+  "started_at": "2026-10-26T18:15:00.448Z",
+  "page_count": 0,
+  "failures": [
+    {
+      "url": "https://dinitrol.by/",
+      "required": true,
+      "error": "HTTP 403"
+    }
+  ],
+  "finished_at": "2026-10-26T18:15:01.026Z",
+  "snapshots": "snapshots/2026-10-26T18-15-00-448Z-23097",
+  "status": "failed",
+  "published": false,
+  "error": "A required page failed; existing datasets were preserved. See parse-report.json."
+}

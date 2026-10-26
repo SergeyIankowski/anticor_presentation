@@ -1,0 +1,133 @@
+{
+  "source_site": "https://dinitrol.by/",
+  "inspected_at": "2026-10-26T18:14:57.792Z",
+  "purpose": "Access diagnostics only; not service, price or company evidence.",
+  "attempts": [
+    {
+      "method": "chromium",
+      "requested_url": "https://dinitrol.by/",
+      "final_url": "https://dinitrol.by/",
+      "fetched_at": "2026-10-26T18:14:55.672Z",
+      "status": 403,
+      "title": "403 Forbidden",
+      "text": "403 Forbidden\nnginx"
+    },
+    {
+      "method": "chromium",
+      "requested_url": "https://www.dinitrol.by/",
+      "final_url": "https://www.dinitrol.by/",
+      "fetched_at": "2026-10-26T18:14:55.817Z",
+      "status": 403,
+      "title": "403 Forbidden",
+      "text": "403 Forbidden\nnginx"
+    },
+    {
+      "method": "chromium",
+      "requested_url": "http://dinitrol.by/",
+      "final_url": "http://dinitrol.by/",
+      "fetched_at": "2026-10-26T18:14:56.117Z",
+      "status": 403,
+      "title": "403 Forbidden",
+      "text": "403 Forbidden\nnginx"
+    },
+    {
+      "method": "chromium",
+      "requested_url": "http://www.dinitrol.by/",
+      "final_url": "http://www.dinitrol.by/",
+      "fetched_at": "2026-10-26T18:14:56.372Z",
+      "status": 403,
+      "title": "403 Forbidden",
+      "text": "403 Forbidden\nnginx"
+    },
+    {
+      "method": "chromium",
+      "requested_url": "https://dinitrol.by/robots.txt",
+      "final_url": "https://dinitrol.by/robots.txt",
+      "fetched_at": "2026-10-26T18:14:56.606Z",
+      "status": 200,
+      "title": "",
+      "text": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://dinitrol.by/sitemap.xml\n"
+    },
+    {
+      "method": "chromium",
+      "requested_url": "https://dinitrol.by/sitemap.xml",
+      "final_url": "https://dinitrol.by/sitemap.xml",
+      "fetched_at": "2026-10-26T18:14:56.783Z",
+      "status": 403,
+      "title": "403 Forbidden",
+      "text": "403 Forbidden\nnginx"
+    },
+    {
+      "method": "Playwright APIRequest",
+      "requested_url": "https://dinitrol.by/",
+      "final_url": "https://dinitrol.by/",
+      "fetched_at": "2026-10-26T18:14:57.159Z",
+      "status": 403,
+      "server": "nginx",
+      "text": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    },
+    {
+      "method": "Playwright APIRequest",
+      "requested_url": "https://dinitrol.by/index.php",
+      "final_url": "https://dinitrol.by/index.php",
+      "fetched_at": "2026-10-26T18:14:57.239Z",
+      "status": 403,
+      "server": "nginx",
+      "text": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    },
+    {
+      "method": "Playwright APIRequest",
+      "requested_url": "https://dinitrol.by/?page_id=1",
+      "final_url": "https://dinitrol.by/?page_id=1",
+      "fetched_at": "2026-10-26T18:14:57.324Z",
+      "status": 403,
+      "server": "nginx",
+      "text": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    },
+    {
+      "method": "Playwright APIRequest",
+      "requested_url": "https://dinitrol.by/wp-json/wp/v2/pages",
+      "final_url": "https://dinitrol.by/wp-json/wp/v2/pages",
+      "fetched_at": "2026-10-26T18:14:57.404Z",
+      "status": 403,
+      "server": "nginx",
+      "text": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    },
+    {
+      "method": "Playwright APIRequest",
+      "requested_url": "https://dinitrol.by/wp-sitemap.xml",
+      "final_url": "https://dinitrol.by/wp-sitemap.xml",
+      "fetched_at": "2026-10-26T18:14:57.494Z",
+      "status": 403,
+      "server": "nginx",
+      "text": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    },
+    {
+      "method": "Playwright APIRequest",
+      "requested_url": "https://dinitrol.by/sitemap_index.xml",
+      "final_url": "https://dinitrol.by/sitemap_index.xml",
+      "fetched_at": "2026-10-26T18:14:57.574Z",
+      "status": 403,
+      "server": "nginx",
+      "text": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    },
+    {
+      "method": "Playwright APIRequest",
+      "requested_url": "https://dinitrol.by/uslugi/",
+      "final_url": "https://dinitrol.by/uslugi/",
+      "fetched_at": "2026-10-26T18:14:57.687Z",
+      "status": 403,
+      "server": "nginx",
+      "text": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    },
+    {
+      "method": "Playwright APIRequest",
+      "requested_url": "https://dinitrol.by/kontakty/",
+      "final_url": "https://dinitrol.by/kontakty/",
+      "fetched_at": "2026-10-26T18:14:57.764Z",
+      "status": 403,
+      "server": "nginx",
+      "text": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    }
+  ]
+}

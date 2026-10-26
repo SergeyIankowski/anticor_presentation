@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "company": {
+    "name": "Евротехмаркет",
+    "website": "https://etm.by/",
+    "country": "BY",
+    "locations": [
+      {
+        "city": "Минск",
+        "address": "г. Минск, пер. Солтыса, 5/1",
+        "phones": [
+          "+375 (44) 776-71-88",
+          "+375 (29) 776-71-88"
+        ],
+        "working_hours": "Пн - Пт: 09.00 - 18.00 Сб, Вск - выходной"
+      },
+      {
+        "city": "Новополоцк",
+        "address": "г. Новополоцк, ул. Нефтепереработчиков, 4",
+        "phones": [
+          "+375 (29) 513-60-70",
+          "+375 (29) 211-54-77"
+        ],
+        "working_hours": "Пн - Пт: 09.00 - 18.00 Сб, Вск - выходной"
+      },
+      {
+        "city": "Брест",
+        "address": "г. Брест, ул. Спокойная, 5",
+        "phones": [
+          "+375 (29) 722-59-89"
+        ],
+        "working_hours": "Пн - Пт: 09.00 - 18.00 Сб, Вск - выходной"
+      },
+      {
+        "city": "Светлогорск",
+        "address": "г. Светлогорск, ул. Свердлова, 9Г",
+        "phones": [
+          "+375 (29) 118-56-96"
+        ],
+        "working_hours": "Пн - Пт: 09.00 - 19.00 Сб: 09.00 - 17.00 Вск - выходной"
+      }
+    ]
+  },
+  "source": {
+    "scraped_at": "2026-10-26",
+    "urls": [
+      "https://etm.by/",
+      "https://etm.by/kontakty/",
+      "https://etm.by/nashi-uslugi/antikorrozionnaya-obrabotka/",
+      "https://etm.by/nashi-uslugi/shumoizolyacziya/",
+      "https://etm.by/nashi-uslugi/zashhita-voskom-avtomobilya-na-zimnij-period/",
+      "https://etm.by/nashi-uslugi/dopolnitelnyie-uslugi/",
+      "https://etm.by/klientam/o-nas/",
+      "https://etm.by/klientam/faq/",
+      "https://etm.by/klientam/texnologiya-obrabotki/",
+      "https://etm.by/klientam/publikaczii/",
+      "https://etm.by/katalog/",
+      "https://etm.by/katalog/mercasol/",
+      "https://etm.by/katalog/noxudol/",
+      "https://etm.by/katalog/oborudovanie/",
+      "https://etm.by/katalog/oborudovanie/pistolet-jwl-s-bachkom-1,2l/",
+      "https://etm.by/katalog/oborudovanie/pistolet-jwl-pod-1l-evroballon/",
+      "https://etm.by/katalog/mercasol/mercasol-3/",
+      "https://etm.by/katalog/noxudol/noxudol-750/",
+      "https://etm.by/klientam/publikaczii/antikor-i-rzhavchina-populyarnyie-voprosyi/",
+      "https://etm.by/klientam/publikaczii/zhidkaya-shumoizolyaciya-avtomobilya-tipy-i-materialy/",
+      "https://etm.by/klientam/publikaczii/zhidkie-podkryilki-chto-eto/",
+      "https://etm.by/klientam/publikaczii/nuzhna-li-antikorrozijnaya-obrabotka-novogo-avtomobilya/",
+      "https://etm.by/klientam/publikaczii/mozhno-li-delat-antikorrozionnuyu-obrabotku-avtomobilya-osenyu-zimoj/",
+      "https://etm.by/klientam/publikaczii/chem-obrabotat-mashinu-ot-korrozii-v-domashnix-usloviyax/",
+      "https://etm.by/klientam/publikaczii/sredstva-dlya-antikorrozijnoj-obrabotki-avtomobilya/",
+      "https://etm.by/klientam/publikaczii/2-texnologii-antikorrozijnoj-obrabotki-avtomobilya/",
+      "https://etm.by/katalog/mercasol/mercasol-1/",
+      "https://etm.by/katalog/mercasol/mercasol-2/",
+      "https://etm.by/katalog/mercasol/mercasol-4/",
+      "https://etm.by/katalog/mercasol/mercasol-4s/",
+      "https://etm.by/katalog/mercasol/mercasol-5/",
+      "https://etm.by/katalog/noxudol/noxudol-700/",
+      "https://etm.by/katalog/noxudol/noxudol-900d/",
+      "https://etm.by/katalog/noxudol/noxudol-body/",
+      "https://etm.by/katalog/noxudol/noxudol-auto-plastone/",
+      "https://etm.by/katalog/noxudol/noxudol-zinc/",
+      "https://etm.by/katalog/mercasol/mercasol-831ml/",
+      "https://etm.by/katalog/mercasol/mercasol-845/",
+      "https://etm.by/katalog/noxudol/noxudol-900/",
+      "https://etm.by/katalog/mercasol/mercasol-827/",
+      "https://etm.by/katalog/mercasol/mercasol-845d/",
+      "https://etm.by/katalog/mercasol/mercasol-845al/",
+      "https://etm.by/katalog/mercasol/mercasol-847/",
+      "https://etm.by/katalog/mercasol/mercasol-854/",
+      "https://etm.by/katalog/mercasol/mercasol-3102/",
+      "https://etm.by/katalog/mercasol/mercasol-coatex-652/",
+      "https://etm.by/katalog/mercasol/?page=2",
+      "https://etm.by/katalog/noxudol/noxudol-999/",
+      "https://etm.by/katalog/noxudol/noxudol-1100/",
+      "https://etm.by/katalog/noxudol/noxudol-degreaser/",
+      "https://etm.by/katalog/noxudol/noxudol-um-1600/",
+      "https://etm.by/katalog/noxudol/noxudol-x9/",
+      "https://etm.by/katalog/noxudol/noxudol-action4/",
+      "https://etm.by/katalog/noxudol/noxudol-300/",
+      "https://etm.by/katalog/noxudol/noxudol-3100/",
+      "https://etm.by/katalog/oborudovanie/pistolet-dlya-antikora/",
+      "https://etm.by/katalog/oborudovanie/shlang-dlya-pistoleta-jwl-1/",
+      "https://etm.by/katalog/oborudovanie/shlang-dlya-pistoleta-jwl-2/",
+      "https://etm.by/katalog/oborudovanie/pistolet-dlya-naneseniya-antikorrozionnyix-materialov-1/",
+      "https://etm.by/katalog/oborudovanie/pistolet-dlya-naneseniya-antikorrozionnyix-materialov-2/",
+      "https://etm.by/katalog/mercasol/mercasol-coatex-light/"
+    ],
+    "notes": "Numeric service prices were not found in the public service pages; prices[] is empty. Request a quote from the provider."
+  },
+  "currency": "BYN",
+  "vehicle_types": [],
+  "services": [
+    {
+      "id": "service-1",
+      "category": "anticorrosion",
+      "name_original": "Антикоррозийная обработка автомобиля",
+      "description": "Антикоррозионная обработка автомобиля – комплекс процедур с использованием четкой поэтапной технологии и лицензированных материалов Меркасол и Ноксудол, произведенных в Швеции. Выполняется обработка кузовов легковых автомобилей и микроавтобусов. В процессе мастера используют технику для воздушного распыления Sata производства Германии.",
+      "url": "https://etm.by/nashi-uslugi/antikorrozionnaya-obrabotka/",
+      "completion_time": {
+        "min": 2,
+        "max": 2,
+        "unit": "days",
+        "text_original": "оставляют автомобиль на 2 суток"
+      },
+      "prices": []
+    },
+    {
+      "id": "service-2",
+      "category": "additional",
+      "name_original": "Шумоизоляция автомобиля",
+      "description": "Шумоизоляция автомобиля – условие для комфортного вождения. Услуга предполагает оклейку салона материалами с защитой от шума и вибрации. После выполнения работ уровень шума и вибраций внутри машины снижается на 60-80 процентов. Это означает, что вести авто и находиться в нем становится гораздо комфортнее. Используемые материалы благоприятно влияют на техническое состояние машины. Они обеспечивают защиту от кислорода и попадания на металл влаги. Это эффективная профилактика коррозии металла.",
+      "url": "https://etm.by/nashi-uslugi/shumoizolyacziya/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "service-3",
+      "category": "anticorrosion",
+      "name_original": "Покрытие автомобиля твердым воском для защиты на зимний период",
+      "description": "Защита воском обеспечивает защиту кузова автомобиля от коррозии. Преимущества метода — простота реализации, выгодная цена, высокая эффективность.",
+      "url": "https://etm.by/nashi-uslugi/zashhita-voskom-avtomobilya-na-zimnij-period/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "service-4",
+      "category": "additional",
+      "name_original": "Дополнительные услуги",
+      "description": "Дополнительно ЧУП “Евротехмаркет” оказывает следующие виды услуг:",
+      "url": "https://etm.by/nashi-uslugi/dopolnitelnyie-uslugi/",
+      "completion_time": null,
+      "prices": []
+    }
+  ]
+}

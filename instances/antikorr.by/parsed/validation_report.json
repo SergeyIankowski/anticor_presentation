@@ -1,0 +1,13 @@
+{
+  "valid": true,
+  "parsed_at": "2026-10-26T13:12:04.153Z",
+  "schemas": [
+    "schemas/site-harvest.schema.json",
+    "schema.json"
+  ],
+  "warnings": [
+    "Claims, guarantees, ratings, discounts, and installment offers are statements by the site.",
+    "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера.",
+    "Individual treatment-area pages do not publish separate numeric service prices; their prices[] arrays are empty. The underbody-wash table includes a vehicle category marked as not serviced."
+  ]
+}

@@ -1,0 +1,633 @@
+{
+  "schema_version": "1.0",
+  "company": {
+    "name": "ООО «Антикор-Центр»",
+    "website": "https://antikorr.by/",
+    "country": "BY",
+    "locations": [
+      {
+        "city": "Минск",
+        "address": "Минск, пр-т Независимости 95/18",
+        "phones": [
+          "+375 (29) 150-7000"
+        ],
+        "working_hours": "c 8.00 до 21.00 без выходных"
+      },
+      {
+        "city": "Минск",
+        "address": "Минск, ул. Шаранговича 19",
+        "phones": [
+          "+375 (29) 601-5500"
+        ],
+        "working_hours": "c 8.00 до 21.00 без выходных"
+      }
+    ]
+  },
+  "source": {
+    "scraped_at": "2026-10-26",
+    "urls": [
+      "https://antikorr.by/",
+      "https://antikorr.by/tsenyi/",
+      "https://antikorr.by/kontaktyi/",
+      "https://antikorr.by/antikorroziynaya-obrabotka-avtomobilya/",
+      "https://antikorr.by/antikorroziynaya-obrabotka-kuzova/",
+      "https://antikorr.by/antikorroziynaya-obrabotka-dnishha-avtomobilya/",
+      "https://antikorr.by/moyka-dnishha-avtomobilya-na-podemnike/",
+      "https://antikorr.by/antikorrozijnaya-obrabotka-porogov/",
+      "https://antikorr.by/antikorrozijnaya-obrabotka-arok/",
+      "https://antikorr.by/antikorroziynyiy-materialyi/",
+      "https://antikorr.by/antikorroziynyiy-materialyi/antikor-merkasol/",
+      "https://antikorr.by/blog/",
+      "https://antikorr.by/otzyivyi/"
+    ],
+    "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера. Individual treatment-area pages do not publish separate numeric service prices; their prices[] arrays are empty. The underbody-wash table includes a vehicle category marked as not serviced."
+  },
+  "currency": "BYN",
+  "vehicle_types": [
+    {
+      "id": "vehicle-1",
+      "name_original": "Легковой автомобиль до 4м",
+      "class": "small"
+    },
+    {
+      "id": "vehicle-2",
+      "name_original": "Легковой автомобиль 4-5 метров",
+      "class": "sedan"
+    },
+    {
+      "id": "vehicle-3",
+      "name_original": "Кроссовер / Паркетник",
+      "class": "crossover"
+    },
+    {
+      "id": "vehicle-4",
+      "name_original": "Минивен",
+      "class": "minivan"
+    },
+    {
+      "id": "vehicle-5",
+      "name_original": "Внедорожник",
+      "class": "suv"
+    },
+    {
+      "id": "vehicle-6",
+      "name_original": "Микроавтобус",
+      "class": "van"
+    },
+    {
+      "id": "wash-vehicle-1",
+      "name_original": "Легковой автомобиль",
+      "class": "sedan"
+    },
+    {
+      "id": "wash-vehicle-2",
+      "name_original": "Минивэн",
+      "class": "minivan"
+    }
+  ],
+  "services": [
+    {
+      "id": "complex-1-brand-1",
+      "category": "anticorrosion",
+      "name_original": "Комплекс №1 (DINITROL)",
+      "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941",
+      "url": "https://antikorr.by/tsenyi/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-1",
+          "price": 450,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "450 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-2",
+          "price": null,
+          "price_min": 495,
+          "price_max": 710,
+          "price_text_original": "495-710 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-3",
+          "price": null,
+          "price_min": 535,
+          "price_max": 780,
+          "price_text_original": "535-780 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-4",
+          "price": null,
+          "price_min": 535,
+          "price_max": 780,
+          "price_text_original": "535-780 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-5",
+          "price": null,
+          "price_min": 895,
+          "price_max": null,
+          "price_text_original": "от 895 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-6",
+          "price": null,
+          "price_min": 725,
+          "price_max": null,
+          "price_text_original": "от 725 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        }
+      ]
+    },
+    {
+      "id": "complex-2-brand-1",
+      "category": "anticorrosion",
+      "name_original": "Комплекс №2 (DINITROL)",
+      "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941",
+      "url": "https://antikorr.by/tsenyi/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-1",
+          "price": 510,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "510 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-2",
+          "price": null,
+          "price_min": 565,
+          "price_max": 780,
+          "price_text_original": "565-780 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-3",
+          "price": null,
+          "price_min": 600,
+          "price_max": 855,
+          "price_text_original": "600-855 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-4",
+          "price": null,
+          "price_min": 600,
+          "price_max": 855,
+          "price_text_original": "600-855 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-5",
+          "price": null,
+          "price_min": 965,
+          "price_max": null,
+          "price_text_original": "от 965 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-6",
+          "price": null,
+          "price_min": 795,
+          "price_max": null,
+          "price_text_original": "от 795 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        }
+      ]
+    },
+    {
+      "id": "complex-3-brand-1",
+      "category": "anticorrosion",
+      "name_original": "КОМПЛЕКС №3 «БЕСШУМКА» ЭКО (DINITROL)",
+      "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479",
+      "url": "https://antikorr.by/tsenyi/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-1",
+          "price": 900,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "900 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-2",
+          "price": null,
+          "price_min": 1000,
+          "price_max": null,
+          "price_text_original": "от 1000 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-3",
+          "price": null,
+          "price_min": 1000,
+          "price_max": null,
+          "price_text_original": "от 1000 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-4",
+          "price": null,
+          "price_min": 1000,
+          "price_max": null,
+          "price_text_original": "от 1000 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-5",
+          "price": null,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "договор. BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера. Цена договорная; сумма на сайте не указана."
+        },
+        {
+          "vehicle_type_id": "vehicle-6",
+          "price": null,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "договор. BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера. Цена договорная; сумма на сайте не указана."
+        }
+      ]
+    },
+    {
+      "id": "complex-4-brand-1",
+      "category": "anticorrosion",
+      "name_original": "КОМПЛЕКС №4 «БЕСШУМКА» (DINITROL)",
+      "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479",
+      "url": "https://antikorr.by/tsenyi/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-1",
+          "price": 960,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "960 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-2",
+          "price": null,
+          "price_min": 1070,
+          "price_max": null,
+          "price_text_original": "от 1070 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-3",
+          "price": null,
+          "price_min": 1070,
+          "price_max": null,
+          "price_text_original": "от 1070 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-4",
+          "price": null,
+          "price_min": 1070,
+          "price_max": null,
+          "price_text_original": "от 1070 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-5",
+          "price": null,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "договор. BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера. Цена договорная; сумма на сайте не указана."
+        },
+        {
+          "vehicle_type_id": "vehicle-6",
+          "price": null,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "договор. BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера. Цена договорная; сумма на сайте не указана."
+        }
+      ]
+    },
+    {
+      "id": "complex-1-brand-2",
+      "category": "anticorrosion",
+      "name_original": "Комплекс №1 (Noxudol)",
+      "description": "скрытые полости материалами Mercasol 831ML/Noxudol 750, днище, колесн.арки Mercasol 845/Noxudol 900D",
+      "url": "https://antikorr.by/tsenyi/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-1",
+          "price": 500,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "500 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-2",
+          "price": null,
+          "price_min": 550,
+          "price_max": 790,
+          "price_text_original": "550-790 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-3",
+          "price": null,
+          "price_min": 595,
+          "price_max": 870,
+          "price_text_original": "595-870 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-4",
+          "price": null,
+          "price_min": 595,
+          "price_max": 870,
+          "price_text_original": "595-870 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-5",
+          "price": null,
+          "price_min": 1000,
+          "price_max": null,
+          "price_text_original": "от 1000 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-6",
+          "price": null,
+          "price_min": 805,
+          "price_max": null,
+          "price_text_original": "от 805 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        }
+      ]
+    },
+    {
+      "id": "complex-2-brand-2",
+      "category": "anticorrosion",
+      "name_original": "Комплекс №2 (Noxudol)",
+      "description": "скрытые полости материалами Mercasol 831ML/Noxudol 750, днище, колесн.арки Mercasol 845/Noxudol 900D",
+      "url": "https://antikorr.by/tsenyi/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-1",
+          "price": 570,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "570 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-2",
+          "price": null,
+          "price_min": 630,
+          "price_max": 870,
+          "price_text_original": "630-870 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-3",
+          "price": null,
+          "price_min": 675,
+          "price_max": 950,
+          "price_text_original": "675-950 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-4",
+          "price": null,
+          "price_min": 675,
+          "price_max": 950,
+          "price_text_original": "675-950 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-5",
+          "price": null,
+          "price_min": 1100,
+          "price_max": null,
+          "price_text_original": "от 1100 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-6",
+          "price": null,
+          "price_min": 895,
+          "price_max": null,
+          "price_text_original": "от 895 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        }
+      ]
+    },
+    {
+      "id": "complex-3-brand-2",
+      "category": "anticorrosion",
+      "name_original": "КОМПЛЕКС №3 «БЕСШУМКА» ЭКО (Noxudol)",
+      "description": "скрытые полости материалами Mercasol 831ML/Noxudol 750 , днище, колесн.арки Mercasol 4S",
+      "url": "https://antikorr.by/tsenyi/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-1",
+          "price": 1000,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "1000 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-2",
+          "price": null,
+          "price_min": 1150,
+          "price_max": null,
+          "price_text_original": "от 1150 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-3",
+          "price": null,
+          "price_min": 1195,
+          "price_max": null,
+          "price_text_original": "от 1195 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-4",
+          "price": null,
+          "price_min": 1195,
+          "price_max": null,
+          "price_text_original": "от 1195 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-5",
+          "price": null,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "договор. BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера. Цена договорная; сумма на сайте не указана."
+        },
+        {
+          "vehicle_type_id": "vehicle-6",
+          "price": null,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "договорная BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера. Цена договорная; сумма на сайте не указана."
+        }
+      ]
+    },
+    {
+      "id": "complex-4-brand-2",
+      "category": "anticorrosion",
+      "name_original": "КОМПЛЕКС №4 «БЕСШУМКА» (Noxudol)",
+      "description": "скрытые полости материалами Mercasol 831ML/Noxudol 750 , днище, колесн.арки Mercasol 4S",
+      "url": "https://antikorr.by/tsenyi/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-1",
+          "price": 1070,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "1070 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-2",
+          "price": null,
+          "price_min": 1230,
+          "price_max": null,
+          "price_text_original": "от 1230 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-3",
+          "price": null,
+          "price_min": 1275,
+          "price_max": null,
+          "price_text_original": "от 1275 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-4",
+          "price": null,
+          "price_min": 1275,
+          "price_max": null,
+          "price_text_original": "от 1275 BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера."
+        },
+        {
+          "vehicle_type_id": "vehicle-5",
+          "price": null,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "договор. BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера. Цена договорная; сумма на сайте не указана."
+        },
+        {
+          "vehicle_type_id": "vehicle-6",
+          "price": null,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "договорная BYN",
+          "notes": "Цены ориентировочные. Точную стоимость комплекса уточняйте у менеджера. Цена договорная; сумма на сайте не указана."
+        }
+      ]
+    },
+    {
+      "id": "service-1",
+      "category": "anticorrosion",
+      "name_original": "Антикоррозийная обработка автомобиля",
+      "description": "Это комплексное мероприятие по защите Вашего авто от коррозии.",
+      "url": "https://antikorr.by/antikorroziynaya-obrabotka-avtomobilya/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "service-2",
+      "category": "anticorrosion",
+      "name_original": "Антикоррозийная обработка кузова в Минске недорого",
+      "description": "Антикоррозийная обработка кузова – это основа защиты автомобиля, поскольку по-другому защитить свою машину и продлить его эксплуатационный период практически невозможно. Поэтому каждому владельцу необходимо обеспечить надежную защиту от коррозии, в чем помогут специалисты нашего сервиса. Но, для начала стоит разобраться, что собой представляет эта процедура, и зачем она так необходима.",
+      "url": "https://antikorr.by/antikorroziynaya-obrabotka-kuzova/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "service-3",
+      "category": "anticorrosion",
+      "name_original": "Антикоррозийная обработка днища автомобиля",
+      "description": "Одним из наиболее страшных врагов автомобиля является ржавчина, которая возникает в процессе коррозии. И максимально подвержено ее возникновению днище автомобиля, поскольку именно оно оказывается под наиболее сильным воздействием агрессивной среды. И со временем эксплуатации этот элемент машины может прийти в негодность, а замена или ремонт внушительно «ударит по кошельку». Во избежание столь больших затрат мы предлагаем выполнить антикоррозийную обработку днища в нашем сервисе, что предоставит гарантию безопасности вашего авто.",
+      "url": "https://antikorr.by/antikorroziynaya-obrabotka-dnishha-avtomobilya/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "service-4",
+      "category": "additional",
+      "name_original": "Мойка днища автомобиля на подъемнике",
+      "description": "без снятия пластиковой защиты",
+      "url": "https://antikorr.by/moyka-dnishha-avtomobilya-na-podemnike/",
+      "completion_time": null,
+      "prices": [
+        {
+          "vehicle_type_id": "wash-vehicle-1",
+          "price": 60,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "60",
+          "notes": "Цена без снятия пластиковой защиты днища и колёсных арок. Валюта BYN используется по общему прайс-листу сайта."
+        },
+        {
+          "vehicle_type_id": "wash-vehicle-2",
+          "price": 70,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "70",
+          "notes": "Цена без снятия пластиковой защиты днища и колёсных арок. Валюта BYN используется по общему прайс-листу сайта."
+        },
+        {
+          "vehicle_type_id": "vehicle-5",
+          "price": null,
+          "price_min": 150,
+          "price_max": null,
+          "price_text_original": "от 150",
+          "notes": "Цена без снятия пластиковой защиты днища и колёсных арок. Валюта BYN используется по общему прайс-листу сайта."
+        },
+        {
+          "vehicle_type_id": "vehicle-6",
+          "price": null,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "не обслуживаем",
+          "notes": "Цена без снятия пластиковой защиты днища и колёсных арок. Валюта BYN используется по общему прайс-листу сайта."
+        }
+      ]
+    },
+    {
+      "id": "service-5",
+      "category": "anticorrosion",
+      "name_original": "Антикоррозийная обработка порогов",
+      "description": "Пороги – одна из наиболее подверженных коррозии частей автомобиля. Из-за ударов гравия, щебня, перепадов температур на них образуются сколы и трещины. Места дефектов лакокрасочного покрытия начинают ржаветь. Особенно активно этот процесс протекает при попадании реагентов, которыми покрывают дорожное полотно, а также в условиях высокой влажности. Развитию ржавчины способствует также попадание влажной грязи в скрытые плохо вентилируемые полости, в которых она не успевает просыхать.",
+      "url": "https://antikorr.by/antikorrozijnaya-obrabotka-porogov/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "service-6",
+      "category": "anticorrosion",
+      "name_original": "Антикоррозийная обработка арок",
+      "description": "Поверхность колесных арок автомобиля максимально подвержена абразивному износу, поскольку с вращающихся колес на нее постоянно летят гравий, снег, мелкие камни. Ударяясь о покрытие, они разрушают его. В местах сколов и трещин развивается коррозия. Наличие влаги и реагентов, которыми покрывают дорожное покрытие, усиливает этот процесс.",
+      "url": "https://antikorr.by/antikorrozijnaya-obrabotka-arok/",
+      "completion_time": null,
+      "prices": []
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "valid": true,
+  "parsed_at": "2026-10-26T11:55:40.829Z",
+  "schemas": [
+    "schemas/site-harvest.schema.json",
+    "schema.json"
+  ],
+  "warnings": [
+    "Claims and guarantees are statements by the site. Prices and vehicle labels come from the public price tables."
+  ]
+}

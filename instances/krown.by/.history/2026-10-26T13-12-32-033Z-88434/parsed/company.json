@@ -1,0 +1,1301 @@
+{
+  "schema_version": "1.0",
+  "company": {
+    "name": "KROWN",
+    "website": "https://krown.by/",
+    "country": "BY",
+    "locations": [
+      {
+        "city": "Минск",
+        "address": "г. Минск, Ваупшасова 7а",
+        "phones": [
+          "+375 (44) 504-77-77",
+          "+375 44 504-77-77",
+          "+375 29 268-33-33",
+          "+375 (29) 268 33 33"
+        ],
+        "working_hours": "Мы работаем с 08:00 до 21:00 без выходных"
+      }
+    ]
+  },
+  "source": {
+    "scraped_at": "2026-10-26",
+    "urls": [
+      "https://krown.by/",
+      "https://krown.by/price/",
+      "https://krown.by/contacts/",
+      "https://krown.by/company/index.php",
+      "https://krown.by/landings/technologia-antikor/",
+      "https://krown.by/services/",
+      "https://krown.by/product/",
+      "https://krown.by/sales/",
+      "https://krown.by/company/reviews/",
+      "https://krown.by/product/dlya-zashchity-ot-korrozii/",
+      "https://krown.by/services/antikor/",
+      "https://krown.by/services/antisol/",
+      "https://krown.by/services/moyka/",
+      "https://krown.by/services/dezinfektsiya/",
+      "https://krown.by/services/deteyling/",
+      "https://krown.by/services/promyshlennoe-primenenie/",
+      "https://krown.by/services/podarochnyy-sertifikat/",
+      "https://krown.by/product/ot-soli-i-reagentov/",
+      "https://krown.by/product/chistka-detaley/",
+      "https://krown.by/product/ukhod-za-salonom/",
+      "https://krown.by/product/dlya-ukhoda-za-LKP/"
+    ],
+    "notes": "Prices copied from the public price tables. Ambiguous amounts retain their original text without an inferred numeric price."
+  },
+  "currency": "BYN",
+  "vehicle_types": [
+    {
+      "id": "vehicle-1",
+      "name_original": "Легковой автомобиль (до 4,0 м)",
+      "class": "small"
+    },
+    {
+      "id": "vehicle-2",
+      "name_original": "Легковой автомобиль (4,0 – 5,0 м)",
+      "class": "sedan"
+    },
+    {
+      "id": "vehicle-3",
+      "name_original": "Легковой автомобиль (> 5,0 м)",
+      "class": "sedan"
+    },
+    {
+      "id": "vehicle-4",
+      "name_original": "Минивэн, кроссовер",
+      "class": "crossover"
+    },
+    {
+      "id": "vehicle-5",
+      "name_original": "Рамный внедорожник",
+      "class": "suv"
+    },
+    {
+      "id": "vehicle-6",
+      "name_original": "Большой рамный внедорожник",
+      "class": "suv"
+    },
+    {
+      "id": "vehicle-7",
+      "name_original": "Микроавтобус (до 5,3 м)",
+      "class": "van"
+    },
+    {
+      "id": "vehicle-8",
+      "name_original": "Микроавтобус (от 5,3 м)",
+      "class": "van"
+    },
+    {
+      "id": "vehicle-9",
+      "name_original": "Электромобили (до 4 м)",
+      "class": "small"
+    },
+    {
+      "id": "vehicle-10",
+      "name_original": "Электромобили",
+      "class": "sedan"
+    },
+    {
+      "id": "vehicle-11",
+      "name_original": "Электро кроссоверы",
+      "class": "crossover"
+    },
+    {
+      "id": "vehicle-12",
+      "name_original": "Премиум электрокары",
+      "class": "sedan"
+    },
+    {
+      "id": "vehicle-13",
+      "name_original": "Легковой",
+      "class": "sedan"
+    },
+    {
+      "id": "vehicle-14",
+      "name_original": "Минивен / Кроссовер",
+      "class": "crossover"
+    },
+    {
+      "id": "vehicle-15",
+      "name_original": "Легковой ПРЕЙСКУРАНТ НА УСЛУГИ МОЙКИ",
+      "class": "sedan"
+    },
+    {
+      "id": "vehicle-16",
+      "name_original": "Кроссовер",
+      "class": "crossover"
+    },
+    {
+      "id": "vehicle-17",
+      "name_original": "Минивэн",
+      "class": "minivan"
+    },
+    {
+      "id": "vehicle-18",
+      "name_original": "Внедорожник",
+      "class": "suv"
+    },
+    {
+      "id": "vehicle-19",
+      "name_original": "Легковой Нанесение покрытия Антидождь \"Aquapel\"",
+      "class": "sedan"
+    },
+    {
+      "id": "vehicle-20",
+      "name_original": "Бус (до 5,3)",
+      "class": "van"
+    },
+    {
+      "id": "vehicle-21",
+      "name_original": "Бус (от 5,3)",
+      "class": "van"
+    },
+    {
+      "id": "vehicle-22",
+      "name_original": "Легковой УБОРКА САЛОНА",
+      "class": "sedan"
+    },
+    {
+      "id": "vehicle-23",
+      "name_original": "Все автомобили",
+      "class": "any"
+    },
+    {
+      "id": "vehicle-24",
+      "name_original": "Легковой ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ",
+      "class": "sedan"
+    }
+  ],
+  "services": [
+    {
+      "id": "service-1",
+      "category": "anticorrosion",
+      "name_original": "Полная обработка",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-1",
+          "price": 795,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "795 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-2",
+          "price": 875,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "875 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-3",
+          "price": 1050,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "1050 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-4",
+          "price": 985,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "985 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-5",
+          "price": 1130,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "1130 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-6",
+          "price": 1165,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "1165 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-7",
+          "price": 1165,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "1165 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-8",
+          "price": 1300,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "1300 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-9",
+          "price": 795,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "795 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-10",
+          "price": 875,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "875 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-11",
+          "price": 985,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "985 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-12",
+          "price": 1050,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "1050 BYN"
+        }
+      ]
+    },
+    {
+      "id": "service-2",
+      "category": "anticorrosion",
+      "name_original": "Обработка днища",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-1",
+          "price": 725,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "725 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-2",
+          "price": 810,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "810 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-3",
+          "price": 955,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "955 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-4",
+          "price": 915,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "915 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-5",
+          "price": 1030,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "1030 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-6",
+          "price": 1070,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "1070 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-7",
+          "price": 1070,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "1070 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-8",
+          "price": 1210,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "1210 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-9",
+          "price": 725,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "725 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-10",
+          "price": 810,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "810 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-11",
+          "price": 915,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "915 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-12",
+          "price": 955,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "955 BYN"
+        }
+      ]
+    },
+    {
+      "id": "service-3",
+      "category": "anticorrosion",
+      "name_original": "Повторная обработка",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-1",
+          "price": 635,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "635 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-2",
+          "price": 725,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "725 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-3",
+          "price": 875,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "875 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-4",
+          "price": 830,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "830 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-5",
+          "price": 935,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "935 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-6",
+          "price": 980,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "980 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-7",
+          "price": 980,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "980 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-8",
+          "price": 1130,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "1130 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-9",
+          "price": 635,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "635 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-10",
+          "price": 725,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "725 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-11",
+          "price": 830,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "830 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-12",
+          "price": 875,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "875 BYN"
+        }
+      ]
+    },
+    {
+      "id": "service-4",
+      "category": "additional",
+      "name_original": "Мойка днища с \"Антисолью\" Мойка днища на подъёмнике с применением состава \"KROWN Salt Eliminator\" Мойка днища с составом антисоль",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-13",
+          "price": null,
+          "price_min": 112,
+          "price_max": null,
+          "price_text_original": "от 112 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-14",
+          "price": null,
+          "price_min": 119,
+          "price_max": null,
+          "price_text_original": "от 119 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-5",
+          "price": null,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "от 141 BYN (без рамы) от 200 BYN (с рамой)",
+          "notes": "Several amounts are listed without a range; inspect the original text."
+        },
+        {
+          "vehicle_type_id": "vehicle-7",
+          "price": null,
+          "price_min": 153,
+          "price_max": null,
+          "price_text_original": "от 153 BYN"
+        },
+        {
+          "vehicle_type_id": "vehicle-8",
+          "price": null,
+          "price_min": 197,
+          "price_max": null,
+          "price_text_original": "от 197 BYN"
+        }
+      ]
+    },
+    {
+      "id": "service-5",
+      "category": "additional",
+      "name_original": "Мойка сильно загрязнённого днища Для рамных внедорожников, эксплуатируемых в тяжёлых условиях (спецоборудование) Мойка днища с составом антисоль",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-5",
+          "price": null,
+          "price_min": 350,
+          "price_max": null,
+          "price_text_original": "от 350 BYN"
+        }
+      ]
+    },
+    {
+      "id": "service-6",
+      "category": "additional",
+      "name_original": "Мойка кузова с \"Антисолью\" Двухфазная ручная мойка кузова с применением специализированного состава \"KROWN Salt Eliminator\" ПРЕЙСКУРАНТ НА УСЛУГИ МОЙКИ",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-15",
+          "price": 46,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "46,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-16",
+          "price": 50,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "50,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-17",
+          "price": 50,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "50,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-18",
+          "price": 52,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "52,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-7",
+          "price": 59,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "59,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-8",
+          "price": 67,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "67,00"
+        }
+      ]
+    },
+    {
+      "id": "service-7",
+      "category": "additional",
+      "name_original": "Стандарт Двухфазная ручная мойка кузова, мойка дверных проёмов, жидкий воск, сушка ПРЕЙСКУРАНТ НА УСЛУГИ МОЙКИ",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-15",
+          "price": 35,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "35,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-16",
+          "price": 39,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "39,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-17",
+          "price": 39,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "39,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-18",
+          "price": 46,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "46,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-7",
+          "price": 55,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "55,00"
+        }
+      ]
+    },
+    {
+      "id": "service-8",
+      "category": "additional",
+      "name_original": "Стандарт плюс Двухфазная ручная мойка кузова, мойка дверных проёмов, жидкий воск, сушка , чистка ковриков 4 шт. ПРЕЙСКУРАНТ НА УСЛУГИ МОЙКИ",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-15",
+          "price": 43,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "43,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-16",
+          "price": 46,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "46,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-17",
+          "price": 46,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "46,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-18",
+          "price": 54,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "54,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-7",
+          "price": 62,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "62,00"
+        }
+      ]
+    },
+    {
+      "id": "service-9",
+      "category": "additional",
+      "name_original": "Комплекс №1 “Стандарт плюс” + пылесос ковролина, уборка пыли в салоне автомобиля ПРЕЙСКУРАНТ НА УСЛУГИ МОЙКИ",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-15",
+          "price": 52,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "52,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-16",
+          "price": 56,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "56,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-17",
+          "price": 56,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "56,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-18",
+          "price": 64,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "64,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-7",
+          "price": 75,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "75,00"
+        }
+      ]
+    },
+    {
+      "id": "service-10",
+      "category": "additional",
+      "name_original": "Комплекс №2 “Стандарт плюс” + пылесос ковролина в салоне и багажнике, уборка пыли, обработка пластиковых панелей cпецсредством, чистка стекол и зеркал салона, чистка педалей) ПРЕЙСКУРАНТ НА УСЛУГИ МОЙКИ",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-15",
+          "price": 72,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "72,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-16",
+          "price": 76,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "76,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-17",
+          "price": 76,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "76,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-18",
+          "price": 88,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "88,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-7",
+          "price": 90,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "90,00"
+        }
+      ]
+    },
+    {
+      "id": "service-11",
+      "category": "additional",
+      "name_original": "Мойка днища на подъёмнике Мойка днища на подъёмнике с применением автошампуня для бесконтактной мойки ПРЕЙСКУРАНТ НА УСЛУГИ МОЙКИ",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-15",
+          "price": null,
+          "price_min": 104,
+          "price_max": null,
+          "price_text_original": "от 104,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-16",
+          "price": null,
+          "price_min": 108,
+          "price_max": null,
+          "price_text_original": "от 108,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-17",
+          "price": null,
+          "price_min": 108,
+          "price_max": null,
+          "price_text_original": "от 108,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-18",
+          "price": null,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "от 114 (без рамы) / 180 (с рамой)",
+          "notes": "Several amounts are listed without a range; inspect the original text."
+        },
+        {
+          "vehicle_type_id": "vehicle-7",
+          "price": null,
+          "price_min": 142,
+          "price_max": null,
+          "price_text_original": "от 142,00"
+        }
+      ]
+    },
+    {
+      "id": "service-12",
+      "category": "additional",
+      "name_original": "Мойка двигателя сверху Мойка двигателя и подкапотного пространства сверху (с применением спецсредств и последующим обдувом воздухом) ПРЕЙСКУРАНТ НА УСЛУГИ МОЙКИ",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-15",
+          "price": null,
+          "price_min": 47,
+          "price_max": null,
+          "price_text_original": "от 47,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-16",
+          "price": null,
+          "price_min": 47,
+          "price_max": null,
+          "price_text_original": "от 47,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-17",
+          "price": null,
+          "price_min": 47,
+          "price_max": null,
+          "price_text_original": "от 47,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-18",
+          "price": null,
+          "price_min": 47,
+          "price_max": null,
+          "price_text_original": "от 47,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-7",
+          "price": null,
+          "price_min": 47,
+          "price_max": null,
+          "price_text_original": "от 47,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-8",
+          "price": null,
+          "price_min": 47,
+          "price_max": null,
+          "price_text_original": "от 47,00"
+        }
+      ]
+    },
+    {
+      "id": "service-13",
+      "category": "additional",
+      "name_original": "Мойка двигателя снизу Мойка двигателя и подкапотного пространства снизу (с применением спецсредств и последующим обдувом воздухом) ПРЕЙСКУРАНТ НА УСЛУГИ МОЙКИ",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-15",
+          "price": null,
+          "price_min": 80,
+          "price_max": null,
+          "price_text_original": "от 80,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-16",
+          "price": null,
+          "price_min": 80,
+          "price_max": null,
+          "price_text_original": "от 80,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-17",
+          "price": null,
+          "price_min": 80,
+          "price_max": null,
+          "price_text_original": "от 80,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-18",
+          "price": null,
+          "price_min": 88,
+          "price_max": null,
+          "price_text_original": "от 88,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-7",
+          "price": null,
+          "price_min": 88,
+          "price_max": null,
+          "price_text_original": "от 88,00"
+        }
+      ]
+    },
+    {
+      "id": "service-14",
+      "category": "additional",
+      "name_original": "Мойка сильно загрязнённого днища Мойка днища рамного внедорожника, эксплуатируемого по бездорожью, участвующего в экспедициях по пересечённой местности или в других сложных условиях, способствующих сильной степени загрязнения рамы, днища и колесных арок (с применением специального оборудования) ПРЕЙСКУРАНТ НА УСЛУГИ МОЙКИ",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-18",
+          "price": null,
+          "price_min": 350,
+          "price_max": null,
+          "price_text_original": "от 350,00"
+        }
+      ]
+    },
+    {
+      "id": "service-15",
+      "category": "additional",
+      "name_original": "Антидождь на лобовое/заднее стекло (создаёт мощный гидрофобный эффект, значительно улучшает видимость во время дождя. Срок службы до 6 месяцев) Нанесение покрытия Антидождь \"Aquapel\"",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-19",
+          "price": 102,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "102,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-16",
+          "price": 102,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "102,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-17",
+          "price": 102,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "102,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-18",
+          "price": null,
+          "price_min": 102,
+          "price_max": null,
+          "price_text_original": "от 102,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-20",
+          "price": null,
+          "price_min": 102,
+          "price_max": null,
+          "price_text_original": "от 102,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-21",
+          "price": null,
+          "price_min": 102,
+          "price_max": null,
+          "price_text_original": "от 102,00"
+        }
+      ]
+    },
+    {
+      "id": "service-16",
+      "category": "additional",
+      "name_original": "Антидождь (Aquapel) передняя полусфера Лобовое + 2 боковых Нанесение покрытия Антидождь \"Aquapel\"",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-19",
+          "price": 152,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "152,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-16",
+          "price": 152,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "152,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-17",
+          "price": 152,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "152,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-18",
+          "price": null,
+          "price_min": 152,
+          "price_max": null,
+          "price_text_original": "от 152,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-20",
+          "price": null,
+          "price_min": 152,
+          "price_max": null,
+          "price_text_original": "от 152,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-21",
+          "price": null,
+          "price_min": 152,
+          "price_max": null,
+          "price_text_original": "от 152,00"
+        }
+      ]
+    },
+    {
+      "id": "service-17",
+      "category": "additional",
+      "name_original": "Уборка салона (пылесос салона, мойка резиновых ковриков (спецсредством и щёткой с последующим обдувом воздухом, комплект - 4 шт.) или сухая чистка щеткой ковров ворсовых (комплект - 4 шт.), протирание пыли, чистка педалей) УБОРКА САЛОНА",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-22",
+          "price": 23,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "23,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-16",
+          "price": 25,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "25,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-17",
+          "price": 25,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "25,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-18",
+          "price": 33,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "33,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-20",
+          "price": 36,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "36,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-21",
+          "price": null,
+          "price_min": 36,
+          "price_max": null,
+          "price_text_original": "от 36,00"
+        }
+      ]
+    },
+    {
+      "id": "service-18",
+      "category": "additional",
+      "name_original": "Уборка салона от шерсти, ворса и других сложных загрязнений (пылесос салона, мойка резиновых ковриков (спецсредством и щёткой с последующим обдувом воздухом, комплект - 4 шт.) или сухая чистка щеткой ковров ворсовых (комплект - 4 шт.), протирание пыли, чистка педалей) УБОРКА САЛОНА",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-22",
+          "price": null,
+          "price_min": 31,
+          "price_max": null,
+          "price_text_original": "от 31,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-16",
+          "price": null,
+          "price_min": 33,
+          "price_max": null,
+          "price_text_original": "от 33,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-17",
+          "price": null,
+          "price_min": 33,
+          "price_max": null,
+          "price_text_original": "от 33,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-18",
+          "price": null,
+          "price_min": 36,
+          "price_max": null,
+          "price_text_original": "от 36,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-20",
+          "price": null,
+          "price_min": 36,
+          "price_max": null,
+          "price_text_original": "от 36,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-21",
+          "price": null,
+          "price_min": 36,
+          "price_max": null,
+          "price_text_original": "от 36,00"
+        }
+      ]
+    },
+    {
+      "id": "service-19",
+      "category": "additional",
+      "name_original": "Мойка резиновых ковриков (4шт) (обмыв водой ковров резиновых с последующим обдувом воздухом или сухая чистка щеткой ковров ворсовых, комплект - 4 шт.) УБОРКА САЛОНА",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-23",
+          "price": 8,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "8,00 BYN (для всех авто)"
+        }
+      ]
+    },
+    {
+      "id": "service-20",
+      "category": "additional",
+      "name_original": "Мойка стекол и зеркал Изнутри и снаружи УБОРКА САЛОНА",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-22",
+          "price": 19,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "19,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-16",
+          "price": 22,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "22,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-17",
+          "price": 22,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "22,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-18",
+          "price": 25,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "25,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-20",
+          "price": null,
+          "price_min": 25,
+          "price_max": null,
+          "price_text_original": "от 25,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-21",
+          "price": null,
+          "price_min": 25,
+          "price_max": null,
+          "price_text_original": "от 25,00"
+        }
+      ]
+    },
+    {
+      "id": "service-21",
+      "category": "additional",
+      "name_original": "Озонирование салона (удаление неприятных запахов, дезинфекция вентиляции и кондиционера) ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-23",
+          "price": null,
+          "price_min": 80,
+          "price_max": null,
+          "price_text_original": "от 80,00 (все авто)"
+        }
+      ]
+    },
+    {
+      "id": "service-22",
+      "category": "additional",
+      "name_original": "Глубокая чистка ЛКП кузова (двухфазная мойка кузова, мойка дверных проемов, глубокая чистка ЛКП от металлических вкраплений и битумных пятен) ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-24",
+          "price": null,
+          "price_min": 180,
+          "price_max": null,
+          "price_text_original": "от 180,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-16",
+          "price": null,
+          "price_min": 195,
+          "price_max": null,
+          "price_text_original": "от 195,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-17",
+          "price": null,
+          "price_min": 195,
+          "price_max": null,
+          "price_text_original": "от 195,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-18",
+          "price": null,
+          "price_min": 240,
+          "price_max": null,
+          "price_text_original": "от 240,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-20",
+          "price": null,
+          "price_min": 312,
+          "price_max": null,
+          "price_text_original": "от 312,00"
+        }
+      ]
+    },
+    {
+      "id": "service-23",
+      "category": "additional",
+      "name_original": "Отбеливание дисков (колпаков) в сборе на авто или отдельно (чистка дисков спецсредством - удаление налета от тормозных колодок и битума - за 1 диск) ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-23",
+          "price": null,
+          "price_min": 16,
+          "price_max": null,
+          "price_text_original": "от 16,00"
+        }
+      ]
+    },
+    {
+      "id": "service-24",
+      "category": "additional",
+      "name_original": "Удаление битумных загрязнений и металлических вкраплений За 1 элемент ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-24",
+          "price": null,
+          "price_min": 35,
+          "price_max": null,
+          "price_text_original": "от 35,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-16",
+          "price": null,
+          "price_min": 35,
+          "price_max": null,
+          "price_text_original": "от 35,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-17",
+          "price": null,
+          "price_min": 35,
+          "price_max": null,
+          "price_text_original": "от 35,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-18",
+          "price": null,
+          "price_min": 42,
+          "price_max": null,
+          "price_text_original": "от 42,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-20",
+          "price": null,
+          "price_min": 50,
+          "price_max": null,
+          "price_text_original": "от 50,00"
+        },
+        {
+          "vehicle_type_id": "vehicle-21",
+          "price": null,
+          "price_min": 64,
+          "price_max": null,
+          "price_text_original": "от 64,00"
+        }
+      ]
+    },
+    {
+      "id": "service-25",
+      "category": "additional",
+      "name_original": "Удаление мошек ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-23",
+          "price": null,
+          "price_min": 20,
+          "price_max": null,
+          "price_text_original": "от 20,00"
+        }
+      ]
+    },
+    {
+      "id": "service-26",
+      "category": "additional",
+      "name_original": "Снятие и установка защиты двигателя/днища За 1 элемент ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ",
+      "url": "https://krown.by/price/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-23",
+          "price": null,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "от 25,00 (от 35,00 за с/у в сборе)",
+          "notes": "Several amounts are listed without a range; inspect the original text."
+        }
+      ]
+    }
+  ]
+}

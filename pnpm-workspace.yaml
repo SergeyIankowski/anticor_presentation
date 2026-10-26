@@ -1,4 +1,5 @@
 packages:
   - "packages/*"
   - "instances/*"
+  - "frontend"
   - "!template"

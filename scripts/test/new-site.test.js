@@ -82,12 +82,12 @@ test('existing domain folders and colliding package names are preserved', async 
   }
 });
 
-test('both existing parsers use the template entry point and package structure', async () => {
+test('existing parsers use the template entry point and package structure', async () => {
   const entry = await readFile(new URL('../../template/src/parse.js', import.meta.url), 'utf8');
   const manifest = JSON.parse(
     await readFile(new URL('../../template/package.json', import.meta.url), 'utf8'),
   );
-  for (const domain of ['etm.by', 'krown.by']) {
+  for (const domain of ['etm.by', 'krown.by', 'antikorr.by']) {
     assert.equal(
       await readFile(new URL(`../../instances/${domain}/src/parse.js`, import.meta.url), 'utf8'),
       entry,

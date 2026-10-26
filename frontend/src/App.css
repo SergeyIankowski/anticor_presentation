@@ -1,0 +1,61 @@
+.section {
+  margin-block: 40px;
+}
+
+.section-title {
+  margin-bottom: 4px;
+}
+
+.section-lead {
+  margin-bottom: 16px;
+}
+
+.num {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  align-items: center;
+  padding: 12px 16px;
+}
+
+.filters .MuiToggleButtonGroup-root {
+  flex-wrap: wrap;
+}
+
+/* Keep filters in view while scrolling the tables, except on phones where the bar is too tall. */
+@media (min-width: 900px) {
+  .filters {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+}
+
+.service-cell {
+  min-width: 200px;
+  max-width: 340px;
+}
+
+.chart-box {
+  position: relative;
+  width: 100%;
+}
+
+/* Additional services are emphasized with taller rows and larger text. */
+.row-additional .MuiTableCell-root {
+  padding-block: 16px;
+  font-size: 1rem;
+}
+
+.row-additional .MuiTableCell-root .MuiTypography-body2 {
+  font-size: 1rem;
+}
+
+.row-additional .service-cell {
+  font-weight: 500;
+}

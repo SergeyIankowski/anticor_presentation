@@ -81,6 +81,8 @@ instances/<domain>/
     prices.js    # optional site-specific helper
 ```
 
-Configure `src/site.js` and implement `parseCompany()` and `parseServices()` in `src/extract.js`. The starter extraction deliberately reports an error until service parsing is implemented. Return `{ harvest, comparison, warnings }` from `buildSite(pages, date)`; the shared runner handles browsing, schema validation, backups, and output files. `instances/etm.by` and `instances/krown.by` use this same layout with their own extraction implementations.
+Configure `src/site.js` and implement `parseCompany()` and `parseServices()` in `src/extract.js`. The starter extraction deliberately reports an error until service parsing is implemented. Return `{ harvest, comparison, warnings }` from `buildSite(pages, date)`; the shared runner handles browsing, schema validation, backups, and output files. `instances/etm.by`, `instances/krown.by`, and `instances/antikorr.by` use this same layout with their own extraction implementations.
+
+The Antikorr parser reads each combination of the price page's material-brand and vehicle-class selectors. The public price calculator replaces its table over AJAX; the parser waits for each replacement before recording the package prices, original price text, and included operations.
 
 After implementing extraction, run `npm run parse` inside the new folder. Use `--output-dir` to inspect a refresh in a temporary folder first. Future sites should always be created from `template/` using `pnpm site:new <domain>`.

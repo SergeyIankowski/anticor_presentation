@@ -115,8 +115,10 @@ export async function fetchPage(context, url, config) {
         throw new Error('Site returned an access challenge');
       }
       if (clean(snapshot.text).length < 80) throw new Error('No meaningful page content');
+      const enrichment = config.enrichPage ? await config.enrichPage(page) : {};
       return {
         ...snapshot,
+        ...enrichment,
         requested_url: url,
         status: response.status(),
         fetched_at: new Date().toISOString(),

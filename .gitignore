@@ -4,3 +4,4 @@ node_modules/
 **/snapshots/
 **/parse-report.json
 **/.parse.lock
+frontend/dist/

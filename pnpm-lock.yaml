@@ -14,6 +14,12 @@ importers:
         specifier: workspace:*
         version: link:../../packages/harvest-core
 
+  instances/antikor.brest.by:
+    dependencies:
+      "@anticor/harvest-core":
+        specifier: workspace:*
+        version: link:../../packages/harvest-core
+
   instances/antikoriya.by:
     dependencies:
       "@anticor/harvest-core":

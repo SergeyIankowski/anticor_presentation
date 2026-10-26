@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "company": {
+    "name": "ООО «Позит»",
+    "website": "https://antikor.pozit.by/",
+    "country": "BY",
+    "locations": [
+      {
+        "city": "Минск",
+        "address": "г. Минск, ул. Олешева 137А",
+        "phones": [
+          "+375 (29) 687-78-78"
+        ]
+      }
+    ]
+  },
+  "source": {
+    "scraped_at": "2026-10-26",
+    "urls": [
+      "https://antikor.pozit.by/"
+    ],
+    "notes": "Цены указаны за пакеты с выбором материала, без категорий автомобилей и отдельной единицы тарификации. vehicle_types: other — категория не указана; это не универсальный тариф для всех машин. Срок выполнения указан как средний; гарантия, безопасность материалов и прочие заявления не проверялись независимо. Финальная цена фиксируется после осмотра JSON-LD priceRange: «от 850 р.»; метаданные не являются прайсом пакетов. Использованы только .material-price из видимого прайс-листа."
+  },
+  "currency": "BYN",
+  "vehicle_types": [
+    {
+      "id": "unspecified",
+      "name_original": "автомобиля",
+      "class": "other"
+    }
+  ],
+  "services": [
+    {
+      "id": "treatment-1",
+      "category": "anticorrosion",
+      "name_original": "БАЗОВАЯ ОБРАБОТКА",
+      "description": "Подъём, мойка днища и арок; Сушка-продувка; Осмотр; Обезжиривание; Обработка днища; Обработка колесных арок",
+      "url": "https://antikor.pozit.by/",
+      "completion_time": {
+        "unit": "hours",
+        "text_original": "30 ЧАСОВ. Указано среднее время. Точный срок — после осмотра."
+      },
+      "prices": [
+        {
+          "vehicle_type_id": "unspecified",
+          "price": null,
+          "price_min": 500,
+          "price_max": null,
+          "price_text_original": "от 500 руб.",
+          "notes": "НА БАЗЕ NOXUDOL; Финальная цена фиксируется после осмотра; Категория автомобиля не указана."
+        },
+        {
+          "vehicle_type_id": "unspecified",
+          "price": null,
+          "price_min": 700,
+          "price_max": null,
+          "price_text_original": "от 700 руб.",
+          "notes": "НА БАЗЕ MERCASOL; Финальная цена фиксируется после осмотра; Категория автомобиля не указана."
+        }
+      ]
+    },
+    {
+      "id": "treatment-2",
+      "category": "anticorrosion",
+      "name_original": "КОМПЛЕКСНАЯ ОБРАБОТКА",
+      "description": "Базовая обработка; Проливание скрытых полостей ML-составом:; Днища, порогов; Лонжеронов, стоек; 4-х дверей; Капота, крышки багажника",
+      "url": "https://antikor.pozit.by/",
+      "completion_time": {
+        "unit": "hours",
+        "text_original": "30 ЧАСОВ. Указано среднее время. Точный срок — после осмотра."
+      },
+      "prices": [
+        {
+          "vehicle_type_id": "unspecified",
+          "price": null,
+          "price_min": 700,
+          "price_max": null,
+          "price_text_original": "от 700 руб.",
+          "notes": "НА БАЗЕ NOXUDOL; Финальная цена фиксируется после осмотра; Категория автомобиля не указана."
+        },
+        {
+          "vehicle_type_id": "unspecified",
+          "price": null,
+          "price_min": 900,
+          "price_max": null,
+          "price_text_original": "от 900 руб.",
+          "notes": "НА БАЗЕ MERCASOL; Финальная цена фиксируется после осмотра; Категория автомобиля не указана."
+        }
+      ]
+    }
+  ]
+}

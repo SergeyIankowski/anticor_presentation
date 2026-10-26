@@ -1,0 +1,570 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"></head><body><title>Антикоррозийная обработка автомобиля в Минске - ООО «Позит»</title><script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoRepair",
+      "name": "Pozit — Антикоррозийная обработка",
+      "legalName": "ООО «Позит»",
+      "description": "Профессиональная антикоррозийная обработка автомобилей в Минске. Защита днища, арок и скрытых полостей материалами Noxudol и Mercasol. Гарантия до 3 лет.",
+      "url": "https://pozit.by/",
+      "telephone": "+375296877878",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ул. Олешева 137А",
+        "addressLocality": "Минск",
+        "addressCountry": "BY"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.947936,
+        "longitude": 27.570215
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "18:00"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "reviewCount": "114",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "paymentAccepted": "Cash, Credit Card, Bank Transfer",
+      "currenciesAccepted": "BYN",
+      "areaServed": {
+        "@type": "City",
+        "name": "Минск"
+      },
+      "image": "https://pozit.by/assets/gallery/prompt4-2.webp",
+      "priceRange": "от 850 р."
+    }
+    </script><section id="services" class="services">
+                <div class="container">
+                    <div class="section-header">
+                        <p class="section-subtitle">Прайс-лист</p>
+                        <h2 class="section-title">УСЛУГИ <span>/</span> ЦЕНЫ</h2>
+                        <p class="section-description">Финальная цена фиксируется после осмотра</p>
+                    </div>
+
+                    
+                    <div class="price-grid">
+                        <div class="price-card fade-up">
+                            <h3 class="pricing-title" style="margin-bottom: 20px; text-align: center;">Базовая обработка
+                            </h3>
+                            <ul class="price-list price-list--two-columns">
+                                <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon><span>Подъём, мойка днища и
+                                        арок</span></li>
+                                <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon><span>Сушка-продувка</span>
+                                </li>
+                                <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon><span>Осмотр</span>
+                                </li>
+                                <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon><span>Обезжиривание</span>
+                                </li>
+                                <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon><span>Обработка днища
+                                    </span></li>
+                                <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon><span>Обработка колесных
+                                        арок</span></li>
+                            </ul>
+                            <div class="material-pricing">
+                                <div class="material-price-row">
+                                    <span class="material-name material-name--highlight">НА БАЗЕ NOXUDOL</span>
+                                    <span class="material-price">от 500 руб.</span>
+                                </div>
+                                <div class="material-price-row">
+                                    <span class="material-name material-name--highlight">НА БАЗЕ MERCASOL</span>
+                                    <span class="material-price">от 700 руб.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="price-card fade-up delay-100">
+                            <h3 class="pricing-title" style="margin-bottom: 20px; text-align: center;">Комплексная
+                                обработка</h3>
+                            <ul class="price-list price-list--two-columns">
+                                <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon><span>Базовая обработка
+                                    </span></li>
+                                <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon><span>Проливание скрытых
+                                        полостей ML-составом:
+                                    </span></li>
+                                <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon><span>Днища, порогов
+                                    </span>
+                                </li>
+                                <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon><span>Лонжеронов,
+                                        стоек</span></li>
+                                <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon><span>4-х дверей </span>
+                                </li>
+                                <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon><span>Капота, крышки
+                                        багажника</span></li>
+                            </ul>
+                            <div class="material-pricing">
+                                <div class="material-price-row">
+                                    <span class="material-name material-name--highlight">НА БАЗЕ NOXUDOL</span>
+                                    <span class="material-price">от 700 руб.</span>
+                                </div>
+                                <div class="material-price-row">
+                                    <span class="material-name material-name--highlight">НА БАЗЕ MERCASOL</span>
+                                    <span class="material-price">от 900 руб.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="material-difference fade-up">
+                        <div class="material-difference__item">
+                            
+                            <p class="material-difference__desc">Восковая основа - эластичная плёнка, не трескается на
+                                морозе, долговечная защита</p>
+                        </div>
+                        <div class="material-difference__divider"></div>
+                        <div class="material-difference__item">
+                            
+                            <p class="material-difference__desc">Высокое содержание ингибиторов коррозии - активная
+                                защита, проникает в микротрещины</p>
+                        </div>
+                    </div>
+                </div>
+            </section><section id="materials" class="materials-section">
+                <div class="materials-bg-overlay"></div>
+                <div class="container">
+                    <div class="section-header">
+                        <p class="section-subtitle">Материалы</p>
+                        <h2 class="section-title">МЫ <span>/</span> ИСПОЛЬЗУЕМ</h2>
+                    </div>
+
+                    
+                    <div class="brand-badge fade-up">
+                        <div class="brand-badge__logo">
+                            
+                        </div>
+                        <h3 class="brand-badge__title">AUSON AB · Швеция · Производитель с 1920-х годов</h3>
+                        <p class="brand-badge__text">Работаем с продукцией шведского производителя Auson AB - бренды
+                            Noxudol и Mercasol.</p>
+                        <p class="brand-badge__text">Первый производитель безрастворительных составов в Европе</p>
+                    </div>
+
+                    
+                    <div class="materials-zone">
+                        <div class="zone-header fade-up">
+                            <h3 class="zone-title">ЗОНА 1 - СКРЫТЫЕ ПОЛОСТИ</h3>
+                            <p class="zone-subtitle">Двери · Пороги · Стойки · Лонжероны</p>
+                        </div>
+
+                        <div class="materials-compact-grid">
+                            
+                            <div class="materials-compact-card fade-up">
+                                <div class="compact-logo">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <h3>MERCASOL 1</h3>
+                                    <ul class="compact-features">
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Восковой состав для
+                                            скрытых полостей</li>
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Отличная
+                                            проникающая способность</li>
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Эластичная плёнка
+                                            не трескается</li>
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Вытесняет влагу и
+                                            защищает от коррозии</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            
+                            <div class="materials-compact-card fade-up delay-100">
+                                <div class="compact-logo">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <h3>MERCASOL 2</h3>
+                                    <ul class="compact-features">
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Глубокое
+                                            проникновение
+                                            в швы и стыки</li>
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Вытесняет влагу с
+                                            поверхности металла</li>
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Прозрачная сухая
+                                            плёнка
+                                            – не пачкает салон</li>
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Работает на уже
+                                            начавшей ржаветь поверхности</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            
+                            <div class="materials-compact-card fade-up delay-200">
+                                <div class="compact-logo">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <h3>NOXUDOL 750</h3>
+                                    <ul class="compact-features">
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Низкая вязкость -
+                                            заполняет самые узкие полости</li>
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Восковая плёнка
+                                            держится весь срок защиты</li>
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Нагнетание под
+                                            давлением – не из баллончика</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="materials-zone">
+                        <div class="zone-header fade-up">
+                            <h3 class="zone-title">ЗОНА 2 - ДНИЩЕ И КОЛЁСНЫЕ АРКИ</h3>
+                            <p class="zone-subtitle">Защита от гравия · Соли · Механических повреждений</p>
+                        </div>
+
+                        <div class="materials-compact-grid">
+                            
+                            <div class="materials-compact-card fade-up">
+                                <div class="compact-logo">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <h3>MERCASOL 4 / 4S</h3>
+                                    <ul class="compact-features">
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Резинобитумная
+                                            паста –
+                                            тяжёлые условия</li>
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Гибкость при -40°C
+                                            – не
+                                            трескается зимой</li>
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Защита от гравия,
+                                            щебня, дорожной соли</li>
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>4S - распыляемая
+                                            версия, равномерный слой</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            
+                            <div class="materials-compact-card fade-up delay-100">
+                                <div class="compact-logo">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <h3>MERCASOL 845</h3>
+                                    <ul class="compact-features">
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Твёрдая
+                                            износостойкая
+                                            плёнка</li>
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Максимальная защита
+                                            от
+                                            каменной крошки</li>
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Профессиональный
+                                            состав
+                                            – сертификат AUSON</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            
+                            <div class="materials-compact-card fade-up delay-200">
+                                <div class="compact-logo">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <h3>NOXUDOL 900</h3>
+                                    <ul class="compact-features">
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Битумно-восковой
+                                            состав для днища и арок</li>
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Высокая адгезия к
+                                            металлу</li>
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Защита от коррозии
+                                            и механических повреждений</li>
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Эластичная плёнка
+                                            не трескается на морозе</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="materials-zone">
+                        <div class="zone-header fade-up">
+                            <h3 class="zone-title">ЗОНА 3 - ШУМОИЗОЛЯЦИЯ + АНТИКОР</h3>
+                            <p class="zone-subtitle">Бонусный эффект комплексной обработки</p>
+                        </div>
+
+                        <div class="materials-compact-grid">
+                            
+                            <div class="materials-compact-card fade-up">
+                                <div class="compact-logo">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <h3>NOXUDOL 3100</h3>
+                                    <ul class="compact-features">
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>В 2 раза легче
+                                            битумных
+                                            матов</li>
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Гасит вибрации
+                                            кузовных
+                                            панелей</li>
+                                        <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Встроенный антикор
+                                            -
+                                            двойная защита</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><section id="timeline" class="timeline">
+                <div class="container">
+                    <div class="section-header section-header--light">
+                        <p class="section-subtitle">Быстро и качественно</p>
+                        <h2 class="section-title">СРОКИ <span>/</span> ВЫПОЛНЕНИЯ</h2>
+                    </div>
+
+                    <div class="timeline-grid">
+                        <div class="timeline-card timeline-card--featured fade-up">
+                            <div class="timeline-card__time">
+                                <span class="time-value">30</span>
+                                <span class="time-unit">часов</span>
+                            </div>
+                            <div class="timeline-card__body">
+                                <h3 class="timeline-card__title">Срок выполнения</h3>
+                                <p class="timeline-card__desc">Антикоррозийная обработка</p>
+                                <p class="timeline-card__note">
+                                    <iconify-icon icon="ph:clock"></iconify-icon>
+                                    Указано среднее время. Точный срок — после осмотра.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video-carousel fade-up is-multi" data-video-carousel="">
+                        <button type="button" class="video-carousel-arrow video-carousel-prev" aria-label="Предыдущее видео">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2"><path d="M15 18l-6-6 6-6"></path></svg>
+                        </button>
+                        <div class="video-carousel__strip">
+                            
+
+                            <div class="video-carousel__slide">
+                                <div class="video-wrapper video-wrapper--horizontal">
+                                    
+                                </div>
+                                <p class="video-card__label">Обзор результата: Geely Monjaro</p>
+                            </div>
+                            <div class="video-carousel__slide">
+                                <div class="video-wrapper video-wrapper--horizontal">
+                                    
+                                </div>
+                                <p class="video-card__label">Видео</p>
+                            </div>
+                        </div>
+                        <button type="button" class="video-carousel-arrow video-carousel-next" aria-label="Следующее видео">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2"><path d="M9 18l6-6-6-6"></path></svg>
+                        </button>
+                        <div class="video-carousel__dots" aria-hidden="true"><button type="button" class="dot active" aria-label="Видео 1"></button><button type="button" class="dot" aria-label="Видео 2"></button></div>
+                    </div>
+                </div>
+            </section><section id="benefits" class="benefits">
+                <div class="container">
+                    <div class="benefits__grid">
+                        
+                        <div class="benefit-item fade-up">
+                            <div class="benefit-item__content">
+                                <h3 class="benefit-item__title"><iconify-icon icon="ph:briefcase" width="20" style="margin-right: 8px; vertical-align: -2px;"></iconify-icon>Профессиональный
+                                    подход</h3>
+                                <p class="benefit-item__text"><strong>Опытные мастера</strong> и использование
+                                    <strong>премиальных материалов</strong> для безупречного результата.
+                                </p>
+                            </div>
+                        </div>
+
+                        
+                        <div class="benefit-item fade-up delay-100">
+                            <div class="benefit-item__content">
+                                <h3 class="benefit-item__title"><iconify-icon icon="ph:camera" width="20" style="margin-right: 8px; vertical-align: -2px;"></iconify-icon>Видео-протокол
+                                    обработки</h3>
+                                <p class="benefit-item__text">После выполненной работы вы получаете <strong>видео
+                                        из бокса</strong> - результат обработки вашего авто.</p>
+                            </div>
+                        </div>
+
+                        
+                        <div class="benefit-item fade-up delay-200">
+                            <div class="benefit-item__content">
+                                <h3 class="benefit-item__title"><iconify-icon icon="ph:medal-fill" width="20" style="margin-right: 8px; vertical-align: -2px;"></iconify-icon>С 1993 года на
+                                    рынке
+                                </h3>
+                                <p class="benefit-item__text"><strong>Более 33 лет</strong> в автосервисе. За эти годы
+                                    через нас прошли тысячи автомобилей — знаем особенности любой марки и модели.
+                                </p>
+                            </div>
+                        </div>
+
+                        
+                        <div class="benefit-item fade-up delay-300">
+                            <div class="benefit-item__content">
+                                <h3 class="benefit-item__title"><iconify-icon icon="ph:shield-check-fill" width="20" style="margin-right: 8px; vertical-align: -2px;"></iconify-icon>Премиальные
+                                    материалы Noxudol и Mercasol
+                                </h3>
+                                <p class="benefit-item__text">Работаем с европейскими брендами <strong>Noxudol</strong> и
+                                    <strong>Mercasol</strong> — мировыми лидерами в антикоррозийной защите.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><section id="preparation" class="preparation-section">
+                <div class="container">
+                    <div class="section-header">
+                        <p class="section-subtitle">Этап перед обработкой</p>
+                        <h2 class="section-title">ПОДГОТОВКА <span>/</span> КУЗОВА</h2>
+                        <p class="section-description">Защищаем всё, что не обрабатывается: кузов, колёса, тормоза и элементы подвески</p>
+                    </div>
+
+                    <div class="preparation-grid fade-up">
+                        <figure class="preparation-card">
+                            
+                            <figcaption>Укрытие кузова плёнкой</figcaption>
+                        </figure>
+                        <figure class="preparation-card">
+                            
+                            <figcaption>Укрытие арок и порогов</figcaption>
+                        </figure>
+                        <figure class="preparation-card">
+                            
+                            <figcaption>Защита тормозных механизмов</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section><section id="guarantee" class="guarantee-section">
+        <div class="guarantee-bg-overlay"></div>
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">Ваше спокойствие</p>
+                <h2 class="section-title">ГАРАНТИЯ <span>/</span> НА РЕЗУЛЬТАТ</h2>
+            </div>
+            <div class="guarantee-grid">
+                <div class="guarantee-card guarantee-card--single fade-up">
+                    <ul>
+                        <li>ГАРАНТИЯ ДО 3 ЛЕТ на антикоррозийную обработку</li>
+                        <li>Видеоотчет всех зон обработки до и после</li>
+                        <li>Рекомендации: ежегодный осмотр днища и профилактика проливки скрытых полостей</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section><section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">Часто задаваемые вопросы </p>
+                <h2 class="section-title"> ВОПРОСЫ <span>/</span> ОТВЕТЫ</h2>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item fade-up">
+                    <div class="faq-item__header">
+                        <span class="faq-item__question">Нужен ли антикор на новом авто?</span>
+                        <div class="faq-item__arrow">
+                            <iconify-icon icon="ph:caret-down"></iconify-icon>
+                        </div>
+                    </div>
+                    <div class="faq-item__content">
+                        <div class="faq-item__answer">
+                            <p>Да. Заводской антикор - минимальный. Через 2–3 года он теряет защитные свойства. Лучше
+                                обработать сразу - дешевле, чем через 5 лет менять пороги.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up delay-100">
+                    <div class="faq-item__header">
+                        <span class="faq-item__question">Вредны ли составы - запах, безопасность?</span>
+                        <div class="faq-item__arrow">
+                            <iconify-icon icon="ph:caret-down"></iconify-icon>
+                        </div>
+                    </div>
+                    <div class="faq-item__content">
+                        <div class="faq-item__answer">
+                            <p>Используем сертифицированные материалы без токсичных компонентов. После высыхания (4–6
+                                часов) запах полностью исчезает. Все сертификаты безопасности - по запросу.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up delay-200">
+                    <div class="faq-item__header">
+                        <span class="faq-item__question">Можно мыть авто после антикора?</span>
+                        <div class="faq-item__arrow">
+                            <iconify-icon icon="ph:caret-down"></iconify-icon>
+                        </div>
+                    </div>
+                    <div class="faq-item__content">
+                        <div class="faq-item__answer">
+                            <p>Через 24 часа - да. Рекомендуем бесконтактную мойку в первые 2 недели.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up delay-300">
+                    <div class="faq-item__header">
+                        <span class="faq-item__question">Как понять что работу сделали качественно?</span>
+                        <div class="faq-item__arrow">
+                            <iconify-icon icon="ph:caret-down"></iconify-icon>
+                        </div>
+                    </div>
+                    <div class="faq-item__content">
+                        <div class="faq-item__answer">
+                            <p>На все технологигические операции мы предоставляем фото и видео отчет.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up delay-500">
+                    <div class="faq-item__header">
+                        <span class="faq-item__question">Работаете в выходные?</span>
+                        <div class="faq-item__arrow">
+                            <iconify-icon icon="ph:caret-down"></iconify-icon>
+                        </div>
+                    </div>
+                    <div class="faq-item__content">
+                        <div class="faq-item__answer">
+                            <p>Да, по предварительной записи.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                
+                <div class="footer__left">
+                    <a href="/" class="footer__logo-link">
+                        
+                    </a>
+                    <p class="footer__desc">Антикоррозийная обработка в Минске</p>
+                </div>
+
+                
+                <div class="footer__right">
+                    <p class="footer__company">ООО «Позит»</p>
+                    <p class="footer__text">УНП 100142944</p>
+                    <p class="footer__text">Юридический адрес: г. Минск, ул. Кедышко д.24 каб.8</p>
+                    <p class="footer__copyright">© 1993–2026 Pozit.by</p>
+                    <div class="footer__legal">
+                        <a href="legal/privacy-policy.html" class="footer__legal-link" target="_blank">Политика конфиденциальности</a>
+                        <a href="legal/cookie-policy.html" class="footer__legal-link" target="_blank">Политика cookie</a>
+                        <a href="legal/consent.html" class="footer__legal-link" target="_blank">Согласие на обработку ПД</a>
+                        <a href="#" class="footer__legal-link" id="footerCookieSettings">Настройки cookie</a>
+                        <a href="legal/withdraw-consent.html" class="footer__legal-link" target="_blank">Отозвать согласие</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><span class="map-address-value">г. Минск, ул. Олешева 137А</span><p>+375 (29) 687-78-78</p></body></html>

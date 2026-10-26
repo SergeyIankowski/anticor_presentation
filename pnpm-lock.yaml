@@ -356,6 +356,12 @@ importers:
         specifier: workspace:*
         version: link:../../packages/harvest-core
 
+  instances/protect-line.by:
+    dependencies:
+      "@anticor/harvest-core":
+        specifier: workspace:*
+        version: link:../../packages/harvest-core
+
   instances/spec-antikor.by:
     dependencies:
       "@anticor/harvest-core":

@@ -1,0 +1,12 @@
+{
+  "name": "@anticor/protect-line-by",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "parse": "node src/parse.js"
+  },
+  "dependencies": {
+    "@anticor/harvest-core": "workspace:*"
+  }
+}

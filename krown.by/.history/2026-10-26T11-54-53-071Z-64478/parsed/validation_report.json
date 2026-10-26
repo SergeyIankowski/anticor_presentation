@@ -1,0 +1,12 @@
+{
+  "valid": true,
+  "schema": "/Users/sergei/proj/anticor_presentation/.codex/skills/site-harvest-parser/references/site-presentation-schema.json",
+  "input": "krown.by/krown.by.json",
+  "output": "krown.by/parsed/presentation_data.json",
+  "parsed_at": "2026-10-26T08:55:46.965147+00:00",
+  "warnings": [
+    "Prices are copied from the public price page and may change.",
+    "The vehicle-booking form and some catalog details are dynamic; this file preserves the visible public information available during harvesting.",
+    "Statements about market position, guarantees, quality, and company scale are represented as claims made by the site, not independently verified facts."
+  ]
+}

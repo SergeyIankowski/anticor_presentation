@@ -1,0 +1,12 @@
+{
+  "valid": true,
+  "parsed_at": "2026-10-26T09:09:32.108Z",
+  "schemas": [
+    "schemas/site-harvest.schema.json",
+    "schema.json"
+  ],
+  "warnings": [
+    "Claims and guarantees are statements by the site. Unfetched catalog items retain their listing URLs only.",
+    "Numeric service prices were not found in the public service pages; prices[] is empty. Request a quote from the provider."
+  ]
+}

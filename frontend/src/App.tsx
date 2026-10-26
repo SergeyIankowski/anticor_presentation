@@ -1,6 +1,5 @@
 import Alert from '@mui/material/Alert';
 import Container from '@mui/material/Container';
-import Link from '@mui/material/Link';
 import Paper from '@mui/material/Paper';
 import Stack from '@mui/material/Stack';
 import ToggleButton from '@mui/material/ToggleButton';
@@ -8,6 +7,7 @@ import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import Typography from '@mui/material/Typography';
 import { type ReactNode, useMemo, useState } from 'react';
 import AveragePriceSection from './components/AveragePriceSection.tsx';
+import CompanyFilter from './components/CompanyFilter.tsx';
 import CompanyPriceTable from './components/CompanyPriceTable.tsx';
 import CoverageTable from './components/CoverageTable.tsx';
 import { companies } from './data/loadCompanies.ts';
@@ -24,15 +24,23 @@ import type { Company, ServiceCategory, VehicleClass } from './types.ts';
 
 type CategoryFilter = ServiceCategory | 'all';
 
-const groups = groupServices(companies, serviceGroups).sort(
-  (a, b) => Number(a.category !== 'anticorrosion') - Number(b.category !== 'anticorrosion'),
-);
-const classes = vehicleClasses(companies);
-const coverage = serviceCoverage(groups, companies);
 const hasPrices = (company: Company) => company.services.some((service) => service.prices.length);
-const companiesWithoutPrices = companies.filter((company) => !hasPrices(company));
-// Companies that publish prices come first; the rest only show which services they offer.
-const tableCompanies = [...companies].sort((a, b) => Number(hasPrices(b)) - Number(hasPrices(a)));
+
+// Everything below the company filter is computed from the selected companies only, so
+// averages and "offered by one or two companies" reflect the chosen comparison set.
+function compare(selected: Company[]) {
+  const groups = groupServices(selected, serviceGroups).sort(
+    (a, b) => Number(a.category !== 'anticorrosion') - Number(b.category !== 'anticorrosion'),
+  );
+  return {
+    groups,
+    classes: vehicleClasses(selected),
+    coverage: serviceCoverage(groups, selected),
+    withoutPrices: selected.filter((company) => !hasPrices(company)),
+    // Companies that publish prices come first; the rest only show which services they offer.
+    tableCompanies: [...selected].sort((a, b) => Number(hasPrices(b)) - Number(hasPrices(a))),
+  };
+}
 
 function Section({ title, lead, children }: { title: string; lead: string; children: ReactNode }) {
   return (
@@ -49,17 +57,27 @@ function Section({ title, lead, children }: { title: string; lead: string; child
 }
 
 export default function App() {
-  const [vehicleClass, setVehicleClass] = useState<VehicleClass>(
-    classes.includes('sedan') ? 'sedan' : classes[0],
-  );
+  const [selected, setSelected] = useState(() => new Set(companies.map((c) => c.domain)));
+  const [preferredClass, setVehicleClass] = useState<VehicleClass>('sedan');
   const [category, setCategory] = useState<CategoryFilter>('all');
+
+  const activeCompanies = useMemo(
+    () => companies.filter((company) => selected.has(company.domain)),
+    [selected],
+  );
+  const { groups, classes, coverage, withoutPrices, tableCompanies } = useMemo(
+    () => compare(activeCompanies),
+    [activeCompanies],
+  );
+  // Keep the chosen class while it exists for the selected companies.
+  const vehicleClass = classes.includes(preferredClass) ? preferredClass : classes[0];
 
   const rows = useMemo(
     () =>
-      priceRows(groups, companies, vehicleClass).filter(
+      priceRows(groups, activeCompanies, vehicleClass).filter(
         (row) => category === 'all' || row.category === category,
       ),
-    [vehicleClass, category],
+    [groups, activeCompanies, vehicleClass, category],
   );
   const coverageRows = coverage.filter((row) => category === 'all' || row.category === category);
 
@@ -72,26 +90,15 @@ export default function App() {
         <Typography color="text.secondary" sx={{ mt: 1 }}>
           Данные с сайтов компаний: {companies.length}. Цены указаны так, как опубликованы на сайте.
         </Typography>
-        <Stack direction="row" sx={{ mt: 2, flexWrap: 'wrap', gap: 2 }}>
-          {companies.map((company) => (
-            <Paper key={company.domain} sx={{ px: 2, py: 1.5 }}>
-              <Typography sx={{ fontWeight: 600 }}>{company.company.name}</Typography>
-              <Link href={company.company.website} target="_blank" rel="noreferrer" variant="body2">
-                {company.domain}
-              </Link>
-              <Typography variant="caption" color="text.secondary" sx={{ display: 'block' }}>
-                Услуг: {company.services.length} · данные от {company.source.scraped_at}
-              </Typography>
-            </Paper>
-          ))}
-        </Stack>
-        {companiesWithoutPrices.map((company) => (
+        {withoutPrices.map((company) => (
           <Alert key={company.domain} severity="info" sx={{ mt: 2 }}>
             {company.company.name} ({company.domain}) не публикует цены на сайте — услуги показаны с
             пометкой «цена не указана» и не входят в средние значения.
           </Alert>
         ))}
       </header>
+
+      <CompanyFilter companies={companies} selected={selected} onChange={setSelected} />
 
       <Paper className="filters" sx={{ mt: 3 }}>
         <Stack sx={{ gap: 0.5 }}>
@@ -155,7 +162,7 @@ export default function App() {
         title="Услуги у одной или двух компаний"
         lead="Сколько компаний оказывают услугу, независимо от того, опубликована ли цена."
       >
-        <CoverageTable rows={coverageRows} totalCompanies={companies.length} />
+        <CoverageTable rows={coverageRows} totalCompanies={activeCompanies.length} />
       </Section>
     </Container>
   );

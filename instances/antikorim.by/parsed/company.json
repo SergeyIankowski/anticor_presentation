@@ -1,0 +1,639 @@
+{
+  "schema_version": "1.0",
+  "company": {
+    "name": "ООО «АвтоПрофКузов»",
+    "website": "https://antikorim.by/",
+    "country": "BY",
+    "locations": [
+      {
+        "city": "Минск",
+        "address": "г. Минск, ст. м. Могилёвская, ул. Промышленная 11к11",
+        "phones": [
+          "+375 33 617-00-44"
+        ],
+        "working_hours": "ПН-ПТ с 9:00 до 18:00"
+      }
+    ]
+  },
+  "source": {
+    "scraped_at": "2026-10-26",
+    "urls": [
+      "https://antikorim.by/",
+      "https://antikorim.by/antikorrozijnaya-obrabotka-avto",
+      "https://antikorim.by/oklejka-antigravijnoj-plenkoy",
+      "https://antikorim.by/peskostrujnaya-obrabotka",
+      "https://antikorim.by/lazernaya-ochistka",
+      "https://antikorim.by/dekonservaciya-dnishcha",
+      "https://antikorim.by/vosstanovlenie-vin-nomera",
+      "https://antikorim.by/svarochnye-raboty",
+      "https://antikorim.by/materialy",
+      "https://antikorim.by/video",
+      "https://antikorim.by/o-nas",
+      "https://antikorim.by/oferta"
+    ],
+    "notes": "Стартовые цены ориентировочные: итоговая стоимость согласовывается после осмотра. Категории «Кросс» и «Бусик» объединяют несколько типов кузова; исходное описание сохранено. Для цен без категории использован any: область применимости уточняется у центра. Лазерная очистка: стоимость после осмотра, отдельного числового прайса нет. Цена шумоизоляции указана за одну арку; цены деталей могут указываться за штуку. Пакет по запросу не имеет числового значения."
+  },
+  "currency": "BYN",
+  "vehicle_types": [
+    {
+      "id": "car",
+      "name_original": "Хетч",
+      "class": "sedan",
+      "examples": "Седаны, хэтчбеки, универсалы стандартного размера"
+    },
+    {
+      "id": "crossover",
+      "name_original": "Кросс",
+      "class": "crossover",
+      "examples": "Кроссоверы, компактные SUV и минивэны"
+    },
+    {
+      "id": "suv",
+      "name_original": "Бусик",
+      "class": "van",
+      "examples": "Микроавтобусы, полноразмерные SUV и рамные автомобили"
+    },
+    {
+      "id": "maxi",
+      "name_original": "Макси",
+      "class": "van",
+      "examples": "Микроавтобусы с максибазой и большой площадью обработки"
+    },
+    {
+      "id": "any",
+      "name_original": "Категория автомобиля не указана",
+      "class": "any"
+    },
+    {
+      "id": "car-crossover",
+      "name_original": "Для легковых авто и кроссоверов.",
+      "class": "other"
+    }
+  ],
+  "services": [
+    {
+      "id": "standard",
+      "category": "anticorrosion",
+      "name_original": "Стандарт",
+      "description": "Базовый комплекс для полноценной защиты кузова Мойка и сушка Демонтаж колёс, подкрылков и пластиковой защиты днища Обработка днища и арок Обработка низов передних крыльев Обработка скрытых полостей Лонжероны, усилители, пороги, нижние части дверей, кромка крышки багажника, кромка капота, передние стаканы, зона за баком и за термоэкранами. ML-составом",
+      "url": "https://antikorim.by/antikorrozijnaya-obrabotka-avto",
+      "completion_time": {
+        "min": 2,
+        "max": 2,
+        "unit": "days",
+        "text_original": "Типичный срок выполнения: 2 рабочих дня"
+      },
+      "prices": [
+        {
+          "vehicle_type_id": "car",
+          "price": null,
+          "price_min": 750,
+          "price_max": null,
+          "price_text_original": "от 750 р",
+          "notes": "Седаны, хэтчбеки, универсалы стандартного размера"
+        },
+        {
+          "vehicle_type_id": "crossover",
+          "price": null,
+          "price_min": 800,
+          "price_max": null,
+          "price_text_original": "от 800 р",
+          "notes": "Кроссоверы, компактные SUV и минивэны"
+        },
+        {
+          "vehicle_type_id": "suv",
+          "price": null,
+          "price_min": 1000,
+          "price_max": null,
+          "price_text_original": "от 1000 р",
+          "notes": "Микроавтобусы, полноразмерные SUV и рамные автомобили"
+        },
+        {
+          "vehicle_type_id": "maxi",
+          "price": null,
+          "price_min": 1300,
+          "price_max": null,
+          "price_text_original": "от 1300 р",
+          "notes": "Микроавтобусы с максибазой и большой площадью обработки"
+        }
+      ]
+    },
+    {
+      "id": "standard-plus",
+      "category": "anticorrosion",
+      "name_original": "Расширенный",
+      "description": "Популярный комплекс с продвинутой обработкой Всё из комплекса «Стандарт» Демонтаж расширителей колёсных арок (при наличии) Демонтаж накладок порога (при наличии) Демонтаж (приспускание) термоэкранов Демонтаж (приспускание) глушителя",
+      "url": "https://antikorim.by/antikorrozijnaya-obrabotka-avto",
+      "completion_time": {
+        "min": 2,
+        "max": 2,
+        "unit": "days",
+        "text_original": "Типичный срок выполнения: 2 рабочих дня"
+      },
+      "prices": [
+        {
+          "vehicle_type_id": "car",
+          "price": null,
+          "price_min": 1100,
+          "price_max": null,
+          "price_text_original": "от 1100 р",
+          "notes": "Седаны, хэтчбеки, универсалы стандартного размера"
+        },
+        {
+          "vehicle_type_id": "crossover",
+          "price": null,
+          "price_min": 1200,
+          "price_max": null,
+          "price_text_original": "от 1200 р",
+          "notes": "Кроссоверы, компактные SUV и минивэны"
+        },
+        {
+          "vehicle_type_id": "suv",
+          "price": null,
+          "price_min": 1400,
+          "price_max": null,
+          "price_text_original": "от 1400 р",
+          "notes": "Микроавтобусы, полноразмерные SUV и рамные автомобили"
+        },
+        {
+          "vehicle_type_id": "maxi",
+          "price": null,
+          "price_min": 1700,
+          "price_max": null,
+          "price_text_original": "от 1700 р",
+          "notes": "Микроавтобусы с максибазой и большой площадью обработки"
+        }
+      ]
+    },
+    {
+      "id": "premium",
+      "category": "anticorrosion",
+      "name_original": "Премиум",
+      "description": "Максимально глубокая обработка всех зон риска Всё из комплекса «Расширенный» Демонтаж бамперов Обработка переднего и заднего усилителя Демонтаж бака Демонтаж декоративных пластиковых накладок на дверях (при наличии)",
+      "url": "https://antikorim.by/antikorrozijnaya-obrabotka-avto",
+      "completion_time": {
+        "min": 2,
+        "max": 2,
+        "unit": "days",
+        "text_original": "Типичный срок выполнения: 2 рабочих дня"
+      },
+      "prices": [
+        {
+          "vehicle_type_id": "car",
+          "price": null,
+          "price_min": 1800,
+          "price_max": null,
+          "price_text_original": "от 1800 р",
+          "notes": "Седаны, хэтчбеки, универсалы стандартного размера"
+        },
+        {
+          "vehicle_type_id": "crossover",
+          "price": null,
+          "price_min": 1900,
+          "price_max": null,
+          "price_text_original": "от 1900 р",
+          "notes": "Кроссоверы, компактные SUV и минивэны"
+        },
+        {
+          "vehicle_type_id": "suv",
+          "price": null,
+          "price_min": 2100,
+          "price_max": null,
+          "price_text_original": "от 2100 р",
+          "notes": "Микроавтобусы, полноразмерные SUV и рамные автомобили"
+        },
+        {
+          "vehicle_type_id": "maxi",
+          "price": null,
+          "price_min": 2400,
+          "price_max": null,
+          "price_text_original": "от 2400 р",
+          "notes": "Микроавтобусы с максибазой и большой площадью обработки"
+        }
+      ]
+    },
+    {
+      "id": "extra-4",
+      "category": "anticorrosion",
+      "name_original": "Премиальное покрытие",
+      "description": "Премиальный состав с повышенной стойкостью к истиранию и механическим повреждениям — служит до 7-10 лет. Рекомендуется для эксплуатации по грунтовым дорогам и бездорожью, а также для тех, кто хочет максимально продлить интервал между обработками.",
+      "url": "https://antikorim.by/antikorrozijnaya-obrabotka-avto",
+      "completion_time": null,
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": 150,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "150 р",
+          "notes": "150 р Доп. услуга; Доступно только при заказе антикора"
+        }
+      ]
+    },
+    {
+      "id": "extra-5",
+      "category": "additional",
+      "name_original": "Напыляемая шумоизоляция",
+      "description": "Напыляемое покрытие для колёсных арок, которое одновременно защищает от коррозии и снижает шум от ударов песка, камней и воды. Уменьшает гул от дороги в салоне на 20%-30% — без вау-эффекта, но особенно заметно на трассовых скоростях и по мокрому асфальту.",
+      "url": "https://antikorim.by/antikorrozijnaya-obrabotka-avto",
+      "completion_time": null,
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": 80,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "80 р / арка",
+          "notes": "80 р / арка Доп. услуга; Доступно только при заказе антикора"
+        }
+      ]
+    },
+    {
+      "category": "additional",
+      "url": "https://antikorim.by/oklejka-antigravijnoj-plenkoy",
+      "completion_time": null,
+      "id": "oklejka-antigravijnoj-plenkoy-6",
+      "name_original": "Пакет «Мини»",
+      "description": "Капот целиком, фары и ПТФ, полоса над лобовым стеклом, антиманикюр, канты дверей.",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": 1100,
+          "price_max": null,
+          "price_text_original": "от 1 100 р",
+          "notes": "Готовые пакеты защиты кузова. Итоговая стоимость зависит от модели и размеров автомобиля. Точную цену назовём после осмотра и зафиксируем в заказ-наряде до начала работ. Гарантия: плёнка FENIX — до 10 лет, работы по оклейке — 3 года. Закрепляется в договоре."
+        }
+      ]
+    },
+    {
+      "category": "additional",
+      "url": "https://antikorim.by/oklejka-antigravijnoj-plenkoy",
+      "completion_time": null,
+      "id": "oklejka-antigravijnoj-plenkoy-7",
+      "name_original": "Пакет «Лайт»",
+      "description": "Всё из «Мини» + передние крылья, стойки лобового, зеркала, внутренние пороги, зона выгрузки, чистка лака.",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": 1500,
+          "price_max": null,
+          "price_text_original": "от 1 500 р",
+          "notes": "Готовые пакеты защиты кузова. Итоговая стоимость зависит от модели и размеров автомобиля. Точную цену назовём после осмотра и зафиксируем в заказ-наряде до начала работ. Гарантия: плёнка FENIX — до 10 лет, работы по оклейке — 3 года. Закрепляется в договоре."
+        }
+      ]
+    },
+    {
+      "category": "additional",
+      "url": "https://antikorim.by/oklejka-antigravijnoj-plenkoy",
+      "completion_time": null,
+      "id": "oklejka-antigravijnoj-plenkoy-8",
+      "name_original": "Пакет «Лайт+»",
+      "description": "Всё из «Лайт» + передний бампер целиком. Самый популярный пакет для городской эксплуатации.",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": 2100,
+          "price_max": null,
+          "price_text_original": "от 2 100 р",
+          "notes": "Готовые пакеты защиты кузова. Итоговая стоимость зависит от модели и размеров автомобиля. Точную цену назовём после осмотра и зафиксируем в заказ-наряде до начала работ. Гарантия: плёнка FENIX — до 10 лет, работы по оклейке — 3 года. Закрепляется в договоре."
+        }
+      ]
+    },
+    {
+      "category": "additional",
+      "url": "https://antikorim.by/oklejka-antigravijnoj-plenkoy",
+      "completion_time": null,
+      "id": "oklejka-antigravijnoj-plenkoy-9",
+      "name_original": "Полная оклейка",
+      "description": "Все элементы кузова в цвет, стойки, крыша, внутренние пороги, чёрный глянец, декоративные элементы.",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": 6000,
+          "price_max": null,
+          "price_text_original": "от 6 000 р",
+          "notes": "Готовые пакеты защиты кузова. Итоговая стоимость зависит от модели и размеров автомобиля. Точную цену назовём после осмотра и зафиксируем в заказ-наряде до начала работ. Гарантия: плёнка FENIX — до 10 лет, работы по оклейке — 3 года. Закрепляется в договоре."
+        }
+      ]
+    },
+    {
+      "category": "additional",
+      "url": "https://antikorim.by/peskostrujnaya-obrabotka",
+      "completion_time": null,
+      "id": "peskostrujnaya-obrabotka-10",
+      "name_original": "Днище легкового авто",
+      "description": "Пескоструйная обработка кузова автомобиля в Минске. Полная обработка днища, порогов, лонжеронов",
+      "prices": [
+        {
+          "vehicle_type_id": "car",
+          "price": null,
+          "price_min": 600,
+          "price_max": null,
+          "price_text_original": "от 600 р",
+          "notes": "Стоимость зависит от площади обработки, степени загрязнения и типа детали. Точную цену назовём после осмотра автомобиля."
+        }
+      ]
+    },
+    {
+      "category": "additional",
+      "url": "https://antikorim.by/peskostrujnaya-obrabotka",
+      "completion_time": null,
+      "id": "peskostrujnaya-obrabotka-11",
+      "name_original": "Днище кроссовера / минивэна",
+      "description": "Пескоструйная обработка кузова автомобиля в Минске. Увеличенная площадь обработки",
+      "prices": [
+        {
+          "vehicle_type_id": "crossover",
+          "price": null,
+          "price_min": 900,
+          "price_max": null,
+          "price_text_original": "от 900 р",
+          "notes": "Стоимость зависит от площади обработки, степени загрязнения и типа детали. Точную цену назовём после осмотра автомобиля."
+        }
+      ]
+    },
+    {
+      "category": "additional",
+      "url": "https://antikorim.by/peskostrujnaya-obrabotka",
+      "completion_time": null,
+      "id": "peskostrujnaya-obrabotka-12",
+      "name_original": "Днище джипа / микроавтобуса",
+      "description": "Пескоструйная обработка кузова автомобиля в Минске. Полная обработка, включая раму (при наличии)",
+      "prices": [
+        {
+          "vehicle_type_id": "suv",
+          "price": null,
+          "price_min": 1200,
+          "price_max": null,
+          "price_text_original": "от 1200 р",
+          "notes": "Стоимость зависит от площади обработки, степени загрязнения и типа детали. Точную цену назовём после осмотра автомобиля."
+        }
+      ]
+    },
+    {
+      "category": "additional",
+      "url": "https://antikorim.by/peskostrujnaya-obrabotka",
+      "completion_time": null,
+      "id": "peskostrujnaya-obrabotka-13",
+      "name_original": "Колёсные арки (комплект 4 шт.)",
+      "description": "Пескоструйная обработка кузова автомобиля в Минске. Обработка всех четырёх арок до чистого металла",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": 320,
+          "price_max": null,
+          "price_text_original": "от 320 р",
+          "notes": "Стоимость зависит от площади обработки, степени загрязнения и типа детали. Точную цену назовём после осмотра автомобиля."
+        }
+      ]
+    },
+    {
+      "category": "additional",
+      "url": "https://antikorim.by/peskostrujnaya-obrabotka",
+      "completion_time": null,
+      "id": "peskostrujnaya-obrabotka-14",
+      "name_original": "Рама внедорожника",
+      "description": "Пескоструйная обработка кузова автомобиля в Минске. Полная обработка рамы (снятая или на авто)",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": 700,
+          "price_max": null,
+          "price_text_original": "от 700 р",
+          "notes": "Стоимость зависит от площади обработки, степени загрязнения и типа детали. Точную цену назовём после осмотра автомобиля."
+        }
+      ]
+    },
+    {
+      "category": "additional",
+      "url": "https://antikorim.by/peskostrujnaya-obrabotka",
+      "completion_time": null,
+      "id": "peskostrujnaya-obrabotka-15",
+      "name_original": "Элементы подвески",
+      "description": "Пескоструйная обработка кузова автомобиля в Минске. Подрамники, балки, стабилизаторы (снятые)",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": 100,
+          "price_max": null,
+          "price_text_original": "от 100 р/шт.",
+          "notes": "Стоимость зависит от площади обработки, степени загрязнения и типа детали. Точную цену назовём после осмотра автомобиля."
+        }
+      ]
+    },
+    {
+      "category": "additional",
+      "url": "https://antikorim.by/peskostrujnaya-obrabotka",
+      "completion_time": null,
+      "id": "peskostrujnaya-obrabotka-16",
+      "name_original": "Мелкие детали",
+      "description": "Пескоструйная обработка кузова автомобиля в Минске. Кронштейны, рычаги, крепёж",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": 50,
+          "price_max": null,
+          "price_text_original": "от 50 р/шт.",
+          "notes": "Стоимость зависит от площади обработки, степени загрязнения и типа детали. Точную цену назовём после осмотра автомобиля."
+        }
+      ]
+    },
+    {
+      "category": "additional",
+      "url": "https://antikorim.by/lazernaya-ochistka",
+      "completion_time": null,
+      "id": "lazernaya-ochistka-17",
+      "name_original": "Лазерная очистка кузова автомобиля в Минске",
+      "description": "Лазерная очистка авто в Минске: кузов, VIN-номер, двигатель, диски, детали. Бесконтактный метод — без абразива и химии, без повреждения металла. Запись!",
+      "prices": []
+    },
+    {
+      "category": "additional",
+      "url": "https://antikorim.by/dekonservaciya-dnishcha",
+      "completion_time": null,
+      "id": "dekonservaciya-dnishcha-18",
+      "name_original": "Деконсервация днища",
+      "description": "Мойка горячей водой с химией: удаление отслоившегося антикора, масел, солей, битума и реагентов. Для легковых авто и кроссоверов.",
+      "prices": [
+        {
+          "vehicle_type_id": "car-crossover",
+          "price": 250,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "250 р",
+          "notes": "250 р Доп. услуга; Доступно только при заказе антикора Фиксированная стоимость за полный цикл работ: осмотр, нанесение химии, мойка горячей водой под давлением и сушка."
+        }
+      ]
+    },
+    {
+      "category": "anticorrosion",
+      "url": "https://antikorim.by/dekonservaciya-dnishcha",
+      "completion_time": null,
+      "id": "dekonservaciya-dnishcha-19",
+      "name_original": "Деконсервация + антикор",
+      "description": "Полный комплекс: деконсервация + антикоррозийная обработка по чистой основе. Самое частое сочетание услуг.",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": 1000,
+          "price_max": null,
+          "price_text_original": "от 1 000 р",
+          "notes": "Фиксированная стоимость за полный цикл работ: осмотр, нанесение химии, мойка горячей водой под давлением и сушка."
+        }
+      ]
+    },
+    {
+      "category": "anticorrosion",
+      "url": "https://antikorim.by/dekonservaciya-dnishcha",
+      "completion_time": null,
+      "id": "dekonservaciya-dnishcha-20",
+      "name_original": "Деконсервация + пескоструй + антикор",
+      "description": "Для автомобилей с тяжёлой коррозией: сначала смываем покрытия, затем пескоструим ржавчину, затем наносим антикор.",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "по запросу",
+          "notes": "Фиксированная стоимость за полный цикл работ: осмотр, нанесение химии, мойка горячей водой под давлением и сушка."
+        }
+      ]
+    },
+    {
+      "category": "additional",
+      "url": "https://antikorim.by/vosstanovlenie-vin-nomera",
+      "completion_time": null,
+      "id": "vosstanovlenie-vin-nomera-21",
+      "name_original": "Восстановление VIN-номера лазером в Минске",
+      "description": "Восстановление читаемости VIN-номера лазером в Минске: бесконтактная очистка маркировочной площадки от коррозии и окислов без повреждения заводской гравировки. Цена 100 р. Запись: +375 33 617-00-44.",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": 100,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "100 р",
+          "notes": "Это фиксированная стоимость за полный цикл работ: осмотр, лазерная очистка площадки и нанесение защитного покрытия. Никаких скрытых доплат. Если при осмотре выяснится, что площадка повреждена настолько, что очистка не поможет (сквозная коррозия, утрата символов), — мы честно об этом скажем до начала работ и не возьмём оплату."
+        }
+      ]
+    },
+    {
+      "category": "additional",
+      "url": "https://antikorim.by/svarochnye-raboty",
+      "completion_time": null,
+      "id": "svarochnye-raboty-22",
+      "name_original": "Латка (до 10 см)",
+      "description": "Сварочные работы по кузову автомобиля в Минске. Заплата на небольшое сквозное отверстие в доступной зоне",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": 50,
+          "price_max": null,
+          "price_text_original": "от 50 р",
+          "notes": "Стоимость зависит от количества и размера повреждений, расположения зоны и сложности доступа. Точную цену мастер назовёт после обнаружения дефектов — до начала работ. Цены указаны за сварочные работы. Грунтование зоны ремонта включено. Антикоррозийная обработка оплачивается отдельно в рамках выбранного комплекса."
+        }
+      ]
+    },
+    {
+      "category": "additional",
+      "url": "https://antikorim.by/svarochnye-raboty",
+      "completion_time": null,
+      "id": "svarochnye-raboty-23",
+      "name_original": "Ремонтная вставка (10–30 см)",
+      "description": "Сварочные работы по кузову автомобиля в Минске. Вварка фрагмента на участке средней площади",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": 100,
+          "price_max": null,
+          "price_text_original": "от 100 р",
+          "notes": "Стоимость зависит от количества и размера повреждений, расположения зоны и сложности доступа. Точную цену мастер назовёт после обнаружения дефектов — до начала работ. Цены указаны за сварочные работы. Грунтование зоны ремонта включено. Антикоррозийная обработка оплачивается отдельно в рамках выбранного комплекса."
+        }
+      ]
+    },
+    {
+      "category": "additional",
+      "url": "https://antikorim.by/svarochnye-raboty",
+      "completion_time": null,
+      "id": "svarochnye-raboty-24",
+      "name_original": "Фрагмент порога",
+      "description": "Сварочные работы по кузову автомобиля в Минске. Замена прогнившего участка порога ремонтной вставкой",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": 150,
+          "price_max": null,
+          "price_text_original": "от 150 р",
+          "notes": "Стоимость зависит от количества и размера повреждений, расположения зоны и сложности доступа. Точную цену мастер назовёт после обнаружения дефектов — до начала работ. Цены указаны за сварочные работы. Грунтование зоны ремонта включено. Антикоррозийная обработка оплачивается отдельно в рамках выбранного комплекса."
+        }
+      ]
+    },
+    {
+      "category": "additional",
+      "url": "https://antikorim.by/svarochnye-raboty",
+      "completion_time": null,
+      "id": "svarochnye-raboty-25",
+      "name_original": "Кромка арки",
+      "description": "Сварочные работы по кузову автомобиля в Минске. Вварка полоски по кромке колёсной арки",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": 120,
+          "price_max": null,
+          "price_text_original": "от 120 р",
+          "notes": "Стоимость зависит от количества и размера повреждений, расположения зоны и сложности доступа. Точную цену мастер назовёт после обнаружения дефектов — до начала работ. Цены указаны за сварочные работы. Грунтование зоны ремонта включено. Антикоррозийная обработка оплачивается отдельно в рамках выбранного комплекса."
+        }
+      ]
+    },
+    {
+      "category": "additional",
+      "url": "https://antikorim.by/svarochnye-raboty",
+      "completion_time": null,
+      "id": "svarochnye-raboty-26",
+      "name_original": "Участок днища",
+      "description": "Сварочные работы по кузову автомобиля в Минске. Заварка крупных повреждений на плоских участках",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": 100,
+          "price_max": null,
+          "price_text_original": "от 100 р",
+          "notes": "Стоимость зависит от количества и размера повреждений, расположения зоны и сложности доступа. Точную цену мастер назовёт после обнаружения дефектов — до начала работ. Цены указаны за сварочные работы. Грунтование зоны ремонта включено. Антикоррозийная обработка оплачивается отдельно в рамках выбранного комплекса."
+        }
+      ]
+    },
+    {
+      "category": "additional",
+      "url": "https://antikorim.by/svarochnye-raboty",
+      "completion_time": null,
+      "id": "svarochnye-raboty-27",
+      "name_original": "Соединительные элементы",
+      "description": "Сварочные работы по кузову автомобиля в Минске. Ремонт поперечных балок, усилителей, кронштейнов",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": 150,
+          "price_max": null,
+          "price_text_original": "от 150 р",
+          "notes": "Стоимость зависит от количества и размера повреждений, расположения зоны и сложности доступа. Точную цену мастер назовёт после обнаружения дефектов — до начала работ. Цены указаны за сварочные работы. Грунтование зоны ремонта включено. Антикоррозийная обработка оплачивается отдельно в рамках выбранного комплекса."
+        }
+      ]
+    }
+  ]
+}

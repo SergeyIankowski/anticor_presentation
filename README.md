@@ -85,4 +85,6 @@ Configure `src/site.js` and implement `parseCompany()` and `parseServices()` in 
 
 The Antikorr parser reads each combination of the price page's material-brand and vehicle-class selectors. The public price calculator replaces its table over AJAX; the parser waits for each replacement before recording the package prices, original price text, and included operations.
 
+The Antikorim parser in `instances/antikorim.by` reads all three treatment packages across four vehicle selectors, plus film packages, sandblasting, welding, cleaning, and add-on prices. It preserves starting prices, per-arch/per-item units, and quote-only services, and stores materials, FAQs, videos, workshop contacts, and separate legal details. Refresh it with `npm run parse` inside that folder.
+
 After implementing extraction, run `npm run parse` inside the new folder. Use `--output-dir` to inspect a refresh in a temporary folder first. Future sites should always be created from `template/` using `pnpm site:new <domain>`.

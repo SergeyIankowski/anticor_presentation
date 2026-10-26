@@ -260,6 +260,12 @@ importers:
         specifier: workspace:*
         version: link:../../packages/harvest-core
 
+  instances/anti-kor.by:
+    dependencies:
+      "@anticor/harvest-core":
+        specifier: workspace:*
+        version: link:../../packages/harvest-core
+
   instances/anticorlida.by:
     dependencies:
       "@anticor/harvest-core":

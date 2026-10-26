@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "company": {
+    "name": "ANTICOR",
+    "website": "https://anti-kor.by/",
+    "country": "BY",
+    "locations": [
+      {
+        "city": "Бобруйск",
+        "address": "ул. Димитрова, 4в",
+        "phones": [
+          "+375291772255"
+        ]
+      }
+    ]
+  },
+  "source": {
+    "scraped_at": "2026-10-26",
+    "urls": [
+      "https://anti-kor.by/"
+    ],
+    "notes": "Числовые цены не опубликованы: все услуги имеют prices: []; стоимость уточняется через заявку. Категории автомобилей, сроки выполнения и продолжительность гарантии не опубликованы. BYN выбрана как валюта сравнения для компании в Беларуси; на сайте нет цен и обозначения валюты. Карточка «Мойка днища и арок» описывает нанесение составов в подкапотном пространстве; исходное описание сохранено без исправлений. FAQ: удаление коррозии не входит в стандартный комплекс; демонтаж бамперов, накладок порогов и дверей согласуется за дополнительную плату."
+  },
+  "currency": "BYN",
+  "vehicle_types": [],
+  "services": [
+    {
+      "id": "anti-kor-1",
+      "category": "anticorrosion",
+      "name_original": "Полный комплекс обработки",
+      "description": "Днище, рама, арки, пороги, скрытые полости, двери, капот. Можем обработать отдельно любую часть.",
+      "url": "https://anti-kor.by/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "anti-kor-2",
+      "category": "anticorrosion",
+      "name_original": "Обработка элементов подвески",
+      "description": "Подрамники крепления двигателя и подвесок, мосты, карданные валы, рычаги, пружины, крепёж.",
+      "url": "https://anti-kor.by/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "anti-kor-3",
+      "category": "additional",
+      "name_original": "Шумоизоляция колесных арок и днища",
+      "description": "Напыляемая шумоизоляция. Значительное снижение посторонних шумов в салоне автомобиля.",
+      "url": "https://anti-kor.by/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "anti-kor-4",
+      "category": "additional",
+      "name_original": "Мойка днища и арок",
+      "description": "Нанесение антикоррозийных составов на силовые элементы кузова в подкапотном пространстве.",
+      "url": "https://anti-kor.by/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "anti-kor-5",
+      "category": "additional",
+      "name_original": "Пескоструйная очистка днища авто",
+      "description": "Тщательная очистка для максимальной адгезии обрабатываемого покрытия без дефектов.",
+      "url": "https://anti-kor.by/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "anti-kor-6",
+      "category": "additional",
+      "name_original": "Ежегодное ТО авто после обработки",
+      "description": "Техническая мойка днища, осмотр и бесплатное восполнение покрытия в течение гарантийного срока.",
+      "url": "https://anti-kor.by/",
+      "completion_time": null,
+      "prices": []
+    }
+  ]
+}

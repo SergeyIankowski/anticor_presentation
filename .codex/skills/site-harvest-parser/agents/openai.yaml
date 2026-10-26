@@ -1,0 +1,4 @@
+interface:
+  display_name: "Site Harvest Parser"
+  short_description: "Parse site data into presentation JSON"
+  default_prompt: "Use $site-harvest-parser to validate and package this site-harvest JSON for a presentation."

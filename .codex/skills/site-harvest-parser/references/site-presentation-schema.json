@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Generic website harvest presentation schema",
+  "description": "Baseline schema for normalized website harvests. Add site-specific properties when a source requires stricter validation.",
+  "type": "object",
+  "required": ["metadata", "sources"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["source_site", "retrieved_at"],
+      "properties": {
+        "source_site": { "type": "string" },
+        "brand": { "type": ["string", "null"] },
+        "retrieved_at": { "type": "string" },
+        "language": { "type": ["string", "null"] },
+        "notes": { "type": "array" }
+      },
+      "additionalProperties": true
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["url"],
+        "properties": {
+          "url": { "type": "string" },
+          "used_for": { "type": "array" }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,4437 @@
+{
+  "schema_version": "site-presentation-v1",
+  "source": {
+    "site": "https://alrusa.by/",
+    "brand": "ООО \"СТО Алруса\"",
+    "retrieved_at": "2026-10-26",
+    "source_urls": [
+      "https://alrusa.by/",
+      "https://alrusa.by/peskostrui/",
+      "https://alrusa.by/uslugi-sto/",
+      "https://alrusa.by/welding/",
+      "https://alrusa.by/contacts/",
+      "https://alrusa.by/raboty/",
+      "https://alrusa.by/%D0%9F%D0%B0%D1%80%D1%82%D0%BD%D1%91%D1%80%D1%8B/"
+    ]
+  },
+  "metadata": {
+    "source_site": "https://alrusa.by/",
+    "brand": "ООО \"СТО Алруса\"",
+    "retrieved_at": "2026-10-26",
+    "notes": [
+      "Claims and guarantees are statements by the source site.",
+      "BYN: рубли на сайте компании из Беларуси; ISO-код валюты на странице не указан.",
+      "Оба датированных прайса сохранены в price_schedules; в сравнении только действующий на дату сбора.",
+      "Расхождение источников: цены пескоструйной обработки и доплаты на главной и /peskostrui/ различаются; предложения сохранены отдельно с исходными URL.",
+      "НИЖНЯЯ ЧАСТЬ, премиум/коммерческий транспорт, ремонт ходовой и сварочные работы: числовые цены не опубликованы; prices: [].",
+      "Прайс антикоррозийной обработки указан без пескоструйной очистки. Доплаты и выезд не включены в базовую цену.",
+      "Часы работы не найдены; сайт ограничивает прием автомобилей после обработки неизвестными составами."
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://alrusa.by/",
+      "fetched_at": "2026-10-26T18:19:24.915Z",
+      "used_for": [
+        "Антикоррозийная обработка | СТО \"Алруса\" в Гродно"
+      ]
+    },
+    {
+      "url": "https://alrusa.by/peskostrui/",
+      "fetched_at": "2026-10-26T18:19:30.460Z",
+      "used_for": [
+        "Пескоструйная обработка"
+      ]
+    },
+    {
+      "url": "https://alrusa.by/uslugi-sto/",
+      "fetched_at": "2026-10-26T18:19:35.963Z",
+      "used_for": [
+        "Услуги СТО \"Алруса\" в Гродно"
+      ]
+    },
+    {
+      "url": "https://alrusa.by/welding/",
+      "fetched_at": "2026-10-26T18:19:41.748Z",
+      "used_for": [
+        "Сварочные работы"
+      ]
+    },
+    {
+      "url": "https://alrusa.by/contacts/",
+      "fetched_at": "2026-10-26T18:19:47.580Z",
+      "used_for": [
+        "Контакты СТО \"Алруса\" в Гродно"
+      ]
+    },
+    {
+      "url": "https://alrusa.by/raboty/",
+      "fetched_at": "2026-10-26T18:19:53.372Z",
+      "used_for": [
+        "Выполненные работы на СТО \"Алруса\""
+      ]
+    },
+    {
+      "url": "https://alrusa.by/%D0%9F%D0%B0%D1%80%D1%82%D0%BD%D1%91%D1%80%D1%8B/",
+      "fetched_at": "2026-10-26T18:19:59.239Z",
+      "used_for": [
+        "Партнёры"
+      ]
+    }
+  ],
+  "content": {
+    "company": {
+      "name": "ООО \"СТО Алруса\"",
+      "website": "https://alrusa.by/",
+      "country": "BY",
+      "locations": [
+        {
+          "city": "Гродно",
+          "address": "г. Гродно, ул. Аульская, 34",
+          "phones": [
+            "+375 29 218-75-99",
+            "+375 (33) 694-62-32"
+          ]
+        }
+      ],
+      "contacts": {
+        "phones": [
+          "+375 29 218-75-99",
+          "+375 (33) 694-62-32"
+        ],
+        "emails": [
+          "alrusa.grodno@gmail.com"
+        ]
+      },
+      "registration": {
+        "legal_name_original": "ООО \"СТО Алруса\"",
+        "unp_original": "УНП 590888303",
+        "source_url": "https://alrusa.by/contacts/"
+      },
+      "contact_evidence": {
+        "source_url": "https://alrusa.by/contacts/",
+        "text": "Центр антикоррозийной защиты\n\nв Гродно\n\nИнформация и все права защищены. Любое копирование преследуется по закону.\n\n+375 (29) 218-75-99\n  +375 (33) 694-62-32\n\n(Сварочные работы)\n\nг. Гродно, ул. Аульская, 34 (схема проезда)\n\n(только Viber|WhatsApp)\n\nАнтикоррозийная обработка\nПескоструйная обработка\nУслуги СТО\nСварочные работы\nНаши работы\nПартнёры\nКонтакты\n СТО \"Алруса\" в Гродно: +375 29 218-75-99\n\nНаш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nТел. +375 (29) 218-75-99 (только Viber/Whatsapp)\n\n        +375 (33) 694-62-32\n\n \n\n \n\nE-mail: alrusa.grodno@gmail.com\n\nКонтакты\nКак к нам доехать?\n\nВы двигаетесь по направлению от ОАО \"Гродно Азот\" в сторону д. Аульс:\n\n© 2022 alrusa.by\n\nООО \"СТО Алруса\"\n\nУНП 590888303\n\nАнтикоррозийная обработка\nУслуги СТО\nКонтакты"
+      }
+    },
+    "services": [
+      {
+        "id": "full-treatment",
+        "category": "anticorrosion",
+        "name_original": "Полная обработка",
+        "description": "В категорию ПОЛНАЯ ОБРАБОТКА входит покрытие материалами Динитрол днища, порогов изнутри, колесных арок, капота, крышки багажника, нижней части дверей изнутри, покрытие днища и колесных арок дополнительной антигравийной и шумоизоляционной защитой Динитрол 479 (\"жидкие подкрылки\")",
+        "url": "https://alrusa.by/",
+        "prices": [
+          {
+            "vehicle_type_id": "vehicle-1",
+            "price": 900,
+            "price_min": null,
+            "price_max": null,
+            "price_text_original": "900 руб.",
+            "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+          },
+          {
+            "vehicle_type_id": "vehicle-2",
+            "price": 950,
+            "price_min": null,
+            "price_max": null,
+            "price_text_original": "950 руб.",
+            "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+          },
+          {
+            "vehicle_type_id": "vehicle-3",
+            "price": 1000,
+            "price_min": null,
+            "price_max": null,
+            "price_text_original": "1000 руб.",
+            "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+          },
+          {
+            "vehicle_type_id": "vehicle-4",
+            "price": 1000,
+            "price_min": null,
+            "price_max": null,
+            "price_text_original": "1000 руб.",
+            "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+          },
+          {
+            "vehicle_type_id": "vehicle-5",
+            "price": 1030,
+            "price_min": null,
+            "price_max": null,
+            "price_text_original": "1030 руб.",
+            "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+          },
+          {
+            "vehicle_type_id": "vehicle-6",
+            "price": 1350,
+            "price_min": null,
+            "price_max": null,
+            "price_text_original": "1350 руб.",
+            "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+          },
+          {
+            "vehicle_type_id": "vehicle-7",
+            "price": null,
+            "price_min": 1650,
+            "price_max": null,
+            "price_text_original": "от 1650 руб.",
+            "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+          },
+          {
+            "vehicle_type_id": "vehicle-8",
+            "price": null,
+            "price_min": 1950,
+            "price_max": null,
+            "price_text_original": "от 1950 руб.",
+            "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+          }
+        ],
+        "completion_time": {
+          "min": 3,
+          "max": 10,
+          "unit": "days",
+          "text_original": "от 3 до 10 рабочих дней"
+        }
+      },
+      {
+        "id": "lower-treatment",
+        "category": "anticorrosion",
+        "name_original": "НИЖНЯЯ ЧАСТЬ",
+        "description": "В категорию НИЖНЯЯ ЧАСТЬ входит покрытие днища, колесных арок, порогов автомобиля материалами Динитрол, а также дополнительной антигравийной и шумоизоляционной защитой Динитрол 479. Пороги изнутри обрабатываются жидким материалом Динитрол",
+        "url": "https://alrusa.by/",
+        "prices": []
+      },
+      {
+        "id": "premium-commercial",
+        "category": "anticorrosion",
+        "name_original": "Автомобили премиум-класса и коммерческий транспорт",
+        "description": "Автомобили премиум-класса и коммерческий транспорт: Цена договорная",
+        "url": "https://alrusa.by/",
+        "prices": []
+      },
+      {
+        "id": "home-blasting",
+        "category": "anticorrosion",
+        "name_original": "Беспылевая пескоструйная обработка (удаление рыхлой ржавчины) поврежденных коррозией участков",
+        "description": "Стоимость на период с 01.09. по 31.12.2026 г. Точная стоимость пескоструйной обработки только после осмотра автомобиля. За поврежденные участки; точная единица не указана.",
+        "url": "https://alrusa.by/",
+        "prices": [
+          {
+            "vehicle_type_id": "any",
+            "price": null,
+            "price_min": 300,
+            "price_max": 1000,
+            "price_text_original": "от 300 до 1000 руб.",
+            "notes": "Стоимость на период с 01.09. по 31.12.2026 г. Точная стоимость пескоструйной обработки только после осмотра автомобиля. За поврежденные участки; точная единица не указана."
+          }
+        ]
+      },
+      {
+        "id": "home-disassembly",
+        "category": "additional",
+        "name_original": "Доплата по согласованию с заказчиком за конструктивную сложность разборочно сборочных работ (в особенности новых автомобилей) нижней части автомобиля",
+        "description": "Стоимость на период с 01.09. по 31.12.2026 г. Точная стоимость пескоструйной обработки только после осмотра автомобиля. Доплата, по согласованию с заказчиком.",
+        "url": "https://alrusa.by/",
+        "prices": [
+          {
+            "vehicle_type_id": "any",
+            "price": null,
+            "price_min": 250,
+            "price_max": 300,
+            "price_text_original": "от 250 до 300 рублей",
+            "notes": "Стоимость на период с 01.09. по 31.12.2026 г. Точная стоимость пескоструйной обработки только после осмотра автомобиля. Доплата, по согласованию с заказчиком."
+          }
+        ]
+      },
+      {
+        "id": "sand-blasting",
+        "category": "anticorrosion",
+        "name_original": "Беспылевая пескоструйная обработка (удаление рыхлой ржавчины) поврежденных коррозией участков",
+        "description": "Точная стоимость пескоструйной обработки только после осмотра автомобиля. За поврежденные участки; точная единица не указана.",
+        "url": "https://alrusa.by/peskostrui/",
+        "prices": [
+          {
+            "vehicle_type_id": "any",
+            "price": null,
+            "price_min": 200,
+            "price_max": 900,
+            "price_text_original": "от 200 до 900 руб.",
+            "notes": "Точная стоимость пескоструйной обработки только после осмотра автомобиля. За поврежденные участки; точная единица не указана."
+          }
+        ]
+      },
+      {
+        "id": "sand-disassembly",
+        "category": "additional",
+        "name_original": "Доплата по согласованию с заказчиком за конструктивную сложность разборочно сборочных работ (в особенности новых автомобилей) нижней части автомобиля",
+        "description": "Точная стоимость пескоструйной обработки только после осмотра автомобиля. Доплата, по согласованию с заказчиком.",
+        "url": "https://alrusa.by/peskostrui/",
+        "prices": [
+          {
+            "vehicle_type_id": "any",
+            "price": null,
+            "price_min": 150,
+            "price_max": 200,
+            "price_text_original": "от 150 до 200 рублей",
+            "notes": "Точная стоимость пескоструйной обработки только после осмотра автомобиля. Доплата, по согласованию с заказчиком."
+          }
+        ]
+      },
+      {
+        "id": "mobile-visit",
+        "category": "additional",
+        "name_original": "Пескоструйная обработка с выездом к клиенту",
+        "description": "Выезд в пределах городской черты; цена выезда, не полная стоимость обработки.",
+        "url": "https://alrusa.by/peskostrui/",
+        "prices": [
+          {
+            "vehicle_type_id": "any",
+            "price": null,
+            "price_min": 80,
+            "price_max": 120,
+            "price_text_original": "от 80 до 120 руб.",
+            "notes": "За выезд в пределах городской черты."
+          }
+        ]
+      },
+      {
+        "id": "diagnostics-1",
+        "category": "additional",
+        "name_original": "Без демонтажа частей автомобиля.",
+        "description": "ДИАГНОСТИКА НА ПРЕДМЕТ ОБРАБОТКИ. При дальнейшей обработке на территории ООО \"СТО Алруса\" стоимость диагностики входит в общую стоимость обработки.",
+        "url": "https://alrusa.by/",
+        "prices": [
+          {
+            "vehicle_type_id": "any",
+            "price": 30,
+            "price_min": null,
+            "price_max": null,
+            "price_text_original": "30 рублей",
+            "notes": "За диагностику; при дальнейшей обработке входит в общую стоимость."
+          }
+        ],
+        "completion_time": {
+          "max": 20,
+          "unit": "minutes",
+          "text_original": "не более 20 минут"
+        }
+      },
+      {
+        "id": "diagnostics-2",
+        "category": "additional",
+        "name_original": "С частичным демонтажем частей автомобиля.",
+        "description": "ДИАГНОСТИКА НА ПРЕДМЕТ ОБРАБОТКИ. При дальнейшей обработке на территории ООО \"СТО Алруса\" стоимость диагностики входит в общую стоимость обработки.",
+        "url": "https://alrusa.by/",
+        "prices": [
+          {
+            "vehicle_type_id": "any",
+            "price": 100,
+            "price_min": null,
+            "price_max": null,
+            "price_text_original": "100 рублей",
+            "notes": "За диагностику; при дальнейшей обработке входит в общую стоимость."
+          }
+        ],
+        "completion_time": {
+          "max": 60,
+          "unit": "minutes",
+          "text_original": "не более 60 минут"
+        }
+      },
+      {
+        "id": "running-gear",
+        "category": "additional",
+        "name_original": "Ремонт ходовой части",
+        "description": "Числовые цены на странице услуг СТО отсутствуют.",
+        "url": "https://alrusa.by/uslugi-sto/",
+        "prices": []
+      },
+      {
+        "id": "welding-1",
+        "category": "additional",
+        "name_original": "ПЕРЕВАРКА ПОРОГА (ПОРОГОВ)",
+        "description": "Хотите узнать стоимость работ сейчас? Присылайте фото: Viber +375 33 694-62-32",
+        "url": "https://alrusa.by/welding/",
+        "prices": []
+      },
+      {
+        "id": "welding-2",
+        "category": "additional",
+        "name_original": "ПЕРЕВАРКА АРКИ (АРОК)",
+        "description": "Хотите узнать стоимость работ сейчас? Присылайте фото: Viber +375 33 694-62-32",
+        "url": "https://alrusa.by/welding/",
+        "prices": []
+      },
+      {
+        "id": "welding-3",
+        "category": "additional",
+        "name_original": "ПЕРЕВАРКА ДНИЩА",
+        "description": "Хотите узнать стоимость работ сейчас? Присылайте фото: Viber +375 33 694-62-32",
+        "url": "https://alrusa.by/welding/",
+        "prices": []
+      },
+      {
+        "id": "welding-4",
+        "category": "additional",
+        "name_original": "ПОСТАВИТЬ ЛАТКУ",
+        "description": "Хотите узнать стоимость работ сейчас? Присылайте фото: Viber +375 33 694-62-32",
+        "url": "https://alrusa.by/welding/",
+        "prices": []
+      }
+    ],
+    "vehicle_types": [
+      {
+        "id": "vehicle-1",
+        "name_original": "Легковые автомобили (седан/универсал/хэтчбек) до 4 метров.",
+        "class": "small"
+      },
+      {
+        "id": "vehicle-2",
+        "name_original": "Кроссовер от 4 до 4,25 метра.",
+        "class": "crossover"
+      },
+      {
+        "id": "vehicle-3",
+        "name_original": "Минивен от 4,25 до 4,5 метра",
+        "class": "minivan"
+      },
+      {
+        "id": "vehicle-4",
+        "name_original": "Внедорожники до 4,5 метра",
+        "class": "suv"
+      },
+      {
+        "id": "vehicle-5",
+        "name_original": "Внедорожники более 4,5 метра",
+        "class": "suv"
+      },
+      {
+        "id": "vehicle-6",
+        "name_original": "Рамные внедорожники",
+        "class": "suv"
+      },
+      {
+        "id": "vehicle-7",
+        "name_original": "Микроавтобус до 5 метров.",
+        "class": "van"
+      },
+      {
+        "id": "vehicle-8",
+        "name_original": "Микроавтобусы длиной более 5 метров.",
+        "class": "van"
+      },
+      {
+        "id": "any",
+        "name_original": "любыми типами автомобилей",
+        "class": "any"
+      },
+      {
+        "id": "premium-commercial",
+        "name_original": "Автомобили премиум-класса и коммерческий транспорт",
+        "class": "other"
+      }
+    ],
+    "currency": "BYN",
+    "price_schedules": [
+      {
+        "label": "Стоимость на период с 01.09. по 31.12.2026 г.",
+        "valid_from": "2026-09-01",
+        "valid_through": "2026-12-31",
+        "source_url": "https://alrusa.by/",
+        "source_selector": "#a19f66482a5e00bd893276f66bdfe6ce",
+        "heading_selector": "#a19f664c052400e1295213c80d20e000",
+        "text_original": "1. Легковые автомобили (седан/универсал/хэтчбек)\n\n    до 4 метров.\n\n    Полная обработка - 900 руб.\n\n \n\n2. Кроссовер от 4 до 4,25 метра.\n\n    Полная обработка - 950 руб.\n\n \n\n3. Минивен от 4,25 до 4,5 метра\n\n    Полная обработка - 1000 руб.\n\n \n\n4. Внедорожники до 4,5 метра\n\n    Полная обработка - 1000 руб. \n\n \n\n5. Внедорожники более 4,5 метра\n\n    Полная обработка - 1030 руб. \n\n \n\n6. Рамные внедорожники\n\n    Полная обработка - 1350 руб. \n\n \n\n7. Микроавтобус до 5 метров.\n\n    Полная обработка -  от 1650 руб. \n\n \n\n8. Микроавтобусы длиной более 5 метров.\n\n    Полная обработка - от 1950 руб.\n\n \n\n9. Автомобили премиум-класса и коммерческий транспорт: Цена договорная\n\n \n\n10. Беспылевая пескоструйная обработка (удаление рыхлой ржавчины) поврежденных коррозией участков: \n\nот 300 до 1000 руб.\n\n \n\nДоплата по согласованию с заказчиком за конструктивную сложность разборочно сборочных работ (в особенности новых автомобилей) нижней части автомобиля: от 250 до 300 рублей.\n\n \n\nТочная стоимость пескоструйной обработки только после осмотра автомобиля.",
+        "rows": [
+          {
+            "vehicle_type_id": "vehicle-1",
+            "name_original": "Легковые автомобили (седан/универсал/хэтчбек) до 4 метров.",
+            "price": 900,
+            "price_min": null,
+            "price_max": null,
+            "price_text_original": "900 руб."
+          },
+          {
+            "vehicle_type_id": "vehicle-2",
+            "name_original": "Кроссовер от 4 до 4,25 метра.",
+            "price": 950,
+            "price_min": null,
+            "price_max": null,
+            "price_text_original": "950 руб."
+          },
+          {
+            "vehicle_type_id": "vehicle-3",
+            "name_original": "Минивен от 4,25 до 4,5 метра",
+            "price": 1000,
+            "price_min": null,
+            "price_max": null,
+            "price_text_original": "1000 руб."
+          },
+          {
+            "vehicle_type_id": "vehicle-4",
+            "name_original": "Внедорожники до 4,5 метра",
+            "price": 1000,
+            "price_min": null,
+            "price_max": null,
+            "price_text_original": "1000 руб."
+          },
+          {
+            "vehicle_type_id": "vehicle-5",
+            "name_original": "Внедорожники более 4,5 метра",
+            "price": 1030,
+            "price_min": null,
+            "price_max": null,
+            "price_text_original": "1030 руб."
+          },
+          {
+            "vehicle_type_id": "vehicle-6",
+            "name_original": "Рамные внедорожники",
+            "price": 1350,
+            "price_min": null,
+            "price_max": null,
+            "price_text_original": "1350 руб."
+          },
+          {
+            "vehicle_type_id": "vehicle-7",
+            "name_original": "Микроавтобус до 5 метров.",
+            "price": null,
+            "price_min": 1650,
+            "price_max": null,
+            "price_text_original": "от 1650 руб."
+          },
+          {
+            "vehicle_type_id": "vehicle-8",
+            "name_original": "Микроавтобусы длиной более 5 метров.",
+            "price": null,
+            "price_min": 1950,
+            "price_max": null,
+            "price_text_original": "от 1950 руб."
+          }
+        ]
+      },
+      {
+        "label": "Стоимость до 01.09.2026 г.",
+        "valid_before": "2026-09-01",
+        "source_url": "https://alrusa.by/",
+        "source_selector": "#a18becd2eb5a0b37c9239c104947ea04",
+        "heading_selector": "#a19f664b026a00b18d17cb97b6e62636",
+        "text_original": "1. Легковые автомобили (седан/универсал/хэтчбек)\n\n    до 4 метров.\n\n    Полная обработка - 750 руб.\n\n \n\n2. Кроссовер от 4 до 4,25 метра.\n\n    Полная обработка - 800 руб.\n\n \n\n3. Минивен от 4,25 до 4,5 метра\n\n    Полная обработка - 850 руб.\n\n \n\n4. Внедорожники до 4,5 метра\n\n    Полная обработка - 850 руб. \n\n \n\n5. Внедорожники более 4,5 метра\n\n    Полная обработка - 880 руб. \n\n \n\n6. Рамные внедорожники\n\n    Полная обработка - 1200 руб. \n\n \n\n7. Микроавтобус до 5 метров.\n\n    Полная обработка -  от 1500 руб. \n\n \n\n8. Микроавтобусы длиной более 5 метров.\n\n    Полная обработка - от 1800 руб.\n\n \n\n9. Автомобили премиум-класса и коммерческий транспорт: Цена договорная\n\n \n\n10. Беспылевая пескоструйная обработка (удаление рыхлой ржавчины) поврежденных коррозией участков: \n\nот 300 до 1000 руб.\n\n \n\nДоплата по согласованию с заказчиком за конструктивную сложность разборочно сборочных работ (в особенности новых автомобилей) нижней части автомобиля: от 250 до 300 рублей.\n\n \n\nТочная стоимость пескоструйной обработки только после осмотра автомобиля.",
+        "rows": [
+          {
+            "vehicle_type_id": "vehicle-1",
+            "name_original": "Легковые автомобили (седан/универсал/хэтчбек) до 4 метров.",
+            "price": 750,
+            "price_min": null,
+            "price_max": null,
+            "price_text_original": "750 руб."
+          },
+          {
+            "vehicle_type_id": "vehicle-2",
+            "name_original": "Кроссовер от 4 до 4,25 метра.",
+            "price": 800,
+            "price_min": null,
+            "price_max": null,
+            "price_text_original": "800 руб."
+          },
+          {
+            "vehicle_type_id": "vehicle-3",
+            "name_original": "Минивен от 4,25 до 4,5 метра",
+            "price": 850,
+            "price_min": null,
+            "price_max": null,
+            "price_text_original": "850 руб."
+          },
+          {
+            "vehicle_type_id": "vehicle-4",
+            "name_original": "Внедорожники до 4,5 метра",
+            "price": 850,
+            "price_min": null,
+            "price_max": null,
+            "price_text_original": "850 руб."
+          },
+          {
+            "vehicle_type_id": "vehicle-5",
+            "name_original": "Внедорожники более 4,5 метра",
+            "price": 880,
+            "price_min": null,
+            "price_max": null,
+            "price_text_original": "880 руб."
+          },
+          {
+            "vehicle_type_id": "vehicle-6",
+            "name_original": "Рамные внедорожники",
+            "price": 1200,
+            "price_min": null,
+            "price_max": null,
+            "price_text_original": "1200 руб."
+          },
+          {
+            "vehicle_type_id": "vehicle-7",
+            "name_original": "Микроавтобус до 5 метров.",
+            "price": null,
+            "price_min": 1500,
+            "price_max": null,
+            "price_text_original": "от 1500 руб."
+          },
+          {
+            "vehicle_type_id": "vehicle-8",
+            "name_original": "Микроавтобусы длиной более 5 метров.",
+            "price": null,
+            "price_min": 1800,
+            "price_max": null,
+            "price_text_original": "от 1800 руб."
+          }
+        ]
+      }
+    ],
+    "price_evidence": [
+      {
+        "service_id": "full-treatment",
+        "source_url": "https://alrusa.by/",
+        "currency": "BYN",
+        "currency_text_original": "руб.",
+        "unit": "vehicle",
+        "unit_original": null,
+        "unit_basis": "Единица возле суммы не напечатана; для полной обработки и выезда определяется контекстом услуги.",
+        "vehicle_type_id": "vehicle-1",
+        "price": 900,
+        "price_min": null,
+        "price_max": null,
+        "price_text_original": "900 руб.",
+        "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+      },
+      {
+        "service_id": "full-treatment",
+        "source_url": "https://alrusa.by/",
+        "currency": "BYN",
+        "currency_text_original": "руб.",
+        "unit": "vehicle",
+        "unit_original": null,
+        "unit_basis": "Единица возле суммы не напечатана; для полной обработки и выезда определяется контекстом услуги.",
+        "vehicle_type_id": "vehicle-2",
+        "price": 950,
+        "price_min": null,
+        "price_max": null,
+        "price_text_original": "950 руб.",
+        "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+      },
+      {
+        "service_id": "full-treatment",
+        "source_url": "https://alrusa.by/",
+        "currency": "BYN",
+        "currency_text_original": "руб.",
+        "unit": "vehicle",
+        "unit_original": null,
+        "unit_basis": "Единица возле суммы не напечатана; для полной обработки и выезда определяется контекстом услуги.",
+        "vehicle_type_id": "vehicle-3",
+        "price": 1000,
+        "price_min": null,
+        "price_max": null,
+        "price_text_original": "1000 руб.",
+        "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+      },
+      {
+        "service_id": "full-treatment",
+        "source_url": "https://alrusa.by/",
+        "currency": "BYN",
+        "currency_text_original": "руб.",
+        "unit": "vehicle",
+        "unit_original": null,
+        "unit_basis": "Единица возле суммы не напечатана; для полной обработки и выезда определяется контекстом услуги.",
+        "vehicle_type_id": "vehicle-4",
+        "price": 1000,
+        "price_min": null,
+        "price_max": null,
+        "price_text_original": "1000 руб.",
+        "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+      },
+      {
+        "service_id": "full-treatment",
+        "source_url": "https://alrusa.by/",
+        "currency": "BYN",
+        "currency_text_original": "руб.",
+        "unit": "vehicle",
+        "unit_original": null,
+        "unit_basis": "Единица возле суммы не напечатана; для полной обработки и выезда определяется контекстом услуги.",
+        "vehicle_type_id": "vehicle-5",
+        "price": 1030,
+        "price_min": null,
+        "price_max": null,
+        "price_text_original": "1030 руб.",
+        "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+      },
+      {
+        "service_id": "full-treatment",
+        "source_url": "https://alrusa.by/",
+        "currency": "BYN",
+        "currency_text_original": "руб.",
+        "unit": "vehicle",
+        "unit_original": null,
+        "unit_basis": "Единица возле суммы не напечатана; для полной обработки и выезда определяется контекстом услуги.",
+        "vehicle_type_id": "vehicle-6",
+        "price": 1350,
+        "price_min": null,
+        "price_max": null,
+        "price_text_original": "1350 руб.",
+        "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+      },
+      {
+        "service_id": "full-treatment",
+        "source_url": "https://alrusa.by/",
+        "currency": "BYN",
+        "currency_text_original": "руб.",
+        "unit": "vehicle",
+        "unit_original": null,
+        "unit_basis": "Единица возле суммы не напечатана; для полной обработки и выезда определяется контекстом услуги.",
+        "vehicle_type_id": "vehicle-7",
+        "price": null,
+        "price_min": 1650,
+        "price_max": null,
+        "price_text_original": "от 1650 руб.",
+        "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+      },
+      {
+        "service_id": "full-treatment",
+        "source_url": "https://alrusa.by/",
+        "currency": "BYN",
+        "currency_text_original": "руб.",
+        "unit": "vehicle",
+        "unit_original": null,
+        "unit_basis": "Единица возле суммы не напечатана; для полной обработки и выезда определяется контекстом услуги.",
+        "vehicle_type_id": "vehicle-8",
+        "price": null,
+        "price_min": 1950,
+        "price_max": null,
+        "price_text_original": "от 1950 руб.",
+        "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+      },
+      {
+        "service_id": "home-blasting",
+        "source_url": "https://alrusa.by/",
+        "currency": "BYN",
+        "currency_text_original": "руб.",
+        "unit": null,
+        "unit_original": null,
+        "unit_basis": "Единица возле суммы не напечатана; для полной обработки и выезда определяется контекстом услуги.",
+        "vehicle_type_id": "any",
+        "price": null,
+        "price_min": 300,
+        "price_max": 1000,
+        "price_text_original": "от 300 до 1000 руб.",
+        "notes": "Стоимость на период с 01.09. по 31.12.2026 г. Точная стоимость пескоструйной обработки только после осмотра автомобиля. За поврежденные участки; точная единица не указана."
+      },
+      {
+        "service_id": "home-disassembly",
+        "source_url": "https://alrusa.by/",
+        "currency": "BYN",
+        "currency_text_original": "рублей",
+        "unit": null,
+        "unit_original": null,
+        "unit_basis": "Единица возле суммы не напечатана; для полной обработки и выезда определяется контекстом услуги.",
+        "vehicle_type_id": "any",
+        "price": null,
+        "price_min": 250,
+        "price_max": 300,
+        "price_text_original": "от 250 до 300 рублей",
+        "notes": "Стоимость на период с 01.09. по 31.12.2026 г. Точная стоимость пескоструйной обработки только после осмотра автомобиля. Доплата, по согласованию с заказчиком."
+      },
+      {
+        "service_id": "sand-blasting",
+        "source_url": "https://alrusa.by/peskostrui/",
+        "currency": "BYN",
+        "currency_text_original": "руб.",
+        "unit": null,
+        "unit_original": null,
+        "unit_basis": "Единица возле суммы не напечатана; для полной обработки и выезда определяется контекстом услуги.",
+        "vehicle_type_id": "any",
+        "price": null,
+        "price_min": 200,
+        "price_max": 900,
+        "price_text_original": "от 200 до 900 руб.",
+        "notes": "Точная стоимость пескоструйной обработки только после осмотра автомобиля. За поврежденные участки; точная единица не указана."
+      },
+      {
+        "service_id": "sand-disassembly",
+        "source_url": "https://alrusa.by/peskostrui/",
+        "currency": "BYN",
+        "currency_text_original": "рублей",
+        "unit": null,
+        "unit_original": null,
+        "unit_basis": "Единица возле суммы не напечатана; для полной обработки и выезда определяется контекстом услуги.",
+        "vehicle_type_id": "any",
+        "price": null,
+        "price_min": 150,
+        "price_max": 200,
+        "price_text_original": "от 150 до 200 рублей",
+        "notes": "Точная стоимость пескоструйной обработки только после осмотра автомобиля. Доплата, по согласованию с заказчиком."
+      },
+      {
+        "service_id": "mobile-visit",
+        "source_url": "https://alrusa.by/peskostrui/",
+        "currency": "BYN",
+        "currency_text_original": "руб.",
+        "unit": "visit",
+        "unit_original": null,
+        "unit_basis": "Единица возле суммы не напечатана; для полной обработки и выезда определяется контекстом услуги.",
+        "vehicle_type_id": "any",
+        "price": null,
+        "price_min": 80,
+        "price_max": 120,
+        "price_text_original": "от 80 до 120 руб.",
+        "notes": "За выезд в пределах городской черты."
+      },
+      {
+        "service_id": "diagnostics-1",
+        "source_url": "https://alrusa.by/",
+        "currency": "BYN",
+        "currency_text_original": "рублей",
+        "unit": null,
+        "unit_original": null,
+        "unit_basis": "Единица возле суммы не напечатана; для полной обработки и выезда определяется контекстом услуги.",
+        "vehicle_type_id": "any",
+        "price": 30,
+        "price_min": null,
+        "price_max": null,
+        "price_text_original": "30 рублей",
+        "notes": "За диагностику; при дальнейшей обработке входит в общую стоимость."
+      },
+      {
+        "service_id": "diagnostics-2",
+        "source_url": "https://alrusa.by/",
+        "currency": "BYN",
+        "currency_text_original": "рублей",
+        "unit": null,
+        "unit_original": null,
+        "unit_basis": "Единица возле суммы не напечатана; для полной обработки и выезда определяется контекстом услуги.",
+        "vehicle_type_id": "any",
+        "price": 100,
+        "price_min": null,
+        "price_max": null,
+        "price_text_original": "100 рублей",
+        "notes": "За диагностику; при дальнейшей обработке входит в общую стоимость."
+      }
+    ],
+    "technology_and_materials": [
+      {
+        "text": "Работаем с оригинальными материалами шведской марки \"Динитрол\" - №1 на рынке антикоррозийных покрытий.",
+        "source_url": "https://alrusa.by/"
+      },
+      {
+        "text": "Подготовка: снятие подкрылков и элементов защиты днища. Мойка, обезжиривание.",
+        "source_url": "https://alrusa.by/"
+      },
+      {
+        "text": "Удаление очагов коррозии пескоструйным оборудованием. Блокирование коррозии ингибиторами.",
+        "source_url": "https://alrusa.by/"
+      },
+      {
+        "text": "Обработка внутренних полостей кузова и навесных элементов жидкими материалами Динитрол. Нанесение антикоррозийных покрытий на днище и колесные арки автомобиля.",
+        "source_url": "https://alrusa.by/"
+      },
+      {
+        "text": "Нанесение шумоизоляционных материалов на основе синтетической резины.",
+        "source_url": "https://alrusa.by/"
+      },
+      {
+        "text": "Установка подкрылков и других деталей на место.",
+        "source_url": "https://alrusa.by/"
+      },
+      {
+        "text": "Покрываем днище и колесные арки противошумным материалом на основе синтетической жидкой резины.",
+        "source_url": "https://alrusa.by/"
+      },
+      {
+        "text": "В категорию ПОЛНАЯ ОБРАБОТКА входит покрытие материалами Динитрол днища, порогов изнутри, колесных арок, капота, крышки багажника, нижней части дверей изнутри, покрытие днища и колесных арок дополнительной антигравийной и шумоизоляционной защитой Динитрол 479 (\"жидкие подкрылки\")",
+        "source_url": "https://alrusa.by/"
+      },
+      {
+        "text": "В категорию НИЖНЯЯ ЧАСТЬ входит покрытие днища, колесных арок, порогов автомобиля материалами Динитрол, а также дополнительной антигравийной и шумоизоляционной защитой Динитрол 479. Пороги изнутри обрабатываются жидким материалом Динитрол",
+        "source_url": "https://alrusa.by/"
+      },
+      {
+        "text": "Все работы проводятся согласно технологии Динитрол.",
+        "source_url": "https://alrusa.by/"
+      },
+      {
+        "text": "Обработка элементов кузова, нанесение антикоррозионных покрытий \"Динитрол\" на колесные арки, днище, скрытые элементы и полости кузова.",
+        "source_url": "https://alrusa.by/raboty/"
+      },
+      {
+        "text": "Сушка поверхностей и установка подкрылков и других деталей на место.",
+        "source_url": "https://alrusa.by/raboty/"
+      }
+    ],
+    "site_claims": [
+      {
+        "text": "Гарантийный талон на ежегодное бесплатное обслуживание",
+        "source_url": "https://alrusa.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Выдаём юридически заверенную гарантию на все обработанные автомобили независимо от возраста и состояния.",
+        "source_url": "https://alrusa.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Работаем с оригинальными материалами шведской марки \"Динитрол\" - №1 на рынке антикоррозийных покрытий.",
+        "source_url": "https://alrusa.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Наши преимущества",
+        "source_url": "https://alrusa.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "ГАРАНТИЯ НА ВЫПОЛНЕННЫЕ РАБОТЫ: ОТ 2 ДО 15 лет",
+        "source_url": "https://alrusa.by/",
+        "verification": "site_claim"
+      }
+    ],
+    "conditions": [
+      {
+        "text": "Гарантийный талон на ежегодное бесплатное обслуживание",
+        "source_url": "https://alrusa.by/"
+      },
+      {
+        "text": "НЕ ПРИНИМАЕМ АВТОМОБИЛИ ПОСЛЕ ОБРАБОТКИ ПУШСАЛОМ, ОТРАБОТКОЙ, МАЗУТОМ И ПРОЧИМИ НЕИЗВЕСТНЫМИ СОСТАВАМИ!",
+        "source_url": "https://alrusa.by/"
+      },
+      {
+        "text": "При дальнейшей обработке на территории ООО \"СТО Алруса\" стоимость диагностики входит в общую стоимость обработки.",
+        "source_url": "https://alrusa.by/"
+      },
+      {
+        "text": "Доплата по согласованию с заказчиком за конструктивную сложность разборочно сборочных работ (в особенности новых автомобилей) нижней части автомобиля: от 250 до 300 рублей.",
+        "source_url": "https://alrusa.by/"
+      },
+      {
+        "text": "Точная стоимость пескоструйной обработки только после осмотра автомобиля.",
+        "source_url": "https://alrusa.by/"
+      },
+      {
+        "text": "Доплата по согласованию с заказчиком за конструктивную сложность разборочно сборочных работ (в особенности новых автомобилей) нижней части автомобиля: от 150 до 200 рублей.",
+        "source_url": "https://alrusa.by/peskostrui/"
+      },
+      {
+        "text": "Точная стоимость пескоструйной обработки только после осмотра автомобиля.",
+        "source_url": "https://alrusa.by/peskostrui/"
+      }
+    ],
+    "pages": [
+      {
+        "url": "https://alrusa.by/",
+        "title": "Антикоррозийная обработка | СТО \"Алруса\" в Гродно",
+        "description": "Профессиональная защита автомобиля от коррозии. Сертифицированные материалы \"Dinitrol\". Тел. +375 (29) 218-75-99",
+        "headings": [
+          {
+            "level": 3,
+            "text": "+375 (29) 218-75-99"
+          },
+          {
+            "level": 3,
+            "text": "+375 (33) 694-62-32"
+          },
+          {
+            "level": 3,
+            "text": "Звоните нам: +375 (29) 218-75-99"
+          },
+          {
+            "level": 2,
+            "text": "Что включает в себя антикоррозийная обработка?"
+          },
+          {
+            "level": 2,
+            "text": "Почему стоит сделать обработку?"
+          },
+          {
+            "level": 2,
+            "text": "Итого:"
+          },
+          {
+            "level": 2,
+            "text": "Контакты"
+          },
+          {
+            "level": 2,
+            "text": "Стоимость антикоррозийной обработки"
+          },
+          {
+            "level": 1,
+            "text": "Наши преимущества"
+          },
+          {
+            "level": 3,
+            "text": "1) Можем проводить работы в зимнее время (наличие мощной тепловой пушки)"
+          },
+          {
+            "level": 3,
+            "text": "2) В стоимость работ входит БЕСПЛАТНОЕ нанесение шумоизоляционного материала на основе синтетической резины"
+          },
+          {
+            "level": 3,
+            "text": "3) Проводим работы с любыми типами автомобилей, включая крупногабаритные коммерческие"
+          },
+          {
+            "level": 2,
+            "text": "5) Ваш автомобиль будет находиться на закрытой охраняемой территории под круглосуточным видеонаблюдением"
+          },
+          {
+            "level": 3,
+            "text": "4) Мощная мобильная пескоструйная установка"
+          },
+          {
+            "level": 1,
+            "text": "ТОЛЬКО МЫ:"
+          },
+          {
+            "level": 3,
+            "text": "СТО \"Алруса\" в Гродно: +375 29 218-75-99"
+          },
+          {
+            "level": 3,
+            "text": "Cрок выполнения полной обработки:"
+          },
+          {
+            "level": 3,
+            "text": "от 3 до 10 рабочих дней"
+          },
+          {
+            "level": 3,
+            "text": "ГАРАНТИЯ НА ВЫПОЛНЕННЫЕ РАБОТЫ:"
+          },
+          {
+            "level": 3,
+            "text": "ОТ 2 ДО 15 лет"
+          }
+        ],
+        "text": "Центр антикоррозийной защиты\n\nв Гродно\n\nИнформация и все права защищены. Любое копирование преследуется по закону.\n\n+375 (29) 218-75-99\n  +375 (33) 694-62-32\n\n(Сварочные работы)\n\nг. Гродно, ул. Аульская, 34 (схема проезда)\n\n(только Viber|WhatsApp)\n\nАнтикоррозийная обработка\nПескоструйная обработка\nУслуги СТО\nСварочные работы\nНаши работы\nПартнёры\nКонтакты\nЗвоните нам: +375 (29) 218-75-99\n Профессиональная защита авто от коррозии в Гродно \n\nРаботаем с оригинальными материалами\nшведской марки \"Динитрол\" - №1 на рынке антикоррозийных покрытий.\n\nЧто включает в себя антикоррозийная обработка?\n\nПодготовка: снятие подкрылков и элементов защиты днища. Мойка, обезжиривание.\n \n\nУдаление очагов коррозии пескоструйным оборудованием. Блокирование коррозии ингибиторами.\n \n\nОбработка внутренних полостей кузова и навесных элементов жидкими материалами Динитрол. Нанесение антикоррозийных покрытий на днище и колесные арки автомобиля.\n \n\nНанесение шумоизоляционных материалов на основе синтетической резины.\n \n\nСушка поверхностей.\n \n\nУстановка подкрылков и других деталей на место.\n\nПочему стоит сделать обработку?\n\nСкорее всего Вы не раз слышали, а возможно и сами уже столкнулись с тем, что кузова современных автомобилей очень сильно подвержены коррозии.\n\n \n\nАвтопроизводители твердо намерены продавать всё больше и чаще. Долговечность автомобиля и его кузова сейчас не является приоритетом. А \"мягкая\" белорусская погода и условия обработки дорог лишь усугубляют ситуацию.\n\n \n\nОчаги коррозии и ржавые подтеки проявляются даже на новых автомобилях уже после 1 (одного!) года эксплуатации. \n\nПримерно на столько хватает заводской защитной обработки.\n\nУлучшенная шумоизоляция\n\nПолная экономия на кузовных работах\n\nПовышенный срок службы подвески и ходовой части\n\nКомплексная обработка автомобиля от ржавчины защищает кузов от преждевременного износа силовых элементов, продлевает срок его службы, сохраняет его ликвидность.\n\nИтого:\n\nГарантийный талон на ежегодное бесплатное обслуживание\n\nНаш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nСхема проезда\n\n \n\nТел. +375 (29) 218-75-99 (только viber/whatsapp)\n\n        +375 (33) 694-62-32\n\n        \n\n       \n\n                \n\n \n\nE-mail: alrusa.grodno@gmail.com\n\nКонтакты\nБольше наших работ >>\nСтоимость антикоррозийной обработки\nМы проводим следующие этапы работ:\nНаши преимущества\n1) Можем проводить работы в зимнее время (наличие мощной тепловой пушки)\n2) В стоимость работ входит БЕСПЛАТНОЕ нанесение шумоизоляционного материала на основе синтетической резины\n3) Проводим работы с любыми типами автомобилей, включая крупногабаритные коммерческие\n5) Ваш автомобиль будет находиться на  закрытой охраняемой территории под круглосуточным видеонаблюдением\n4) Мощная мобильная пескоструйная установка\n\nДелаем антикоррозийную обработку новых автомобилей из салона.\n\n \n\nЧтобы быть уверенным в защищенности вашего авто рекомендуем посетить нас как можно раньше, не откладывая.\n\n ТОЛЬКО МЫ: \n\nCпециализируемся исключительно\nна антикоррозийной и пескоструйной обработке.\n\nПокрываем днище и колесные арки противошумным материалом\nна основе синтетической жидкой резины.\n\nВыдаём юридически заверенную гарантию\nна все обработанные автомобили независимо от возраста и состояния.\n\nВыполняем мобильную пескоструйную обработку\n\nс выездом.\n\n(без пескоструйной очистки)\n\n\n ОНЛАЙН ЗАПИСЬ\n СТО \"Алруса\" в Гродно: +375 29 218-75-99 \nCрок выполнения полной обработки:\nот 3 до 10 рабочих дней\nГАРАНТИЯ НА ВЫПОЛНЕННЫЕ РАБОТЫ:\nОТ 2 ДО 15 лет\n\nНЕ ПРИНИМАЕМ АВТОМОБИЛИ ПОСЛЕ ОБРАБОТКИ ПУШСАЛОМ, ОТРАБОТКОЙ, МАЗУТОМ И ПРОЧИМИ НЕИЗВЕСТНЫМИ СОСТАВАМИ!\n\nДИАГНОСТИКА НА ПРЕДМЕТ ОБРАБОТКИ:\n\n \n\n1) Стоимость 30 рублей - продолжительность не более 20 минут. Без демонтажа частей автомобиля.\n\n \n\n2) Стоимость 100 рублей - продолжительность не более 60 минут. С частичным демонтажем частей автомобиля.\n\n \n\nПри дальнейшей обработке на территории ООО \"СТО Алруса\" стоимость диагностики входит в общую стоимость обработки.\n\n \n\nВ категорию ПОЛНАЯ ОБРАБОТКА входит покрытие материалами Динитрол днища, порогов изнутри, колесных арок, капота, крышки багажника, нижней части дверей изнутри, покрытие днища и колесных арок дополнительной антигравийной и шумоизоляционной защитой Динитрол 479 (\"жидкие подкрылки\")\n\n \n\nВ категорию НИЖНЯЯ ЧАСТЬ входит покрытие днища, колесных арок, порогов автомобиля материалами Динитрол, а также дополнительной антигравийной и шумоизоляционной защитой Динитрол 479. Пороги изнутри обрабатываются жидким материалом Динитрол\n\n \n\nВсе работы проводятся согласно технологии Динитрол.\n\n1. Легковые автомобили (седан/универсал/хэтчбек)\n\n    до 4 метров.\n\n    Полная обработка - 900 руб.\n\n \n\n2. Кроссовер от 4 до 4,25 метра.\n\n    Полная обработка - 950 руб.\n\n \n\n3. Минивен от 4,25 до 4,5 метра\n\n    Полная обработка - 1000 руб.\n\n \n\n4. Внедорожники до 4,5 метра\n\n    Полная обработка - 1000 руб. \n\n \n\n5. Внедорожники более 4,5 метра\n\n    Полная обработка - 1030 руб. \n\n \n\n6. Рамные внедорожники\n\n    Полная обработка - 1350 руб. \n\n \n\n7. Микроавтобус до 5 метров.\n\n    Полная обработка -  от 1650 руб. \n\n \n\n8. Микроавтобусы длиной более 5 метров.\n\n    Полная обработка - от 1950 руб.\n\n \n\n9. Автомобили премиум-класса и коммерческий транспорт: Цена договорная\n\n \n\n10. Беспылевая пескоструйная обработка (удаление рыхлой ржавчины) поврежденных коррозией участков: \n\nот 300 до 1000 руб.\n\n \n\nДоплата по согласованию с заказчиком за конструктивную сложность разборочно сборочных работ (в особенности новых автомобилей) нижней части автомобиля: от 250 до 300 рублей.\n\n \n\nТочная стоимость пескоструйной обработки только после осмотра автомобиля.\n\n1. Легковые автомобили (седан/универсал/хэтчбек)\n\n    до 4 метров.\n\n    Полная обработка - 750 руб.\n\n \n\n2. Кроссовер от 4 до 4,25 метра.\n\n    Полная обработка - 800 руб.\n\n \n\n3. Минивен от 4,25 до 4,5 метра\n\n    Полная обработка - 850 руб.\n\n \n\n4. Внедорожники до 4,5 метра\n\n    Полная обработка - 850 руб. \n\n \n\n5. Внедорожники более 4,5 метра\n\n    Полная обработка - 880 руб. \n\n \n\n6. Рамные внедорожники\n\n    Полная обработка - 1200 руб. \n\n \n\n7. Микроавтобус до 5 метров.\n\n    Полная обработка -  от 1500 руб. \n\n \n\n8. Микроавтобусы длиной более 5 метров.\n\n    Полная обработка - от 1800 руб.\n\n \n\n9. Автомобили премиум-класса и коммерческий транспорт: Цена договорная\n\n \n\n10. Беспылевая пескоструйная обработка (удаление рыхлой ржавчины) поврежденных коррозией участков: \n\nот 300 до 1000 руб.\n\n \n\nДоплата по согласованию с заказчиком за конструктивную сложность разборочно сборочных работ (в особенности новых автомобилей) нижней части автомобиля: от 250 до 300 рублей.\n\n \n\nТочная стоимость пескоструйной обработки только после осмотра автомобиля.\n\nСтоимость до 01.09.2026 г.\n\nСтоимость на период с 01.09. по 31.12.2026 г.",
+        "body_text": "Центр антикоррозийной защиты\n\nв Гродно\n\nИнформация и все права защищены. Любое копирование преследуется по закону.\n\n+375 (29) 218-75-99\n  +375 (33) 694-62-32\n\n(Сварочные работы)\n\nг. Гродно, ул. Аульская, 34 (схема проезда)\n\n(только Viber|WhatsApp)\n\nАнтикоррозийная обработка\nПескоструйная обработка\nУслуги СТО\nСварочные работы\nНаши работы\nПартнёры\nКонтакты\nЗвоните нам: +375 (29) 218-75-99\n Профессиональная защита авто от коррозии в Гродно \n\nРаботаем с оригинальными материалами\nшведской марки \"Динитрол\" - №1 на рынке антикоррозийных покрытий.\n\nЧто включает в себя антикоррозийная обработка?\n\nПодготовка: снятие подкрылков и элементов защиты днища. Мойка, обезжиривание.\n \n\nУдаление очагов коррозии пескоструйным оборудованием. Блокирование коррозии ингибиторами.\n \n\nОбработка внутренних полостей кузова и навесных элементов жидкими материалами Динитрол. Нанесение антикоррозийных покрытий на днище и колесные арки автомобиля.\n \n\nНанесение шумоизоляционных материалов на основе синтетической резины.\n \n\nСушка поверхностей.\n \n\nУстановка подкрылков и других деталей на место.\n\nПочему стоит сделать обработку?\n\nСкорее всего Вы не раз слышали, а возможно и сами уже столкнулись с тем, что кузова современных автомобилей очень сильно подвержены коррозии.\n\n \n\nАвтопроизводители твердо намерены продавать всё больше и чаще. Долговечность автомобиля и его кузова сейчас не является приоритетом. А \"мягкая\" белорусская погода и условия обработки дорог лишь усугубляют ситуацию.\n\n \n\nОчаги коррозии и ржавые подтеки проявляются даже на новых автомобилях уже после 1 (одного!) года эксплуатации. \n\nПримерно на столько хватает заводской защитной обработки.\n\nУлучшенная шумоизоляция\n\nПолная экономия на кузовных работах\n\nПовышенный срок службы подвески и ходовой части\n\nКомплексная обработка автомобиля от ржавчины защищает кузов от преждевременного износа силовых элементов, продлевает срок его службы, сохраняет его ликвидность.\n\nИтого:\n\nГарантийный талон на ежегодное бесплатное обслуживание\n\nНаш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nСхема проезда\n\n \n\nТел. +375 (29) 218-75-99 (только viber/whatsapp)\n\n        +375 (33) 694-62-32\n\n        \n\n       \n\n                \n\n \n\nE-mail: alrusa.grodno@gmail.com\n\nКонтакты\nБольше наших работ >>\nСтоимость антикоррозийной обработки\nМы проводим следующие этапы работ:\nНаши преимущества\n1) Можем проводить работы в зимнее время (наличие мощной тепловой пушки)\n2) В стоимость работ входит БЕСПЛАТНОЕ нанесение шумоизоляционного материала на основе синтетической резины\n3) Проводим работы с любыми типами автомобилей, включая крупногабаритные коммерческие\n5) Ваш автомобиль будет находиться на  закрытой охраняемой территории под круглосуточным видеонаблюдением\n4) Мощная мобильная пескоструйная установка\n\nДелаем антикоррозийную обработку новых автомобилей из салона.\n\n \n\nЧтобы быть уверенным в защищенности вашего авто рекомендуем посетить нас как можно раньше, не откладывая.\n\n ТОЛЬКО МЫ: \n\nCпециализируемся исключительно\nна антикоррозийной и пескоструйной обработке.\n\nПокрываем днище и колесные арки противошумным материалом\nна основе синтетической жидкой резины.\n\nВыдаём юридически заверенную гарантию\nна все обработанные автомобили независимо от возраста и состояния.\n\nВыполняем мобильную пескоструйную обработку\n\nс выездом.\n\n(без пескоструйной очистки)\n\n\n ОНЛАЙН ЗАПИСЬ\n СТО \"Алруса\" в Гродно: +375 29 218-75-99 \nCрок выполнения полной обработки:\nот 3 до 10 рабочих дней\nГАРАНТИЯ НА ВЫПОЛНЕННЫЕ РАБОТЫ:\nОТ 2 ДО 15 лет\n\nНЕ ПРИНИМАЕМ АВТОМОБИЛИ ПОСЛЕ ОБРАБОТКИ ПУШСАЛОМ, ОТРАБОТКОЙ, МАЗУТОМ И ПРОЧИМИ НЕИЗВЕСТНЫМИ СОСТАВАМИ!\n\nДИАГНОСТИКА НА ПРЕДМЕТ ОБРАБОТКИ:\n\n \n\n1) Стоимость 30 рублей - продолжительность не более 20 минут. Без демонтажа частей автомобиля.\n\n \n\n2) Стоимость 100 рублей - продолжительность не более 60 минут. С частичным демонтажем частей автомобиля.\n\n \n\nПри дальнейшей обработке на территории ООО \"СТО Алруса\" стоимость диагностики входит в общую стоимость обработки.\n\n \n\nВ категорию ПОЛНАЯ ОБРАБОТКА входит покрытие материалами Динитрол днища, порогов изнутри, колесных арок, капота, крышки багажника, нижней части дверей изнутри, покрытие днища и колесных арок дополнительной антигравийной и шумоизоляционной защитой Динитрол 479 (\"жидкие подкрылки\")\n\n \n\nВ категорию НИЖНЯЯ ЧАСТЬ входит покрытие днища, колесных арок, порогов автомобиля материалами Динитрол, а также дополнительной антигравийной и шумоизоляционной защитой Динитрол 479. Пороги изнутри обрабатываются жидким материалом Динитрол\n\n \n\nВсе работы проводятся согласно технологии Динитрол.\n\n1. Легковые автомобили (седан/универсал/хэтчбек)\n\n    до 4 метров.\n\n    Полная обработка - 900 руб.\n\n \n\n2. Кроссовер от 4 до 4,25 метра.\n\n    Полная обработка - 950 руб.\n\n \n\n3. Минивен от 4,25 до 4,5 метра\n\n    Полная обработка - 1000 руб.\n\n \n\n4. Внедорожники до 4,5 метра\n\n    Полная обработка - 1000 руб. \n\n \n\n5. Внедорожники более 4,5 метра\n\n    Полная обработка - 1030 руб. \n\n \n\n6. Рамные внедорожники\n\n    Полная обработка - 1350 руб. \n\n \n\n7. Микроавтобус до 5 метров.\n\n    Полная обработка -  от 1650 руб. \n\n \n\n8. Микроавтобусы длиной более 5 метров.\n\n    Полная обработка - от 1950 руб.\n\n \n\n9. Автомобили премиум-класса и коммерческий транспорт: Цена договорная\n\n \n\n10. Беспылевая пескоструйная обработка (удаление рыхлой ржавчины) поврежденных коррозией участков: \n\nот 300 до 1000 руб.\n\n \n\nДоплата по согласованию с заказчиком за конструктивную сложность разборочно сборочных работ (в особенности новых автомобилей) нижней части автомобиля: от 250 до 300 рублей.\n\n \n\nТочная стоимость пескоструйной обработки только после осмотра автомобиля.\n\n1. Легковые автомобили (седан/универсал/хэтчбек)\n\n    до 4 метров.\n\n    Полная обработка - 750 руб.\n\n \n\n2. Кроссовер от 4 до 4,25 метра.\n\n    Полная обработка - 800 руб.\n\n \n\n3. Минивен от 4,25 до 4,5 метра\n\n    Полная обработка - 850 руб.\n\n \n\n4. Внедорожники до 4,5 метра\n\n    Полная обработка - 850 руб. \n\n \n\n5. Внедорожники более 4,5 метра\n\n    Полная обработка - 880 руб. \n\n \n\n6. Рамные внедорожники\n\n    Полная обработка - 1200 руб. \n\n \n\n7. Микроавтобус до 5 метров.\n\n    Полная обработка -  от 1500 руб. \n\n \n\n8. Микроавтобусы длиной более 5 метров.\n\n    Полная обработка - от 1800 руб.\n\n \n\n9. Автомобили премиум-класса и коммерческий транспорт: Цена договорная\n\n \n\n10. Беспылевая пескоструйная обработка (удаление рыхлой ржавчины) поврежденных коррозией участков: \n\nот 300 до 1000 руб.\n\n \n\nДоплата по согласованию с заказчиком за конструктивную сложность разборочно сборочных работ (в особенности новых автомобилей) нижней части автомобиля: от 250 до 300 рублей.\n\n \n\nТочная стоимость пескоструйной обработки только после осмотра автомобиля.\n\nСтоимость до 01.09.2026 г.\n\nСтоимость на период с 01.09. по 31.12.2026 г.",
+        "paragraphs": [
+          "Центр антикоррозийной защиты",
+          "Информация и все права защищены. Любое копирование преследуется по закону.",
+          "г. Гродно, ул. Аульская, 34 (схема проезда)",
+          "Работаем с оригинальными материалами шведской марки \"Динитрол\" - №1 на рынке антикоррозийных покрытий.",
+          "Подготовка: снятие подкрылков и элементов защиты днища. Мойка, обезжиривание.",
+          "Удаление очагов коррозии пескоструйным оборудованием. Блокирование коррозии ингибиторами.",
+          "Обработка внутренних полостей кузова и навесных элементов жидкими материалами Динитрол. Нанесение антикоррозийных покрытий на днище и колесные арки автомобиля.",
+          "Нанесение шумоизоляционных материалов на основе синтетической резины.",
+          "Установка подкрылков и других деталей на место.",
+          "Скорее всего Вы не раз слышали, а возможно и сами уже столкнулись с тем, что кузова современных автомобилей очень сильно подвержены коррозии.",
+          "Автопроизводители твердо намерены продавать всё больше и чаще. Долговечность автомобиля и его кузова сейчас не является приоритетом. А \"мягкая\" белорусская погода и условия обработки дорог лишь усугубляют ситуацию.",
+          "Очаги коррозии и ржавые подтеки проявляются даже на новых автомобилях уже после 1 (одного!) года эксплуатации.",
+          "Примерно на столько хватает заводской защитной обработки.",
+          "Полная экономия на кузовных работах",
+          "Повышенный срок службы подвески и ходовой части",
+          "Комплексная обработка автомобиля от ржавчины защищает кузов от преждевременного износа силовых элементов, продлевает срок его службы, сохраняет его ликвидность.",
+          "Гарантийный талон на ежегодное бесплатное обслуживание",
+          "Наш адрес: г. Гродно, ул. Аульская, 34",
+          "Тел. +375 (29) 218-75-99 (только viber/whatsapp)",
+          "E-mail: alrusa.grodno@gmail.com",
+          "Делаем антикоррозийную обработку новых автомобилей из салона.",
+          "Чтобы быть уверенным в защищенности вашего авто рекомендуем посетить нас как можно раньше, не откладывая.",
+          "Cпециализируемся исключительно на антикоррозийной и пескоструйной обработке.",
+          "Покрываем днище и колесные арки противошумным материалом на основе синтетической жидкой резины.",
+          "Выдаём юридически заверенную гарантию на все обработанные автомобили независимо от возраста и состояния.",
+          "Выполняем мобильную пескоструйную обработку",
+          "(без пескоструйной очистки)",
+          "НЕ ПРИНИМАЕМ АВТОМОБИЛИ ПОСЛЕ ОБРАБОТКИ ПУШСАЛОМ, ОТРАБОТКОЙ, МАЗУТОМ И ПРОЧИМИ НЕИЗВЕСТНЫМИ СОСТАВАМИ!",
+          "ДИАГНОСТИКА НА ПРЕДМЕТ ОБРАБОТКИ:",
+          "1) Стоимость 30 рублей - продолжительность не более 20 минут. Без демонтажа частей автомобиля.",
+          "2) Стоимость 100 рублей - продолжительность не более 60 минут. С частичным демонтажем частей автомобиля.",
+          "При дальнейшей обработке на территории ООО \"СТО Алруса\" стоимость диагностики входит в общую стоимость обработки.",
+          "В категорию ПОЛНАЯ ОБРАБОТКА входит покрытие материалами Динитрол днища, порогов изнутри, колесных арок, капота, крышки багажника, нижней части дверей изнутри, покрытие днища и колесных арок дополнительной антигравийной и шумоизоляционной защитой Динитрол 479 (\"жидкие подкрылки\")",
+          "В категорию НИЖНЯЯ ЧАСТЬ входит покрытие днища, колесных арок, порогов автомобиля материалами Динитрол, а также дополнительной антигравийной и шумоизоляционной защитой Динитрол 479. Пороги изнутри обрабатываются жидким материалом Динитрол",
+          "Все работы проводятся согласно технологии Динитрол.",
+          "1. Легковые автомобили (седан/универсал/хэтчбек)",
+          "Полная обработка - 900 руб.",
+          "2. Кроссовер от 4 до 4,25 метра.",
+          "Полная обработка - 950 руб.",
+          "3. Минивен от 4,25 до 4,5 метра",
+          "Полная обработка - 1000 руб.",
+          "4. Внедорожники до 4,5 метра",
+          "5. Внедорожники более 4,5 метра",
+          "Полная обработка - 1030 руб.",
+          "Полная обработка - 1350 руб.",
+          "7. Микроавтобус до 5 метров.",
+          "Полная обработка - от 1650 руб.",
+          "8. Микроавтобусы длиной более 5 метров.",
+          "Полная обработка - от 1950 руб.",
+          "9. Автомобили премиум-класса и коммерческий транспорт: Цена договорная",
+          "10. Беспылевая пескоструйная обработка (удаление рыхлой ржавчины) поврежденных коррозией участков:",
+          "Доплата по согласованию с заказчиком за конструктивную сложность разборочно сборочных работ (в особенности новых автомобилей) нижней части автомобиля: от 250 до 300 рублей.",
+          "Точная стоимость пескоструйной обработки только после осмотра автомобиля.",
+          "Полная обработка - 750 руб.",
+          "Полная обработка - 800 руб.",
+          "Полная обработка - 850 руб.",
+          "Полная обработка - 880 руб.",
+          "Полная обработка - 1200 руб.",
+          "Полная обработка - от 1500 руб.",
+          "Полная обработка - от 1800 руб.",
+          "Стоимость до 01.09.2026 г.",
+          "Стоимость на период с 01.09. по 31.12.2026 г."
+        ],
+        "links": [
+          {
+            "text": "",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "схема проезда",
+            "url": "https://alrusa.by/contacts/#shema-proezd"
+          },
+          {
+            "text": "Антикоррозийная обработка",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "Пескоструйная обработка",
+            "url": "https://alrusa.by/peskostrui/"
+          },
+          {
+            "text": "Услуги СТО",
+            "url": "https://alrusa.by/uslugi-sto/"
+          },
+          {
+            "text": "Сварочные работы",
+            "url": "https://alrusa.by/welding/"
+          },
+          {
+            "text": "Наши работы",
+            "url": "https://alrusa.by/raboty/"
+          },
+          {
+            "text": "Партнёры",
+            "url": "https://alrusa.by/%D0%9F%D0%B0%D1%80%D1%82%D0%BD%D1%91%D1%80%D1%8B/"
+          },
+          {
+            "text": "Контакты",
+            "url": "https://alrusa.by/contacts/"
+          },
+          {
+            "text": "Схема проезда",
+            "url": "https://alrusa.by/contacts/#shema-proezd"
+          },
+          {
+            "text": "Больше наших работ >>",
+            "url": "https://alrusa.by/raboty/"
+          },
+          {
+            "text": " ОНЛАЙН ЗАПИСЬ",
+            "url": "https://n1255040.yclients.com/"
+          },
+          {
+            "text": "",
+            "url": "https://alrusa.by/#"
+          }
+        ],
+        "tables": [],
+        "images": [
+          {
+            "url": "https://alrusa.by/gallery_gen/4be7cfad29f6ab32744517af5406ef9a_230x183_0x0_230x186_crop.png?ts=1784127932",
+            "alt": "СТО Алруса"
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/4be7cfad29f6ab32744517af5406ef9a_230x183_0x0_230x186_crop.png?ts=1784127932",
+            "alt": "СТО Алруса"
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/21e3ebc38b8bab51c269f028bfb8db86_64x63_0x0_64x64_crop.png?ts=1784127932",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/21e3ebc38b8bab51c269f028bfb8db86_64x63_0x0_64x64_crop.png?ts=1784127932",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a9f42621464572b2b6eeae5510b8db0a_62x64_0x0_64x64_crop.png?ts=1784127932",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a9f42621464572b2b6eeae5510b8db0a_62x64_0x0_64x64_crop.png?ts=1784127932",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/cc9286b6fd6542c8c81777df696dba15_256x69_0x0_256x72_crop.png?ts=1784127932",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/cc9286b6fd6542c8c81777df696dba15_256x69_0x0_256x72_crop.png?ts=1784127932",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/diploma2-ts1614187410.png?ts=1784127932",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/959ed8d8ae47d9ed7a600f8318155623_fit.png?ts=1784127932",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/66899916dc42024f6691d173128b24f9_807.31958762887x574_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/881092916142219399707c675e3ef61d_502x669.07668711656_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/208542eac05e08ae7def4ca61219676f_fill.png",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/d3486464c4e2d4c405ab719437ce60d7_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/att-ts1524762118.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/6477550f7dca04947ad9d8dd32fd4b22_fit.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/2946cfdc6cc4cd02ca3e9b23da1e3ec4_127x128_0x0_128x128_crop.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/2946cfdc6cc4cd02ca3e9b23da1e3ec4_127x128_0x0_128x128_crop.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/korr2-ts1524865200.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/7346966a763b34f9dde9ba9b49d299cf_fit.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1e7416c7a531105045dd0637632eef7c_128x128_0x0_129x128_crop.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1e7416c7a531105045dd0637632eef7c_128x128_0x0_129x128_crop.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/e9d760487dc8c062cbbf3a2e7e6b4c15_599x373_0x0_599x374_crop.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/e9d760487dc8c062cbbf3a2e7e6b4c15_599x373_0x0_599x374_crop.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/garantue-ts1524867952.jpg?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/57b0bd676f8aaba57af6c595578978dd_fit.jpg?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/73519137e6f0f957915e99042932f280_281x280_0x0_281x281_crop.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/73519137e6f0f957915e99042932f280_281x280_0x0_281x281_crop.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/anti2-ts1524897699.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/56a6635b0ecc17c34eafbf9c954a888b_fit.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/2898e352a0bc15a46a8f9783d8455f59_281x280_0x0_281x281_crop.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/2898e352a0bc15a46a8f9783d8455f59_281x280_0x0_281x281_crop.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/%D0%BF%D1%83%D1%88%D0%BA%D0%B05-ts1569183475.jpg?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/ddbba1750ccf8eefcd0b9fcdc95126bb_fit.jpg?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/82e05204cd477ca8e9428b158b3a6102_694x416_0x13_722x443_crop.jpg?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/82e05204cd477ca8e9428b158b3a6102_694x416_0x13_722x443_crop.jpg?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/d0d2a50f2295d24e70d2a0476a84a924_1000x667_0x0_1000x667_crop.jpg?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/d0d2a50f2295d24e70d2a0476a84a924_1000x667_0x0_1000x667_crop.jpg?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/edad9c4aa1073b888cbececd38b11abd_1172x612_46x232_1310x993_crop.jpg?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/edad9c4aa1073b888cbececd38b11abd_1172x612_46x232_1310x993_crop.jpg?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/ff3b0736bae288646b0f76a94b61cda9_2000x743_0x0_2016x743_crop.jpg?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/ff3b0736bae288646b0f76a94b61cda9_2000x743_0x0_2016x743_crop.jpg?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/5e3606f26d6f6b4dca96acb4258d2bf9_693.33333333333x520_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a3175ad91eef3d1e8f512b768372d976_346x461.33333333333_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/9968e8362900be3db8bfdeb32219c7c4_608x1080.8888888889_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/5594500af40043f0d368fb7ff44311b3_608x1080.8888888889_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/sandblasting-ts1614186094.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1893c8989cfef1baad2b182a95606f5b_fit.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/powder-coating-ts1614186970.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/861653f59ebd190cdd15380de2264850_fit.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/technical-service-van-ts1614188314.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/72c4ba28a7275872954475614ab6fd8a_fit.png?ts=1784127933",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/89a49ed0333356bc0b278ca67379292f_660x496_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/4988e1d9c9fcbe5193f0c2d71b4bc02a_660x880_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/48a457658352bab6aab1373c5621b223_660x372_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/52339f3528ced5102ad8bd0ca71af17d_660x840_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/ea4a1f9c341f424e6906965c4e605531_660x500_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/881092916142219399707c675e3ef61d_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/730fd6a66d4f8f3c687ae5e6a2afe0a2_660x496_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/f1e89852f3876a91d334978173cfccfd_660x880_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/100aefd805d3ca1a7d8bec928fda4d14_660x372_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/c640093ffdf0503464461e1e27e2ecf2_660x452_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/61f92f0fa55b1943897aa8c0e29548d0_fit.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/61f92f0fa55b1943897aa8c0e29548d0_fit.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1bbf8407d60161d224cc46ba592e5c1a_fit.jpg?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1bbf8407d60161d224cc46ba592e5c1a_fit.jpg?ts=1784127934",
+            "alt": ""
+          }
+        ],
+        "structured_data": [],
+        "structured_data_errors": [],
+        "text_blocks": [
+          {
+            "selector": "#a18becd2eb59362ddc42c67a970542ad",
+            "text": "Центр антикоррозийной защиты\n\nв Гродно",
+            "bounds": {
+              "x": 280,
+              "y": 15,
+              "width": 297,
+              "height": 51
+            }
+          },
+          {
+            "selector": "#a18becd2eb5939c13181c88a0a9c1a09",
+            "text": "Информация и все права защищены. Любое копирование преследуется по закону.",
+            "bounds": {
+              "x": 60,
+              "y": 109,
+              "width": 561,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb593b9fb8d180eeda3dda61",
+            "text": "+375 (29) 218-75-99\n  +375 (33) 694-62-32",
+            "bounds": {
+              "x": 769,
+              "y": 24,
+              "width": 280,
+              "height": 68
+            }
+          },
+          {
+            "selector": "#a18becd2eb593c138d78926c185e1b69",
+            "text": "(Сварочные работы)",
+            "bounds": {
+              "x": 1058,
+              "y": 64,
+              "width": 160,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb593dc1df6145c2db857cc6",
+            "text": "г. Гродно, ул. Аульская, 34 (схема проезда)",
+            "bounds": {
+              "x": 276,
+              "y": 80,
+              "width": 430,
+              "height": 17
+            }
+          },
+          {
+            "selector": "#a18becd2eb593edd19e3403d8f356926",
+            "text": "(только Viber|WhatsApp)",
+            "bounds": {
+              "x": 1056,
+              "y": 33,
+              "width": 176,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb594205492e443150012c9d",
+            "text": "Звоните нам: +375 (29) 218-75-99",
+            "bounds": {
+              "x": 370,
+              "y": 936,
+              "width": 560,
+              "height": 34
+            }
+          },
+          {
+            "selector": "#a18becd2eb59434dc4ff309859025acd",
+            "text": " Профессиональная защита авто от коррозии в Гродно ",
+            "bounds": {
+              "x": 200,
+              "y": 276,
+              "width": 900,
+              "height": 140
+            }
+          },
+          {
+            "selector": "#a18becd2eb594623ac449d0c8e7d5c70",
+            "text": "Работаем с оригинальными материалами\nшведской марки \"Динитрол\" - №1 на рынке антикоррозийных покрытий.",
+            "bounds": {
+              "x": 441,
+              "y": 666,
+              "width": 606,
+              "height": 40
+            }
+          },
+          {
+            "selector": "#a18becd2eb5947e39acfba14052570eb",
+            "text": "Что включает в себя антикоррозийная обработка?",
+            "bounds": {
+              "x": 200,
+              "y": 1046,
+              "width": 920,
+              "height": 41
+            }
+          },
+          {
+            "selector": "#a18becd2eb594894cd657aaddede04df",
+            "text": "Подготовка: снятие подкрылков и элементов защиты днища. Мойка, обезжиривание.\n \n\nУдаление очагов коррозии пескоструйным оборудованием. Блокирование коррозии ингибиторами.\n \n\nОбработка внутренних полостей кузова и навесных элементов жидкими материалами Динитрол. Нанесение антикоррозийных покрытий на днище и колесные арки автомобиля.\n \n\nНанесение шумоизоляционных материалов на основе синтетической резины.\n \n\nСушка поверхностей.\n \n\nУстановка подкрылков и других деталей на место.",
+            "bounds": {
+              "x": 73,
+              "y": 1201,
+              "width": 429,
+              "height": 528
+            }
+          },
+          {
+            "selector": "#a18becd2eb594a7a2c2c5db429ae584b",
+            "text": "Почему стоит сделать обработку?",
+            "bounds": {
+              "x": 320,
+              "y": 1856,
+              "width": 891,
+              "height": 41
+            }
+          },
+          {
+            "selector": "#a18becd2eb594c346707bbf9e18f35fc",
+            "text": "Скорее всего Вы не раз слышали, а возможно и сами уже столкнулись с тем, что кузова современных автомобилей очень сильно подвержены коррозии.\n\n \n\nАвтопроизводители твердо намерены продавать всё больше и чаще. Долговечность автомобиля и его кузова сейчас не является приоритетом. А \"мягкая\" белорусская погода и условия обработки дорог лишь усугубляют ситуацию.\n\n \n\nОчаги коррозии и ржавые подтеки проявляются даже на новых автомобилях уже после 1 (одного!) года эксплуатации. \n\nПримерно на столько хватает заводской защитной обработки.",
+            "bounds": {
+              "x": 650,
+              "y": 1936,
+              "width": 570,
+              "height": 240
+            }
+          },
+          {
+            "selector": "#a18becd2eb594d027482af6a7d7d3ab2",
+            "text": "Улучшенная шумоизоляция",
+            "bounds": {
+              "x": 720,
+              "y": 2636,
+              "width": 161,
+              "height": 48
+            }
+          },
+          {
+            "selector": "#a18becd2eb594e5df7cc9d15dab02588",
+            "text": "Полная экономия на кузовных работах",
+            "bounds": {
+              "x": 150,
+              "y": 2626,
+              "width": 171,
+              "height": 72
+            }
+          },
+          {
+            "selector": "#a18becd2eb594f7157342d53e45eb84b",
+            "text": "Повышенный срок службы подвески и ходовой части",
+            "bounds": {
+              "x": 410,
+              "y": 2566,
+              "width": 270,
+              "height": 48
+            }
+          },
+          {
+            "selector": "#a18becd2eb5950a013a18ff98f3a960f",
+            "text": "Комплексная обработка автомобиля от ржавчины защищает кузов от преждевременного износа силовых элементов, продлевает срок его службы, сохраняет его ликвидность.",
+            "bounds": {
+              "x": 640,
+              "y": 2356,
+              "width": 572,
+              "height": 60
+            }
+          },
+          {
+            "selector": "#a18becd2eb5954420e37cefd18ca2f74",
+            "text": "Итого:",
+            "bounds": {
+              "x": 600,
+              "y": 2486,
+              "width": 201,
+              "height": 41
+            }
+          },
+          {
+            "selector": "#a18becd2eb5955458ec6e80bb8c1aa4c",
+            "text": "Гарантийный талон на ежегодное бесплатное обслуживание",
+            "bounds": {
+              "x": 900,
+              "y": 2896,
+              "width": 251,
+              "height": 58
+            }
+          },
+          {
+            "selector": "#a18becd2eb595c4ce0ebbc6ccf1c9cc7",
+            "text": "Наш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nСхема проезда\n\n \n\nТел. +375 (29) 218-75-99 (только viber/whatsapp)\n\n        +375 (33) 694-62-32\n\n        \n\n       \n\n                \n\n \n\nE-mail: alrusa.grodno@gmail.com",
+            "bounds": {
+              "x": 129.5,
+              "y": 10159,
+              "width": 450,
+              "height": 280
+            }
+          },
+          {
+            "selector": "#a18becd2eb595d386bfdc284221aa6de",
+            "text": "Контакты",
+            "bounds": {
+              "x": 129.5,
+              "y": 10089,
+              "width": 390,
+              "height": 41
+            }
+          },
+          {
+            "selector": "#a18becd2eb5964866367d36940f19c41",
+            "text": "Стоимость антикоррозийной обработки",
+            "bounds": {
+              "x": 119,
+              "y": 7367,
+              "width": 551,
+              "height": 82
+            }
+          },
+          {
+            "selector": "#a18becd2eb5965f3ba451e1d4da9eada",
+            "text": "Мы проводим следующие этапы работ:",
+            "bounds": {
+              "x": 360,
+              "y": 1126,
+              "width": 560,
+              "height": 26
+            }
+          },
+          {
+            "selector": "#a18becd2eb5968ad4f3875f6b325df93",
+            "text": "Наши преимущества",
+            "bounds": {
+              "x": 446,
+              "y": 3876,
+              "width": 454,
+              "height": 49
+            }
+          },
+          {
+            "selector": "#a18becd2eb596a6ccca50a41ffb6be40",
+            "text": "1) Можем проводить работы в зимнее время (наличие мощной тепловой пушки)",
+            "bounds": {
+              "x": 160,
+              "y": 4106,
+              "width": 571,
+              "height": 68
+            }
+          },
+          {
+            "selector": "#a18becd2eb596c8b2d37358c5282d3e7",
+            "text": "2) В стоимость работ входит БЕСПЛАТНОЕ нанесение шумоизоляционного материала на основе синтетической резины",
+            "bounds": {
+              "x": 600,
+              "y": 4436,
+              "width": 620,
+              "height": 102
+            }
+          },
+          {
+            "selector": "#a18becd2eb596eeff1ca6076ae7c08c0",
+            "text": "3) Проводим работы с любыми типами автомобилей, включая крупногабаритные коммерческие",
+            "bounds": {
+              "x": 156,
+              "y": 4806,
+              "width": 590,
+              "height": 102
+            }
+          },
+          {
+            "selector": "#a18becd2eb596ff62ece1728a0c574fc",
+            "text": "5) Ваш автомобиль будет находиться на  закрытой охраняемой территории под круглосуточным видеонаблюдением",
+            "bounds": {
+              "x": 130,
+              "y": 5446,
+              "width": 969,
+              "height": 123
+            }
+          },
+          {
+            "selector": "#a18becd2eb597180c25df2ab94c37437",
+            "text": "4) Мощная мобильная пескоструйная установка",
+            "bounds": {
+              "x": 646,
+              "y": 5146,
+              "width": 560,
+              "height": 68
+            }
+          },
+          {
+            "selector": "#a18becd2eb597470cfe241c962e0e464",
+            "text": "Делаем антикоррозийную обработку новых автомобилей из салона.\n\n \n\nЧтобы быть уверенным в защищенности вашего авто рекомендуем посетить нас как можно раньше, не откладывая.",
+            "bounds": {
+              "x": 80,
+              "y": 3336,
+              "width": 270,
+              "height": 216
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a01497263252cd61001bc",
+            "text": " ТОЛЬКО МЫ: ",
+            "bounds": {
+              "x": 510,
+              "y": 516,
+              "width": 406,
+              "height": 49
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a026000201217484f7b66",
+            "text": "Cпециализируемся исключительно\nна антикоррозийной и пескоструйной обработке.",
+            "bounds": {
+              "x": 441,
+              "y": 606,
+              "width": 478,
+              "height": 40
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a0437d20d2a03f0437d89",
+            "text": "Покрываем днище и колесные арки противошумным материалом\nна основе синтетической жидкой резины.",
+            "bounds": {
+              "x": 441,
+              "y": 726,
+              "width": 606,
+              "height": 40
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a06ea91c5be93834e2676",
+            "text": "Выдаём юридически заверенную гарантию\nна все обработанные автомобили независимо от возраста и состояния.",
+            "bounds": {
+              "x": 441,
+              "y": 786,
+              "width": 606,
+              "height": 40
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a078a8bd656db84557a7d",
+            "text": "Выполняем мобильную пескоструйную обработку\n\nс выездом.",
+            "bounds": {
+              "x": 441,
+              "y": 846,
+              "width": 606,
+              "height": 40
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a0919c4225add3022f0fb",
+            "text": "(без пескоструйной очистки)",
+            "bounds": {
+              "x": 119,
+              "y": 7458,
+              "width": 300,
+              "height": 24
+            }
+          },
+          {
+            "selector": "#a18becd2eb595ba78e134e127a611010",
+            "text": " СТО \"Алруса\" в Гродно: +375 29 218-75-99 ",
+            "bounds": {
+              "x": 387,
+              "y": 9663,
+              "width": 630,
+              "height": 34
+            }
+          },
+          {
+            "selector": "#a18becd2eb5966bda9220154a3730538",
+            "text": "Cрок выполнения полной обработки:\nот 3 до 10 рабочих дней",
+            "bounds": {
+              "x": 776,
+              "y": 8750,
+              "width": 365,
+              "height": 102
+            }
+          },
+          {
+            "selector": "#a1918f24b6d9003e6b04e8f1bf6c2698",
+            "text": "ГАРАНТИЯ НА ВЫПОЛНЕННЫЕ РАБОТЫ:\nОТ 2 ДО 15 лет",
+            "bounds": {
+              "x": 783,
+              "y": 8962,
+              "width": 348,
+              "height": 136
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a0e5c6c27de2647db58c7",
+            "text": "НЕ ПРИНИМАЕМ АВТОМОБИЛИ ПОСЛЕ ОБРАБОТКИ ПУШСАЛОМ, ОТРАБОТКОЙ, МАЗУТОМ И ПРОЧИМИ НЕИЗВЕСТНЫМИ СОСТАВАМИ!",
+            "bounds": {
+              "x": 776,
+              "y": 9192,
+              "width": 326,
+              "height": 120
+            }
+          },
+          {
+            "selector": "#a18e3ceec2c2006d8b9f0ba222477d2f",
+            "text": "ДИАГНОСТИКА НА ПРЕДМЕТ ОБРАБОТКИ:\n\n \n\n1) Стоимость 30 рублей - продолжительность не более 20 минут. Без демонтажа частей автомобиля.\n\n \n\n2) Стоимость 100 рублей - продолжительность не более 60 минут. С частичным демонтажем частей автомобиля.\n\n \n\nПри дальнейшей обработке на территории ООО \"СТО Алруса\" стоимость диагностики входит в общую стоимость обработки.\n\n ",
+            "bounds": {
+              "x": 117,
+              "y": 8733,
+              "width": 519,
+              "height": 312
+            }
+          },
+          {
+            "selector": "#a18becd2eb5962e413a347f7783aebb6",
+            "text": "В категорию ПОЛНАЯ ОБРАБОТКА входит покрытие материалами Динитрол днища, порогов изнутри, колесных арок, капота, крышки багажника, нижней части дверей изнутри, покрытие днища и колесных арок дополнительной антигравийной и шумоизоляционной защитой Динитрол 479 (\"жидкие подкрылки\")\n\n \n\nВ категорию НИЖНЯЯ ЧАСТЬ входит покрытие днища, колесных арок, порогов автомобиля материалами Динитрол, а также дополнительной антигравийной и шумоизоляционной защитой Динитрол 479. Пороги изнутри обрабатываются жидким материалом Динитрол\n\n \n\nВсе работы проводятся согласно технологии Динитрол.",
+            "bounds": {
+              "x": 114,
+              "y": 9098,
+              "width": 520,
+              "height": 384
+            }
+          },
+          {
+            "selector": "#a19f66482a5e00bd893276f66bdfe6ce",
+            "text": "1. Легковые автомобили (седан/универсал/хэтчбек)\n\n    до 4 метров.\n\n    Полная обработка - 900 руб.\n\n \n\n2. Кроссовер от 4 до 4,25 метра.\n\n    Полная обработка - 950 руб.\n\n \n\n3. Минивен от 4,25 до 4,5 метра\n\n    Полная обработка - 1000 руб.\n\n \n\n4. Внедорожники до 4,5 метра\n\n    Полная обработка - 1000 руб. \n\n \n\n5. Внедорожники более 4,5 метра\n\n    Полная обработка - 1030 руб. \n\n \n\n6. Рамные внедорожники\n\n    Полная обработка - 1350 руб. \n\n \n\n7. Микроавтобус до 5 метров.\n\n    Полная обработка -  от 1650 руб. \n\n \n\n8. Микроавтобусы длиной более 5 метров.\n\n    Полная обработка - от 1950 руб.\n\n \n\n9. Автомобили премиум-класса и коммерческий транспорт: Цена договорная\n\n \n\n10. Беспылевая пескоструйная обработка (удаление рыхлой ржавчины) поврежденных коррозией участков: \n\nот 300 до 1000 руб.\n\n \n\nДоплата по согласованию с заказчиком за конструктивную сложность разборочно сборочных работ (в особенности новых автомобилей) нижней части автомобиля: от 250 до 300 рублей.\n\n \n\nТочная стоимость пескоструйной обработки только после осмотра автомобиля.",
+            "bounds": {
+              "x": 726,
+              "y": 7608,
+              "width": 439,
+              "height": 1008
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a0b37c9239c104947ea04",
+            "text": "1. Легковые автомобили (седан/универсал/хэтчбек)\n\n    до 4 метров.\n\n    Полная обработка - 750 руб.\n\n \n\n2. Кроссовер от 4 до 4,25 метра.\n\n    Полная обработка - 800 руб.\n\n \n\n3. Минивен от 4,25 до 4,5 метра\n\n    Полная обработка - 850 руб.\n\n \n\n4. Внедорожники до 4,5 метра\n\n    Полная обработка - 850 руб. \n\n \n\n5. Внедорожники более 4,5 метра\n\n    Полная обработка - 880 руб. \n\n \n\n6. Рамные внедорожники\n\n    Полная обработка - 1200 руб. \n\n \n\n7. Микроавтобус до 5 метров.\n\n    Полная обработка -  от 1500 руб. \n\n \n\n8. Микроавтобусы длиной более 5 метров.\n\n    Полная обработка - от 1800 руб.\n\n \n\n9. Автомобили премиум-класса и коммерческий транспорт: Цена договорная\n\n \n\n10. Беспылевая пескоструйная обработка (удаление рыхлой ржавчины) поврежденных коррозией участков: \n\nот 300 до 1000 руб.\n\n \n\nДоплата по согласованию с заказчиком за конструктивную сложность разборочно сборочных работ (в особенности новых автомобилей) нижней части автомобиля: от 250 до 300 рублей.\n\n \n\nТочная стоимость пескоструйной обработки только после осмотра автомобиля.",
+            "bounds": {
+              "x": 144,
+              "y": 7601,
+              "width": 439,
+              "height": 1008
+            }
+          },
+          {
+            "selector": "#a19f664b026a00b18d17cb97b6e62636",
+            "text": "Стоимость до 01.09.2026 г.",
+            "bounds": {
+              "x": 123,
+              "y": 7525,
+              "width": 300,
+              "height": 24
+            }
+          },
+          {
+            "selector": "#a19f664c052400e1295213c80d20e000",
+            "text": "Стоимость на период с 01.09. по 31.12.2026 г.",
+            "bounds": {
+              "x": 698,
+              "y": 7528,
+              "width": 456,
+              "height": 24
+            }
+          }
+        ],
+        "requested_url": "https://alrusa.by/",
+        "status": 200,
+        "fetched_at": "2026-10-26T18:19:24.915Z"
+      },
+      {
+        "url": "https://alrusa.by/peskostrui/",
+        "title": "Пескоструйная обработка",
+        "description": "Пескоструйная обработка",
+        "headings": [
+          {
+            "level": 3,
+            "text": "+375 (29) 218-75-99"
+          },
+          {
+            "level": 3,
+            "text": "+375 (33) 694-62-32"
+          },
+          {
+            "level": 3,
+            "text": "СТО \"Алруса\" в Гродно: +375 29 218-75-99"
+          },
+          {
+            "level": 2,
+            "text": "Контакты"
+          },
+          {
+            "level": 1,
+            "text": "Мобильная пескоструйная обработка в Гродно!"
+          },
+          {
+            "level": 3,
+            "text": "Стоимость пескоструйной очистки"
+          },
+          {
+            "level": 3,
+            "text": "Пескоструйная обработка с выездом к клиенту"
+          }
+        ],
+        "text": "Центр антикоррозийной защиты\n\nв Гродно\n\nИнформация и все права защищены. Любое копирование преследуется по закону.\n\n+375 (29) 218-75-99\n  +375 (33) 694-62-32\n\n(Сварочные работы)\n\nг. Гродно, ул. Аульская, 34 (схема проезда)\n\n(только Viber|WhatsApp)\n\nАнтикоррозийная обработка\nПескоструйная обработка\nУслуги СТО\nСварочные работы\nНаши работы\nПартнёры\nКонтакты\n СТО \"Алруса\" в Гродно: +375 29 218-75-99 \n\nНаш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nСхема проезда\n\n \n\nТел. +375 (29) 218-75-99 (только Viber/Whatsapp)\n\n        +375 (33) 694-62-32\n\n \n\n \n\n \n\nE-mail: alrusa.grodno@gmail.com\n\nКонтакты\n\n Профессионально и аккуратно \n\n С выездом по г. Гродно \n\n Новое оборудование \n\nМобильная пескоструйная обработка в Гродно!\nСтоимость пескоструйной очистки\n\nБеспылевая пескоструйная обработка (удаление рыхлой ржавчины) поврежденных коррозией участков: \n\nот 200 до 900 руб.\n\n \n\nДоплата по согласованию с заказчиком за конструктивную сложность разборочно сборочных работ (в особенности новых автомобилей) нижней части автомобиля: от 150 до 200 рублей.\n\n \n\nТочная стоимость пескоструйной обработки только после осмотра автомобиля.\n\n \n\nВыезд в пределах\n\nгородской черты ---------- от 80 до 120 руб.    \n\nПескоструйная обработка с выездом к клиенту\n\nВид до обработки\n\nВид после обработки\n\n© 2022 alrusa.by\n\nООО \"СТО Алруса\"\n\nУНП 590888303\n\nАнтикоррозийная обработка\nУслуги СТО\nКонтакты",
+        "body_text": "Центр антикоррозийной защиты\n\nв Гродно\n\nИнформация и все права защищены. Любое копирование преследуется по закону.\n\n+375 (29) 218-75-99\n  +375 (33) 694-62-32\n\n(Сварочные работы)\n\nг. Гродно, ул. Аульская, 34 (схема проезда)\n\n(только Viber|WhatsApp)\n\nАнтикоррозийная обработка\nПескоструйная обработка\nУслуги СТО\nСварочные работы\nНаши работы\nПартнёры\nКонтакты\n СТО \"Алруса\" в Гродно: +375 29 218-75-99 \n\nНаш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nСхема проезда\n\n \n\nТел. +375 (29) 218-75-99 (только Viber/Whatsapp)\n\n        +375 (33) 694-62-32\n\n \n\n \n\n \n\nE-mail: alrusa.grodno@gmail.com\n\nКонтакты\n\n Профессионально и аккуратно \n\n С выездом по г. Гродно \n\n Новое оборудование \n\nМобильная пескоструйная обработка в Гродно!\nСтоимость пескоструйной очистки\n\nБеспылевая пескоструйная обработка (удаление рыхлой ржавчины) поврежденных коррозией участков: \n\nот 200 до 900 руб.\n\n \n\nДоплата по согласованию с заказчиком за конструктивную сложность разборочно сборочных работ (в особенности новых автомобилей) нижней части автомобиля: от 150 до 200 рублей.\n\n \n\nТочная стоимость пескоструйной обработки только после осмотра автомобиля.\n\n \n\nВыезд в пределах\n\nгородской черты ---------- от 80 до 120 руб.    \n\nПескоструйная обработка с выездом к клиенту\n\nВид до обработки\n\nВид после обработки\n\n© 2022 alrusa.by\n\nООО \"СТО Алруса\"\n\nУНП 590888303\n\nАнтикоррозийная обработка\nУслуги СТО\nКонтакты",
+        "paragraphs": [
+          "Центр антикоррозийной защиты",
+          "Информация и все права защищены. Любое копирование преследуется по закону.",
+          "г. Гродно, ул. Аульская, 34 (схема проезда)",
+          "Наш адрес: г. Гродно, ул. Аульская, 34",
+          "Тел. +375 (29) 218-75-99 (только Viber/Whatsapp)",
+          "E-mail: alrusa.grodno@gmail.com",
+          "Профессионально и аккуратно",
+          "Беспылевая пескоструйная обработка (удаление рыхлой ржавчины) поврежденных коррозией участков:",
+          "Доплата по согласованию с заказчиком за конструктивную сложность разборочно сборочных работ (в особенности новых автомобилей) нижней части автомобиля: от 150 до 200 рублей.",
+          "Точная стоимость пескоструйной обработки только после осмотра автомобиля.",
+          "городской черты ---------- от 80 до 120 руб."
+        ],
+        "links": [
+          {
+            "text": "",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "схема проезда",
+            "url": "https://alrusa.by/contacts/#shema-proezd"
+          },
+          {
+            "text": "Антикоррозийная обработка",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "Пескоструйная обработка",
+            "url": "https://alrusa.by/peskostrui/"
+          },
+          {
+            "text": "Услуги СТО",
+            "url": "https://alrusa.by/uslugi-sto/"
+          },
+          {
+            "text": "Сварочные работы",
+            "url": "https://alrusa.by/welding/"
+          },
+          {
+            "text": "Наши работы",
+            "url": "https://alrusa.by/raboty/"
+          },
+          {
+            "text": "Партнёры",
+            "url": "https://alrusa.by/%D0%9F%D0%B0%D1%80%D1%82%D0%BD%D1%91%D1%80%D1%8B/"
+          },
+          {
+            "text": "Контакты",
+            "url": "https://alrusa.by/contacts/"
+          },
+          {
+            "text": "Схема проезда",
+            "url": "https://alrusa.by/contacts/#shema-proezd"
+          },
+          {
+            "text": "alrusa.by",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "Антикоррозийная обработка",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "Услуги СТО",
+            "url": "https://alrusa.by/uslugi-sto/"
+          },
+          {
+            "text": "Контакты",
+            "url": "https://alrusa.by/contacts/"
+          },
+          {
+            "text": "",
+            "url": "http://youtube.com/"
+          },
+          {
+            "text": "",
+            "url": "http://google.com/"
+          },
+          {
+            "text": "",
+            "url": "http://twitter.com/"
+          },
+          {
+            "text": "",
+            "url": "http://facebook.com/"
+          }
+        ],
+        "tables": [],
+        "images": [
+          {
+            "url": "https://alrusa.by/gallery_gen/4be7cfad29f6ab32744517af5406ef9a_230x183_0x0_230x186_crop.png?ts=1784127934",
+            "alt": "СТО Алруса"
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/4be7cfad29f6ab32744517af5406ef9a_230x183_0x0_230x186_crop.png?ts=1784127934",
+            "alt": "СТО Алруса"
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/21e3ebc38b8bab51c269f028bfb8db86_64x63_0x0_64x64_crop.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/21e3ebc38b8bab51c269f028bfb8db86_64x63_0x0_64x64_crop.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a9f42621464572b2b6eeae5510b8db0a_62x64_0x0_64x64_crop.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a9f42621464572b2b6eeae5510b8db0a_62x64_0x0_64x64_crop.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/083f7c01f5c5088a096e861032f878da_500x376_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/e34a76eecf85ba10deb7c725b3066ee7_500x666_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/0cb0bdcfbdfdc5ac07d08144047faf00_500x356_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/f50d46de53fda5a8f50aed4a9b96166a_500x666_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/3be63aa30ffffa3e6e31f2dc008027ef_500x666_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/722d2664968e276866d4fd41181043af_500x666_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/edad9c4aa1073b888cbececd38b11abd_986x748_fit.jpg?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/edad9c4aa1073b888cbececd38b11abd_fit.jpg?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/20210316_103203-ts1616231563.jpg?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/10382e371c89fdfc1e49d39b7cb7db65_fit.jpg?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/20210318_091545-ts1616231607.jpg?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/3d1d73d04f3b550b6a8d193a678cf6a9_fit.jpg?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/20210318_162446-ts1616231681.jpg?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/ebcc3f6edfa7cadd0511d3ee8da303e1_fit.jpg?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/10-32-25-688-ts1644748882.jpg?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/3c5c2c89676929fb35a3fc7ff1db305a_fit.jpg?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/29cbe4341294b14540aad17c0a781da4_1236x556_fit.jpg?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/29cbe4341294b14540aad17c0a781da4_fit.jpg?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/f96f57ff746f06c7cf6c854a6014a934_1244x560_fit.jpg?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/f96f57ff746f06c7cf6c854a6014a934_fit.jpg?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1bbf8407d60161d224cc46ba592e5c1a_fit.jpg?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1bbf8407d60161d224cc46ba592e5c1a_fit.jpg?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/youtube-logotype%20(1)-ts1464331182.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/d59c28024d858f41d43bb2caf9535002_fit.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/google-plus-ts1464331090.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/7464930fb955889a744de239bcad0894_fit.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/twitter%20(1)-ts1464331090.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1f55b0ad1d5c3dcf4bef38efd52dad83_fit.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/facebook-ts1464331089.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a09f478508956beac924515a1e364a3d_fit.png?ts=1784127934",
+            "alt": ""
+          }
+        ],
+        "structured_data": [],
+        "structured_data_errors": [],
+        "text_blocks": [
+          {
+            "selector": "#a18becd2eb586617f196503606d41e0a",
+            "text": "Центр антикоррозийной защиты\n\nв Гродно",
+            "bounds": {
+              "x": 280,
+              "y": 15,
+              "width": 297,
+              "height": 51
+            }
+          },
+          {
+            "selector": "#a18becd2eb5900c495bad3b10349161f",
+            "text": "Информация и все права защищены. Любое копирование преследуется по закону.",
+            "bounds": {
+              "x": 60,
+              "y": 109,
+              "width": 561,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5902eda673c3c3ab06f3bb",
+            "text": "+375 (29) 218-75-99\n  +375 (33) 694-62-32",
+            "bounds": {
+              "x": 777,
+              "y": 30,
+              "width": 280,
+              "height": 68
+            }
+          },
+          {
+            "selector": "#a18becd2eb5903e67921dbce97890759",
+            "text": "(Сварочные работы)",
+            "bounds": {
+              "x": 1060,
+              "y": 67,
+              "width": 160,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb59041808e5b03fc77f5aac",
+            "text": "г. Гродно, ул. Аульская, 34 (схема проезда)",
+            "bounds": {
+              "x": 276,
+              "y": 80,
+              "width": 430,
+              "height": 17
+            }
+          },
+          {
+            "selector": "#a18becd2eb5905cd3a7a73b4b96b7ecf",
+            "text": "(только Viber|WhatsApp)",
+            "bounds": {
+              "x": 1060,
+              "y": 38,
+              "width": 176,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb590990fa2ddc24dfd257c8",
+            "text": " СТО \"Алруса\" в Гродно: +375 29 218-75-99 ",
+            "bounds": {
+              "x": 360,
+              "y": 3106,
+              "width": 630,
+              "height": 34
+            }
+          },
+          {
+            "selector": "#a18becd2eb590a3ca7406a36242629df",
+            "text": "Наш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nСхема проезда\n\n \n\nТел. +375 (29) 218-75-99 (только Viber/Whatsapp)\n\n        +375 (33) 694-62-32\n\n \n\n \n\n \n\nE-mail: alrusa.grodno@gmail.com",
+            "bounds": {
+              "x": 115,
+              "y": 3626,
+              "width": 465,
+              "height": 256
+            }
+          },
+          {
+            "selector": "#a18becd2eb590bf9f03d6bcf749a0fe5",
+            "text": "Контакты",
+            "bounds": {
+              "x": 115,
+              "y": 3556,
+              "width": 390,
+              "height": 41
+            }
+          },
+          {
+            "selector": "#a18becd2eb590d36206d5162b1c6d7e5",
+            "text": " Профессионально и аккуратно ",
+            "bounds": {
+              "x": 200,
+              "y": 434,
+              "width": 360,
+              "height": 24
+            }
+          },
+          {
+            "selector": "#a18becd2eb590e7bd2c0c9df0997b5ff",
+            "text": " С выездом по г. Гродно ",
+            "bounds": {
+              "x": 200,
+              "y": 535,
+              "width": 249,
+              "height": 24
+            }
+          },
+          {
+            "selector": "#a18becd2eb590fd7301702308fc3bc82",
+            "text": " Новое оборудование ",
+            "bounds": {
+              "x": 200,
+              "y": 485,
+              "width": 260,
+              "height": 24
+            }
+          },
+          {
+            "selector": "#a18becd2eb5910a5513c79d22e6b354e",
+            "text": "Мобильная пескоструйная обработка в Гродно!",
+            "bounds": {
+              "x": 130,
+              "y": 286,
+              "width": 620,
+              "height": 98
+            }
+          },
+          {
+            "selector": "#a18becd2eb5916f15592626c522d0aff",
+            "text": "Стоимость пескоструйной очистки",
+            "bounds": {
+              "x": 108,
+              "y": 2004,
+              "width": 502,
+              "height": 34
+            }
+          },
+          {
+            "selector": "#a18becd2eb591a44ead1ca4396aa5698",
+            "text": "Беспылевая пескоструйная обработка (удаление рыхлой ржавчины) поврежденных коррозией участков: \n\nот 200 до 900 руб.\n\n \n\nДоплата по согласованию с заказчиком за конструктивную сложность разборочно сборочных работ (в особенности новых автомобилей) нижней части автомобиля: от 150 до 200 рублей.\n\n \n\nТочная стоимость пескоструйной обработки только после осмотра автомобиля.\n\n \n\nВыезд в пределах\n\nгородской черты ---------- от 80 до 120 руб.    ",
+            "bounds": {
+              "x": 138,
+              "y": 2134,
+              "width": 430,
+              "height": 384
+            }
+          },
+          {
+            "selector": "#a18becd2eb591e89b35fa5c07774222c",
+            "text": "Пескоструйная обработка с выездом к клиенту",
+            "bounds": {
+              "x": 310,
+              "y": 706,
+              "width": 788,
+              "height": 34
+            }
+          },
+          {
+            "selector": "#a18becd2eb5922a7cd0be2ca0266f686",
+            "text": "Вид до обработки",
+            "bounds": {
+              "x": 532,
+              "y": 1076,
+              "width": 350,
+              "height": 17
+            }
+          },
+          {
+            "selector": "#a18becd2eb5923c3668d1988a7537950",
+            "text": "Вид после обработки",
+            "bounds": {
+              "x": 532,
+              "y": 1436,
+              "width": 350,
+              "height": 17
+            }
+          },
+          {
+            "selector": "#a18becd2eb592b062b8af2602301f37f",
+            "text": "© 2022 alrusa.by",
+            "bounds": {
+              "x": 330,
+              "y": 4002,
+              "width": 210,
+              "height": 20
+            }
+          },
+          {
+            "selector": "#a18becd2eb592c4a1e0fd798369a331a",
+            "text": "ООО \"СТО Алруса\"\n\nУНП 590888303",
+            "bounds": {
+              "x": 130,
+              "y": 4002,
+              "width": 200,
+              "height": 40
+            }
+          }
+        ],
+        "requested_url": "https://alrusa.by/peskostrui/",
+        "status": 200,
+        "fetched_at": "2026-10-26T18:19:30.460Z"
+      },
+      {
+        "url": "https://alrusa.by/uslugi-sto/",
+        "title": "Услуги СТО \"Алруса\" в Гродно",
+        "description": "Сварочные кузовные работы, пескоструйная обработка, реставрация шаровых опор и др. Тел. +375 (29) 218-75-99",
+        "headings": [
+          {
+            "level": 3,
+            "text": "+375 (29) 218-75-99"
+          },
+          {
+            "level": 3,
+            "text": "+375 (33) 694-62-32"
+          },
+          {
+            "level": 3,
+            "text": "СТО \"Алруса\" в Гродно: +375 29 218-75-99"
+          },
+          {
+            "level": 2,
+            "text": "Контакты"
+          },
+          {
+            "level": 3,
+            "text": "Приглашаем к нам на СТО!"
+          },
+          {
+            "level": 3,
+            "text": "Сварочные работы"
+          },
+          {
+            "level": 3,
+            "text": "Пескоструйная обработка"
+          },
+          {
+            "level": 3,
+            "text": "Ремонт ходовой части"
+          }
+        ],
+        "text": "Центр антикоррозийной защиты\n\nв Гродно\n\nИнформация и все права защищены. Любое копирование преследуется по закону.\n\n+375 (29) 218-75-99\n  +375 (33) 694-62-32\n\n(Сварочные работы)\n\nг. Гродно, ул. Аульская, 34 (схема проезда)\n\n(только Viber|WhatsApp)\n\nАнтикоррозийная обработка\nПескоструйная обработка\nУслуги СТО\nСварочные работы\nНаши работы\nПартнёры\nКонтакты\n СТО \"Алруса\" в Гродно: +375 29 218-75-99 \n\nНаш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nСхема проезда\n\n \n\nТел. +375 (29) 218-75-99 (только Viber/Whatsapp)\n\n        +375 (33) 694-62-32\n\n \n\n \n\n \n\nE-mail: alrusa.grodno@gmail.com\n\nКонтакты\n\nНовое обобрудование 2018 года!\n\n Опытные мастера \n\nЕвропейские инструменты и расходники\n\nПриглашаем к нам на СТО!\n\n \n\nОказываем широкий спектр услуг:\n\n \n\n \n\nСварочные работы\nПескоструйная обработка\nРемонт ходовой части\n\n© 2022 alrusa.by\n\nООО \"СТО Алруса\"\n\nУНП 590888303\n\nАнтикоррозийная обработка\nУслуги СТО\nКонтакты",
+        "body_text": "Центр антикоррозийной защиты\n\nв Гродно\n\nИнформация и все права защищены. Любое копирование преследуется по закону.\n\n+375 (29) 218-75-99\n  +375 (33) 694-62-32\n\n(Сварочные работы)\n\nг. Гродно, ул. Аульская, 34 (схема проезда)\n\n(только Viber|WhatsApp)\n\nАнтикоррозийная обработка\nПескоструйная обработка\nУслуги СТО\nСварочные работы\nНаши работы\nПартнёры\nКонтакты\n СТО \"Алруса\" в Гродно: +375 29 218-75-99 \n\nНаш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nСхема проезда\n\n \n\nТел. +375 (29) 218-75-99 (только Viber/Whatsapp)\n\n        +375 (33) 694-62-32\n\n \n\n \n\n \n\nE-mail: alrusa.grodno@gmail.com\n\nКонтакты\n\nНовое обобрудование 2018 года!\n\n Опытные мастера \n\nЕвропейские инструменты и расходники\n\nПриглашаем к нам на СТО!\n\n \n\nОказываем широкий спектр услуг:\n\n \n\n \n\nСварочные работы\nПескоструйная обработка\nРемонт ходовой части\n\n© 2022 alrusa.by\n\nООО \"СТО Алруса\"\n\nУНП 590888303\n\nАнтикоррозийная обработка\nУслуги СТО\nКонтакты",
+        "paragraphs": [
+          "Центр антикоррозийной защиты",
+          "Информация и все права защищены. Любое копирование преследуется по закону.",
+          "г. Гродно, ул. Аульская, 34 (схема проезда)",
+          "Наш адрес: г. Гродно, ул. Аульская, 34",
+          "Тел. +375 (29) 218-75-99 (только Viber/Whatsapp)",
+          "E-mail: alrusa.grodno@gmail.com",
+          "Новое обобрудование 2018 года!",
+          "Европейские инструменты и расходники",
+          "Оказываем широкий спектр услуг:"
+        ],
+        "links": [
+          {
+            "text": "",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "схема проезда",
+            "url": "https://alrusa.by/contacts/#shema-proezd"
+          },
+          {
+            "text": "Антикоррозийная обработка",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "Пескоструйная обработка",
+            "url": "https://alrusa.by/peskostrui/"
+          },
+          {
+            "text": "Услуги СТО",
+            "url": "https://alrusa.by/uslugi-sto/"
+          },
+          {
+            "text": "Сварочные работы",
+            "url": "https://alrusa.by/welding/"
+          },
+          {
+            "text": "Наши работы",
+            "url": "https://alrusa.by/raboty/"
+          },
+          {
+            "text": "Партнёры",
+            "url": "https://alrusa.by/%D0%9F%D0%B0%D1%80%D1%82%D0%BD%D1%91%D1%80%D1%8B/"
+          },
+          {
+            "text": "Контакты",
+            "url": "https://alrusa.by/contacts/"
+          },
+          {
+            "text": "Схема проезда",
+            "url": "https://alrusa.by/contacts/#shema-proezd"
+          },
+          {
+            "text": "alrusa.by",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "Антикоррозийная обработка",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "Услуги СТО",
+            "url": "https://alrusa.by/uslugi-sto/"
+          },
+          {
+            "text": "Контакты",
+            "url": "https://alrusa.by/contacts/"
+          },
+          {
+            "text": "",
+            "url": "http://youtube.com/"
+          },
+          {
+            "text": "",
+            "url": "http://google.com/"
+          },
+          {
+            "text": "",
+            "url": "http://twitter.com/"
+          },
+          {
+            "text": "",
+            "url": "http://facebook.com/"
+          }
+        ],
+        "tables": [],
+        "images": [
+          {
+            "url": "https://alrusa.by/gallery_gen/4be7cfad29f6ab32744517af5406ef9a_230x183_0x0_230x186_crop.png?ts=1784127934",
+            "alt": "СТО Алруса"
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/4be7cfad29f6ab32744517af5406ef9a_230x183_0x0_230x186_crop.png?ts=1784127934",
+            "alt": "СТО Алруса"
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/21e3ebc38b8bab51c269f028bfb8db86_64x63_0x0_64x64_crop.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/21e3ebc38b8bab51c269f028bfb8db86_64x63_0x0_64x64_crop.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a9f42621464572b2b6eeae5510b8db0a_62x64_0x0_64x64_crop.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a9f42621464572b2b6eeae5510b8db0a_62x64_0x0_64x64_crop.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/remont_autoelektriki%20small-ts1525025269.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/9ca4f440164a0276dedb9e551b382a7f_fit.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1bbf8407d60161d224cc46ba592e5c1a_fit.jpg?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1bbf8407d60161d224cc46ba592e5c1a_fit.jpg?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/youtube-logotype%20(1)-ts1464331182.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/d59c28024d858f41d43bb2caf9535002_fit.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/google-plus-ts1464331090.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/7464930fb955889a744de239bcad0894_fit.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/twitter%20(1)-ts1464331090.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1f55b0ad1d5c3dcf4bef38efd52dad83_fit.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/facebook-ts1464331089.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a09f478508956beac924515a1e364a3d_fit.png?ts=1784127934",
+            "alt": ""
+          }
+        ],
+        "structured_data": [],
+        "structured_data_errors": [],
+        "text_blocks": [
+          {
+            "selector": "#a18becd2eb5a20fe422260d7510a4a8c",
+            "text": "Центр антикоррозийной защиты\n\nв Гродно",
+            "bounds": {
+              "x": 280,
+              "y": 15,
+              "width": 297,
+              "height": 51
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a2301117694bbb24894b6",
+            "text": "Информация и все права защищены. Любое копирование преследуется по закону.",
+            "bounds": {
+              "x": 60,
+              "y": 109,
+              "width": 561,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a252f8549c462e706fa8e",
+            "text": "+375 (29) 218-75-99\n  +375 (33) 694-62-32",
+            "bounds": {
+              "x": 770,
+              "y": 29,
+              "width": 280,
+              "height": 68
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a26583a6eab64592115dd",
+            "text": "(Сварочные работы)",
+            "bounds": {
+              "x": 1061,
+              "y": 69,
+              "width": 160,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a27d8879d6b8236c86863",
+            "text": "г. Гродно, ул. Аульская, 34 (схема проезда)",
+            "bounds": {
+              "x": 276,
+              "y": 80,
+              "width": 430,
+              "height": 17
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a28b97c2faf75e2c66827",
+            "text": "(только Viber|WhatsApp)",
+            "bounds": {
+              "x": 1059,
+              "y": 36,
+              "width": 176,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a2c1b992af65da153dd45",
+            "text": " СТО \"Алруса\" в Гродно: +375 29 218-75-99 ",
+            "bounds": {
+              "x": 360,
+              "y": 786,
+              "width": 630,
+              "height": 34
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a2de8c2e267b647c30f47",
+            "text": "Наш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nСхема проезда\n\n \n\nТел. +375 (29) 218-75-99 (только Viber/Whatsapp)\n\n        +375 (33) 694-62-32\n\n \n\n \n\n \n\nE-mail: alrusa.grodno@gmail.com",
+            "bounds": {
+              "x": 115,
+              "y": 1286,
+              "width": 485,
+              "height": 256
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a2ea7e9eac27570e4e63b",
+            "text": "Контакты",
+            "bounds": {
+              "x": 115,
+              "y": 1216,
+              "width": 390,
+              "height": 41
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a30b6e12dfa66bd1c3431",
+            "text": "Новое обобрудование 2018 года!",
+            "bounds": {
+              "x": 210,
+              "y": 686,
+              "width": 220,
+              "height": 48
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a317c47a58c367a12364b",
+            "text": " Опытные мастера ",
+            "bounds": {
+              "x": 580,
+              "y": 696,
+              "width": 220,
+              "height": 24
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a326c31034f4c2a9d9d50",
+            "text": "Европейские инструменты и расходники",
+            "bounds": {
+              "x": 920,
+              "y": 686,
+              "width": 260,
+              "height": 48
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a33bf371164caaaf466fb",
+            "text": "Приглашаем к нам на СТО!\n\n \n\nОказываем широкий спектр услуг:\n\n \n\n \n\nСварочные работы\nПескоструйная обработка\nРемонт ходовой части",
+            "bounds": {
+              "x": 151,
+              "y": 266,
+              "width": 470,
+              "height": 232
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a3a7094707f08c80d2bc0",
+            "text": "© 2022 alrusa.by",
+            "bounds": {
+              "x": 330,
+              "y": 1661,
+              "width": 210,
+              "height": 20
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a3b0adee38fe4c3c4fd35",
+            "text": "ООО \"СТО Алруса\"\n\nУНП 590888303",
+            "bounds": {
+              "x": 130,
+              "y": 1661,
+              "width": 200,
+              "height": 40
+            }
+          }
+        ],
+        "requested_url": "https://alrusa.by/uslugi-sto/",
+        "status": 200,
+        "fetched_at": "2026-10-26T18:19:35.963Z"
+      },
+      {
+        "url": "https://alrusa.by/welding/",
+        "title": "Сварочные работы",
+        "description": "Сварочные работы",
+        "headings": [
+          {
+            "level": 3,
+            "text": "+375 (29) 218-75-99"
+          },
+          {
+            "level": 3,
+            "text": "+375 (33) 694-62-32"
+          },
+          {
+            "level": 3,
+            "text": "СТО \"Алруса\" в Гродно: +375 29 218-75-99"
+          },
+          {
+            "level": 2,
+            "text": "Контакты"
+          },
+          {
+            "level": 2,
+            "text": "Сварочные работы в Гродно"
+          }
+        ],
+        "text": "Центр антикоррозийной защиты\n\nв Гродно\n\nИнформация и все права защищены. Любое копирование преследуется по закону.\n\n+375 (29) 218-75-99\n  +375 (33) 694-62-32\n\n(Сварочные работы)\n\nг. Гродно, ул. Аульская, 34 (схема проезда)\n\n(только Viber|WhatsApp)\n\nАнтикоррозийная обработка\nПескоструйная обработка\nУслуги СТО\nСварочные работы\nНаши работы\nПартнёры\nКонтакты\n СТО \"Алруса\" в Гродно: +375 29 218-75-99 \n\nНаш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nСхема проезда\n\n \n\nТел. +375 (29) 218-75-99 (только Viber/Whatsapp)\n\n        +375 (33) 694-62-32\n\n \n\n \n\n \n\nE-mail: alrusa.grodno@gmail.com\n\nКонтакты\n\nСделаем сварку кузова, порогов и арок вашего автомобиля\n\nСварочные работы в Гродно\nНАИМЕНОВАНИЕ СВАРОЧНЫХ РАБОТ:\n\n \n\nПЕРЕВАРКА ПОРОГА (ПОРОГОВ)\nПЕРЕВАРКА АРКИ (АРОК)\nПЕРЕВАРКА ДНИЩА\nПОСТАВИТЬ ЛАТКУ\nМЫ ОБЛАДАЕМ ВСЕМ НЕОБХОДИМЫМ ДЛЯ КАЧЕСТВЕННОГО ПРОВЕДЕНИЯ СВАРКИ:\nКВАЛИФИЦИРОВАННЫЕ МАСТЕРА;\nНОВОЕ СПЕЦИАЛИЗИРОВАННОЕ ОБОРУДОВАНИЕ;\nПОМЕЩЕНИЯ, В КОТОРЫХ СОБЛЮДАЮТСЯ ВСЕ НЕОБХОДИМЫЕ УСЛОВИЯ.\nХотите узнать стоимость работ сейчас?\nПрисылайте фото:\nViber +375 33 694-62-32\n\n© 2022 alrusa.by\n\nООО \"СТО Алруса\"\n\nУНП 590888303\n\nАнтикоррозийная обработка\nУслуги СТО\nКонтакты",
+        "body_text": "Центр антикоррозийной защиты\n\nв Гродно\n\nИнформация и все права защищены. Любое копирование преследуется по закону.\n\n+375 (29) 218-75-99\n  +375 (33) 694-62-32\n\n(Сварочные работы)\n\nг. Гродно, ул. Аульская, 34 (схема проезда)\n\n(только Viber|WhatsApp)\n\nАнтикоррозийная обработка\nПескоструйная обработка\nУслуги СТО\nСварочные работы\nНаши работы\nПартнёры\nКонтакты\n СТО \"Алруса\" в Гродно: +375 29 218-75-99 \n\nНаш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nСхема проезда\n\n \n\nТел. +375 (29) 218-75-99 (только Viber/Whatsapp)\n\n        +375 (33) 694-62-32\n\n \n\n \n\n \n\nE-mail: alrusa.grodno@gmail.com\n\nКонтакты\n\nСделаем сварку кузова, порогов и арок вашего автомобиля\n\nСварочные работы в Гродно\nНАИМЕНОВАНИЕ СВАРОЧНЫХ РАБОТ:\n\n \n\nПЕРЕВАРКА ПОРОГА (ПОРОГОВ)\nПЕРЕВАРКА АРКИ (АРОК)\nПЕРЕВАРКА ДНИЩА\nПОСТАВИТЬ ЛАТКУ\nМЫ ОБЛАДАЕМ ВСЕМ НЕОБХОДИМЫМ ДЛЯ КАЧЕСТВЕННОГО ПРОВЕДЕНИЯ СВАРКИ:\nКВАЛИФИЦИРОВАННЫЕ МАСТЕРА;\nНОВОЕ СПЕЦИАЛИЗИРОВАННОЕ ОБОРУДОВАНИЕ;\nПОМЕЩЕНИЯ, В КОТОРЫХ СОБЛЮДАЮТСЯ ВСЕ НЕОБХОДИМЫЕ УСЛОВИЯ.\nХотите узнать стоимость работ сейчас?\nПрисылайте фото:\nViber +375 33 694-62-32\n\n© 2022 alrusa.by\n\nООО \"СТО Алруса\"\n\nУНП 590888303\n\nАнтикоррозийная обработка\nУслуги СТО\nКонтакты",
+        "paragraphs": [
+          "Центр антикоррозийной защиты",
+          "Информация и все права защищены. Любое копирование преследуется по закону.",
+          "г. Гродно, ул. Аульская, 34 (схема проезда)",
+          "Наш адрес: г. Гродно, ул. Аульская, 34",
+          "Тел. +375 (29) 218-75-99 (только Viber/Whatsapp)",
+          "E-mail: alrusa.grodno@gmail.com",
+          "Сделаем сварку кузова, порогов и арок вашего автомобиля",
+          "Переварка порога (порогов)",
+          "квалифицированные мастера;",
+          "новое специализированное оборудование;",
+          "помещения, в которых соблюдаются все необходимые условия."
+        ],
+        "links": [
+          {
+            "text": "",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "схема проезда",
+            "url": "https://alrusa.by/contacts/#shema-proezd"
+          },
+          {
+            "text": "Антикоррозийная обработка",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "Пескоструйная обработка",
+            "url": "https://alrusa.by/peskostrui/"
+          },
+          {
+            "text": "Услуги СТО",
+            "url": "https://alrusa.by/uslugi-sto/"
+          },
+          {
+            "text": "Сварочные работы",
+            "url": "https://alrusa.by/welding/"
+          },
+          {
+            "text": "Наши работы",
+            "url": "https://alrusa.by/raboty/"
+          },
+          {
+            "text": "Партнёры",
+            "url": "https://alrusa.by/%D0%9F%D0%B0%D1%80%D1%82%D0%BD%D1%91%D1%80%D1%8B/"
+          },
+          {
+            "text": "Контакты",
+            "url": "https://alrusa.by/contacts/"
+          },
+          {
+            "text": "Схема проезда",
+            "url": "https://alrusa.by/contacts/#shema-proezd"
+          },
+          {
+            "text": "alrusa.by",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "Антикоррозийная обработка",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "Услуги СТО",
+            "url": "https://alrusa.by/uslugi-sto/"
+          },
+          {
+            "text": "Контакты",
+            "url": "https://alrusa.by/contacts/"
+          },
+          {
+            "text": "",
+            "url": "http://youtube.com/"
+          },
+          {
+            "text": "",
+            "url": "http://google.com/"
+          },
+          {
+            "text": "",
+            "url": "http://twitter.com/"
+          },
+          {
+            "text": "",
+            "url": "http://facebook.com/"
+          }
+        ],
+        "tables": [],
+        "images": [
+          {
+            "url": "https://alrusa.by/gallery_gen/4be7cfad29f6ab32744517af5406ef9a_230x183_0x0_230x186_crop.png?ts=1784127934",
+            "alt": "СТО Алруса"
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/4be7cfad29f6ab32744517af5406ef9a_230x183_0x0_230x186_crop.png?ts=1784127934",
+            "alt": "СТО Алруса"
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/21e3ebc38b8bab51c269f028bfb8db86_64x63_0x0_64x64_crop.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/21e3ebc38b8bab51c269f028bfb8db86_64x63_0x0_64x64_crop.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a9f42621464572b2b6eeae5510b8db0a_62x64_0x0_64x64_crop.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a9f42621464572b2b6eeae5510b8db0a_62x64_0x0_64x64_crop.png?ts=1784127934",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/9c2c166fa7dc9d10fbbed31a9f3abb8d_460x818_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/94f375609e739e7bf81d4dabfe076c9d_460x818_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/0309dbfc1983d3f1be3b2bc62168c8ad_460x818_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/weld-ico-ts1657798614.png?ts=1784127935",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/4f8d5b47b05124bba6f8630db188d1f3_fit.png?ts=1784127935",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/66b646ed427c5e9df57f76b5faec3f08_330x586_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/3bd9acbc2fa5b82c289ce4c64755c134_330x586_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/3d83bd7d3a4c5fc9d13107801f3f87ab_330x586_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a0dc3e8d42eb4161463674d6ec7fe490_330x586_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/8d132625b2c3783b26b39c859e555b5a_330x586_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/045f6a4f3e3b36817883f84c4aa7885b_330x586_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/b436ad4b7e3f2c9ae52ab8602f556bd7_330x586_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1bbf8407d60161d224cc46ba592e5c1a_fit.jpg?ts=1784127935",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1bbf8407d60161d224cc46ba592e5c1a_fit.jpg?ts=1784127935",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/youtube-logotype%20(1)-ts1464331182.png?ts=1784127935",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/d59c28024d858f41d43bb2caf9535002_fit.png?ts=1784127935",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/google-plus-ts1464331090.png?ts=1784127935",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/7464930fb955889a744de239bcad0894_fit.png?ts=1784127935",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/twitter%20(1)-ts1464331090.png?ts=1784127935",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1f55b0ad1d5c3dcf4bef38efd52dad83_fit.png?ts=1784127935",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/facebook-ts1464331089.png?ts=1784127935",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a09f478508956beac924515a1e364a3d_fit.png?ts=1784127935",
+            "alt": ""
+          }
+        ],
+        "structured_data": [],
+        "structured_data_errors": [],
+        "text_blocks": [
+          {
+            "selector": "#a18becd2eb5b5fac08d461d3993cdbb7",
+            "text": "Центр антикоррозийной защиты\n\nв Гродно",
+            "bounds": {
+              "x": 280,
+              "y": 15,
+              "width": 297,
+              "height": 51
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b6401029f6b7ee43f2d09",
+            "text": "Информация и все права защищены. Любое копирование преследуется по закону.",
+            "bounds": {
+              "x": 60,
+              "y": 109,
+              "width": 561,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b67b8432b74d4764c6cb1",
+            "text": "+375 (29) 218-75-99\n  +375 (33) 694-62-32",
+            "bounds": {
+              "x": 774,
+              "y": 27,
+              "width": 280,
+              "height": 68
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b68d0dc25acc1f5d482d4",
+            "text": "(Сварочные работы)",
+            "bounds": {
+              "x": 1060,
+              "y": 66,
+              "width": 160,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b69c4f435d68188429001",
+            "text": "г. Гродно, ул. Аульская, 34 (схема проезда)",
+            "bounds": {
+              "x": 276,
+              "y": 80,
+              "width": 430,
+              "height": 17
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b6a3376110934ded60b71",
+            "text": "(только Viber|WhatsApp)",
+            "bounds": {
+              "x": 1059,
+              "y": 36,
+              "width": 176,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b6f38262d679511009d2d",
+            "text": " СТО \"Алруса\" в Гродно: +375 29 218-75-99 ",
+            "bounds": {
+              "x": 360,
+              "y": 1376,
+              "width": 630,
+              "height": 34
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b70256541bb271d3a355c",
+            "text": "Наш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nСхема проезда\n\n \n\nТел. +375 (29) 218-75-99 (только Viber/Whatsapp)\n\n        +375 (33) 694-62-32\n\n \n\n \n\n \n\nE-mail: alrusa.grodno@gmail.com",
+            "bounds": {
+              "x": 115,
+              "y": 1876,
+              "width": 465,
+              "height": 256
+            }
+          },
+          {
+            "selector": "#a18becd2eb5c008dfc476fb930c2afc5",
+            "text": "Контакты",
+            "bounds": {
+              "x": 115,
+              "y": 1806,
+              "width": 390,
+              "height": 41
+            }
+          },
+          {
+            "selector": "#a18becd2eb5c0230a7e83da18ed53699",
+            "text": "Сделаем сварку кузова, порогов и арок вашего автомобиля",
+            "bounds": {
+              "x": 380,
+              "y": 336,
+              "width": 685,
+              "height": 24
+            }
+          },
+          {
+            "selector": "#a18becd2eb5c034da8e2fc0c900de883",
+            "text": "Сварочные работы в Гродно",
+            "bounds": {
+              "x": 400,
+              "y": 266,
+              "width": 570,
+              "height": 41
+            }
+          },
+          {
+            "selector": "#a18becd2eb5c04d375f3fcea7533dcd0",
+            "text": "НАИМЕНОВАНИЕ СВАРОЧНЫХ РАБОТ:\n\n \n\nПЕРЕВАРКА ПОРОГА (ПОРОГОВ)\nПЕРЕВАРКА АРКИ (АРОК)\nПЕРЕВАРКА ДНИЩА\nПОСТАВИТЬ ЛАТКУ",
+            "bounds": {
+              "x": 108,
+              "y": 666,
+              "width": 350,
+              "height": 177
+            }
+          },
+          {
+            "selector": "#a18becd2eb5c06bdb5b23b339cefe235",
+            "text": "МЫ ОБЛАДАЕМ ВСЕМ НЕОБХОДИМЫМ ДЛЯ КАЧЕСТВЕННОГО ПРОВЕДЕНИЯ СВАРКИ:\nКВАЛИФИЦИРОВАННЫЕ МАСТЕРА;\nНОВОЕ СПЕЦИАЛИЗИРОВАННОЕ ОБОРУДОВАНИЕ;\nПОМЕЩЕНИЯ, В КОТОРЫХ СОБЛЮДАЮТСЯ ВСЕ НЕОБХОДИМЫЕ УСЛОВИЯ.",
+            "bounds": {
+              "x": 108,
+              "y": 439,
+              "width": 350,
+              "height": 276
+            }
+          },
+          {
+            "selector": "#a18becd2eb5c098ca1f28e6816dea017",
+            "text": "Хотите узнать стоимость работ сейчас?\nПрисылайте фото:\nViber +375 33 694-62-32",
+            "bounds": {
+              "x": 240,
+              "y": 896,
+              "width": 746,
+              "height": 78
+            }
+          },
+          {
+            "selector": "#a18becd2eb5c0f9be4910b8831a51854",
+            "text": "© 2022 alrusa.by",
+            "bounds": {
+              "x": 330,
+              "y": 2251,
+              "width": 210,
+              "height": 20
+            }
+          },
+          {
+            "selector": "#a18becd2eb5c10a1a0df5b9e8646521b",
+            "text": "ООО \"СТО Алруса\"\n\nУНП 590888303",
+            "bounds": {
+              "x": 130,
+              "y": 2251,
+              "width": 200,
+              "height": 40
+            }
+          }
+        ],
+        "requested_url": "https://alrusa.by/welding/",
+        "status": 200,
+        "fetched_at": "2026-10-26T18:19:41.748Z"
+      },
+      {
+        "url": "https://alrusa.by/contacts/",
+        "title": "Контакты СТО \"Алруса\" в Гродно",
+        "description": "Наш адрес: г. Гродно. ул. Венечная 2А/4967. Звоните: +375 (29) 218-75-99. Схема проезда",
+        "headings": [
+          {
+            "level": 3,
+            "text": "+375 (29) 218-75-99"
+          },
+          {
+            "level": 3,
+            "text": "+375 (33) 694-62-32"
+          },
+          {
+            "level": 3,
+            "text": "СТО \"Алруса\" в Гродно: +375 29 218-75-99"
+          },
+          {
+            "level": 2,
+            "text": "Контакты"
+          },
+          {
+            "level": 1,
+            "text": "Как к нам доехать?"
+          }
+        ],
+        "text": "Центр антикоррозийной защиты\n\nв Гродно\n\nИнформация и все права защищены. Любое копирование преследуется по закону.\n\n+375 (29) 218-75-99\n  +375 (33) 694-62-32\n\n(Сварочные работы)\n\nг. Гродно, ул. Аульская, 34 (схема проезда)\n\n(только Viber|WhatsApp)\n\nАнтикоррозийная обработка\nПескоструйная обработка\nУслуги СТО\nСварочные работы\nНаши работы\nПартнёры\nКонтакты\n СТО \"Алруса\" в Гродно: +375 29 218-75-99\n\nНаш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nТел. +375 (29) 218-75-99 (только Viber/Whatsapp)\n\n        +375 (33) 694-62-32\n\n \n\n \n\nE-mail: alrusa.grodno@gmail.com\n\nКонтакты\nКак к нам доехать?\n\nВы двигаетесь по направлению от ОАО \"Гродно Азот\" в сторону д. Аульс:\n\n© 2022 alrusa.by\n\nООО \"СТО Алруса\"\n\nУНП 590888303\n\nАнтикоррозийная обработка\nУслуги СТО\nКонтакты",
+        "body_text": "Центр антикоррозийной защиты\n\nв Гродно\n\nИнформация и все права защищены. Любое копирование преследуется по закону.\n\n+375 (29) 218-75-99\n  +375 (33) 694-62-32\n\n(Сварочные работы)\n\nг. Гродно, ул. Аульская, 34 (схема проезда)\n\n(только Viber|WhatsApp)\n\nАнтикоррозийная обработка\nПескоструйная обработка\nУслуги СТО\nСварочные работы\nНаши работы\nПартнёры\nКонтакты\n СТО \"Алруса\" в Гродно: +375 29 218-75-99\n\nНаш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nТел. +375 (29) 218-75-99 (только Viber/Whatsapp)\n\n        +375 (33) 694-62-32\n\n \n\n \n\nE-mail: alrusa.grodno@gmail.com\n\nКонтакты\nКак к нам доехать?\n\nВы двигаетесь по направлению от ОАО \"Гродно Азот\" в сторону д. Аульс:\n\n© 2022 alrusa.by\n\nООО \"СТО Алруса\"\n\nУНП 590888303\n\nАнтикоррозийная обработка\nУслуги СТО\nКонтакты",
+        "paragraphs": [
+          "Центр антикоррозийной защиты",
+          "Информация и все права защищены. Любое копирование преследуется по закону.",
+          "г. Гродно, ул. Аульская, 34 (схема проезда)",
+          "Наш адрес: г. Гродно, ул. Аульская, 34",
+          "Тел. +375 (29) 218-75-99 (только Viber/Whatsapp)",
+          "E-mail: alrusa.grodno@gmail.com",
+          "Вы двигаетесь по направлению от ОАО \"Гродно Азот\" в сторону д. Аульс:"
+        ],
+        "links": [
+          {
+            "text": "",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "схема проезда",
+            "url": "https://alrusa.by/contacts/#shema-proezd"
+          },
+          {
+            "text": "Антикоррозийная обработка",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "Пескоструйная обработка",
+            "url": "https://alrusa.by/peskostrui/"
+          },
+          {
+            "text": "Услуги СТО",
+            "url": "https://alrusa.by/uslugi-sto/"
+          },
+          {
+            "text": "Сварочные работы",
+            "url": "https://alrusa.by/welding/"
+          },
+          {
+            "text": "Наши работы",
+            "url": "https://alrusa.by/raboty/"
+          },
+          {
+            "text": "Партнёры",
+            "url": "https://alrusa.by/%D0%9F%D0%B0%D1%80%D1%82%D0%BD%D1%91%D1%80%D1%8B/"
+          },
+          {
+            "text": "Контакты",
+            "url": "https://alrusa.by/contacts/"
+          },
+          {
+            "text": "alrusa.by",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "Антикоррозийная обработка",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "Услуги СТО",
+            "url": "https://alrusa.by/uslugi-sto/"
+          },
+          {
+            "text": "Контакты",
+            "url": "https://alrusa.by/contacts/"
+          },
+          {
+            "text": "",
+            "url": "http://youtube.com/"
+          },
+          {
+            "text": "",
+            "url": "http://google.com/"
+          },
+          {
+            "text": "",
+            "url": "http://twitter.com/"
+          },
+          {
+            "text": "",
+            "url": "http://facebook.com/"
+          }
+        ],
+        "tables": [],
+        "images": [
+          {
+            "url": "https://alrusa.by/gallery_gen/4be7cfad29f6ab32744517af5406ef9a_230x183_0x0_230x186_crop.png?ts=1784127936",
+            "alt": "СТО Алруса"
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/4be7cfad29f6ab32744517af5406ef9a_230x183_0x0_230x186_crop.png?ts=1784127936",
+            "alt": "СТО Алруса"
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/21e3ebc38b8bab51c269f028bfb8db86_64x63_0x0_64x64_crop.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/21e3ebc38b8bab51c269f028bfb8db86_64x63_0x0_64x64_crop.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a9f42621464572b2b6eeae5510b8db0a_62x64_0x0_64x64_crop.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a9f42621464572b2b6eeae5510b8db0a_62x64_0x0_64x64_crop.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/6859d2f05324e4811478ff5ab7b69ebd_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/44c9154338435311995d9ee6e370a74b_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/9a2c97950739f0f9db1978ea0bf6c591_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/2d202b17aab5252bc4cc6bdcd47e54fc_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1bbf8407d60161d224cc46ba592e5c1a_fit.jpg?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1bbf8407d60161d224cc46ba592e5c1a_fit.jpg?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/youtube-logotype%20(1)-ts1464331182.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/d59c28024d858f41d43bb2caf9535002_fit.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/google-plus-ts1464331090.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/7464930fb955889a744de239bcad0894_fit.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/twitter%20(1)-ts1464331090.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1f55b0ad1d5c3dcf4bef38efd52dad83_fit.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/facebook-ts1464331089.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a09f478508956beac924515a1e364a3d_fit.png?ts=1784127936",
+            "alt": ""
+          }
+        ],
+        "structured_data": [],
+        "structured_data_errors": [],
+        "text_blocks": [
+          {
+            "selector": "#a18becd2eb5b3cfe80e581b81db638b0",
+            "text": "Центр антикоррозийной защиты\n\nв Гродно",
+            "bounds": {
+              "x": 280,
+              "y": 15,
+              "width": 297,
+              "height": 51
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b3f2b24e8c89b5d9ae02e",
+            "text": "Информация и все права защищены. Любое копирование преследуется по закону.",
+            "bounds": {
+              "x": 60,
+              "y": 109,
+              "width": 561,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b41f99d114095248640ea",
+            "text": "+375 (29) 218-75-99\n  +375 (33) 694-62-32",
+            "bounds": {
+              "x": 770,
+              "y": 29,
+              "width": 280,
+              "height": 68
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b42323299bb4471f20f42",
+            "text": "(Сварочные работы)",
+            "bounds": {
+              "x": 1056,
+              "y": 69,
+              "width": 160,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b432ef756730a06668db8",
+            "text": "г. Гродно, ул. Аульская, 34 (схема проезда)",
+            "bounds": {
+              "x": 276,
+              "y": 80,
+              "width": 430,
+              "height": 17
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b44286eb00b90a7700351",
+            "text": "(только Viber|WhatsApp)",
+            "bounds": {
+              "x": 1056,
+              "y": 35,
+              "width": 176,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b480f694e7fd594066d19",
+            "text": " СТО \"Алруса\" в Гродно: +375 29 218-75-99",
+            "bounds": {
+              "x": 360,
+              "y": 1487,
+              "width": 630,
+              "height": 34
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b4903334d74d82009d74c",
+            "text": "Наш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nТел. +375 (29) 218-75-99 (только Viber/Whatsapp)\n\n        +375 (33) 694-62-32\n\n \n\n \n\nE-mail: alrusa.grodno@gmail.com",
+            "bounds": {
+              "x": 104,
+              "y": 307,
+              "width": 456,
+              "height": 184
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b4a663bde359c8dd3ffd8",
+            "text": "Контакты",
+            "bounds": {
+              "x": 104,
+              "y": 237,
+              "width": 390,
+              "height": 41
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b4c3f2a11227d4b157223",
+            "text": "Как к нам доехать?",
+            "bounds": {
+              "x": 450,
+              "y": 587,
+              "width": 410,
+              "height": 49
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b4ec8b439fa8394934993",
+            "text": "Вы двигаетесь по направлению от ОАО \"Гродно Азот\" в сторону д. Аульс:",
+            "bounds": {
+              "x": 266,
+              "y": 677,
+              "width": 750,
+              "height": 24
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b534ec68996112e5ff8ce",
+            "text": "© 2022 alrusa.by",
+            "bounds": {
+              "x": 330,
+              "y": 1967,
+              "width": 210,
+              "height": 20
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b54cf78339c6ee8e6a818",
+            "text": "ООО \"СТО Алруса\"\n\nУНП 590888303",
+            "bounds": {
+              "x": 130,
+              "y": 1967,
+              "width": 200,
+              "height": 40
+            }
+          }
+        ],
+        "requested_url": "https://alrusa.by/contacts/",
+        "status": 200,
+        "fetched_at": "2026-10-26T18:19:47.580Z"
+      },
+      {
+        "url": "https://alrusa.by/raboty/",
+        "title": "Выполненные работы на СТО \"Алруса\"",
+        "description": "Несколько примеров наших работ по антикоррозийной обработке кузова в Гродно с описанием и фото.",
+        "headings": [
+          {
+            "level": 3,
+            "text": "+375 (29) 218-75-99"
+          },
+          {
+            "level": 3,
+            "text": "+375 (33) 694-62-32"
+          },
+          {
+            "level": 3,
+            "text": "СТО \"Алруса\" в Гродно: +375 29 218-75-99"
+          },
+          {
+            "level": 2,
+            "text": "Контакты"
+          },
+          {
+            "level": 3,
+            "text": ">>>>>"
+          },
+          {
+            "level": 3,
+            "text": "Немного наших работ"
+          },
+          {
+            "level": 3,
+            "text": ">>>>>"
+          },
+          {
+            "level": 3,
+            "text": "Больше видео наших работ на Youtube >>>>"
+          },
+          {
+            "level": 3,
+            "text": ">>>>>"
+          },
+          {
+            "level": 3,
+            "text": ">>>>>"
+          }
+        ],
+        "text": "Центр антикоррозийной защиты\n\nв Гродно\n\nИнформация и все права защищены. Любое копирование преследуется по закону.\n\n+375 (29) 218-75-99\n  +375 (33) 694-62-32\n\n(Сварочные работы)\n\nг. Гродно, ул. Аульская, 34 (схема проезда)\n\n(только Viber|WhatsApp)\n\nАнтикоррозийная обработка\nПескоструйная обработка\nУслуги СТО\nСварочные работы\nНаши работы\nПартнёры\nКонтакты\n СТО \"Алруса\" в Гродно: +375 29 218-75-99\n\nНаш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nСхема проезда\n\n \n\nТел. +375 (29) 218-75-99 (Viber/Whatsapp)\n\n \n\nE-mail: alrusa.grodno@gmail.com\n\nКонтакты\n\nИюнь 2018\n\n \n\nНа СТО \"Алруса\" выполнили антикоррозийную обработку внедорожника «Хаммер»\n\n \n\nДаже большие и мощные автомобили нуждаются в надежной защите. К нам на СТО заглянул достаточно редкий для нашего города гость.\n\n>>>>>\nНемного наших работ\n\nЧто было сделано:\n\n \n\nМойка арок, днища, снятие подкрылок.\nЗачистка мелких очагов коррозии.\nОбработка элементов кузова, нанесение антикоррозионных покрытий \"Динитрол\" на колесные арки, днище, скрытые элементы и полости кузова.\nСушка поверхностей и установка подкрылков и других деталей на место.\n\nФевраль 2020\n\n \n\nИз салона - к нам!)\n\n \n\nТо, о чём мы часто напоминаем: даже совсем новым автомобилям нужна дополнительная защита от коррозии. Сделали обработку новенькой Lada Vesta SW Cross.\n\n \n\n>>>>>\n\nПескоструйная обработка Toyota Venza\n\nАнтикоррозийная обработка автомобиля Infinity\n\nОбработанные подкрылки и днище Lada Vesta\n\nАнтикоррозийная обработка днища и колесных арок Grand Cherokee\n\nОбработка элементов кузова Grand Cherokee\n\nОбработка полостей кузова (задних фонарей) Geely Atlas\n\nОбработанные колесные арки Geely Atlas\n\nПодготовка к обработке Geely Atlas\n\nLada Vesta после обработки\n\nПодготовка к обработке Lada Vesta\n\nБольше видео наших работ на Youtube >>>>\n\nИюль 2022\n\n \n\nОбслуживаем тягачи!\n\n \n\nСделали пескоструйную и антикоррозийную обработку грузового тягача VOLVO.\n\n \n\n>>>>>\n\nСентябрь 2022\n\n \n\nОбработка пассажирского микроавтобуса\n\n \n\nКоммерческий транспорт постоянно находится в эксплуатации и нуждается в повышенной защите. \n\nНами была произведена полная антикоррозийная обработка микроавтобуса для одного из предприятий г. Гродно.\n\n \n\n>>>>>\n\n© 2022 alrusa.by\n\nООО \"СТО Алруса\"\n\nУНП 590888303\n\nАнтикоррозийная обработка\nУслуги СТО\nКонтакты",
+        "body_text": "Центр антикоррозийной защиты\n\nв Гродно\n\nИнформация и все права защищены. Любое копирование преследуется по закону.\n\n+375 (29) 218-75-99\n  +375 (33) 694-62-32\n\n(Сварочные работы)\n\nг. Гродно, ул. Аульская, 34 (схема проезда)\n\n(только Viber|WhatsApp)\n\nАнтикоррозийная обработка\nПескоструйная обработка\nУслуги СТО\nСварочные работы\nНаши работы\nПартнёры\nКонтакты\n СТО \"Алруса\" в Гродно: +375 29 218-75-99\n\nНаш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nСхема проезда\n\n \n\nТел. +375 (29) 218-75-99 (Viber/Whatsapp)\n\n \n\nE-mail: alrusa.grodno@gmail.com\n\nКонтакты\n\nИюнь 2018\n\n \n\nНа СТО \"Алруса\" выполнили антикоррозийную обработку внедорожника «Хаммер»\n\n \n\nДаже большие и мощные автомобили нуждаются в надежной защите. К нам на СТО заглянул достаточно редкий для нашего города гость.\n\n>>>>>\nНемного наших работ\n\nЧто было сделано:\n\n \n\nМойка арок, днища, снятие подкрылок.\nЗачистка мелких очагов коррозии.\nОбработка элементов кузова, нанесение антикоррозионных покрытий \"Динитрол\" на колесные арки, днище, скрытые элементы и полости кузова.\nСушка поверхностей и установка подкрылков и других деталей на место.\n\nФевраль 2020\n\n \n\nИз салона - к нам!)\n\n \n\nТо, о чём мы часто напоминаем: даже совсем новым автомобилям нужна дополнительная защита от коррозии. Сделали обработку новенькой Lada Vesta SW Cross.\n\n \n\n>>>>>\n\nПескоструйная обработка Toyota Venza\n\nАнтикоррозийная обработка автомобиля Infinity\n\nОбработанные подкрылки и днище Lada Vesta\n\nАнтикоррозийная обработка днища и колесных арок Grand Cherokee\n\nОбработка элементов кузова Grand Cherokee\n\nОбработка полостей кузова (задних фонарей) Geely Atlas\n\nОбработанные колесные арки Geely Atlas\n\nПодготовка к обработке Geely Atlas\n\nLada Vesta после обработки\n\nПодготовка к обработке Lada Vesta\n\nБольше видео наших работ на Youtube >>>>\n\nИюль 2022\n\n \n\nОбслуживаем тягачи!\n\n \n\nСделали пескоструйную и антикоррозийную обработку грузового тягача VOLVO.\n\n \n\n>>>>>\n\nСентябрь 2022\n\n \n\nОбработка пассажирского микроавтобуса\n\n \n\nКоммерческий транспорт постоянно находится в эксплуатации и нуждается в повышенной защите. \n\nНами была произведена полная антикоррозийная обработка микроавтобуса для одного из предприятий г. Гродно.\n\n \n\n>>>>>\n\n© 2022 alrusa.by\n\nООО \"СТО Алруса\"\n\nУНП 590888303\n\nАнтикоррозийная обработка\nУслуги СТО\nКонтакты",
+        "paragraphs": [
+          "Центр антикоррозийной защиты",
+          "Информация и все права защищены. Любое копирование преследуется по закону.",
+          "г. Гродно, ул. Аульская, 34 (схема проезда)",
+          "Наш адрес: г. Гродно, ул. Аульская, 34",
+          "Тел. +375 (29) 218-75-99 (Viber/Whatsapp)",
+          "E-mail: alrusa.grodno@gmail.com",
+          "На СТО \"Алруса\" выполнили антикоррозийную обработку внедорожника «Хаммер»",
+          "Даже большие и мощные автомобили нуждаются в надежной защите. К нам на СТО заглянул достаточно редкий для нашего города гость.",
+          "Мойка арок, днища, снятие подкрылок.",
+          "Зачистка мелких очагов коррозии.",
+          "Обработка элементов кузова, нанесение антикоррозионных покрытий \"Динитрол\" на колесные арки, днище, скрытые элементы и полости кузова.",
+          "Сушка поверхностей и установка подкрылков и других деталей на место.",
+          "То, о чём мы часто напоминаем: даже совсем новым автомобилям нужна дополнительная защита от коррозии. Сделали обработку новенькой Lada Vesta SW Cross.",
+          "Пескоструйная обработка Toyota Venza",
+          "Антикоррозийная обработка автомобиля Infinity",
+          "Обработанные подкрылки и днище Lada Vesta",
+          "Антикоррозийная обработка днища и колесных арок Grand Cherokee",
+          "Обработка элементов кузова Grand Cherokee",
+          "Обработка полостей кузова (задних фонарей) Geely Atlas",
+          "Обработанные колесные арки Geely Atlas",
+          "Подготовка к обработке Geely Atlas",
+          "Lada Vesta после обработки",
+          "Подготовка к обработке Lada Vesta",
+          "Сделали пескоструйную и антикоррозийную обработку грузового тягача VOLVO.",
+          "Обработка пассажирского микроавтобуса",
+          "Коммерческий транспорт постоянно находится в эксплуатации и нуждается в повышенной защите.",
+          "Нами была произведена полная антикоррозийная обработка микроавтобуса для одного из предприятий г. Гродно."
+        ],
+        "links": [
+          {
+            "text": "",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "схема проезда",
+            "url": "https://alrusa.by/contacts/#shema-proezd"
+          },
+          {
+            "text": "Антикоррозийная обработка",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "Пескоструйная обработка",
+            "url": "https://alrusa.by/peskostrui/"
+          },
+          {
+            "text": "Услуги СТО",
+            "url": "https://alrusa.by/uslugi-sto/"
+          },
+          {
+            "text": "Сварочные работы",
+            "url": "https://alrusa.by/welding/"
+          },
+          {
+            "text": "Наши работы",
+            "url": "https://alrusa.by/raboty/"
+          },
+          {
+            "text": "Партнёры",
+            "url": "https://alrusa.by/%D0%9F%D0%B0%D1%80%D1%82%D0%BD%D1%91%D1%80%D1%8B/"
+          },
+          {
+            "text": "Контакты",
+            "url": "https://alrusa.by/contacts/"
+          },
+          {
+            "text": "Схема проезда",
+            "url": "https://alrusa.by/contacts/#shema-proezd"
+          },
+          {
+            "text": "Больше видео наших работ на Youtube >>>>",
+            "url": "https://www.youtube.com/channel/UC0pqsZFOCzJQSwvMihdlnsQ"
+          },
+          {
+            "text": "",
+            "url": "https://www.youtube.com/channel/UC0pqsZFOCzJQSwvMihdlnsQ"
+          },
+          {
+            "text": "alrusa.by",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "Антикоррозийная обработка",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "Услуги СТО",
+            "url": "https://alrusa.by/uslugi-sto/"
+          },
+          {
+            "text": "Контакты",
+            "url": "https://alrusa.by/contacts/"
+          },
+          {
+            "text": "",
+            "url": "http://youtube.com/"
+          },
+          {
+            "text": "",
+            "url": "http://google.com/"
+          },
+          {
+            "text": "",
+            "url": "http://twitter.com/"
+          },
+          {
+            "text": "",
+            "url": "http://facebook.com/"
+          }
+        ],
+        "tables": [],
+        "images": [
+          {
+            "url": "https://alrusa.by/gallery_gen/4be7cfad29f6ab32744517af5406ef9a_230x183_0x0_230x186_crop.png?ts=1784127935",
+            "alt": "СТО Алруса"
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/4be7cfad29f6ab32744517af5406ef9a_230x183_0x0_230x186_crop.png?ts=1784127935",
+            "alt": "СТО Алруса"
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/21e3ebc38b8bab51c269f028bfb8db86_64x63_0x0_64x64_crop.png?ts=1784127935",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/21e3ebc38b8bab51c269f028bfb8db86_64x63_0x0_64x64_crop.png?ts=1784127935",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a9f42621464572b2b6eeae5510b8db0a_62x64_0x0_64x64_crop.png?ts=1784127935",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a9f42621464572b2b6eeae5510b8db0a_62x64_0x0_64x64_crop.png?ts=1784127935",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/c380411482dea5e08ba23d80584bad11_510x680_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/d7a6eb76e07bc22b401e8c7bfe3b41f8_808x606_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/56502c7e9da63f29094e2d383a025f86_808x606_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/450aaae38b0fed541734ef5e4f291b4b_808x606_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/5e3606f26d6f6b4dca96acb4258d2bf9_853.33333333333x640_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/183696314a6a21bff050a0775ce14ec8_853.33333333333x640_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/5594500af40043f0d368fb7ff44311b3_760x1351.1111111111_fill.jpg",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/channel-ts1644752020.jpg?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1f347d89c4e87f94373f71699e2115ee_fit.jpg?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/subscribe-ts1644752081.jpg?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/8e5e3d8ad7664244cbf7bb329a5d2c0d_fit.jpg?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a60b1f361bbc8a5dbf74bf29360ebe11_1482x532_fit.jpg?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a60b1f361bbc8a5dbf74bf29360ebe11_fit.jpg?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/20220919_181133-ts1663605665.jpg?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/ccfb744843f4882e76b83f677ef60a2f_fit.jpg?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1bbf8407d60161d224cc46ba592e5c1a_fit.jpg?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1bbf8407d60161d224cc46ba592e5c1a_fit.jpg?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/youtube-logotype%20(1)-ts1464331182.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/d59c28024d858f41d43bb2caf9535002_fit.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/google-plus-ts1464331090.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/7464930fb955889a744de239bcad0894_fit.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/twitter%20(1)-ts1464331090.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1f55b0ad1d5c3dcf4bef38efd52dad83_fit.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/facebook-ts1464331089.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a09f478508956beac924515a1e364a3d_fit.png?ts=1784127936",
+            "alt": ""
+          }
+        ],
+        "structured_data": [],
+        "structured_data_errors": [],
+        "text_blocks": [
+          {
+            "selector": "#a18becd2eb5a4534e12eed9a09e6ec1e",
+            "text": "Центр антикоррозийной защиты\n\nв Гродно",
+            "bounds": {
+              "x": 280,
+              "y": 15,
+              "width": 297,
+              "height": 51
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a48144071ee1d49af1be2",
+            "text": "Информация и все права защищены. Любое копирование преследуется по закону.",
+            "bounds": {
+              "x": 60,
+              "y": 109,
+              "width": 561,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a4a1460be24afb3ff368e",
+            "text": "+375 (29) 218-75-99\n  +375 (33) 694-62-32",
+            "bounds": {
+              "x": 771,
+              "y": 28,
+              "width": 280,
+              "height": 68
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a4bbb45c60f59c94854dc",
+            "text": "(Сварочные работы)",
+            "bounds": {
+              "x": 1056,
+              "y": 65,
+              "width": 160,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a4ce09348d2922576d428",
+            "text": "г. Гродно, ул. Аульская, 34 (схема проезда)",
+            "bounds": {
+              "x": 276,
+              "y": 80,
+              "width": 430,
+              "height": 17
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a4dbdc47d53f9c447cc5e",
+            "text": "(только Viber|WhatsApp)",
+            "bounds": {
+              "x": 1057,
+              "y": 35,
+              "width": 176,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a51ca12c7d0273d0121e0",
+            "text": " СТО \"Алруса\" в Гродно: +375 29 218-75-99",
+            "bounds": {
+              "x": 360,
+              "y": 4179,
+              "width": 630,
+              "height": 34
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a52ff44a5abaac16a5538",
+            "text": "Наш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nСхема проезда\n\n \n\nТел. +375 (29) 218-75-99 (Viber/Whatsapp)\n\n \n\nE-mail: alrusa.grodno@gmail.com",
+            "bounds": {
+              "x": 128,
+              "y": 4676,
+              "width": 420,
+              "height": 184
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a5381a4ec7f46d19aee03",
+            "text": "Контакты",
+            "bounds": {
+              "x": 128,
+              "y": 4606,
+              "width": 390,
+              "height": 41
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a55d1a3e0b043ea80065c",
+            "text": "Июнь 2018\n\n \n\nНа СТО \"Алруса\" выполнили антикоррозийную обработку внедорожника «Хаммер»\n\n \n\nДаже большие и мощные автомобили нуждаются в надежной защите. К нам на СТО заглянул достаточно редкий для нашего города гость.\n\n>>>>>",
+            "bounds": {
+              "x": 90,
+              "y": 3539,
+              "width": 390,
+              "height": 254
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a57b6f3a019ef4092a81f",
+            "text": "Немного наших работ",
+            "bounds": {
+              "x": 500,
+              "y": 236,
+              "width": 380,
+              "height": 34
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a580aa25638a9737bc982",
+            "text": "Что было сделано:\n\n \n\nМойка арок, днища, снятие подкрылок.\nЗачистка мелких очагов коррозии.\nОбработка элементов кузова, нанесение антикоррозионных покрытий \"Динитрол\" на колесные арки, днище, скрытые элементы и полости кузова.\nСушка поверхностей и установка подкрылков и других деталей на место.",
+            "bounds": {
+              "x": 120,
+              "y": 3839,
+              "width": 340,
+              "height": 268
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a5ae14673a10435f96eeb",
+            "text": "Февраль 2020\n\n \n\nИз салона - к нам!)\n\n \n\nТо, о чём мы часто напоминаем: даже совсем новым автомобилям нужна дополнительная защита от коррозии. Сделали обработку новенькой Lada Vesta SW Cross.\n\n \n\n>>>>>",
+            "bounds": {
+              "x": 95,
+              "y": 2946,
+              "width": 360,
+              "height": 246
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a679f0510af19f4de6804",
+            "text": "Пескоструйная обработка Toyota Venza",
+            "bounds": {
+              "x": 120,
+              "y": 586,
+              "width": 467,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a68a7cb944fad8964ca99",
+            "text": "Антикоррозийная обработка автомобиля Infinity",
+            "bounds": {
+              "x": 680,
+              "y": 586,
+              "width": 467,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a691656e191c147f37016",
+            "text": "Обработанные подкрылки и днище Lada Vesta",
+            "bounds": {
+              "x": 120,
+              "y": 936,
+              "width": 467,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a6ac013f4fc0ed2b5a05e",
+            "text": "Антикоррозийная обработка днища и колесных арок Grand Cherokee",
+            "bounds": {
+              "x": 680,
+              "y": 936,
+              "width": 467,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a6bd2ad78d17de2887f1a",
+            "text": "Обработка элементов кузова Grand Cherokee",
+            "bounds": {
+              "x": 120,
+              "y": 1276,
+              "width": 467,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a6cced0f83d74aab73998",
+            "text": "Обработка полостей кузова (задних фонарей) Geely Atlas",
+            "bounds": {
+              "x": 680,
+              "y": 1276,
+              "width": 467,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a6db3fcdb1f26bdc4a323",
+            "text": "Обработанные колесные арки Geely Atlas",
+            "bounds": {
+              "x": 120,
+              "y": 1626,
+              "width": 467,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a6e231c315e6175afd47c",
+            "text": "Подготовка к обработке Geely Atlas",
+            "bounds": {
+              "x": 680,
+              "y": 1626,
+              "width": 467,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a6ff32e6c711924a21376",
+            "text": "Lada Vesta после обработки",
+            "bounds": {
+              "x": 120,
+              "y": 1976,
+              "width": 467,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a709f82666d953a587ecd",
+            "text": "Подготовка к обработке Lada Vesta",
+            "bounds": {
+              "x": 680,
+              "y": 1976,
+              "width": 467,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5a7107eebaef4e48934dfe",
+            "text": "Больше видео наших работ на Youtube >>>>",
+            "bounds": {
+              "x": 170,
+              "y": 2056,
+              "width": 700,
+              "height": 34
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b01a9bf9870679b9cc853",
+            "text": "Июль 2022\n\n \n\nОбслуживаем тягачи!\n\n \n\nСделали пескоструйную и антикоррозийную обработку грузового тягача VOLVO.\n\n \n\n>>>>>",
+            "bounds": {
+              "x": 80,
+              "y": 2566,
+              "width": 360,
+              "height": 186
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b0379bcbda6de8e358a5e",
+            "text": "Сентябрь 2022\n\n \n\nОбработка пассажирского микроавтобуса\n\n \n\nКоммерческий транспорт постоянно находится в эксплуатации и нуждается в повышенной защите. \n\nНами была произведена полная антикоррозийная обработка микроавтобуса для одного из предприятий г. Гродно.\n\n \n\n>>>>>",
+            "bounds": {
+              "x": 70,
+              "y": 2180,
+              "width": 410,
+              "height": 270
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b0d9348f10f7a9196d133",
+            "text": "© 2022 alrusa.by",
+            "bounds": {
+              "x": 330,
+              "y": 5046,
+              "width": 210,
+              "height": 20
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b0efc22c9c7759c54202c",
+            "text": "ООО \"СТО Алруса\"\n\nУНП 590888303",
+            "bounds": {
+              "x": 130,
+              "y": 5046,
+              "width": 200,
+              "height": 40
+            }
+          }
+        ],
+        "requested_url": "https://alrusa.by/raboty/",
+        "status": 200,
+        "fetched_at": "2026-10-26T18:19:53.372Z"
+      },
+      {
+        "url": "https://alrusa.by/%D0%9F%D0%B0%D1%80%D1%82%D0%BD%D1%91%D1%80%D1%8B/",
+        "title": "Партнёры",
+        "description": "Партнёры",
+        "headings": [
+          {
+            "level": 3,
+            "text": "+375 (29) 218-75-99"
+          },
+          {
+            "level": 3,
+            "text": "+375 (33) 694-62-32"
+          },
+          {
+            "level": 3,
+            "text": "СТО \"Алруса\" в Гродно: +375 29 218-75-99"
+          },
+          {
+            "level": 2,
+            "text": "Контакты"
+          },
+          {
+            "level": 3,
+            "text": "Наши лучшие друзья ;)"
+          }
+        ],
+        "text": "Центр антикоррозийной защиты\n\nв Гродно\n\nИнформация и все права защищены. Любое копирование преследуется по закону.\n\n+375 (29) 218-75-99\n  +375 (33) 694-62-32\n\n(Сварочные работы)\n\nг. Гродно, ул. Аульская, 34 (схема проезда)\n\n(только Viber|WhatsApp)\n\nАнтикоррозийная обработка\nПескоструйная обработка\nУслуги СТО\nСварочные работы\nНаши работы\nПартнёры\nКонтакты\n СТО \"Алруса\" в Гродно: +375 29 218-75-99 \n\nНаш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nСхема проезда\n\n \n\nТел. +375 (29) 218-75-99 (Viber/Whatsapp)\n\n \n\nE-mail: alrusa.grodno@gmail.com\n\nКонтакты\nНаши лучшие друзья ;)\n\nLada Club Belarus\n\nGeely Club Belarus\n\nМагазин Автобан.бел\n\nLada Vesta Club Belarus\n\n© 2022 alrusa.by\n\nООО \"СТО Алруса\"\n\nУНП 590888303\n\nАнтикоррозийная обработка\nУслуги СТО\nКонтакты",
+        "body_text": "Центр антикоррозийной защиты\n\nв Гродно\n\nИнформация и все права защищены. Любое копирование преследуется по закону.\n\n+375 (29) 218-75-99\n  +375 (33) 694-62-32\n\n(Сварочные работы)\n\nг. Гродно, ул. Аульская, 34 (схема проезда)\n\n(только Viber|WhatsApp)\n\nАнтикоррозийная обработка\nПескоструйная обработка\nУслуги СТО\nСварочные работы\nНаши работы\nПартнёры\nКонтакты\n СТО \"Алруса\" в Гродно: +375 29 218-75-99 \n\nНаш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nСхема проезда\n\n \n\nТел. +375 (29) 218-75-99 (Viber/Whatsapp)\n\n \n\nE-mail: alrusa.grodno@gmail.com\n\nКонтакты\nНаши лучшие друзья ;)\n\nLada Club Belarus\n\nGeely Club Belarus\n\nМагазин Автобан.бел\n\nLada Vesta Club Belarus\n\n© 2022 alrusa.by\n\nООО \"СТО Алруса\"\n\nУНП 590888303\n\nАнтикоррозийная обработка\nУслуги СТО\nКонтакты",
+        "paragraphs": [
+          "Центр антикоррозийной защиты",
+          "Информация и все права защищены. Любое копирование преследуется по закону.",
+          "г. Гродно, ул. Аульская, 34 (схема проезда)",
+          "Наш адрес: г. Гродно, ул. Аульская, 34",
+          "Тел. +375 (29) 218-75-99 (Viber/Whatsapp)",
+          "E-mail: alrusa.grodno@gmail.com"
+        ],
+        "links": [
+          {
+            "text": "",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "схема проезда",
+            "url": "https://alrusa.by/contacts/#shema-proezd"
+          },
+          {
+            "text": "Антикоррозийная обработка",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "Пескоструйная обработка",
+            "url": "https://alrusa.by/peskostrui/"
+          },
+          {
+            "text": "Услуги СТО",
+            "url": "https://alrusa.by/uslugi-sto/"
+          },
+          {
+            "text": "Сварочные работы",
+            "url": "https://alrusa.by/welding/"
+          },
+          {
+            "text": "Наши работы",
+            "url": "https://alrusa.by/raboty/"
+          },
+          {
+            "text": "Партнёры",
+            "url": "https://alrusa.by/%D0%9F%D0%B0%D1%80%D1%82%D0%BD%D1%91%D1%80%D1%8B/"
+          },
+          {
+            "text": "Контакты",
+            "url": "https://alrusa.by/contacts/"
+          },
+          {
+            "text": "Схема проезда",
+            "url": "https://alrusa.by/contacts/#shema-proezd"
+          },
+          {
+            "text": "",
+            "url": "http://geely-club.by/"
+          },
+          {
+            "text": "",
+            "url": "https://lada-club.by/"
+          },
+          {
+            "text": "",
+            "url": "https://vk.com/vestaminsk"
+          },
+          {
+            "text": "Lada Club Belarus",
+            "url": "https://lada-club.by/"
+          },
+          {
+            "text": "Geely Club Belarus",
+            "url": "http://geely-club.by/"
+          },
+          {
+            "text": "Магазин Автобан.бел",
+            "url": "http://xn--80aacd1dd1a.xn--90ais/"
+          },
+          {
+            "text": "Lada Vesta Club Belarus",
+            "url": "https://vk.com/vestaminsk"
+          },
+          {
+            "text": "alrusa.by",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "Антикоррозийная обработка",
+            "url": "https://alrusa.by/"
+          },
+          {
+            "text": "Услуги СТО",
+            "url": "https://alrusa.by/uslugi-sto/"
+          },
+          {
+            "text": "Контакты",
+            "url": "https://alrusa.by/contacts/"
+          }
+        ],
+        "tables": [],
+        "images": [
+          {
+            "url": "https://alrusa.by/gallery_gen/4be7cfad29f6ab32744517af5406ef9a_230x183_0x0_230x186_crop.png?ts=1784127936",
+            "alt": "СТО Алруса"
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/4be7cfad29f6ab32744517af5406ef9a_230x183_0x0_230x186_crop.png?ts=1784127936",
+            "alt": "СТО Алруса"
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/21e3ebc38b8bab51c269f028bfb8db86_64x63_0x0_64x64_crop.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/21e3ebc38b8bab51c269f028bfb8db86_64x63_0x0_64x64_crop.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a9f42621464572b2b6eeae5510b8db0a_62x64_0x0_64x64_crop.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/a9f42621464572b2b6eeae5510b8db0a_62x64_0x0_64x64_crop.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/geelyclub-ts1558700157.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/5e3b0f3f45dbe82aaf155657a7b23450_fit.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/ladaclub2-ts1558700357.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/91f4bfec5de97d7107fb00013a3f41ed_fit.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/vestaminsk-ts1558700402.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/fd29ea46c6a33c27907ca866a8a13587_fit.png?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery/avtoban-ts1558700468.png?ts=1784127936",
+            "alt": "http://xn--80aacd1dd1a.xn--90ais/"
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/69ef0709378b7d66d82e4440f0b36a68_fit.png?ts=1784127936",
+            "alt": "http://xn--80aacd1dd1a.xn--90ais/"
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1bbf8407d60161d224cc46ba592e5c1a_fit.jpg?ts=1784127936",
+            "alt": ""
+          },
+          {
+            "url": "https://alrusa.by/gallery_gen/1bbf8407d60161d224cc46ba592e5c1a_fit.jpg?ts=1784127936",
+            "alt": ""
+          }
+        ],
+        "structured_data": [],
+        "structured_data_errors": [],
+        "text_blocks": [
+          {
+            "selector": "#a18becd2eb5b184741004c7ebc545631",
+            "text": "Центр антикоррозийной защиты\n\nв Гродно",
+            "bounds": {
+              "x": 280,
+              "y": 15,
+              "width": 297,
+              "height": 51
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b1bfb914a00d6a12a77eb",
+            "text": "Информация и все права защищены. Любое копирование преследуется по закону.",
+            "bounds": {
+              "x": 60,
+              "y": 109,
+              "width": 561,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b1d8e25adca7d3fde72a9",
+            "text": "+375 (29) 218-75-99\n  +375 (33) 694-62-32",
+            "bounds": {
+              "x": 771,
+              "y": 27,
+              "width": 280,
+              "height": 68
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b1e39fd014bb110d13eac",
+            "text": "(Сварочные работы)",
+            "bounds": {
+              "x": 1059,
+              "y": 66,
+              "width": 160,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b1fa7ba0be11a22a6f62c",
+            "text": "г. Гродно, ул. Аульская, 34 (схема проезда)",
+            "bounds": {
+              "x": 276,
+              "y": 80,
+              "width": 430,
+              "height": 17
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b206611035c75ba338c63",
+            "text": "(только Viber|WhatsApp)",
+            "bounds": {
+              "x": 1057,
+              "y": 32,
+              "width": 176,
+              "height": 27
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b24c3d751a5cfa0b498f8",
+            "text": " СТО \"Алруса\" в Гродно: +375 29 218-75-99 ",
+            "bounds": {
+              "x": 360,
+              "y": 606,
+              "width": 630,
+              "height": 34
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b25a3ae0eb67315e43e5f",
+            "text": "Наш адрес: г. Гродно, ул. Аульская, 34\n\n(напротив ООО \"Биоком\")\n\n \n\nСхема проезда\n\n \n\nТел. +375 (29) 218-75-99 (Viber/Whatsapp)\n\n \n\nE-mail: alrusa.grodno@gmail.com",
+            "bounds": {
+              "x": 130,
+              "y": 1096,
+              "width": 420,
+              "height": 184
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b267a2a5ca2cbbdc8d764",
+            "text": "Контакты",
+            "bounds": {
+              "x": 130,
+              "y": 1026,
+              "width": 390,
+              "height": 41
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b28c2239d8a93a7bff7b5",
+            "text": "Наши лучшие друзья ;)",
+            "bounds": {
+              "x": 500,
+              "y": 226,
+              "width": 380,
+              "height": 34
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b2d2f3be7a2538a18443d",
+            "text": "Lada Club Belarus",
+            "bounds": {
+              "x": 182,
+              "y": 526,
+              "width": 132,
+              "height": 29
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b2e86aa2dad86a6a03c25",
+            "text": "Geely Club Belarus",
+            "bounds": {
+              "x": 452,
+              "y": 526,
+              "width": 132,
+              "height": 29
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b2fbfcffd7acf05622571",
+            "text": "Магазин Автобан.бел",
+            "bounds": {
+              "x": 710,
+              "y": 526,
+              "width": 160,
+              "height": 29
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b30a36efbdd09a7f7d2d3",
+            "text": "Lada Vesta Club Belarus",
+            "bounds": {
+              "x": 970,
+              "y": 526,
+              "width": 179,
+              "height": 29
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b35ed74762b2280f80867",
+            "text": "© 2022 alrusa.by",
+            "bounds": {
+              "x": 330,
+              "y": 1416,
+              "width": 210,
+              "height": 20
+            }
+          },
+          {
+            "selector": "#a18becd2eb5b36b3015047b5211b0d87",
+            "text": "ООО \"СТО Алруса\"\n\nУНП 590888303",
+            "bounds": {
+              "x": 130,
+              "y": 1416,
+              "width": 200,
+              "height": 40
+            }
+          }
+        ],
+        "requested_url": "https://alrusa.by/%D0%9F%D0%B0%D1%80%D1%82%D0%BD%D1%91%D1%80%D1%8B/",
+        "status": 200,
+        "fetched_at": "2026-10-26T18:19:59.239Z"
+      }
+    ]
+  },
+  "section_index": {
+    "company": {
+      "type": "object",
+      "count": 7
+    },
+    "services": {
+      "type": "array",
+      "count": 15
+    },
+    "vehicle_types": {
+      "type": "array",
+      "count": 10
+    },
+    "currency": {
+      "type": "string",
+      "count": null
+    },
+    "price_schedules": {
+      "type": "array",
+      "count": 2
+    },
+    "price_evidence": {
+      "type": "array",
+      "count": 15
+    },
+    "technology_and_materials": {
+      "type": "array",
+      "count": 12
+    },
+    "site_claims": {
+      "type": "array",
+      "count": 5
+    },
+    "conditions": {
+      "type": "array",
+      "count": 7
+    },
+    "pages": {
+      "type": "array",
+      "count": 7
+    }
+  },
+  "claims_and_caveats": {
+    "site_claims": [
+      {
+        "text": "Гарантийный талон на ежегодное бесплатное обслуживание",
+        "source_url": "https://alrusa.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Выдаём юридически заверенную гарантию на все обработанные автомобили независимо от возраста и состояния.",
+        "source_url": "https://alrusa.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Работаем с оригинальными материалами шведской марки \"Динитрол\" - №1 на рынке антикоррозийных покрытий.",
+        "source_url": "https://alrusa.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Наши преимущества",
+        "source_url": "https://alrusa.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "ГАРАНТИЯ НА ВЫПОЛНЕННЫЕ РАБОТЫ: ОТ 2 ДО 15 лет",
+        "source_url": "https://alrusa.by/",
+        "verification": "site_claim"
+      }
+    ],
+    "notes": [
+      "Claims and guarantees are statements by the source site.",
+      "BYN: рубли на сайте компании из Беларуси; ISO-код валюты на странице не указан.",
+      "Оба датированных прайса сохранены в price_schedules; в сравнении только действующий на дату сбора.",
+      "Расхождение источников: цены пескоструйной обработки и доплаты на главной и /peskostrui/ различаются; предложения сохранены отдельно с исходными URL.",
+      "НИЖНЯЯ ЧАСТЬ, премиум/коммерческий транспорт, ремонт ходовой и сварочные работы: числовые цены не опубликованы; prices: [].",
+      "Прайс антикоррозийной обработки указан без пескоструйной очистки. Доплаты и выезд не включены в базовую цену.",
+      "Часы работы не найдены; сайт ограничивает прием автомобилей после обработки неизвестными составами."
+    ]
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "schema_version": "1.0",
+  "company": {
+    "name": "ООО \"СТО Алруса\"",
+    "website": "https://alrusa.by/",
+    "country": "BY",
+    "locations": [
+      {
+        "city": "Гродно",
+        "address": "г. Гродно, ул. Аульская, 34",
+        "phones": [
+          "+375 29 218-75-99",
+          "+375 (33) 694-62-32"
+        ]
+      }
+    ]
+  },
+  "source": {
+    "scraped_at": "2026-10-26",
+    "urls": [
+      "https://alrusa.by/",
+      "https://alrusa.by/peskostrui/",
+      "https://alrusa.by/uslugi-sto/",
+      "https://alrusa.by/welding/",
+      "https://alrusa.by/contacts/",
+      "https://alrusa.by/raboty/",
+      "https://alrusa.by/%D0%9F%D0%B0%D1%80%D1%82%D0%BD%D1%91%D1%80%D1%8B/"
+    ],
+    "notes": "BYN: рубли на сайте компании из Беларуси; ISO-код валюты на странице не указан. Оба датированных прайса сохранены в price_schedules; в сравнении только действующий на дату сбора. Расхождение источников: цены пескоструйной обработки и доплаты на главной и /peskostrui/ различаются; предложения сохранены отдельно с исходными URL. НИЖНЯЯ ЧАСТЬ, премиум/коммерческий транспорт, ремонт ходовой и сварочные работы: числовые цены не опубликованы; prices: []. Прайс антикоррозийной обработки указан без пескоструйной очистки. Доплаты и выезд не включены в базовую цену. Часы работы не найдены; сайт ограничивает прием автомобилей после обработки неизвестными составами."
+  },
+  "currency": "BYN",
+  "vehicle_types": [
+    {
+      "id": "vehicle-1",
+      "name_original": "Легковые автомобили (седан/универсал/хэтчбек) до 4 метров.",
+      "class": "small"
+    },
+    {
+      "id": "vehicle-2",
+      "name_original": "Кроссовер от 4 до 4,25 метра.",
+      "class": "crossover"
+    },
+    {
+      "id": "vehicle-3",
+      "name_original": "Минивен от 4,25 до 4,5 метра",
+      "class": "minivan"
+    },
+    {
+      "id": "vehicle-4",
+      "name_original": "Внедорожники до 4,5 метра",
+      "class": "suv"
+    },
+    {
+      "id": "vehicle-5",
+      "name_original": "Внедорожники более 4,5 метра",
+      "class": "suv"
+    },
+    {
+      "id": "vehicle-6",
+      "name_original": "Рамные внедорожники",
+      "class": "suv"
+    },
+    {
+      "id": "vehicle-7",
+      "name_original": "Микроавтобус до 5 метров.",
+      "class": "van"
+    },
+    {
+      "id": "vehicle-8",
+      "name_original": "Микроавтобусы длиной более 5 метров.",
+      "class": "van"
+    },
+    {
+      "id": "any",
+      "name_original": "любыми типами автомобилей",
+      "class": "any"
+    },
+    {
+      "id": "premium-commercial",
+      "name_original": "Автомобили премиум-класса и коммерческий транспорт",
+      "class": "other"
+    }
+  ],
+  "services": [
+    {
+      "id": "full-treatment",
+      "category": "anticorrosion",
+      "name_original": "Полная обработка",
+      "description": "В категорию ПОЛНАЯ ОБРАБОТКА входит покрытие материалами Динитрол днища, порогов изнутри, колесных арок, капота, крышки багажника, нижней части дверей изнутри, покрытие днища и колесных арок дополнительной антигравийной и шумоизоляционной защитой Динитрол 479 (\"жидкие подкрылки\")",
+      "url": "https://alrusa.by/",
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-1",
+          "price": 900,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "900 руб.",
+          "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+        },
+        {
+          "vehicle_type_id": "vehicle-2",
+          "price": 950,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "950 руб.",
+          "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+        },
+        {
+          "vehicle_type_id": "vehicle-3",
+          "price": 1000,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "1000 руб.",
+          "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+        },
+        {
+          "vehicle_type_id": "vehicle-4",
+          "price": 1000,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "1000 руб.",
+          "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+        },
+        {
+          "vehicle_type_id": "vehicle-5",
+          "price": 1030,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "1030 руб.",
+          "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+        },
+        {
+          "vehicle_type_id": "vehicle-6",
+          "price": 1350,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "1350 руб.",
+          "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+        },
+        {
+          "vehicle_type_id": "vehicle-7",
+          "price": null,
+          "price_min": 1650,
+          "price_max": null,
+          "price_text_original": "от 1650 руб.",
+          "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+        },
+        {
+          "vehicle_type_id": "vehicle-8",
+          "price": null,
+          "price_min": 1950,
+          "price_max": null,
+          "price_text_original": "от 1950 руб.",
+          "notes": "Стоимость на период с 01.09. по 31.12.2026 г.; без пескоструйной очистки; за автомобиль"
+        }
+      ],
+      "completion_time": {
+        "min": 3,
+        "max": 10,
+        "unit": "days",
+        "text_original": "от 3 до 10 рабочих дней"
+      }
+    },
+    {
+      "id": "lower-treatment",
+      "category": "anticorrosion",
+      "name_original": "НИЖНЯЯ ЧАСТЬ",
+      "description": "В категорию НИЖНЯЯ ЧАСТЬ входит покрытие днища, колесных арок, порогов автомобиля материалами Динитрол, а также дополнительной антигравийной и шумоизоляционной защитой Динитрол 479. Пороги изнутри обрабатываются жидким материалом Динитрол",
+      "url": "https://alrusa.by/",
+      "prices": []
+    },
+    {
+      "id": "premium-commercial",
+      "category": "anticorrosion",
+      "name_original": "Автомобили премиум-класса и коммерческий транспорт",
+      "description": "Автомобили премиум-класса и коммерческий транспорт: Цена договорная",
+      "url": "https://alrusa.by/",
+      "prices": []
+    },
+    {
+      "id": "home-blasting",
+      "category": "anticorrosion",
+      "name_original": "Беспылевая пескоструйная обработка (удаление рыхлой ржавчины) поврежденных коррозией участков",
+      "description": "Стоимость на период с 01.09. по 31.12.2026 г. Точная стоимость пескоструйной обработки только после осмотра автомобиля. За поврежденные участки; точная единица не указана.",
+      "url": "https://alrusa.by/",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": 300,
+          "price_max": 1000,
+          "price_text_original": "от 300 до 1000 руб.",
+          "notes": "Стоимость на период с 01.09. по 31.12.2026 г. Точная стоимость пескоструйной обработки только после осмотра автомобиля. За поврежденные участки; точная единица не указана."
+        }
+      ]
+    },
+    {
+      "id": "home-disassembly",
+      "category": "additional",
+      "name_original": "Доплата по согласованию с заказчиком за конструктивную сложность разборочно сборочных работ (в особенности новых автомобилей) нижней части автомобиля",
+      "description": "Стоимость на период с 01.09. по 31.12.2026 г. Точная стоимость пескоструйной обработки только после осмотра автомобиля. Доплата, по согласованию с заказчиком.",
+      "url": "https://alrusa.by/",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": 250,
+          "price_max": 300,
+          "price_text_original": "от 250 до 300 рублей",
+          "notes": "Стоимость на период с 01.09. по 31.12.2026 г. Точная стоимость пескоструйной обработки только после осмотра автомобиля. Доплата, по согласованию с заказчиком."
+        }
+      ]
+    },
+    {
+      "id": "sand-blasting",
+      "category": "anticorrosion",
+      "name_original": "Беспылевая пескоструйная обработка (удаление рыхлой ржавчины) поврежденных коррозией участков",
+      "description": "Точная стоимость пескоструйной обработки только после осмотра автомобиля. За поврежденные участки; точная единица не указана.",
+      "url": "https://alrusa.by/peskostrui/",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": 200,
+          "price_max": 900,
+          "price_text_original": "от 200 до 900 руб.",
+          "notes": "Точная стоимость пескоструйной обработки только после осмотра автомобиля. За поврежденные участки; точная единица не указана."
+        }
+      ]
+    },
+    {
+      "id": "sand-disassembly",
+      "category": "additional",
+      "name_original": "Доплата по согласованию с заказчиком за конструктивную сложность разборочно сборочных работ (в особенности новых автомобилей) нижней части автомобиля",
+      "description": "Точная стоимость пескоструйной обработки только после осмотра автомобиля. Доплата, по согласованию с заказчиком.",
+      "url": "https://alrusa.by/peskostrui/",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": 150,
+          "price_max": 200,
+          "price_text_original": "от 150 до 200 рублей",
+          "notes": "Точная стоимость пескоструйной обработки только после осмотра автомобиля. Доплата, по согласованию с заказчиком."
+        }
+      ]
+    },
+    {
+      "id": "mobile-visit",
+      "category": "additional",
+      "name_original": "Пескоструйная обработка с выездом к клиенту",
+      "description": "Выезд в пределах городской черты; цена выезда, не полная стоимость обработки.",
+      "url": "https://alrusa.by/peskostrui/",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": 80,
+          "price_max": 120,
+          "price_text_original": "от 80 до 120 руб.",
+          "notes": "За выезд в пределах городской черты."
+        }
+      ]
+    },
+    {
+      "id": "diagnostics-1",
+      "category": "additional",
+      "name_original": "Без демонтажа частей автомобиля.",
+      "description": "ДИАГНОСТИКА НА ПРЕДМЕТ ОБРАБОТКИ. При дальнейшей обработке на территории ООО \"СТО Алруса\" стоимость диагностики входит в общую стоимость обработки.",
+      "url": "https://alrusa.by/",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": 30,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "30 рублей",
+          "notes": "За диагностику; при дальнейшей обработке входит в общую стоимость."
+        }
+      ],
+      "completion_time": {
+        "max": 20,
+        "unit": "minutes",
+        "text_original": "не более 20 минут"
+      }
+    },
+    {
+      "id": "diagnostics-2",
+      "category": "additional",
+      "name_original": "С частичным демонтажем частей автомобиля.",
+      "description": "ДИАГНОСТИКА НА ПРЕДМЕТ ОБРАБОТКИ. При дальнейшей обработке на территории ООО \"СТО Алруса\" стоимость диагностики входит в общую стоимость обработки.",
+      "url": "https://alrusa.by/",
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": 100,
+          "price_min": null,
+          "price_max": null,
+          "price_text_original": "100 рублей",
+          "notes": "За диагностику; при дальнейшей обработке входит в общую стоимость."
+        }
+      ],
+      "completion_time": {
+        "max": 60,
+        "unit": "minutes",
+        "text_original": "не более 60 минут"
+      }
+    },
+    {
+      "id": "running-gear",
+      "category": "additional",
+      "name_original": "Ремонт ходовой части",
+      "description": "Числовые цены на странице услуг СТО отсутствуют.",
+      "url": "https://alrusa.by/uslugi-sto/",
+      "prices": []
+    },
+    {
+      "id": "welding-1",
+      "category": "additional",
+      "name_original": "ПЕРЕВАРКА ПОРОГА (ПОРОГОВ)",
+      "description": "Хотите узнать стоимость работ сейчас? Присылайте фото: Viber +375 33 694-62-32",
+      "url": "https://alrusa.by/welding/",
+      "prices": []
+    },
+    {
+      "id": "welding-2",
+      "category": "additional",
+      "name_original": "ПЕРЕВАРКА АРКИ (АРОК)",
+      "description": "Хотите узнать стоимость работ сейчас? Присылайте фото: Viber +375 33 694-62-32",
+      "url": "https://alrusa.by/welding/",
+      "prices": []
+    },
+    {
+      "id": "welding-3",
+      "category": "additional",
+      "name_original": "ПЕРЕВАРКА ДНИЩА",
+      "description": "Хотите узнать стоимость работ сейчас? Присылайте фото: Viber +375 33 694-62-32",
+      "url": "https://alrusa.by/welding/",
+      "prices": []
+    },
+    {
+      "id": "welding-4",
+      "category": "additional",
+      "name_original": "ПОСТАВИТЬ ЛАТКУ",
+      "description": "Хотите узнать стоимость работ сейчас? Присылайте фото: Viber +375 33 694-62-32",
+      "url": "https://alrusa.by/welding/",
+      "prices": []
+    }
+  ]
+}

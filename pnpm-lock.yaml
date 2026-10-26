@@ -8,6 +8,12 @@ importers:
       pnpm:
         specifier: 12.11.2
         version: 12.11.2
+  instances/alrusa.by:
+    dependencies:
+      "@anticor/harvest-core":
+        specifier: workspace:*
+        version: link:../../packages/harvest-core
+
   instances/antikor-minsk.by:
     dependencies:
       "@anticor/harvest-core":

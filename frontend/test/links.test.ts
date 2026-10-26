@@ -1,10 +1,10 @@
 import assert from 'node:assert/strict';
-import { readdirSync, readFileSync } from 'node:fs';
+import { readFileSync } from 'node:fs';
 import { test } from 'node:test';
 import { priceSourceUrl, serviceAnchorText } from '../src/lib/links.ts';
 import type { CompanySheet } from '../src/types.ts';
+import { harvestedDomains, instancesDir } from './instances.ts';
 
-const instancesDir = new URL('../../instances/', import.meta.url);
 const readJson = (path: string) => JSON.parse(readFileSync(new URL(path, instancesDir), 'utf8'));
 
 test('serviceAnchorText keeps the row label and drops descriptions and headings', () => {
@@ -46,7 +46,7 @@ test('priceSourceUrl adds a text fragment only when the service has prices', () 
 // single line/cell of the harvested page text.
 test('every priced service anchor is present on its harvested page', () => {
   const normalize = (text: string) => text.replace(/\s+/g, ' ').trim().toLowerCase();
-  for (const domain of readdirSync(instancesDir)) {
+  for (const domain of harvestedDomains()) {
     const company: CompanySheet = readJson(`${domain}/parsed/company.json`);
     const pages = readJson(`${domain}/parsed/presentation_data.json`).content.pages as {
       url: string;

@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { readdirSync, readFileSync } from 'node:fs';
+import { readFileSync } from 'node:fs';
 import { test } from 'node:test';
 import { serviceGroups } from '../src/data/serviceGroups.ts';
 import {
@@ -11,14 +11,12 @@ import {
 } from '../src/lib/comparison.ts';
 import { normalizePrice } from '../src/lib/prices.ts';
 import type { Company, VehicleClass } from '../src/types.ts';
+import { harvestedDomains, instancesDir } from './instances.ts';
 
-const instancesDir = new URL('../../instances/', import.meta.url);
-const companies: Company[] = readdirSync(instancesDir)
-  .sort()
-  .map((domain) => ({
-    ...JSON.parse(readFileSync(new URL(`${domain}/parsed/company.json`, instancesDir), 'utf8')),
-    domain,
-  }));
+const companies: Company[] = harvestedDomains().map((domain) => ({
+  ...JSON.parse(readFileSync(new URL(`${domain}/parsed/company.json`, instancesDir), 'utf8')),
+  domain,
+}));
 const groups = groupServices(companies, serviceGroups);
 const rowFor = (vehicleClass: VehicleClass, id: string) => {
   const row = priceRows(groups, companies, vehicleClass).find((candidate) => candidate.id === id);
@@ -106,7 +104,9 @@ test('shortServiceName drops appended descriptions and table headings', () => {
 });
 
 test('antikorr.by anticorrosion packages are not grouped with KROWN car-wash packages', () => {
-  const byId = new Map(groups.map((group) => [group.id, group]));
+  const pair = companies.filter((company) => ['krown.by', 'antikorr.by'].includes(company.domain));
+  const pairGroups = groupServices(pair, serviceGroups);
+  const byId = new Map(pairGroups.map((group) => [group.id, group]));
   assert.deepEqual([...(byId.get('wash-complex-1')?.services.keys() ?? [])], ['krown.by']);
   assert.deepEqual(
     [...(byId.get('anticorrosion-complex-1-dinitrol')?.services.keys() ?? [])],

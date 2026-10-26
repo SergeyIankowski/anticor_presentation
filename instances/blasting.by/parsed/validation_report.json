@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "parsed_at": "2026-10-26T18:24:14.474Z",
+  "schemas": [
+    "schemas/site-harvest.schema.json",
+    "schema.json"
+  ],
+  "warnings": [
+    "Claims and guarantees are statements by the source site.",
+    "No numeric prices or price units are published. Prices and completion times are agreed after inspection; services have prices: [].",
+    "No vehicle price categories are published; vehicle_types is empty.",
+    "Currency is not stated on the site; BYN is the comparison currency inferred from the Belarus location. No monetary amounts are inferred.",
+    "Welding is conditional on through-corrosion; zinc spraying is by agreement with the customer.",
+    "https://blasting.by/contact/: page.evaluate: Error: HTTP 200 soft-404: The page you requested was not found\n    at eval (eval at evaluate (:370:30), <anonymous>:3:13)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "company": {
+    "name": "Blasting.by",
+    "website": "https://blasting.by/",
+    "country": "BY",
+    "locations": [
+      {
+        "city": "Могилев",
+        "address": "г.Могилев пер. Гаражный 11",
+        "phones": [
+          "+375293040041"
+        ],
+        "working_hours": "ПН-Сб: 9 до 17"
+      }
+    ]
+  },
+  "source": {
+    "scraped_at": "2026-10-26",
+    "urls": [
+      "https://blasting.by/"
+    ],
+    "notes": "No numeric prices or price units are published. Prices and completion times are agreed after inspection; services have prices: []. No vehicle price categories are published; vehicle_types is empty. Currency is not stated on the site; BYN is the comparison currency inferred from the Belarus location. No monetary amounts are inferred. Welding is conditional on through-corrosion; zinc spraying is by agreement with the customer."
+  },
+  "currency": "BYN",
+  "vehicle_types": [],
+  "services": [
+    {
+      "id": "anticorrosion",
+      "category": "anticorrosion",
+      "name_original": "Антикоррозийная обработка",
+      "description": "В конструкции автомобиля наиболее подвержены коррозии — днище, колёсные арки, скрытые полости. Точки сварки, стыки, швы, царапины и сколы–потенциальные источники первичной коррозии. Для защиты металла от ржавчины проводим комплексную антикоррозийную обработку –поэтапно, по чёткой технологии. Если есть места с уже начавшейся коррозией, мы предлагаем произвести напыление цинка электродуговым методом профессиональным оборудованием OSU-Hessler . Очаги коррозии удаляем методом пескоструйной очистки до нужной степени очистки . Комплексы антикор обработки подбираем и рекомендуем индивидуально, учитываем состояние кузова и днища, условия эксплуатации и возраст автомобиля.",
+      "url": "https://blasting.by/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "sandblasting",
+      "category": "additional",
+      "name_original": "Пескоструйная обработка",
+      "description": "Производим пескоструйную обработку поверхности днища. Удаляем очаги начавшейся коррозии, после полной пескоструйной обработки, делаем осмотр на сквозную коррозию. В случае сквозной коррозии согласовываем с клиентом объемы сварочных работ.",
+      "url": "https://blasting.by/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "arc-zinc-spraying",
+      "category": "anticorrosion",
+      "name_original": "напыление цинка электродуговым методом",
+      "description": "Если есть места с уже начавшейся коррозией, мы предлагаем произвести напыление цинка электродуговым методом профессиональным оборудованием OSU-Hessler .",
+      "url": "https://blasting.by/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "conditional-welding",
+      "category": "additional",
+      "name_original": "сварочных работ",
+      "description": "В случае сквозной коррозии согласовываем с клиентом объемы сварочных работ.",
+      "url": "https://blasting.by/",
+      "completion_time": null,
+      "prices": []
+    }
+  ]
+}

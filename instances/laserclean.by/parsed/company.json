@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "company": {
+    "name": "Laserclean",
+    "website": "https://laserclean.by/",
+    "country": "BY",
+    "locations": [
+      {
+        "city": "Гродно",
+        "address": "ул. Суворова 109",
+        "phones": [
+          "+375297892771"
+        ]
+      }
+    ]
+  },
+  "source": {
+    "scraped_at": "2026-10-26",
+    "urls": [
+      "https://laserclean.by/"
+    ],
+    "notes": "Published monetary prices, price units and vehicle price categories are absent; services have empty prices arrays. Contact the company for a quotation. BYN is the comparison currency for the Belarusian business; no currency is stated alongside a published tariff. Vehicle models in work videos are examples, not priced vehicle categories. The stated one-day turnaround is a site claim for vehicle treatment, not an independently verified guarantee."
+  },
+  "currency": "BYN",
+  "vehicle_types": [],
+  "services": [
+    {
+      "id": "dinitrol-treatment",
+      "category": "anticorrosion",
+      "name_original": "Антикоррозийная обработка",
+      "description": "1 Этап\n\nСнятие колес, пластиковых защит днища и колесных арок, снятие тепловых экранов.\n\n2 Этап\n\nБесконтактная мойка днища и колесных арок автомобиля с применением автохимии.\n\n3 Этап\n\nПринудительная сушка автомобиля с применением подкатных вентиляторов.\n\n4 Этап\n\nАнтикоррозийная обработка скрытых полостей автомобиля составами \"DINITROL LT\" / \"DINITROL ML\"(при наличии коррозии) путем распыления зондами.\n\n5 Этап\n\nАнтикоррозийная обработка днища и колесных арок составом \"DINITROL 4941\" путем безвоздушного распыления из пистолета для нанесения антикоррозийных материалов.\n\n6 Этап\n\nАнтикоррозийная обработка дверей автомобиля (так же багажник, капот, моторный отсек) путем распыления зондами составов \"DINITROL LT\" / \"DINITROL ML\" (при наличии коррозии) через дренажные отверстия.\n\n7 Этап\n\nАнтикоррозийная обработка дверей автомобиля, крышки багажника, крышки капота путем промазывания кромки элемента составом \"DINITROL 81\".\n\n8 Этап\n\nСушка антикоррозийных составов нанесенных на автомобиль при помощи подкатных вентиляторов.\n\n9 Этап\n\nСборка пластиковых защит и тепловых экранов автомобиля, установка колес, зажатие колес динамометрическим ключом согласно характеристикам автомобиля.\n\n10 Этап\n\nБесконтактная мойка автомобиля с нанесением состава \"DINITROL AUTO CLEANER\" и автохимии \"Активная пена\".",
+      "url": "https://laserclean.by/",
+      "completion_time": {
+        "min": 1,
+        "max": 1,
+        "unit": "days",
+        "text_original": "Ваша машина возвращается в ваши руки уже через сутки."
+      },
+      "prices": []
+    },
+    {
+      "id": "laser-metal-cleaning",
+      "category": "additional",
+      "name_original": "Лазерная чистка металла",
+      "description": "Примечание\n\nПри наличии коррозии на днище, арках автомобиля после 3 этапа обработки вводятся следующие изменения в технологический процесс:\n\n\n\nЧистка автомобиля от коррозии с применением лазерного оборудования мощностью лазерного источника 2кВт.\nКонсервация очищенных мест грунтом-преобразователем \"Brunox\"\nНанесение эпоксидного грунта в 2 слоя путем распыления на обработанные места.\nПереход к 4 этапу.",
+      "url": "https://laserclean.by/",
+      "completion_time": null,
+      "prices": []
+    }
+  ]
+}

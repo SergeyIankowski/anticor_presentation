@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "parsed_at": "2026-10-26T18:19:56.353Z",
+  "schemas": [
+    "schemas/site-harvest.schema.json",
+    "schema.json"
+  ],
+  "warnings": [
+    "Claims, product properties and turnaround are statements by the source site.",
+    "All configured public typewriter headline states are preserved in page text and laserclean.rotating_labels.",
+    "DINITROL treatment is one service; preparation and application stages are retained as process evidence.",
+    "Published monetary prices, price units and vehicle price categories are absent; services have empty prices arrays. Contact the company for a quotation.",
+    "BYN is the comparison currency for the Belarusian business; no currency is stated alongside a published tariff.",
+    "Vehicle models in work videos are examples, not priced vehicle categories.",
+    "The stated one-day turnaround is a site claim for vehicle treatment, not an independently verified guarantee."
+  ]
+}

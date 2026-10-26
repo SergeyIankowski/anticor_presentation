@@ -18,7 +18,7 @@
   "javascript": { "formatter": { "quoteStyle": "single" } },
   "overrides": [
     {
-      "includes": ["**/parsed/**/*.json", "*.*/*.*.json"],
+      "includes": ["**/parsed/**/*.json", "instances/*/*.*.json"],
       "formatter": { "enabled": false },
       "assist": { "enabled": false }
     }

@@ -49,15 +49,17 @@ export async function createSite(
   { rootDir = projectRoot, templateDir = join(projectRoot, 'template') } = {},
 ) {
   const identity = siteIdentity(input);
-  const target = join(rootDir, identity.domain);
+  const instancesDir = join(rootDir, 'instances');
+  const target = join(instancesDir, identity.domain);
   // Read the source before creating the destination, and refuse existing folders.
   await readFile(join(templateDir, 'package.json'), 'utf8');
+  await mkdir(instancesDir, { recursive: true });
   const packageName = `@anticor/${identity.packageName}`;
-  for (const entry of await readdir(rootDir, { withFileTypes: true })) {
+  for (const entry of await readdir(instancesDir, { withFileTypes: true })) {
     if (!entry.isDirectory() || !entry.name.includes('.')) continue;
     let manifest;
     try {
-      manifest = JSON.parse(await readFile(join(rootDir, entry.name, 'package.json'), 'utf8'));
+      manifest = JSON.parse(await readFile(join(instancesDir, entry.name, 'package.json'), 'utf8'));
     } catch (error) {
       if (error.code === 'ENOENT') continue;
       throw error;
@@ -86,7 +88,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1]
     createSite(args[0])
       .then((site) => {
         console.log(
-          `Created ${site.domain}/ from template/.\nCustomize ${site.domain}/src/site.js and src/extract.js, then run:\n  pnpm install\n  cd ${site.domain}\n  npm run parse`,
+          `Created instances/${site.domain}/ from template/.\nCustomize instances/${site.domain}/src/site.js and src/extract.js, then run:\n  pnpm install\n  cd instances/${site.domain}\n  npm run parse`,
         );
       })
       .catch((error) => {

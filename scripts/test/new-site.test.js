@@ -12,6 +12,8 @@ test('new site instances fill in identity and run the shared parse entry point',
   try {
     const result = await createSite('https://Example.COM/', { rootDir: root });
     assert.equal(result.domain, 'example.com');
+    assert.equal(result.path, join(root, 'instances/example.com'));
+    assert.deepEqual(await readdir(root), ['instances']);
     const manifest = JSON.parse(await readFile(join(result.path, 'package.json'), 'utf8'));
     assert.equal(manifest.name, '@anticor/example-com');
     assert.equal(manifest.scripts.parse, 'node src/parse.js');
@@ -66,14 +68,15 @@ test('invalid domains and path traversal do not create folders', async () => {
 test('existing domain folders and colliding package names are preserved', async () => {
   const root = await mkdtemp(join(tmpdir(), 'site-template-existing-'));
   try {
-    await mkdir(join(root, 'existing.com'));
-    await writeFile(join(root, 'existing.com/user.txt'), 'keep');
+    const instancesDir = join(root, 'instances');
+    await mkdir(join(instancesDir, 'existing.com'), { recursive: true });
+    await writeFile(join(instancesDir, 'existing.com/user.txt'), 'keep');
     await assert.rejects(createSite('existing.com', { rootDir: root }), /already exists/);
-    assert.equal(await readFile(join(root, 'existing.com/user.txt'), 'utf8'), 'keep');
-    await mkdir(join(root, 'a-b.com'));
-    await writeFile(join(root, 'a-b.com/package.json'), '{"name":"@anticor/a-b-com"}');
+    assert.equal(await readFile(join(instancesDir, 'existing.com/user.txt'), 'utf8'), 'keep');
+    await mkdir(join(instancesDir, 'a-b.com'));
+    await writeFile(join(instancesDir, 'a-b.com/package.json'), '{"name":"@anticor/a-b-com"}');
     await assert.rejects(createSite('a.b-com', { rootDir: root }), /Package .* already exists/);
-    assert.deepEqual((await readdir(root)).sort(), ['a-b.com', 'existing.com']);
+    assert.deepEqual((await readdir(instancesDir)).sort(), ['a-b.com', 'existing.com']);
   } finally {
     await rm(root, { recursive: true, force: true });
   }
@@ -86,11 +89,11 @@ test('both existing parsers use the template entry point and package structure',
   );
   for (const domain of ['etm.by', 'krown.by']) {
     assert.equal(
-      await readFile(new URL(`../../${domain}/src/parse.js`, import.meta.url), 'utf8'),
+      await readFile(new URL(`../../instances/${domain}/src/parse.js`, import.meta.url), 'utf8'),
       entry,
     );
     const siteManifest = JSON.parse(
-      await readFile(new URL(`../../${domain}/package.json`, import.meta.url), 'utf8'),
+      await readFile(new URL(`../../instances/${domain}/package.json`, import.meta.url), 'utf8'),
     );
     const { name, ...common } = siteManifest;
     const { name: templateName, ...templateCommon } = manifest;

@@ -5,8 +5,8 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import test from 'node:test';
 import { chromium } from 'playwright';
-import { config as etm } from '../../../etm.by/src/parse.js';
-import { config as krown } from '../../../krown.by/src/parse.js';
+import { config as etm } from '../../../instances/etm.by/src/parse.js';
+import { config as krown } from '../../../instances/krown.by/src/parse.js';
 import { extractPage, runSite } from '../src/index.js';
 
 test('Playwright extracts rendered content, table spans, and JSON-LD from HTML', async () => {

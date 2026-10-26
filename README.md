@@ -1,6 +1,6 @@
 # Anticorrosion site parsers
 
-Node.js 22+ and pnpm are required. Each site is a separate workspace project with its own Playwright extraction code. Browser and JSON validation utilities live in `packages/harvest-core`.
+Node.js 22+ and pnpm are required. Each site is a separate workspace project under `instances/<domain>/` with its own Playwright extraction code. Browser and JSON validation utilities live in `packages/harvest-core`.
 
 Install from the repository root:
 
@@ -12,11 +12,11 @@ pnpm browser:install
 Refresh one site from its folder:
 
 ```sh
-cd etm.by
+cd instances/etm.by
 npm run parse
 ```
 
-The same command works inside `krown.by`. You can also use `pnpm parse` in either folder. From the repository root:
+The same command works inside `instances/krown.by`. You can also use `pnpm parse` in either folder. From the repository root:
 
 ```sh
 pnpm parse          # all site projects, sequentially
@@ -67,12 +67,12 @@ pnpm site:new example.com
 pnpm install
 ```
 
-This creates `example.com/package.json` and `example.com/src/{parse,site,extract}.js`, with the domain, URL, and package name filled in. Existing folders are never overwritten. Domain folders are discovered automatically by the workspace; `template/` itself is excluded.
+This creates `instances/example.com/package.json` and `instances/example.com/src/{parse,site,extract}.js`, with the domain, URL, and package name filled in. Existing folders are never overwritten. Site folders under `instances/` are discovered automatically by the workspace; `template/` itself is excluded.
 
 Each site instance follows this structure:
 
 ```text
-<domain>/
+instances/<domain>/
   package.json
   src/
     parse.js     # common command entry point, copied from template
@@ -81,6 +81,6 @@ Each site instance follows this structure:
     prices.js    # optional site-specific helper
 ```
 
-Configure `src/site.js` and implement `parseCompany()` and `parseServices()` in `src/extract.js`. The starter extraction deliberately reports an error until service parsing is implemented. Return `{ harvest, comparison, warnings }` from `buildSite(pages, date)`; the shared runner handles browsing, schema validation, backups, and output files. `etm.by` and `krown.by` use this same layout with their own extraction implementations.
+Configure `src/site.js` and implement `parseCompany()` and `parseServices()` in `src/extract.js`. The starter extraction deliberately reports an error until service parsing is implemented. Return `{ harvest, comparison, warnings }` from `buildSite(pages, date)`; the shared runner handles browsing, schema validation, backups, and output files. `instances/etm.by` and `instances/krown.by` use this same layout with their own extraction implementations.
 
 After implementing extraction, run `npm run parse` inside the new folder. Use `--output-dir` to inspect a refresh in a temporary folder first. Future sites should always be created from `template/` using `pnpm site:new <domain>`.

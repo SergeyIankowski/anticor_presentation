@@ -211,17 +211,17 @@ importers:
         specifier: 2.6.3
         version: 2.6.3
 
-  etm.by:
+  instances/etm.by:
     dependencies:
       "@anticor/harvest-core":
         specifier: workspace:*
-        version: link:../packages/harvest-core
+        version: link:../../packages/harvest-core
 
-  krown.by:
+  instances/krown.by:
     dependencies:
       "@anticor/harvest-core":
         specifier: workspace:*
-        version: link:../packages/harvest-core
+        version: link:../../packages/harvest-core
 
   packages/harvest-core:
     dependencies:

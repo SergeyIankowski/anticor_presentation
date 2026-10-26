@@ -1,0 +1,3140 @@
+{
+  "schema_version": "site-presentation-v1",
+  "source": {
+    "site": "https://spec-antikor.by/",
+    "brand": "Спец Антикор",
+    "retrieved_at": "2026-10-26",
+    "source_urls": [
+      "https://spec-antikor.by/"
+    ]
+  },
+  "metadata": {
+    "source_site": "https://spec-antikor.by/",
+    "brand": "Спец Антикор",
+    "retrieved_at": "2026-10-26",
+    "notes": [
+      "Claims, material descriptions and guarantees are source statements.",
+      "Все цены калькулятора ориентировочные, с квалификатором «от»; требуется уточнение по телефону.",
+      "BYN выбран по расположению в Беларуси и упоминанию рублей в тексте; в ячейках калькулятора валюта и единица явно не указаны.",
+      "Классы автомобилей определены по видимым подписям: внутренние data-class не соответствуют названиям.",
+      "Дополнительные услуги подтверждены только меню; подробности и цены недоступных страниц не восстановлены.",
+      "Общий диапазон цен в SEO-тексте сохранён в странице и не подменяет цены калькулятора.",
+      "https://spec-antikor.by/cena-antikorrozijnoj-obrabotki-avtomobilja-v-breste/: HTTP 404",
+      "https://spec-antikor.by/lazernaja-chistka-metalla-i-avtomobilja-v-breste/: HTTP 404",
+      "https://spec-antikor.by/peskostrujnaja-obrabotka-avtomobilja-diskov-i-dnishha-v-breste/: HTTP 404",
+      "https://spec-antikor.by/shumoizolyacziya-avtomobilya/: HTTP 404",
+      "https://spec-antikor.by/garantii/: HTTP 404",
+      "https://spec-antikor.by/kontakty/: HTTP 404"
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://spec-antikor.by/",
+      "fetched_at": "2026-10-26T18:22:39.813Z",
+      "used_for": [
+        "Антикор в Бресте - Спец Антикор Антикоррозийная обработка Dinitrol.",
+        "services",
+        "contacts",
+        "calculator states",
+        "source claims"
+      ]
+    }
+  ],
+  "content": {
+    "company": {
+      "name": "Спец Антикор",
+      "website": "https://spec-antikor.by/",
+      "country": "BY",
+      "locations": [
+        {
+          "city": "Брест",
+          "address": "г.Брест, ул. Коммерческая, 17",
+          "phones": [
+            "+375 (33) 342-0-341"
+          ],
+          "working_hours": "c 09:00 до 18:00"
+        }
+      ],
+      "contacts": {
+        "phones": [
+          "+375 (33) 342-0-341"
+        ],
+        "emails": []
+      },
+      "legal_statement": "Спец Антикор - Антикоррозийная обработка автомобилей в Бресте. ООО \"ВБП ОПТИМАЛ\" УНП:291854857 г.Брест, Коммерческая,17.",
+      "social_links": [
+        {
+          "url": "https://t.me/antikor_brest",
+          "label": "social-btn telegram"
+        },
+        {
+          "url": "https://web.whatsapp.com/send?phone=375298008323&text=",
+          "label": "social-btn whatsapp"
+        },
+        {
+          "url": "viber://chat?number=+375298008323",
+          "label": "social-btn viber"
+        }
+      ]
+    },
+    "services": [
+      {
+        "id": "complex-1",
+        "category": "anticorrosion",
+        "name_original": "ML комплекс (для машин с пробегом)",
+        "description": "dinitrol: Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)\nnoxudol: Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)",
+        "url": "https://spec-antikor.by/",
+        "completion_time": null,
+        "prices": [
+          {
+            "vehicle_type_id": "car",
+            "price": null,
+            "price_min": 600,
+            "price_max": null,
+            "price_text_original": "от 600",
+            "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "crossover",
+            "price": null,
+            "price_min": 650,
+            "price_max": null,
+            "price_text_original": "от 650",
+            "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "minivan",
+            "price": null,
+            "price_min": 750,
+            "price_max": null,
+            "price_text_original": "от 750",
+            "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "suv",
+            "price": null,
+            "price_min": 750,
+            "price_max": null,
+            "price_text_original": "от 750",
+            "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "microbus",
+            "price": null,
+            "price_min": 900,
+            "price_max": null,
+            "price_text_original": "от 900",
+            "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "lastcar",
+            "price": null,
+            "price_min": 900,
+            "price_max": null,
+            "price_text_original": "от 900",
+            "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "car",
+            "price": null,
+            "price_min": 600,
+            "price_max": null,
+            "price_text_original": "от 600",
+            "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "crossover",
+            "price": null,
+            "price_min": 650,
+            "price_max": null,
+            "price_text_original": "от 650",
+            "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "minivan",
+            "price": null,
+            "price_min": 750,
+            "price_max": null,
+            "price_text_original": "от 750",
+            "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "suv",
+            "price": null,
+            "price_min": 750,
+            "price_max": null,
+            "price_text_original": "от 750",
+            "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "microbus",
+            "price": null,
+            "price_min": 900,
+            "price_max": null,
+            "price_text_original": "от 900",
+            "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "lastcar",
+            "price": null,
+            "price_min": 900,
+            "price_max": null,
+            "price_text_original": "от 900",
+            "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          }
+        ]
+      },
+      {
+        "id": "complex-2",
+        "category": "anticorrosion",
+        "name_original": "Стандарт комплекс (новые авто)",
+        "description": "dinitrol: Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)\nnoxudol: Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)",
+        "url": "https://spec-antikor.by/",
+        "completion_time": null,
+        "prices": [
+          {
+            "vehicle_type_id": "car",
+            "price": null,
+            "price_min": 550,
+            "price_max": null,
+            "price_text_original": "от 550",
+            "notes": "dinitrol. Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "crossover",
+            "price": null,
+            "price_min": 600,
+            "price_max": null,
+            "price_text_original": "от 600",
+            "notes": "dinitrol. Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "minivan",
+            "price": null,
+            "price_min": 700,
+            "price_max": null,
+            "price_text_original": "от 700",
+            "notes": "dinitrol. Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "suv",
+            "price": null,
+            "price_min": 700,
+            "price_max": null,
+            "price_text_original": "от 700",
+            "notes": "dinitrol. Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "microbus",
+            "price": null,
+            "price_min": 850,
+            "price_max": null,
+            "price_text_original": "от 850",
+            "notes": "dinitrol. Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "lastcar",
+            "price": null,
+            "price_min": 850,
+            "price_max": null,
+            "price_text_original": "от 850",
+            "notes": "dinitrol. Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "car",
+            "price": null,
+            "price_min": 550,
+            "price_max": null,
+            "price_text_original": "от 550",
+            "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "crossover",
+            "price": null,
+            "price_min": 600,
+            "price_max": null,
+            "price_text_original": "от 600",
+            "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "minivan",
+            "price": null,
+            "price_min": 700,
+            "price_max": null,
+            "price_text_original": "от 700",
+            "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "suv",
+            "price": null,
+            "price_min": 700,
+            "price_max": null,
+            "price_text_original": "от 700",
+            "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "microbus",
+            "price": null,
+            "price_min": 850,
+            "price_max": null,
+            "price_text_original": "от 850",
+            "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "lastcar",
+            "price": null,
+            "price_min": 850,
+            "price_max": null,
+            "price_text_original": "от 850",
+            "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          }
+        ]
+      },
+      {
+        "id": "complex-3",
+        "category": "anticorrosion",
+        "name_original": "Антишум комплекс",
+        "description": "dinitrol: Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)\nnoxudol: Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)",
+        "url": "https://spec-antikor.by/",
+        "completion_time": null,
+        "prices": [
+          {
+            "vehicle_type_id": "car",
+            "price": null,
+            "price_min": 620,
+            "price_max": null,
+            "price_text_original": "от 620",
+            "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "crossover",
+            "price": null,
+            "price_min": 670,
+            "price_max": null,
+            "price_text_original": "от 670",
+            "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "minivan",
+            "price": null,
+            "price_min": 770,
+            "price_max": null,
+            "price_text_original": "от 770",
+            "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "suv",
+            "price": null,
+            "price_min": 770,
+            "price_max": null,
+            "price_text_original": "от 770",
+            "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "microbus",
+            "price": null,
+            "price_min": 920,
+            "price_max": null,
+            "price_text_original": "от 920",
+            "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "lastcar",
+            "price": null,
+            "price_min": 920,
+            "price_max": null,
+            "price_text_original": "от 920",
+            "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "car",
+            "price": null,
+            "price_min": 620,
+            "price_max": null,
+            "price_text_original": "от 620",
+            "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "crossover",
+            "price": null,
+            "price_min": 670,
+            "price_max": null,
+            "price_text_original": "от 670",
+            "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "minivan",
+            "price": null,
+            "price_min": 770,
+            "price_max": null,
+            "price_text_original": "от 770",
+            "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "suv",
+            "price": null,
+            "price_min": 770,
+            "price_max": null,
+            "price_text_original": "от 770",
+            "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "microbus",
+            "price": null,
+            "price_min": 920,
+            "price_max": null,
+            "price_text_original": "от 920",
+            "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          },
+          {
+            "vehicle_type_id": "lastcar",
+            "price": null,
+            "price_min": 920,
+            "price_max": null,
+            "price_text_original": "от 920",
+            "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+          }
+        ]
+      },
+      {
+        "id": "lazernaja-chistka-metalla-i-avtomobilja-v-breste",
+        "category": "additional",
+        "name_original": "Лазерная чистка",
+        "description": "Услуга указана в меню главной страницы. Отдельная страница: https://spec-antikor.by/lazernaja-chistka-metalla-i-avtomobilja-v-breste/. Цена на доступной странице не указана.",
+        "url": "https://spec-antikor.by/",
+        "completion_time": null,
+        "prices": []
+      },
+      {
+        "id": "peskostrujnaja-obrabotka-avtomobilja-diskov-i-dnishha-v-breste",
+        "category": "additional",
+        "name_original": "Пескоструй",
+        "description": "Услуга указана в меню главной страницы. Отдельная страница: https://spec-antikor.by/peskostrujnaja-obrabotka-avtomobilja-diskov-i-dnishha-v-breste/. Цена на доступной странице не указана.",
+        "url": "https://spec-antikor.by/",
+        "completion_time": null,
+        "prices": []
+      },
+      {
+        "id": "shumoizolyacziya-avtomobilya",
+        "category": "additional",
+        "name_original": "Шумоизоляция автомобиля",
+        "description": "Услуга указана в меню главной страницы. Отдельная страница: https://spec-antikor.by/shumoizolyacziya-avtomobilya/. Цена на доступной странице не указана.",
+        "url": "https://spec-antikor.by/",
+        "completion_time": null,
+        "prices": []
+      }
+    ],
+    "vehicle_types": [
+      {
+        "id": "car",
+        "name_original": "Легковой автомобиль до 4м",
+        "class": "small"
+      },
+      {
+        "id": "crossover",
+        "name_original": "Легковой автомобиль 4-5 метров",
+        "class": "sedan"
+      },
+      {
+        "id": "minivan",
+        "name_original": "Кроссовер / Паркетник",
+        "class": "crossover"
+      },
+      {
+        "id": "suv",
+        "name_original": "Минивен",
+        "class": "minivan"
+      },
+      {
+        "id": "microbus",
+        "name_original": "Внедорожник",
+        "class": "suv"
+      },
+      {
+        "id": "lastcar",
+        "name_original": "Микроавтобус",
+        "class": "van"
+      }
+    ],
+    "materials": [
+      {
+        "title": "Dinitrol LT",
+        "text": "Dinitrol LT Антикоррозионный состав на основе воска и смолы для открытых поверхностей, и скрытых полостей.",
+        "source_url": "https://spec-antikor.by/"
+      },
+      {
+        "title": "Mercasol 1",
+        "text": "Mercasol 1 Защитное антикоррозионное покрытие на воско-масляной основе светло-коричневого цвета с высоким содержанием ингибиторов коррозии.",
+        "source_url": "https://spec-antikor.by/"
+      },
+      {
+        "title": "Dinitrol 4941",
+        "text": "Dinitrol 4941 Долговременное антикоррозионное защитное покрытие. Представляет собой твердую, черную пленку с коротким временем высыхания,с хорошей адгезией.",
+        "source_url": "https://spec-antikor.by/"
+      },
+      {
+        "title": "Mercasol 3",
+        "text": "Mercasol 3 Плотный черный бронирующий антикоррозийный материал для днища, способный к самовосстановлению при повреждении покрытия.",
+        "source_url": "https://spec-antikor.by/"
+      }
+    ],
+    "technology": [
+      {
+        "title": "Снятие защит арок и днища",
+        "text": "Снятие защит арок и днища Демонтаж колес, подкрылок, брызговиков и защиты днища.",
+        "source_url": "https://spec-antikor.by/"
+      },
+      {
+        "title": "Мойка",
+        "text": "Мойка Мойка горячей водой с специальными химическими средствами.",
+        "source_url": "https://spec-antikor.by/"
+      },
+      {
+        "title": "Сушка и укрытие пленкой",
+        "text": "Сушка и укрытие пленкой Сушка проводится с использованием электротепловентилятора.",
+        "source_url": "https://spec-antikor.by/"
+      },
+      {
+        "title": "Удаление ржавчины*",
+        "text": "Удаление ржавчины* Подготавливаем поверхность к нанесению средств.",
+        "source_url": "https://spec-antikor.by/"
+      },
+      {
+        "title": "Оработка скрытых полостей",
+        "text": "Оработка скрытых полостей Нанесение МЛ составов с высокими проникающими способностями.",
+        "source_url": "https://spec-antikor.by/"
+      },
+      {
+        "title": "Обработка днища",
+        "text": "Обработка днища Обработка днища проводится каучуко-битумными материалами.",
+        "source_url": "https://spec-antikor.by/"
+      },
+      {
+        "title": "Обработка верхних скрытых полостей",
+        "text": "Обработка верхних скрытых полостей Обработка скрытых полостей капота, дверей и моторного отсека.",
+        "source_url": "https://spec-antikor.by/"
+      },
+      {
+        "title": "Установка защит арок и днища",
+        "text": "Установка защит арок и днища Обратная сборка подкрылок, брызговиков, финишная мойка авто.",
+        "source_url": "https://spec-antikor.by/"
+      }
+    ],
+    "pricing_evidence": {
+      "currency": "BYN",
+      "currency_inferred": true,
+      "unit_original": null,
+      "caveat": "Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341",
+      "states": [
+        {
+          "brand": "dinitrol",
+          "vehicle_type_id": "car",
+          "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 600\tот 550\tот 620",
+          "packages": [
+            {
+              "id": "complex-1",
+              "name_original": "ML комплекс (для машин с пробегом)",
+              "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)",
+              "price_text_original": "от 600"
+            },
+            {
+              "id": "complex-2",
+              "name_original": "Стандарт комплекс (новые авто)",
+              "description": "Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)",
+              "price_text_original": "от 550"
+            },
+            {
+              "id": "complex-3",
+              "name_original": "Антишум комплекс",
+              "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)",
+              "price_text_original": "от 620"
+            }
+          ],
+          "inclusions": [
+            {
+              "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Мойка днища и колесн.арок",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Сушка",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей верхн.части кузова",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "dinitrol",
+          "vehicle_type_id": "crossover",
+          "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 650\tот 600\tот 670",
+          "packages": [
+            {
+              "id": "complex-1",
+              "name_original": "ML комплекс (для машин с пробегом)",
+              "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)",
+              "price_text_original": "от 650"
+            },
+            {
+              "id": "complex-2",
+              "name_original": "Стандарт комплекс (новые авто)",
+              "description": "Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)",
+              "price_text_original": "от 600"
+            },
+            {
+              "id": "complex-3",
+              "name_original": "Антишум комплекс",
+              "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)",
+              "price_text_original": "от 670"
+            }
+          ],
+          "inclusions": [
+            {
+              "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Мойка днища и колесн.арок",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Сушка",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей верхн.части кузова",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "dinitrol",
+          "vehicle_type_id": "minivan",
+          "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 750\tот 700\tот 770",
+          "packages": [
+            {
+              "id": "complex-1",
+              "name_original": "ML комплекс (для машин с пробегом)",
+              "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)",
+              "price_text_original": "от 750"
+            },
+            {
+              "id": "complex-2",
+              "name_original": "Стандарт комплекс (новые авто)",
+              "description": "Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)",
+              "price_text_original": "от 700"
+            },
+            {
+              "id": "complex-3",
+              "name_original": "Антишум комплекс",
+              "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)",
+              "price_text_original": "от 770"
+            }
+          ],
+          "inclusions": [
+            {
+              "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Мойка днища и колесн.арок",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Сушка",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей верхн.части кузова",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "dinitrol",
+          "vehicle_type_id": "suv",
+          "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 750\tот 700\tот 770",
+          "packages": [
+            {
+              "id": "complex-1",
+              "name_original": "ML комплекс (для машин с пробегом)",
+              "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)",
+              "price_text_original": "от 750"
+            },
+            {
+              "id": "complex-2",
+              "name_original": "Стандарт комплекс (новые авто)",
+              "description": "Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)",
+              "price_text_original": "от 700"
+            },
+            {
+              "id": "complex-3",
+              "name_original": "Антишум комплекс",
+              "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)",
+              "price_text_original": "от 770"
+            }
+          ],
+          "inclusions": [
+            {
+              "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Мойка днища и колесн.арок",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Сушка",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей верхн.части кузова",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "dinitrol",
+          "vehicle_type_id": "microbus",
+          "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 900\tот 850\tот 920",
+          "packages": [
+            {
+              "id": "complex-1",
+              "name_original": "ML комплекс (для машин с пробегом)",
+              "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)",
+              "price_text_original": "от 900"
+            },
+            {
+              "id": "complex-2",
+              "name_original": "Стандарт комплекс (новые авто)",
+              "description": "Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)",
+              "price_text_original": "от 850"
+            },
+            {
+              "id": "complex-3",
+              "name_original": "Антишум комплекс",
+              "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)",
+              "price_text_original": "от 920"
+            }
+          ],
+          "inclusions": [
+            {
+              "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Мойка днища и колесн.арок",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Сушка",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей верхн.части кузова",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "dinitrol",
+          "vehicle_type_id": "lastcar",
+          "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 900\tот 850\tот 920",
+          "packages": [
+            {
+              "id": "complex-1",
+              "name_original": "ML комплекс (для машин с пробегом)",
+              "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)",
+              "price_text_original": "от 900"
+            },
+            {
+              "id": "complex-2",
+              "name_original": "Стандарт комплекс (новые авто)",
+              "description": "Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)",
+              "price_text_original": "от 850"
+            },
+            {
+              "id": "complex-3",
+              "name_original": "Антишум комплекс",
+              "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)",
+              "price_text_original": "от 920"
+            }
+          ],
+          "inclusions": [
+            {
+              "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Мойка днища и колесн.арок",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Сушка",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей верхн.части кузова",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "noxudol",
+          "vehicle_type_id": "car",
+          "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 600\tот 550\tот 620",
+          "packages": [
+            {
+              "id": "complex-1",
+              "name_original": "ML комплекс (для машин с пробегом)",
+              "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)",
+              "price_text_original": "от 600"
+            },
+            {
+              "id": "complex-2",
+              "name_original": "Стандарт комплекс (новые авто)",
+              "description": "Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)",
+              "price_text_original": "от 550"
+            },
+            {
+              "id": "complex-3",
+              "name_original": "Антишум комплекс",
+              "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)",
+              "price_text_original": "от 620"
+            }
+          ],
+          "inclusions": [
+            {
+              "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Мойка днища и колесн.арок",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Сушка",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей верхн.части кузова",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "noxudol",
+          "vehicle_type_id": "crossover",
+          "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 650\tот 600\tот 670",
+          "packages": [
+            {
+              "id": "complex-1",
+              "name_original": "ML комплекс (для машин с пробегом)",
+              "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)",
+              "price_text_original": "от 650"
+            },
+            {
+              "id": "complex-2",
+              "name_original": "Стандарт комплекс (новые авто)",
+              "description": "Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)",
+              "price_text_original": "от 600"
+            },
+            {
+              "id": "complex-3",
+              "name_original": "Антишум комплекс",
+              "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)",
+              "price_text_original": "от 670"
+            }
+          ],
+          "inclusions": [
+            {
+              "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Мойка днища и колесн.арок",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Сушка",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей верхн.части кузова",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "noxudol",
+          "vehicle_type_id": "minivan",
+          "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 750\tот 700\tот 770",
+          "packages": [
+            {
+              "id": "complex-1",
+              "name_original": "ML комплекс (для машин с пробегом)",
+              "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)",
+              "price_text_original": "от 750"
+            },
+            {
+              "id": "complex-2",
+              "name_original": "Стандарт комплекс (новые авто)",
+              "description": "Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)",
+              "price_text_original": "от 700"
+            },
+            {
+              "id": "complex-3",
+              "name_original": "Антишум комплекс",
+              "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)",
+              "price_text_original": "от 770"
+            }
+          ],
+          "inclusions": [
+            {
+              "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Мойка днища и колесн.арок",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Сушка",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей верхн.части кузова",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "noxudol",
+          "vehicle_type_id": "suv",
+          "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 750\tот 700\tот 770",
+          "packages": [
+            {
+              "id": "complex-1",
+              "name_original": "ML комплекс (для машин с пробегом)",
+              "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)",
+              "price_text_original": "от 750"
+            },
+            {
+              "id": "complex-2",
+              "name_original": "Стандарт комплекс (новые авто)",
+              "description": "Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)",
+              "price_text_original": "от 700"
+            },
+            {
+              "id": "complex-3",
+              "name_original": "Антишум комплекс",
+              "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)",
+              "price_text_original": "от 770"
+            }
+          ],
+          "inclusions": [
+            {
+              "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Мойка днища и колесн.арок",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Сушка",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей верхн.части кузова",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "noxudol",
+          "vehicle_type_id": "microbus",
+          "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 900\tот 850\tот 920",
+          "packages": [
+            {
+              "id": "complex-1",
+              "name_original": "ML комплекс (для машин с пробегом)",
+              "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)",
+              "price_text_original": "от 900"
+            },
+            {
+              "id": "complex-2",
+              "name_original": "Стандарт комплекс (новые авто)",
+              "description": "Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)",
+              "price_text_original": "от 850"
+            },
+            {
+              "id": "complex-3",
+              "name_original": "Антишум комплекс",
+              "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)",
+              "price_text_original": "от 920"
+            }
+          ],
+          "inclusions": [
+            {
+              "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Мойка днища и колесн.арок",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Сушка",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей верхн.части кузова",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "noxudol",
+          "vehicle_type_id": "lastcar",
+          "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 900\tот 850\tот 920",
+          "packages": [
+            {
+              "id": "complex-1",
+              "name_original": "ML комплекс (для машин с пробегом)",
+              "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)",
+              "price_text_original": "от 900"
+            },
+            {
+              "id": "complex-2",
+              "name_original": "Стандарт комплекс (новые авто)",
+              "description": "Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)",
+              "price_text_original": "от 850"
+            },
+            {
+              "id": "complex-3",
+              "name_original": "Антишум комплекс",
+              "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)",
+              "price_text_original": "от 920"
+            }
+          ],
+          "inclusions": [
+            {
+              "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Мойка днища и колесн.арок",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Сушка",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей верхн.части кузова",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            },
+            {
+              "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+              "packages": [
+                "Да",
+                "Да",
+                "Да"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "site_claims": [
+      {
+        "text": "Долговечность без компромиссов: антикоррозийная обработка с гарантией результата.",
+        "source_url": "https://spec-antikor.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Стоимость услуги обработка днища антикором цена зависит от выбранных материалов и сложности работ. Если вы хотите сделать антикор днища, обратитесь к профессионалам, чтобы гарантировать долговечность защиты и сохранить внешний вид автомобиля.",
+        "source_url": "https://spec-antikor.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Профессиональная антикоррозийная обработка гарантирует:",
+        "source_url": "https://spec-antikor.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Письменнаягарантия до 5 лет",
+        "source_url": "https://spec-antikor.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Качественныематериалы",
+        "source_url": "https://spec-antikor.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Фотоотчетвыполненных работ",
+        "source_url": "https://spec-antikor.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Опытныемастера",
+        "source_url": "https://spec-antikor.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Работаем исключительно с сертифицированными материалами",
+        "source_url": "https://spec-antikor.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Письменная гарантия до 5 лет.",
+        "source_url": "https://spec-antikor.by/",
+        "verification": "site_claim"
+      }
+    ],
+    "pages": [
+      {
+        "url": "https://spec-antikor.by/",
+        "title": "Антикор в Бресте - Спец Антикор Антикоррозийная обработка Dinitrol.",
+        "description": "Антикоррозионная обработка автомобилей в Бресте. Обработка днища авто. Оказываем услуги по антикор обработке новых машин и электромобилей.",
+        "headings": [
+          {
+            "level": 1,
+            "text": "Антикоррозийная обработка автомобилей в Бресте"
+          },
+          {
+            "level": 3,
+            "text": "Письменнаягарантия до 5 лет"
+          },
+          {
+            "level": 3,
+            "text": "Качественныематериалы"
+          },
+          {
+            "level": 3,
+            "text": "Фотоотчетвыполненных работ"
+          },
+          {
+            "level": 3,
+            "text": "Опытныемастера"
+          },
+          {
+            "level": 2,
+            "text": "Оставить заявку"
+          },
+          {
+            "level": 2,
+            "text": "Этапы работы"
+          },
+          {
+            "level": 3,
+            "text": "Снятие защит арок и днища"
+          },
+          {
+            "level": 3,
+            "text": "Мойка"
+          },
+          {
+            "level": 3,
+            "text": "Сушка и укрытие пленкой"
+          },
+          {
+            "level": 3,
+            "text": "Удалениержавчины*"
+          },
+          {
+            "level": 3,
+            "text": "Оработка скрытых полостей"
+          },
+          {
+            "level": 3,
+            "text": "Обработкаднища"
+          },
+          {
+            "level": 3,
+            "text": "Обработка верхних скрытых полостей"
+          },
+          {
+            "level": 3,
+            "text": "Установка защит арок и днища"
+          },
+          {
+            "level": 2,
+            "text": "Работаем исключительно с сертифицированными материалами"
+          },
+          {
+            "level": 3,
+            "text": "Dinitrol LT"
+          },
+          {
+            "level": 3,
+            "text": "Mercasol 1"
+          },
+          {
+            "level": 3,
+            "text": "Dinitrol 4941"
+          },
+          {
+            "level": 3,
+            "text": "Mercasol 3"
+          },
+          {
+            "level": 2,
+            "text": "Оставить заявку"
+          },
+          {
+            "level": 2,
+            "text": "Отзывы о нашей работе"
+          },
+          {
+            "level": 2,
+            "text": "Оставить заявку"
+          },
+          {
+            "level": 2,
+            "text": "Письменная гарантия до 5 лет."
+          },
+          {
+            "level": 2,
+            "text": "Частые вопросы"
+          }
+        ],
+        "text": "г.Брест, ул. Коммерческая, 17\n\n c 09:00 до 18:00\n\n +375 (33) 342-0-341\nЦЕНЫ\n \nЛАЗЕРНАЯ ЧИСТКА\n \nПЕСКОСТРУЙ\n \nШУМОИЗОЛЯЦИЯ АВТОМОБИЛЯ\n \nГАРАНТИИ\n \nКОНТАКТЫ\nАнтикоррозийная обработка автомобилей в Бресте\n\nДолговечность без компромиссов: антикоррозийная обработка с гарантией результата.\n\nЗащитить автомобиль\nПисьменная\nгарантия до 5 лет\nКачественные\nматериалы\nФотоотчет\nвыполненных работ\nОпытные\nмастера\nВыберите бренд:\nНажмите на автомобиль своего класса:\n\nЛегковой автомобиль\nдо 4м\n\nЛегковой автомобиль\n4-5 метров\n\nКроссовер / Паркетник\n\nМинивен\n\nВнедорожник\n\nМикроавтобус\nКомплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 600\tот 550\tот 620\n\nЦены представлены ориентировочно, для уточнения стоимости звонить  +375 (33) 342-0-341\n\nОСТАВИТЬ ЗАЯВКУ\n\nДаю согласие на обработку персональных данных\n\nЭТАПЫ РАБОТЫ\nСнятие защит арок и днища\n\nДемонтаж колес, подкрылок, брызговиков и защиты днища.\n\nМойка\n\nМойка горячей водой с специальными химическими средствами.\n\nСушка и укрытие пленкой\n\nСушка проводится с использованием электротепловентилятора.\n\nУдаление\nржавчины*\n\nПодготавливаем поверхность к нанесению средств.\n\nОработка скрытых полостей\n\nНанесение МЛ составов с высокими проникающими способностями.\n\nОбработка\nднища\n\nОбработка днища проводится каучуко-битумными материалами.\n\nОбработка верхних скрытых полостей\n\nОбработка скрытых полостей капота, дверей и моторного отсека.\n\nУстановка защит арок и днища\n\nОбратная сборка подкрылок, брызговиков, финишная мойка авто.\n\nРаботаем исключительно с сертифицированными материалами\n\nИ строго соблюдаем технологические карты производителей\n\nDinitrol LT\n\nАнтикоррозионный состав на основе воска и смолы для открытых поверхностей, и скрытых полостей.\n\nMercasol 1\n\nЗащитное антикоррозионное покрытие на воско-масляной основе светло-коричневого цвета с высоким содержанием ингибиторов коррозии.\n\nDinitrol 4941\n\nДолговременное антикоррозионное защитное покрытие. Представляет собой твердую, черную пленку с коротким временем высыхания,с хорошей адгезией.\n\nMercasol 3\n\nПлотный черный бронирующий антикоррозийный материал для днища, способный к самовосстановлению при повреждении покрытия.\n\nОСТАВИТЬ ЗАЯВКУ\n\nДаю согласие на обработку персональных данных\n\nОТЗЫВЫ О НАШЕЙ РАБОТЕ\nОСТАВИТЬ ЗАЯВКУ\n\nДаю согласие на обработку персональных данных\n\nПисьменная гарантия до 5 лет.\nЧАСТЫЕ ВОПРОСЫ\nЧто такое антикоррозийная обработка автомобиля?\n\nАнтикоррозийная обработка автомобиля  (антикор) — важный этап ухода за транспортным средством. Она защищает кузов от ржавчины, продлевая срок службы машины. Процедура включает очистку, нанесение специальных составов и обработку скрытых полостей. Регулярная обработка сохраняет внешний вид и ценность автомобиля. На данной странице указаны цены на обработку.\n\nЧто представляет собой процесс антикоррозийной обработки?\nЧто представляет собой антикор днища?\nЧто представляет собой антикор скрытых полостей?\nНужна ли антикоррозионная обработка нового авто и электромобиля?\n\nАнтикоррозийная обработка автомобилей (антикор Брест) — это важный этап ухода за транспортным средством, который позволяет защитить кузов и другие металлические элементы от разрушительного воздействия коррозии. В условиях повышенной влажности, перепадов температур, использования реагентов на дорогах и других агрессивных факторов, обработка машины от коррозии становится необходимостью. Это не только сохраняет внешний вид авто, но и значительно продлевает срок его службы.\n\nЧто такое антикоррозийная обработка автомобиля?\n\nАнтикоррозийная обработка авто — это комплекс мер, направленных на защиту металлических поверхностей автомобиля от ржавчины. Обработка от коррозии включает в себя нанесение специальных составов, которые образуют защитный слой, предотвращающий контакт металла с влагой, солью и другими веществами, способными вызвать коррозию. Обработка машины может быть как внешней, так и внутренней, включая скрытые полости, днище, пороги, арки колес и другие уязвимые места.\n\nВиды антикоррозийной обработки\n\nМеханическая обработка — удаление уже существующей ржавчины и подготовка поверхности к нанесению защитных составов.\nХимическая обработка — использование специальных преобразователей ржавчины и грунтовок.\nАнтикорозийка автомобиля — покрытие кузова и скрытых полостей защитными составами, такими как мастики, воски, масляные составы и другие материалы.\n\nПреимущества антикоррозийной обработки\n\nЗащита от коррозии: основная цель антикора — предотвратить появление ржавчины на кузове и других металлических частях автомобиля.\nПродление срока службы авто: своевременная обработка авто от коррозии позволяет сохранить целостность кузова и других элементов, что увеличивает срок эксплуатации машины.\nСохранение внешнего вида: антикоррозийное покрытие автомобиля помогает сохранить его презентабельный вид, предотвращая появление пятен ржавчины.\nЭкономия на ремонте: регулярная антикоррозийная обработка кузова автомобиля позволяет избежать дорогостоящего ремонта в будущем.\n\n \n\nКогда нужно делать антикоррозийную обработку?\n\nДля новых автомобилей: антикор новой машины рекомендуется делать сразу после покупки, чтобы защитить кузов с самого начала эксплуатации.\nДля подержанных авто: обработка старых автомобилей помогает остановить уже начавшийся процесс коррозии и предотвратить его дальнейшее распространение.\nСезонная обработка: особенно актуальна перед зимним сезоном, когда дороги обрабатываются реагентами, ускоряющими процесс ржавления.\n\nКак проходит антикор обработка?\n\nДиагностика: специалисты оценивают состояние кузова и определяют объем работ.\nПодготовка: автомобиль тщательно моется и сушится, удаляется старая ржавчина и загрязнения.\nПокрытие антикором: антикоррозийное покрытие наносится на все уязвимые участки, включая скрытые полости, антикор днища, пороги и арки колес.\nСушка: после нанесения составов автомобиль оставляют для полного высыхания.\n\nСколько стоит обработка машины?\n\nСтоимость антикоррозийной обработки (антикор Брест) зависит от нескольких факторов:\n\nТип автомобиля (легковой, внедорожник, коммерческий транспорт).\nСостояние кузова (наличие ржавчины, необходимость дополнительной подготовки).\nИспользуемые материалы (мастика, воск, масляные составы и т.д.).\nОбъем работ (полная антикоррозийная обработка или частичная).\n\nВ среднем, цена на антикор авто в Бресте начинается от 500 рублей и может достигать 1300 рублей в зависимости от сложности работ и выбранных материалов.\n\nГде сделать антикоррозийную обработку автомобиля в Бресте?\n\nЕсли вы ищете, где сделать антикоррозионные работы автомобиля в Бресте, обратитесь к профессионалам — антикор автосервис Спец Антикор. Современные автосервисы предлагают услуги обработки авто с использованием качественных материалов и современного оборудования. На сайте антикоррозийной обработки или в социальных сетях вы можете найти отзывы клиентов, узнать цены и выполнить антикоррозийную защиту.\n\nПочему стоит доверить антикор автомобиля профессионалам?\n\nПрофессиональная антикоррозийная обработка гарантирует:\n\nКачественную подготовку поверхности.\nИспользование сертифицированных материалов.\nТщательное нанесение защитных составов на все уязвимые участки.\nДолговечный результат и надежную защиту от коррозии.\n\nЗаключение\n\nАнтикоррозийная обработка автомобиля — это не просто дополнительная услуга, а необходимость для каждого автовладельца, который заботится о своем транспортном средстве. Антикор обработка автомобиля от коррозии позволяет сохранить его внешний вид, предотвратить дорогостоящий ремонт и продлить срок службы. Если вы хотите сделать антикор авто в Бресте, обратитесь к проверенным специалистам, которые обеспечат качественную обработку от коррозии.\n\nНе экономьте на антикоррозийной защите — это вложение в долговечность и надежность вашего авто!\n\nСпец Антикор - Антикоррозийная обработка автомобилей в Бресте. ООО \"ВБП ОПТИМАЛ\" УНП:291854857 г.Брест, Коммерческая,17.\n\nПолитика конфиденциальности\n\n×\nЦены\nЛазерная чистка\nПескоструй\nШумоизоляция автомобиля\nГарантии\nКонтакты\n\n г.Брест, ул. Коммерческая, 17\n\n c 09:00 до 18:00\n\nОставить заявку\nОптимизировано Серафинит - Акселератор\nВключает высокую скорость сайта, чтобы быть привлекательным для людей и поисковых систем.",
+        "body_text": " г.Брест, ул. Коммерческая, 17\n\n c 09:00 до 18:00\n\n +375 (33) 342-0-341\nЦЕНЫ\n \nЛАЗЕРНАЯ ЧИСТКА\n \nПЕСКОСТРУЙ\n \nШУМОИЗОЛЯЦИЯ АВТОМОБИЛЯ\n \nГАРАНТИИ\n \nКОНТАКТЫ\nАнтикоррозийная обработка автомобилей в Бресте\n\nДолговечность без компромиссов: антикоррозийная обработка с гарантией результата.\n\nЗащитить автомобиль\nПисьменная\nгарантия до 5 лет\nКачественные\nматериалы\nФотоотчет\nвыполненных работ\nОпытные\nмастера\nВыберите бренд:\nНажмите на автомобиль своего класса:\n\nЛегковой автомобиль\nдо 4м\n\nЛегковой автомобиль\n4-5 метров\n\nКроссовер / Паркетник\n\nМинивен\n\nВнедорожник\n\nМикроавтобус\nКомплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 600\tот 550\tот 620\n\nЦены представлены ориентировочно, для уточнения стоимости звонить  +375 (33) 342-0-341\n\nОСТАВИТЬ ЗАЯВКУ\n\nДаю согласие на обработку персональных данных\n\nЭТАПЫ РАБОТЫ\nСнятие защит арок и днища\n\nДемонтаж колес, подкрылок, брызговиков и защиты днища.\n\nМойка\n\nМойка горячей водой с специальными химическими средствами.\n\nСушка и укрытие пленкой\n\nСушка проводится с использованием электротепловентилятора.\n\nУдаление\nржавчины*\n\nПодготавливаем поверхность к нанесению средств.\n\nОработка скрытых полостей\n\nНанесение МЛ составов с высокими проникающими способностями.\n\nОбработка\nднища\n\nОбработка днища проводится каучуко-битумными материалами.\n\nОбработка верхних скрытых полостей\n\nОбработка скрытых полостей капота, дверей и моторного отсека.\n\nУстановка защит арок и днища\n\nОбратная сборка подкрылок, брызговиков, финишная мойка авто.\n\nРаботаем исключительно с сертифицированными материалами\n\nИ строго соблюдаем технологические карты производителей\n\nDinitrol LT\n\nАнтикоррозионный состав на основе воска и смолы для открытых поверхностей, и скрытых полостей.\n\nMercasol 1\n\nЗащитное антикоррозионное покрытие на воско-масляной основе светло-коричневого цвета с высоким содержанием ингибиторов коррозии.\n\nDinitrol 4941\n\nДолговременное антикоррозионное защитное покрытие. Представляет собой твердую, черную пленку с коротким временем высыхания,с хорошей адгезией.\n\nMercasol 3\n\nПлотный черный бронирующий антикоррозийный материал для днища, способный к самовосстановлению при повреждении покрытия.\n\nОСТАВИТЬ ЗАЯВКУ\n\nДаю согласие на обработку персональных данных\n\nОТЗЫВЫ О НАШЕЙ РАБОТЕ\nОСТАВИТЬ ЗАЯВКУ\n\nДаю согласие на обработку персональных данных\n\nПисьменная гарантия до 5 лет.\nЧАСТЫЕ ВОПРОСЫ\nЧто такое антикоррозийная обработка автомобиля?\n\nАнтикоррозийная обработка автомобиля  (антикор) — важный этап ухода за транспортным средством. Она защищает кузов от ржавчины, продлевая срок службы машины. Процедура включает очистку, нанесение специальных составов и обработку скрытых полостей. Регулярная обработка сохраняет внешний вид и ценность автомобиля. На данной странице указаны цены на обработку.\n\nЧто представляет собой процесс антикоррозийной обработки?\nЧто представляет собой антикор днища?\nЧто представляет собой антикор скрытых полостей?\nНужна ли антикоррозионная обработка нового авто и электромобиля?\n\nАнтикоррозийная обработка автомобилей (антикор Брест) — это важный этап ухода за транспортным средством, который позволяет защитить кузов и другие металлические элементы от разрушительного воздействия коррозии. В условиях повышенной влажности, перепадов температур, использования реагентов на дорогах и других агрессивных факторов, обработка машины от коррозии становится необходимостью. Это не только сохраняет внешний вид авто, но и значительно продлевает срок его службы.\n\nЧто такое антикоррозийная обработка автомобиля?\n\nАнтикоррозийная обработка авто — это комплекс мер, направленных на защиту металлических поверхностей автомобиля от ржавчины. Обработка от коррозии включает в себя нанесение специальных составов, которые образуют защитный слой, предотвращающий контакт металла с влагой, солью и другими веществами, способными вызвать коррозию. Обработка машины может быть как внешней, так и внутренней, включая скрытые полости, днище, пороги, арки колес и другие уязвимые места.\n\nВиды антикоррозийной обработки\n\nМеханическая обработка — удаление уже существующей ржавчины и подготовка поверхности к нанесению защитных составов.\nХимическая обработка — использование специальных преобразователей ржавчины и грунтовок.\nАнтикорозийка автомобиля — покрытие кузова и скрытых полостей защитными составами, такими как мастики, воски, масляные составы и другие материалы.\n\nПреимущества антикоррозийной обработки\n\nЗащита от коррозии: основная цель антикора — предотвратить появление ржавчины на кузове и других металлических частях автомобиля.\nПродление срока службы авто: своевременная обработка авто от коррозии позволяет сохранить целостность кузова и других элементов, что увеличивает срок эксплуатации машины.\nСохранение внешнего вида: антикоррозийное покрытие автомобиля помогает сохранить его презентабельный вид, предотвращая появление пятен ржавчины.\nЭкономия на ремонте: регулярная антикоррозийная обработка кузова автомобиля позволяет избежать дорогостоящего ремонта в будущем.\n\n \n\nКогда нужно делать антикоррозийную обработку?\n\nДля новых автомобилей: антикор новой машины рекомендуется делать сразу после покупки, чтобы защитить кузов с самого начала эксплуатации.\nДля подержанных авто: обработка старых автомобилей помогает остановить уже начавшийся процесс коррозии и предотвратить его дальнейшее распространение.\nСезонная обработка: особенно актуальна перед зимним сезоном, когда дороги обрабатываются реагентами, ускоряющими процесс ржавления.\n\nКак проходит антикор обработка?\n\nДиагностика: специалисты оценивают состояние кузова и определяют объем работ.\nПодготовка: автомобиль тщательно моется и сушится, удаляется старая ржавчина и загрязнения.\nПокрытие антикором: антикоррозийное покрытие наносится на все уязвимые участки, включая скрытые полости, антикор днища, пороги и арки колес.\nСушка: после нанесения составов автомобиль оставляют для полного высыхания.\n\nСколько стоит обработка машины?\n\nСтоимость антикоррозийной обработки (антикор Брест) зависит от нескольких факторов:\n\nТип автомобиля (легковой, внедорожник, коммерческий транспорт).\nСостояние кузова (наличие ржавчины, необходимость дополнительной подготовки).\nИспользуемые материалы (мастика, воск, масляные составы и т.д.).\nОбъем работ (полная антикоррозийная обработка или частичная).\n\nВ среднем, цена на антикор авто в Бресте начинается от 500 рублей и может достигать 1300 рублей в зависимости от сложности работ и выбранных материалов.\n\nГде сделать антикоррозийную обработку автомобиля в Бресте?\n\nЕсли вы ищете, где сделать антикоррозионные работы автомобиля в Бресте, обратитесь к профессионалам — антикор автосервис Спец Антикор. Современные автосервисы предлагают услуги обработки авто с использованием качественных материалов и современного оборудования. На сайте антикоррозийной обработки или в социальных сетях вы можете найти отзывы клиентов, узнать цены и выполнить антикоррозийную защиту.\n\nПочему стоит доверить антикор автомобиля профессионалам?\n\nПрофессиональная антикоррозийная обработка гарантирует:\n\nКачественную подготовку поверхности.\nИспользование сертифицированных материалов.\nТщательное нанесение защитных составов на все уязвимые участки.\nДолговечный результат и надежную защиту от коррозии.\n\nЗаключение\n\nАнтикоррозийная обработка автомобиля — это не просто дополнительная услуга, а необходимость для каждого автовладельца, который заботится о своем транспортном средстве. Антикор обработка автомобиля от коррозии позволяет сохранить его внешний вид, предотвратить дорогостоящий ремонт и продлить срок службы. Если вы хотите сделать антикор авто в Бресте, обратитесь к проверенным специалистам, которые обеспечат качественную обработку от коррозии.\n\nНе экономьте на антикоррозийной защите — это вложение в долговечность и надежность вашего авто!\n\nСпец Антикор - Антикоррозийная обработка автомобилей в Бресте. ООО \"ВБП ОПТИМАЛ\" УНП:291854857 г.Брест, Коммерческая,17.\n\nПолитика конфиденциальности\n\n×\nЦены\nЛазерная чистка\nПескоструй\nШумоизоляция автомобиля\nГарантии\nКонтакты\n\n г.Брест, ул. Коммерческая, 17\n\n c 09:00 до 18:00\n\nОставить заявку\nОптимизировано Серафинит - Акселератор\nВключает высокую скорость сайта, чтобы быть привлекательным для людей и поисковых систем.",
+        "paragraphs": [
+          "Долговечность без компромиссов: антикоррозийная обработка с гарантией результата.",
+          "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)",
+          "Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)",
+          "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)",
+          "Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341",
+          "Демонтаж колес, подкрылок, брызговиков и защиты днища.",
+          "Мойка горячей водой с специальными химическими средствами.",
+          "Сушка проводится с использованием электротепловентилятора.",
+          "Подготавливаем поверхность к нанесению средств.",
+          "Нанесение МЛ составов с высокими проникающими способностями.",
+          "Обработка днища проводится каучуко-битумными материалами.",
+          "Обработка скрытых полостей капота, дверей и моторного отсека.",
+          "Обратная сборка подкрылок, брызговиков, финишная мойка авто.",
+          "И строго соблюдаем технологические карты производителей",
+          "Антикоррозионный состав на основе воска и смолы для открытых поверхностей, и скрытых полостей.",
+          "Защитное антикоррозионное покрытие на воско-масляной основе светло-коричневого цвета с высоким содержанием ингибиторов коррозии.",
+          "Долговременное антикоррозионное защитное покрытие. Представляет собой твердую, черную пленку с коротким временем высыхания,с хорошей адгезией.",
+          "Плотный черный бронирующий антикоррозийный материал для днища, способный к самовосстановлению при повреждении покрытия.",
+          "Антикоррозийная обработка автомобиля (антикор) — важный этап ухода за транспортным средством. Она защищает кузов от ржавчины, продлевая срок службы машины. Процедура включает очистку, нанесение специальных составов и обработку скрытых полостей. Регулярная обработка сохраняет внешний вид и ценность автомобиля. На данной странице указаны цены на обработку.",
+          "Процесс антикоррозийной обработки автомобиля включает несколько этапов. Сначала кузов очищают от грязи и старого покрытия. Затем наносят антикоррозийные составы, защищающие металл от влаги и химических воздействий. Особое внимание уделяют скрытым полостям и труднодоступным местам для максимальной защиты.",
+          "Антикор днища — это важная процедура, направленная на защиту нижней части автомобиля от коррозии. Антикоррозийная обработка днища включает нанесение специальных составов, которые предотвращают воздействие влаги, реагентов и грязи. Антикорозийка днища автомобиля особенно актуальна в регионах с суровым климатом или плохими дорогами, где риск повреждения кузова выше.",
+          "Обработка днища авто обычно проводится в несколько этапов: очистка поверхности, удаление ржавчины и нанесение защитного слоя. Антикор днища и арок обеспечивает комплексную защиту, так как колесные арки также подвержены коррозии. Обработка днища в Бресте пользуется спросом благодаря доступной цене и качеству.",
+          "Стоимость услуги обработка днища антикором цена зависит от выбранных материалов и сложности работ. Если вы хотите сделать антикор днища, обратитесь к профессионалам, чтобы гарантировать долговечность защиты и сохранить внешний вид автомобиля.",
+          "Антикоррозийная обработка порогов и скрытых полостей — это важный этап защиты автомобиля от коррозии. Пороги и скрытые полости, такие как лонжероны, внутренние части капота и другие труднодоступные зоны, наиболее уязвимы к воздействию влаги, грязи и реагентов. Антикоррозийная обработка полостей и порогов помогает предотвратить разрушение металла и продлить срок службы кузова.",
+          "Процесс включает очистку поверхностей от загрязнений и ржавчины, после чего наносится специальный антикоррозийный состав. Антикор внутри порогов особенно важен, так как эти участки постоянно подвергаются воздействию агрессивной среды. Аналогично, антикор капота и антикор лонжеронов обеспечивает защиту от коррозии в зонах, которые сложно обрабатывать самостоятельно.",
+          "Обработка антикором пороги и скрытые полости проводится с использованием современных материалов, которые создают долговечное защитное покрытие. Антикоррозийная обработка капота также входит в комплекс мер, так как эта часть автомобиля часто контактирует с водой и реагентами.",
+          "Регулярная антикоррозийная обработка порогов и скрытых полостей не только сохраняет внешний вид автомобиля, но и предотвращает дорогостоящий ремонт в будущем. Это особенно актуально для автомобилей, эксплуатируемых в условиях повышенной влажности или на дорогах с агрессивным покрытием.",
+          "Антикоррозийная обработка нового автомобиля — это не просто дополнительная опция, а необходимость для сохранения его долговечности и внешнего вида. Даже новые автомобили, несмотря на заводское покрытие, подвержены коррозии, особенно в условиях агрессивной среды: влажности, реагентов на дорогах и перепадов температур. Антикоррозийная обработка нового авто создает дополнительный защитный слой, который предотвращает разрушение металла и продлевает срок службы кузова.",
+          "Для электромобилей антикоррозийная обработка также крайне важна. Антикор электромобиля защищает не только кузов, но и важные элементы конструкции, такие как аккумуляторный отсек и проводка, которые могут пострадать от влаги и коррозии. Электромобили, как и традиционные авто, эксплуатируются в тех же условиях, поэтому антикоррозийная обработка электромобилей помогает сохранить их надежность и безопасность.",
+          "Антикор нового автомобиля или электромобиля включает обработку скрытых полостей, днища, порогов и других уязвимых зон. Это не только защищает от ржавчины, но и сохраняет высокую стоимость транспортного средства при дальнейшей продаже.",
+          "Таким образом, антикоррозийная обработка нового авто и электромобилей — это инвестиция в их долговечность и безупречный внешний вид, которая окупается за счет снижения затрат на ремонт и обслуживание.",
+          "Антикоррозийная обработка автомобилей (антикор Брест) — это важный этап ухода за транспортным средством, который позволяет защитить кузов и другие металлические элементы от разрушительного воздействия коррозии. В условиях повышенной влажности, перепадов температур, использования реагентов на дорогах и других агрессивных факторов, обработка машины от коррозии становится необходимостью. Это не только сохраняет внешний вид авто, но и значительно продлевает срок его службы.",
+          "Что такое антикоррозийная обработка автомобиля?",
+          "Антикоррозийная обработка авто — это комплекс мер, направленных на защиту металлических поверхностей автомобиля от ржавчины. Обработка от коррозии включает в себя нанесение специальных составов, которые образуют защитный слой, предотвращающий контакт металла с влагой, солью и другими веществами, способными вызвать коррозию. Обработка машины может быть как внешней, так и внутренней, включая скрытые полости, днище, пороги, арки колес и другие уязвимые места.",
+          "Виды антикоррозийной обработки",
+          "Механическая обработка — удаление уже существующей ржавчины и подготовка поверхности к нанесению защитных составов.",
+          "Химическая обработка — использование специальных преобразователей ржавчины и грунтовок.",
+          "Антикорозийка автомобиля — покрытие кузова и скрытых полостей защитными составами, такими как мастики, воски, масляные составы и другие материалы.",
+          "Преимущества антикоррозийной обработки",
+          "Защита от коррозии: основная цель антикора — предотвратить появление ржавчины на кузове и других металлических частях автомобиля.",
+          "Продление срока службы авто: своевременная обработка авто от коррозии позволяет сохранить целостность кузова и других элементов, что увеличивает срок эксплуатации машины.",
+          "Сохранение внешнего вида: антикоррозийное покрытие автомобиля помогает сохранить его презентабельный вид, предотвращая появление пятен ржавчины.",
+          "Экономия на ремонте: регулярная антикоррозийная обработка кузова автомобиля позволяет избежать дорогостоящего ремонта в будущем.",
+          "Когда нужно делать антикоррозийную обработку?",
+          "Для новых автомобилей: антикор новой машины рекомендуется делать сразу после покупки, чтобы защитить кузов с самого начала эксплуатации.",
+          "Для подержанных авто: обработка старых автомобилей помогает остановить уже начавшийся процесс коррозии и предотвратить его дальнейшее распространение.",
+          "Сезонная обработка: особенно актуальна перед зимним сезоном, когда дороги обрабатываются реагентами, ускоряющими процесс ржавления.",
+          "Как проходит антикор обработка?",
+          "Диагностика: специалисты оценивают состояние кузова и определяют объем работ.",
+          "Подготовка: автомобиль тщательно моется и сушится, удаляется старая ржавчина и загрязнения.",
+          "Покрытие антикором: антикоррозийное покрытие наносится на все уязвимые участки, включая скрытые полости, антикор днища, пороги и арки колес.",
+          "Сушка: после нанесения составов автомобиль оставляют для полного высыхания.",
+          "Сколько стоит обработка машины?",
+          "Стоимость антикоррозийной обработки (антикор Брест) зависит от нескольких факторов:",
+          "Тип автомобиля (легковой, внедорожник, коммерческий транспорт).",
+          "Состояние кузова (наличие ржавчины, необходимость дополнительной подготовки).",
+          "Используемые материалы (мастика, воск, масляные составы и т.д.).",
+          "Объем работ (полная антикоррозийная обработка или частичная).",
+          "В среднем, цена на антикор авто в Бресте начинается от 500 рублей и может достигать 1300 рублей в зависимости от сложности работ и выбранных материалов.",
+          "Где сделать антикоррозийную обработку автомобиля в Бресте?",
+          "Если вы ищете, где сделать антикоррозионные работы автомобиля в Бресте, обратитесь к профессионалам — антикор автосервис Спец Антикор. Современные автосервисы предлагают услуги обработки авто с использованием качественных материалов и современного оборудования. На сайте антикоррозийной обработки или в социальных сетях вы можете найти отзывы клиентов, узнать цены и выполнить антикоррозийную защиту.",
+          "Почему стоит доверить антикор автомобиля профессионалам?",
+          "Профессиональная антикоррозийная обработка гарантирует:",
+          "Качественную подготовку поверхности.",
+          "Использование сертифицированных материалов.",
+          "Тщательное нанесение защитных составов на все уязвимые участки.",
+          "Долговечный результат и надежную защиту от коррозии.",
+          "Антикоррозийная обработка автомобиля — это не просто дополнительная услуга, а необходимость для каждого автовладельца, который заботится о своем транспортном средстве. Антикор обработка автомобиля от коррозии позволяет сохранить его внешний вид, предотвратить дорогостоящий ремонт и продлить срок службы. Если вы хотите сделать антикор авто в Бресте, обратитесь к проверенным специалистам, которые обеспечат качественную обработку от коррозии.",
+          "Не экономьте на антикоррозийной защите — это вложение в долговечность и надежность вашего авто!",
+          "г.Брест, ул. Коммерческая, 17"
+        ],
+        "links": [
+          {
+            "text": "",
+            "url": "https://spec-antikor.by/"
+          },
+          {
+            "text": "г.Брест, ул. Коммерческая, 17",
+            "url": "https://yandex.by/profile/188490761583?lang=ru&no-distribution=1&view-state=mini&source=wizbiz_new_map_single"
+          },
+          {
+            "text": "Цены",
+            "url": "https://spec-antikor.by/cena-antikorrozijnoj-obrabotki-avtomobilja-v-breste/"
+          },
+          {
+            "text": "Лазерная чистка",
+            "url": "https://spec-antikor.by/lazernaja-chistka-metalla-i-avtomobilja-v-breste/"
+          },
+          {
+            "text": "Пескоструй",
+            "url": "https://spec-antikor.by/peskostrujnaja-obrabotka-avtomobilja-diskov-i-dnishha-v-breste/"
+          },
+          {
+            "text": "Шумоизоляция автомобиля",
+            "url": "https://spec-antikor.by/shumoizolyacziya-avtomobilya/"
+          },
+          {
+            "text": "Гарантии",
+            "url": "https://spec-antikor.by/garantii/"
+          },
+          {
+            "text": "Контакты",
+            "url": "https://spec-antikor.by/kontakty/"
+          },
+          {
+            "text": "Защитить автомобиль",
+            "url": "https://spec-antikor.by/#ostavit-zayavku"
+          },
+          {
+            "text": "персональных данных",
+            "url": "https://spec-antikor.by/privacy/"
+          },
+          {
+            "text": "",
+            "url": "https://spec-antikor.by/"
+          },
+          {
+            "text": "Dinitrol LT",
+            "url": "https://spec-antikor.by/"
+          },
+          {
+            "text": "",
+            "url": "https://spec-antikor.by/"
+          },
+          {
+            "text": "Mercasol 1",
+            "url": "https://spec-antikor.by/"
+          },
+          {
+            "text": "",
+            "url": "https://spec-antikor.by/"
+          },
+          {
+            "text": "Dinitrol 4941",
+            "url": "https://spec-antikor.by/"
+          },
+          {
+            "text": "",
+            "url": "https://spec-antikor.by/"
+          },
+          {
+            "text": "Mercasol 3",
+            "url": "https://spec-antikor.by/"
+          },
+          {
+            "text": "персональных данных",
+            "url": "https://spec-antikor.by/privacy/"
+          },
+          {
+            "text": "",
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/02/3-1.jpg"
+          },
+          {
+            "text": "",
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/02/4-1.jpg"
+          },
+          {
+            "text": "",
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/02/5-1.jpg"
+          },
+          {
+            "text": "",
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/02/6-1.jpg"
+          },
+          {
+            "text": "",
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/02/1-1.jpg"
+          },
+          {
+            "text": "",
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/02/2-1.jpg"
+          },
+          {
+            "text": "",
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/02/3-1.jpg"
+          },
+          {
+            "text": "",
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/02/4-1.jpg"
+          },
+          {
+            "text": "",
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/02/5-1.jpg"
+          },
+          {
+            "text": "",
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/02/6-1.jpg"
+          },
+          {
+            "text": "",
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/02/1-1.jpg"
+          },
+          {
+            "text": "",
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/02/2-1.jpg"
+          },
+          {
+            "text": "",
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/02/3-1.jpg"
+          },
+          {
+            "text": "",
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/02/4-1.jpg"
+          },
+          {
+            "text": "персональных данных",
+            "url": "https://spec-antikor.by/privacy/"
+          },
+          {
+            "text": "данной",
+            "url": "https://spec-antikor.by/cena-antikorrozijnoj-obrabotki-avtomobilja-v-breste/"
+          },
+          {
+            "text": "цене",
+            "url": "https://spec-antikor.by/cena-antikorrozijnoj-obrabotki-avtomobilja-v-breste/"
+          },
+          {
+            "text": "Политика конфиденциальности",
+            "url": "https://spec-antikor.by/privacy/"
+          },
+          {
+            "text": "",
+            "url": "https://spec-antikor.by/"
+          },
+          {
+            "text": "Цены",
+            "url": "https://spec-antikor.by/cena-antikorrozijnoj-obrabotki-avtomobilja-v-breste/"
+          },
+          {
+            "text": "Лазерная чистка",
+            "url": "https://spec-antikor.by/lazernaja-chistka-metalla-i-avtomobilja-v-breste/"
+          },
+          {
+            "text": "Пескоструй",
+            "url": "https://spec-antikor.by/peskostrujnaja-obrabotka-avtomobilja-diskov-i-dnishha-v-breste/"
+          },
+          {
+            "text": "Шумоизоляция автомобиля",
+            "url": "https://spec-antikor.by/shumoizolyacziya-avtomobilya/"
+          },
+          {
+            "text": "Гарантии",
+            "url": "https://spec-antikor.by/garantii/"
+          },
+          {
+            "text": "Контакты",
+            "url": "https://spec-antikor.by/kontakty/"
+          },
+          {
+            "text": "г.Брест, ул. Коммерческая, 17",
+            "url": "https://yandex.by/profile/188490761583?lang=ru&no-distribution=1&view-state=mini&source=wizbiz_new_map_single"
+          },
+          {
+            "text": "Оставить заявку",
+            "url": "https://spec-antikor.by/#"
+          },
+          {
+            "text": "",
+            "url": "https://t.me/antikor_brest"
+          },
+          {
+            "text": "",
+            "url": "https://web.whatsapp.com/send?phone=375298008323&text="
+          },
+          {
+            "text": "Оптимизировано Серафинит - АкселераторВключает высокую скорость сайта, чтобы быть привлекательным для людей и поисковых систем.(function(){var c=document.currentScript.parentNode;setTimeout(function(){var x=new window.XMLHttpRequest();x.onload=function(){if(this.status==200&&this.responseText==\"f\")c.outerHTML=\"\";};x.open(\"GET\",\"?seraph_accel_gbnr\",true);x.send()},0)})()",
+            "url": "https://www.s-sols.com/ru/products/wordpress/accelerator?utm_source=usersite&utm_medium=banner&utm_campaign=free_lim_ver&utm_term=accel"
+          }
+        ],
+        "tables": [
+          {
+            "caption": "",
+            "rows": [
+              [
+                {
+                  "text": "Комплексы наантикор обработку",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": true
+                },
+                {
+                  "text": "ML комплекс (для машин с пробегом)Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": true
+                },
+                {
+                  "text": "Стандарт комплекс (новые авто)Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": true
+                },
+                {
+                  "text": "Антишум комплексCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": true
+                }
+              ],
+              [
+                {
+                  "text": "Cнятие пластик. защитыколесн.арок и днища(если надо)",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                },
+                {
+                  "text": "",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                },
+                {
+                  "text": "",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                },
+                {
+                  "text": "",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                }
+              ],
+              [
+                {
+                  "text": "Мойка днища иколесн.арок",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                },
+                {
+                  "text": "",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                },
+                {
+                  "text": "",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                },
+                {
+                  "text": "",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                }
+              ],
+              [
+                {
+                  "text": "Сушка",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                },
+                {
+                  "text": "",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                },
+                {
+                  "text": "",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                },
+                {
+                  "text": "",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                }
+              ],
+              [
+                {
+                  "text": "Обработка скрытыхполостей верхн.части кузова",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                },
+                {
+                  "text": "",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                },
+                {
+                  "text": "",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                },
+                {
+                  "text": "",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                }
+              ],
+              [
+                {
+                  "text": "Обработка скрытыхполостей ниж.части кузов:порогов и ланжеронов",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                },
+                {
+                  "text": "",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                },
+                {
+                  "text": "",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                },
+                {
+                  "text": "",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                }
+              ],
+              [
+                {
+                  "text": "Стоимость:",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                },
+                {
+                  "text": "от 600",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                },
+                {
+                  "text": "от 550",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                },
+                {
+                  "text": "от 620",
+                  "rowspan": 1,
+                  "colspan": 1,
+                  "header": false
+                }
+              ]
+            ]
+          }
+        ],
+        "images": [
+          {
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/01/cropped-logo.png",
+            "alt": ""
+          },
+          {
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/01/car_after.png",
+            "alt": "Before image"
+          },
+          {
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/01/car_before.png",
+            "alt": "After image"
+          },
+          {
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/01/policy.png",
+            "alt": ""
+          },
+          {
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/01/car.png",
+            "alt": ""
+          },
+          {
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/01/photos.png",
+            "alt": ""
+          },
+          {
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/01/certificate.png",
+            "alt": ""
+          },
+          {
+            "url": "https://spec-antikor.by/wp-content/themes/anticor_theme/images/path/to/icon-yes.png",
+            "alt": "Да"
+          },
+          {
+            "url": "https://spec-antikor.by/wp-content/themes/anticor_theme/images/path/to/icon-yes.png",
+            "alt": "Да"
+          },
+          {
+            "url": "https://spec-antikor.by/wp-content/themes/anticor_theme/images/path/to/icon-yes.png",
+            "alt": "Да"
+          },
+          {
+            "url": "https://spec-antikor.by/wp-content/themes/anticor_theme/images/path/to/icon-yes.png",
+            "alt": "Да"
+          },
+          {
+            "url": "https://spec-antikor.by/wp-content/themes/anticor_theme/images/path/to/icon-yes.png",
+            "alt": "Да"
+          },
+          {
+            "url": "https://spec-antikor.by/wp-content/themes/anticor_theme/images/path/to/icon-yes.png",
+            "alt": "Да"
+          },
+          {
+            "url": "https://spec-antikor.by/wp-content/themes/anticor_theme/images/path/to/icon-yes.png",
+            "alt": "Да"
+          },
+          {
+            "url": "https://spec-antikor.by/wp-content/themes/anticor_theme/images/path/to/icon-yes.png",
+            "alt": "Да"
+          },
+          {
+            "url": "https://spec-antikor.by/wp-content/themes/anticor_theme/images/path/to/icon-yes.png",
+            "alt": "Да"
+          },
+          {
+            "url": "https://spec-antikor.by/wp-content/uploads/2025/01/cropped-logo.png",
+            "alt": ""
+          }
+        ],
+        "structured_data": [
+          {
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "WebPage",
+                "@id": "https://spec-antikor.by/",
+                "url": "https://spec-antikor.by/",
+                "name": "Антикор в Бресте - Спец Антикор Антикоррозийная обработка Dinitrol.",
+                "isPartOf": {
+                  "@id": "https://spec-antikor.by/#website"
+                },
+                "about": {
+                  "@id": "https://spec-antikor.by/#organization"
+                },
+                "datePublished": "2025-01-19T10:42:57+00:00",
+                "dateModified": "2025-11-07T07:00:55+00:00",
+                "description": "Антикоррозионная обработка автомобилей в Бресте. Обработка днища авто. Оказываем услуги по антикор обработке новых машин и электромобилей.",
+                "breadcrumb": {
+                  "@id": "https://spec-antikor.by/#breadcrumb"
+                },
+                "inLanguage": "ru-RU",
+                "potentialAction": [
+                  {
+                    "@type": "ReadAction",
+                    "target": [
+                      "https://spec-antikor.by/"
+                    ]
+                  }
+                ]
+              },
+              {
+                "@type": "BreadcrumbList",
+                "@id": "https://spec-antikor.by/#breadcrumb",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Главная страница"
+                  }
+                ]
+              },
+              {
+                "@type": "WebSite",
+                "@id": "https://spec-antikor.by/#website",
+                "url": "https://spec-antikor.by/",
+                "name": "Антикоррозионная обработка автомобилей в Бресте",
+                "description": "",
+                "publisher": {
+                  "@id": "https://spec-antikor.by/#organization"
+                },
+                "potentialAction": [
+                  {
+                    "@type": "SearchAction",
+                    "target": {
+                      "@type": "EntryPoint",
+                      "urlTemplate": "https://spec-antikor.by/?s={search_term_string}"
+                    },
+                    "query-input": {
+                      "@type": "PropertyValueSpecification",
+                      "valueRequired": true,
+                      "valueName": "search_term_string"
+                    }
+                  }
+                ],
+                "inLanguage": "ru-RU"
+              },
+              {
+                "@type": "Organization",
+                "@id": "https://spec-antikor.by/#organization",
+                "name": "Антикоррозионная обработка автомобилей в Бресте",
+                "url": "https://spec-antikor.by/",
+                "logo": {
+                  "@type": "ImageObject",
+                  "inLanguage": "ru-RU",
+                  "@id": "https://spec-antikor.by/#/schema/logo/image/",
+                  "url": "https://spec-antikor.by/wp-content/uploads/2025/01/cropped-logo.png",
+                  "contentUrl": "https://spec-antikor.by/wp-content/uploads/2025/01/cropped-logo.png",
+                  "width": 200,
+                  "height": 50,
+                  "caption": "Антикоррозионная обработка автомобилей в Бресте"
+                },
+                "image": {
+                  "@id": "https://spec-antikor.by/#/schema/logo/image/"
+                }
+              }
+            ]
+          }
+        ],
+        "structured_data_errors": [],
+        "calculator": {
+          "brands": [
+            "dinitrol",
+            "noxudol"
+          ],
+          "vehicles": [
+            {
+              "id": "car",
+              "name_original": "Легковой автомобиль до 4м"
+            },
+            {
+              "id": "crossover",
+              "name_original": "Легковой автомобиль 4-5 метров"
+            },
+            {
+              "id": "minivan",
+              "name_original": "Кроссовер / Паркетник"
+            },
+            {
+              "id": "suv",
+              "name_original": "Минивен"
+            },
+            {
+              "id": "microbus",
+              "name_original": "Внедорожник"
+            },
+            {
+              "id": "lastcar",
+              "name_original": "Микроавтобус"
+            }
+          ],
+          "states": [
+            {
+              "brand": "dinitrol",
+              "vehicle_type_id": "car",
+              "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 600\tот 550\tот 620",
+              "packages": [
+                {
+                  "id": "complex-1",
+                  "name_original": "ML комплекс (для машин с пробегом)",
+                  "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)",
+                  "price_text_original": "от 600"
+                },
+                {
+                  "id": "complex-2",
+                  "name_original": "Стандарт комплекс (новые авто)",
+                  "description": "Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)",
+                  "price_text_original": "от 550"
+                },
+                {
+                  "id": "complex-3",
+                  "name_original": "Антишум комплекс",
+                  "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)",
+                  "price_text_original": "от 620"
+                }
+              ],
+              "inclusions": [
+                {
+                  "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Мойка днища и колесн.арок",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Сушка",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей верхн.части кузова",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                }
+              ]
+            },
+            {
+              "brand": "dinitrol",
+              "vehicle_type_id": "crossover",
+              "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 650\tот 600\tот 670",
+              "packages": [
+                {
+                  "id": "complex-1",
+                  "name_original": "ML комплекс (для машин с пробегом)",
+                  "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)",
+                  "price_text_original": "от 650"
+                },
+                {
+                  "id": "complex-2",
+                  "name_original": "Стандарт комплекс (новые авто)",
+                  "description": "Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)",
+                  "price_text_original": "от 600"
+                },
+                {
+                  "id": "complex-3",
+                  "name_original": "Антишум комплекс",
+                  "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)",
+                  "price_text_original": "от 670"
+                }
+              ],
+              "inclusions": [
+                {
+                  "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Мойка днища и колесн.арок",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Сушка",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей верхн.части кузова",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                }
+              ]
+            },
+            {
+              "brand": "dinitrol",
+              "vehicle_type_id": "minivan",
+              "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 750\tот 700\tот 770",
+              "packages": [
+                {
+                  "id": "complex-1",
+                  "name_original": "ML комплекс (для машин с пробегом)",
+                  "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)",
+                  "price_text_original": "от 750"
+                },
+                {
+                  "id": "complex-2",
+                  "name_original": "Стандарт комплекс (новые авто)",
+                  "description": "Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)",
+                  "price_text_original": "от 700"
+                },
+                {
+                  "id": "complex-3",
+                  "name_original": "Антишум комплекс",
+                  "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)",
+                  "price_text_original": "от 770"
+                }
+              ],
+              "inclusions": [
+                {
+                  "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Мойка днища и колесн.арок",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Сушка",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей верхн.части кузова",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                }
+              ]
+            },
+            {
+              "brand": "dinitrol",
+              "vehicle_type_id": "suv",
+              "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 750\tот 700\tот 770",
+              "packages": [
+                {
+                  "id": "complex-1",
+                  "name_original": "ML комплекс (для машин с пробегом)",
+                  "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)",
+                  "price_text_original": "от 750"
+                },
+                {
+                  "id": "complex-2",
+                  "name_original": "Стандарт комплекс (новые авто)",
+                  "description": "Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)",
+                  "price_text_original": "от 700"
+                },
+                {
+                  "id": "complex-3",
+                  "name_original": "Антишум комплекс",
+                  "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)",
+                  "price_text_original": "от 770"
+                }
+              ],
+              "inclusions": [
+                {
+                  "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Мойка днища и колесн.арок",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Сушка",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей верхн.части кузова",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                }
+              ]
+            },
+            {
+              "brand": "dinitrol",
+              "vehicle_type_id": "microbus",
+              "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 900\tот 850\tот 920",
+              "packages": [
+                {
+                  "id": "complex-1",
+                  "name_original": "ML комплекс (для машин с пробегом)",
+                  "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)",
+                  "price_text_original": "от 900"
+                },
+                {
+                  "id": "complex-2",
+                  "name_original": "Стандарт комплекс (новые авто)",
+                  "description": "Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)",
+                  "price_text_original": "от 850"
+                },
+                {
+                  "id": "complex-3",
+                  "name_original": "Антишум комплекс",
+                  "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)",
+                  "price_text_original": "от 920"
+                }
+              ],
+              "inclusions": [
+                {
+                  "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Мойка днища и колесн.арок",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Сушка",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей верхн.части кузова",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                }
+              ]
+            },
+            {
+              "brand": "dinitrol",
+              "vehicle_type_id": "lastcar",
+              "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 900\tот 850\tот 920",
+              "packages": [
+                {
+                  "id": "complex-1",
+                  "name_original": "ML комплекс (для машин с пробегом)",
+                  "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)",
+                  "price_text_original": "от 900"
+                },
+                {
+                  "id": "complex-2",
+                  "name_original": "Стандарт комплекс (новые авто)",
+                  "description": "Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)",
+                  "price_text_original": "от 850"
+                },
+                {
+                  "id": "complex-3",
+                  "name_original": "Антишум комплекс",
+                  "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)",
+                  "price_text_original": "от 920"
+                }
+              ],
+              "inclusions": [
+                {
+                  "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Мойка днища и колесн.арок",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Сушка",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей верхн.части кузова",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                }
+              ]
+            },
+            {
+              "brand": "noxudol",
+              "vehicle_type_id": "car",
+              "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 600\tот 550\tот 620",
+              "packages": [
+                {
+                  "id": "complex-1",
+                  "name_original": "ML комплекс (для машин с пробегом)",
+                  "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)",
+                  "price_text_original": "от 600"
+                },
+                {
+                  "id": "complex-2",
+                  "name_original": "Стандарт комплекс (новые авто)",
+                  "description": "Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)",
+                  "price_text_original": "от 550"
+                },
+                {
+                  "id": "complex-3",
+                  "name_original": "Антишум комплекс",
+                  "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)",
+                  "price_text_original": "от 620"
+                }
+              ],
+              "inclusions": [
+                {
+                  "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Мойка днища и колесн.арок",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Сушка",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей верхн.части кузова",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                }
+              ]
+            },
+            {
+              "brand": "noxudol",
+              "vehicle_type_id": "crossover",
+              "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 650\tот 600\tот 670",
+              "packages": [
+                {
+                  "id": "complex-1",
+                  "name_original": "ML комплекс (для машин с пробегом)",
+                  "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)",
+                  "price_text_original": "от 650"
+                },
+                {
+                  "id": "complex-2",
+                  "name_original": "Стандарт комплекс (новые авто)",
+                  "description": "Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)",
+                  "price_text_original": "от 600"
+                },
+                {
+                  "id": "complex-3",
+                  "name_original": "Антишум комплекс",
+                  "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)",
+                  "price_text_original": "от 670"
+                }
+              ],
+              "inclusions": [
+                {
+                  "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Мойка днища и колесн.арок",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Сушка",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей верхн.части кузова",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                }
+              ]
+            },
+            {
+              "brand": "noxudol",
+              "vehicle_type_id": "minivan",
+              "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 750\tот 700\tот 770",
+              "packages": [
+                {
+                  "id": "complex-1",
+                  "name_original": "ML комплекс (для машин с пробегом)",
+                  "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)",
+                  "price_text_original": "от 750"
+                },
+                {
+                  "id": "complex-2",
+                  "name_original": "Стандарт комплекс (новые авто)",
+                  "description": "Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)",
+                  "price_text_original": "от 700"
+                },
+                {
+                  "id": "complex-3",
+                  "name_original": "Антишум комплекс",
+                  "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)",
+                  "price_text_original": "от 770"
+                }
+              ],
+              "inclusions": [
+                {
+                  "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Мойка днища и колесн.арок",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Сушка",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей верхн.части кузова",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                }
+              ]
+            },
+            {
+              "brand": "noxudol",
+              "vehicle_type_id": "suv",
+              "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 750\tот 700\tот 770",
+              "packages": [
+                {
+                  "id": "complex-1",
+                  "name_original": "ML комплекс (для машин с пробегом)",
+                  "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)",
+                  "price_text_original": "от 750"
+                },
+                {
+                  "id": "complex-2",
+                  "name_original": "Стандарт комплекс (новые авто)",
+                  "description": "Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)",
+                  "price_text_original": "от 700"
+                },
+                {
+                  "id": "complex-3",
+                  "name_original": "Антишум комплекс",
+                  "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)",
+                  "price_text_original": "от 770"
+                }
+              ],
+              "inclusions": [
+                {
+                  "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Мойка днища и колесн.арок",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Сушка",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей верхн.части кузова",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                }
+              ]
+            },
+            {
+              "brand": "noxudol",
+              "vehicle_type_id": "microbus",
+              "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 900\tот 850\tот 920",
+              "packages": [
+                {
+                  "id": "complex-1",
+                  "name_original": "ML комплекс (для машин с пробегом)",
+                  "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)",
+                  "price_text_original": "от 900"
+                },
+                {
+                  "id": "complex-2",
+                  "name_original": "Стандарт комплекс (новые авто)",
+                  "description": "Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)",
+                  "price_text_original": "от 850"
+                },
+                {
+                  "id": "complex-3",
+                  "name_original": "Антишум комплекс",
+                  "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)",
+                  "price_text_original": "от 920"
+                }
+              ],
+              "inclusions": [
+                {
+                  "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Мойка днища и колесн.арок",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Сушка",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей верхн.части кузова",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                }
+              ]
+            },
+            {
+              "brand": "noxudol",
+              "vehicle_type_id": "lastcar",
+              "table_text": "Комплексы на\nантикор обработку\tML комплекс (для машин с пробегом)\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)\n\n\tСтандарт комплекс (новые авто)\n\n\nCкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)\n\n\tАнтишум комплекс\n\n\nCкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)\n\n\nCнятие пластик. защиты\nколесн.арок и днища(если надо)\t\t\t\nМойка днища и\nколесн.арок\t\t\t\nСушка\t\t\t\nОбработка скрытых\nполостей верхн.части кузова\t\t\t\nОбработка скрытых\nполостей ниж.части кузов:\nпорогов и ланжеронов\t\t\t\nСтоимость:\tот 900\tот 850\tот 920",
+              "packages": [
+                {
+                  "id": "complex-1",
+                  "name_original": "ML комплекс (для машин с пробегом)",
+                  "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)",
+                  "price_text_original": "от 900"
+                },
+                {
+                  "id": "complex-2",
+                  "name_original": "Стандарт комплекс (новые авто)",
+                  "description": "Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)",
+                  "price_text_original": "от 850"
+                },
+                {
+                  "id": "complex-3",
+                  "name_original": "Антишум комплекс",
+                  "description": "Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)",
+                  "price_text_original": "от 920"
+                }
+              ],
+              "inclusions": [
+                {
+                  "name_original": "Cнятие пластик. защиты колесн.арок и днища(если надо)",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Мойка днища и колесн.арок",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Сушка",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей верхн.части кузова",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                },
+                {
+                  "name_original": "Обработка скрытых полостей ниж.части кузов: порогов и ланжеронов",
+                  "packages": [
+                    "Да",
+                    "Да",
+                    "Да"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "evidence": {
+          "company_statement": "Спец Антикор - Антикоррозийная обработка автомобилей в Бресте. ООО \"ВБП ОПТИМАЛ\" УНП:291854857 г.Брест, Коммерческая,17.",
+          "address": "г.Брест, ул. Коммерческая, 17",
+          "working_hours": "c 09:00 до 18:00",
+          "phones": [
+            "+375 (33) 342-0-341"
+          ],
+          "social_links": [
+            {
+              "url": "https://t.me/antikor_brest",
+              "label": "social-btn telegram"
+            },
+            {
+              "url": "https://web.whatsapp.com/send?phone=375298008323&text=",
+              "label": "social-btn whatsapp"
+            },
+            {
+              "url": "viber://chat?number=+375298008323",
+              "label": "social-btn viber"
+            }
+          ],
+          "content_cards": [
+            {
+              "title": "Письменная гарантия до 5 лет",
+              "text": "Письменная гарантия до 5 лет"
+            },
+            {
+              "title": "Качественные материалы",
+              "text": "Качественные материалы"
+            },
+            {
+              "title": "Фотоотчет выполненных работ",
+              "text": "Фотоотчет выполненных работ"
+            },
+            {
+              "title": "Опытные мастера",
+              "text": "Опытные мастера"
+            },
+            {
+              "title": "Снятие защит арок и днища",
+              "text": "Снятие защит арок и днища Демонтаж колес, подкрылок, брызговиков и защиты днища."
+            },
+            {
+              "title": "Мойка",
+              "text": "Мойка Мойка горячей водой с специальными химическими средствами."
+            },
+            {
+              "title": "Сушка и укрытие пленкой",
+              "text": "Сушка и укрытие пленкой Сушка проводится с использованием электротепловентилятора."
+            },
+            {
+              "title": "Удаление ржавчины*",
+              "text": "Удаление ржавчины* Подготавливаем поверхность к нанесению средств."
+            },
+            {
+              "title": "Оработка скрытых полостей",
+              "text": "Оработка скрытых полостей Нанесение МЛ составов с высокими проникающими способностями."
+            },
+            {
+              "title": "Обработка днища",
+              "text": "Обработка днища Обработка днища проводится каучуко-битумными материалами."
+            },
+            {
+              "title": "Обработка верхних скрытых полостей",
+              "text": "Обработка верхних скрытых полостей Обработка скрытых полостей капота, дверей и моторного отсека."
+            },
+            {
+              "title": "Установка защит арок и днища",
+              "text": "Установка защит арок и днища Обратная сборка подкрылок, брызговиков, финишная мойка авто."
+            },
+            {
+              "title": "Dinitrol LT",
+              "text": "Dinitrol LT Антикоррозионный состав на основе воска и смолы для открытых поверхностей, и скрытых полостей."
+            },
+            {
+              "title": "Mercasol 1",
+              "text": "Mercasol 1 Защитное антикоррозионное покрытие на воско-масляной основе светло-коричневого цвета с высоким содержанием ингибиторов коррозии."
+            },
+            {
+              "title": "Dinitrol 4941",
+              "text": "Dinitrol 4941 Долговременное антикоррозионное защитное покрытие. Представляет собой твердую, черную пленку с коротким временем высыхания,с хорошей адгезией."
+            },
+            {
+              "title": "Mercasol 3",
+              "text": "Mercasol 3 Плотный черный бронирующий антикоррозийный материал для днища, способный к самовосстановлению при повреждении покрытия."
+            }
+          ],
+          "price_caveat": "Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341"
+        },
+        "requested_url": "https://spec-antikor.by/",
+        "status": 200,
+        "fetched_at": "2026-10-26T18:22:39.813Z"
+      }
+    ]
+  },
+  "section_index": {
+    "company": {
+      "type": "object",
+      "count": 7
+    },
+    "services": {
+      "type": "array",
+      "count": 6
+    },
+    "vehicle_types": {
+      "type": "array",
+      "count": 6
+    },
+    "materials": {
+      "type": "array",
+      "count": 4
+    },
+    "technology": {
+      "type": "array",
+      "count": 8
+    },
+    "pricing_evidence": {
+      "type": "object",
+      "count": 5
+    },
+    "site_claims": {
+      "type": "array",
+      "count": 9
+    },
+    "pages": {
+      "type": "array",
+      "count": 1
+    }
+  },
+  "claims_and_caveats": {
+    "site_claims": [
+      {
+        "text": "Долговечность без компромиссов: антикоррозийная обработка с гарантией результата.",
+        "source_url": "https://spec-antikor.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Стоимость услуги обработка днища антикором цена зависит от выбранных материалов и сложности работ. Если вы хотите сделать антикор днища, обратитесь к профессионалам, чтобы гарантировать долговечность защиты и сохранить внешний вид автомобиля.",
+        "source_url": "https://spec-antikor.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Профессиональная антикоррозийная обработка гарантирует:",
+        "source_url": "https://spec-antikor.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Письменнаягарантия до 5 лет",
+        "source_url": "https://spec-antikor.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Качественныематериалы",
+        "source_url": "https://spec-antikor.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Фотоотчетвыполненных работ",
+        "source_url": "https://spec-antikor.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Опытныемастера",
+        "source_url": "https://spec-antikor.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Работаем исключительно с сертифицированными материалами",
+        "source_url": "https://spec-antikor.by/",
+        "verification": "site_claim"
+      },
+      {
+        "text": "Письменная гарантия до 5 лет.",
+        "source_url": "https://spec-antikor.by/",
+        "verification": "site_claim"
+      }
+    ],
+    "notes": [
+      "Claims, material descriptions and guarantees are source statements.",
+      "Все цены калькулятора ориентировочные, с квалификатором «от»; требуется уточнение по телефону.",
+      "BYN выбран по расположению в Беларуси и упоминанию рублей в тексте; в ячейках калькулятора валюта и единица явно не указаны.",
+      "Классы автомобилей определены по видимым подписям: внутренние data-class не соответствуют названиям.",
+      "Дополнительные услуги подтверждены только меню; подробности и цены недоступных страниц не восстановлены.",
+      "Общий диапазон цен в SEO-тексте сохранён в странице и не подменяет цены калькулятора.",
+      "https://spec-antikor.by/cena-antikorrozijnoj-obrabotki-avtomobilja-v-breste/: HTTP 404",
+      "https://spec-antikor.by/lazernaja-chistka-metalla-i-avtomobilja-v-breste/: HTTP 404",
+      "https://spec-antikor.by/peskostrujnaja-obrabotka-avtomobilja-diskov-i-dnishha-v-breste/: HTTP 404",
+      "https://spec-antikor.by/shumoizolyacziya-avtomobilya/: HTTP 404",
+      "https://spec-antikor.by/garantii/: HTTP 404",
+      "https://spec-antikor.by/kontakty/: HTTP 404"
+    ]
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "schema_version": "1.0",
+  "company": {
+    "name": "Спец Антикор",
+    "website": "https://spec-antikor.by/",
+    "country": "BY",
+    "locations": [
+      {
+        "city": "Брест",
+        "address": "г.Брест, ул. Коммерческая, 17",
+        "phones": [
+          "+375 (33) 342-0-341"
+        ],
+        "working_hours": "c 09:00 до 18:00"
+      }
+    ]
+  },
+  "source": {
+    "scraped_at": "2026-10-26",
+    "urls": [
+      "https://spec-antikor.by/"
+    ],
+    "notes": "Все цены калькулятора ориентировочные, с квалификатором «от»; требуется уточнение по телефону. BYN выбран по расположению в Беларуси и упоминанию рублей в тексте; в ячейках калькулятора валюта и единица явно не указаны. Классы автомобилей определены по видимым подписям: внутренние data-class не соответствуют названиям. Дополнительные услуги подтверждены только меню; подробности и цены недоступных страниц не восстановлены. Общий диапазон цен в SEO-тексте сохранён в странице и не подменяет цены калькулятора."
+  },
+  "currency": "BYN",
+  "vehicle_types": [
+    {
+      "id": "car",
+      "name_original": "Легковой автомобиль до 4м",
+      "class": "small"
+    },
+    {
+      "id": "crossover",
+      "name_original": "Легковой автомобиль 4-5 метров",
+      "class": "sedan"
+    },
+    {
+      "id": "minivan",
+      "name_original": "Кроссовер / Паркетник",
+      "class": "crossover"
+    },
+    {
+      "id": "suv",
+      "name_original": "Минивен",
+      "class": "minivan"
+    },
+    {
+      "id": "microbus",
+      "name_original": "Внедорожник",
+      "class": "suv"
+    },
+    {
+      "id": "lastcar",
+      "name_original": "Микроавтобус",
+      "class": "van"
+    }
+  ],
+  "services": [
+    {
+      "id": "complex-1",
+      "category": "anticorrosion",
+      "name_original": "ML комплекс (для машин с пробегом)",
+      "description": "dinitrol: Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)\nnoxudol: Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)",
+      "url": "https://spec-antikor.by/",
+      "completion_time": null,
+      "prices": [
+        {
+          "vehicle_type_id": "car",
+          "price": null,
+          "price_min": 600,
+          "price_max": null,
+          "price_text_original": "от 600",
+          "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "crossover",
+          "price": null,
+          "price_min": 650,
+          "price_max": null,
+          "price_text_original": "от 650",
+          "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "minivan",
+          "price": null,
+          "price_min": 750,
+          "price_max": null,
+          "price_text_original": "от 750",
+          "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "suv",
+          "price": null,
+          "price_min": 750,
+          "price_max": null,
+          "price_text_original": "от 750",
+          "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "microbus",
+          "price": null,
+          "price_min": 900,
+          "price_max": null,
+          "price_text_original": "от 900",
+          "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "lastcar",
+          "price": null,
+          "price_min": 900,
+          "price_max": null,
+          "price_text_original": "от 900",
+          "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "car",
+          "price": null,
+          "price_min": 600,
+          "price_max": null,
+          "price_text_original": "от 600",
+          "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "crossover",
+          "price": null,
+          "price_min": 650,
+          "price_max": null,
+          "price_text_original": "от 650",
+          "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "minivan",
+          "price": null,
+          "price_min": 750,
+          "price_max": null,
+          "price_text_original": "от 750",
+          "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "suv",
+          "price": null,
+          "price_min": 750,
+          "price_max": null,
+          "price_text_original": "от 750",
+          "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "microbus",
+          "price": null,
+          "price_min": 900,
+          "price_max": null,
+          "price_text_original": "от 900",
+          "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "lastcar",
+          "price": null,
+          "price_min": 900,
+          "price_max": null,
+          "price_text_original": "от 900",
+          "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        }
+      ]
+    },
+    {
+      "id": "complex-2",
+      "category": "anticorrosion",
+      "name_original": "Стандарт комплекс (новые авто)",
+      "description": "dinitrol: Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)\nnoxudol: Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)",
+      "url": "https://spec-antikor.by/",
+      "completion_time": null,
+      "prices": [
+        {
+          "vehicle_type_id": "car",
+          "price": null,
+          "price_min": 550,
+          "price_max": null,
+          "price_text_original": "от 550",
+          "notes": "dinitrol. Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "crossover",
+          "price": null,
+          "price_min": 600,
+          "price_max": null,
+          "price_text_original": "от 600",
+          "notes": "dinitrol. Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "minivan",
+          "price": null,
+          "price_min": 700,
+          "price_max": null,
+          "price_text_original": "от 700",
+          "notes": "dinitrol. Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "suv",
+          "price": null,
+          "price_min": 700,
+          "price_max": null,
+          "price_text_original": "от 700",
+          "notes": "dinitrol. Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "microbus",
+          "price": null,
+          "price_min": 850,
+          "price_max": null,
+          "price_text_original": "от 850",
+          "notes": "dinitrol. Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "lastcar",
+          "price": null,
+          "price_min": 850,
+          "price_max": null,
+          "price_text_original": "от 850",
+          "notes": "dinitrol. Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "car",
+          "price": null,
+          "price_min": 550,
+          "price_max": null,
+          "price_text_original": "от 550",
+          "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "crossover",
+          "price": null,
+          "price_min": 600,
+          "price_max": null,
+          "price_text_original": "от 600",
+          "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "minivan",
+          "price": null,
+          "price_min": 700,
+          "price_max": null,
+          "price_text_original": "от 700",
+          "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "suv",
+          "price": null,
+          "price_min": 700,
+          "price_max": null,
+          "price_text_original": "от 700",
+          "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "microbus",
+          "price": null,
+          "price_min": 850,
+          "price_max": null,
+          "price_text_original": "от 850",
+          "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "lastcar",
+          "price": null,
+          "price_min": 850,
+          "price_max": null,
+          "price_text_original": "от 850",
+          "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        }
+      ]
+    },
+    {
+      "id": "complex-3",
+      "category": "anticorrosion",
+      "name_original": "Антишум комплекс",
+      "description": "dinitrol: Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)\nnoxudol: Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)",
+      "url": "https://spec-antikor.by/",
+      "completion_time": null,
+      "prices": [
+        {
+          "vehicle_type_id": "car",
+          "price": null,
+          "price_min": 620,
+          "price_max": null,
+          "price_text_original": "от 620",
+          "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "crossover",
+          "price": null,
+          "price_min": 670,
+          "price_max": null,
+          "price_text_original": "от 670",
+          "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "minivan",
+          "price": null,
+          "price_min": 770,
+          "price_max": null,
+          "price_text_original": "от 770",
+          "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "suv",
+          "price": null,
+          "price_min": 770,
+          "price_max": null,
+          "price_text_original": "от 770",
+          "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "microbus",
+          "price": null,
+          "price_min": 920,
+          "price_max": null,
+          "price_text_original": "от 920",
+          "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "lastcar",
+          "price": null,
+          "price_min": 920,
+          "price_max": null,
+          "price_text_original": "от 920",
+          "notes": "dinitrol. Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "car",
+          "price": null,
+          "price_min": 620,
+          "price_max": null,
+          "price_text_original": "от 620",
+          "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "crossover",
+          "price": null,
+          "price_min": 670,
+          "price_max": null,
+          "price_text_original": "от 670",
+          "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "minivan",
+          "price": null,
+          "price_min": 770,
+          "price_max": null,
+          "price_text_original": "от 770",
+          "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "suv",
+          "price": null,
+          "price_min": 770,
+          "price_max": null,
+          "price_text_original": "от 770",
+          "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "microbus",
+          "price": null,
+          "price_min": 920,
+          "price_max": null,
+          "price_text_original": "от 920",
+          "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        },
+        {
+          "vehicle_type_id": "lastcar",
+          "price": null,
+          "price_min": 920,
+          "price_max": null,
+          "price_text_original": "от 920",
+          "notes": "noxudol. Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600) Цены представлены ориентировочно, для уточнения стоимости звонить +375 (33) 342-0-341 Источник: https://spec-antikor.by/. Единица в ячейке не указана; стоимость комплекса для выбранного класса."
+        }
+      ]
+    },
+    {
+      "id": "lazernaja-chistka-metalla-i-avtomobilja-v-breste",
+      "category": "additional",
+      "name_original": "Лазерная чистка",
+      "description": "Услуга указана в меню главной страницы. Отдельная страница: https://spec-antikor.by/lazernaja-chistka-metalla-i-avtomobilja-v-breste/. Цена на доступной странице не указана.",
+      "url": "https://spec-antikor.by/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "peskostrujnaja-obrabotka-avtomobilja-diskov-i-dnishha-v-breste",
+      "category": "additional",
+      "name_original": "Пескоструй",
+      "description": "Услуга указана в меню главной страницы. Отдельная страница: https://spec-antikor.by/peskostrujnaja-obrabotka-avtomobilja-diskov-i-dnishha-v-breste/. Цена на доступной странице не указана.",
+      "url": "https://spec-antikor.by/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "shumoizolyacziya-avtomobilya",
+      "category": "additional",
+      "name_original": "Шумоизоляция автомобиля",
+      "description": "Услуга указана в меню главной страницы. Отдельная страница: https://spec-antikor.by/shumoizolyacziya-avtomobilya/. Цена на доступной странице не указана.",
+      "url": "https://spec-antikor.by/",
+      "completion_time": null,
+      "prices": []
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "site": "https://spec-antikor.by/",
+  "started_at": "2026-10-26T18:22:30.593Z",
+  "page_count": 1,
+  "failures": [
+    {
+      "url": "https://spec-antikor.by/cena-antikorrozijnoj-obrabotki-avtomobilja-v-breste/",
+      "required": false,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://spec-antikor.by/lazernaja-chistka-metalla-i-avtomobilja-v-breste/",
+      "required": false,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://spec-antikor.by/peskostrujnaja-obrabotka-avtomobilja-diskov-i-dnishha-v-breste/",
+      "required": false,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://spec-antikor.by/shumoizolyacziya-avtomobilya/",
+      "required": false,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://spec-antikor.by/garantii/",
+      "required": false,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://spec-antikor.by/kontakty/",
+      "required": false,
+      "error": "HTTP 404"
+    }
+  ],
+  "finished_at": "2026-10-26T18:22:42.018Z",
+  "snapshots": "snapshots/2026-10-26T18-22-30-593Z-32120",
+  "status": "partial",
+  "published": true,
+  "warnings": [
+    "Все цены калькулятора ориентировочные, с квалификатором «от»; требуется уточнение по телефону.",
+    "BYN выбран по расположению в Беларуси и упоминанию рублей в тексте; в ячейках калькулятора валюта и единица явно не указаны.",
+    "Классы автомобилей определены по видимым подписям: внутренние data-class не соответствуют названиям.",
+    "Дополнительные услуги подтверждены только меню; подробности и цены недоступных страниц не восстановлены.",
+    "Общий диапазон цен в SEO-тексте сохранён в странице и не подменяет цены калькулятора."
+  ]
+}

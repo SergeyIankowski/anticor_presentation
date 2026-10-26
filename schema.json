@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "anticor-company.schema.json",
+  "title": "Anticorrosion company price sheet",
+  "description": "One file per company (companies/<domain>.json). All data comes from the company's public website.",
+  "type": "object",
+  "required": ["schema_version", "company", "source", "currency", "vehicle_types", "services"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "const": "1.0" },
+
+    "company": {
+      "type": "object",
+      "required": ["name", "website"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "website": { "type": "string", "format": "uri" },
+        "country": { "type": "string", "description": "ISO 3166-1 alpha-2, e.g. BY" },
+        "locations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "city": { "type": "string" },
+              "address": { "type": "string" },
+              "phones": { "type": "array", "items": { "type": "string" } },
+              "working_hours": { "type": "string", "description": "As written on the site" }
+            }
+          }
+        }
+      }
+    },
+
+    "source": {
+      "type": "object",
+      "required": ["scraped_at", "urls"],
+      "additionalProperties": false,
+      "properties": {
+        "scraped_at": { "type": "string", "format": "date", "description": "Date the site was read (YYYY-MM-DD)" },
+        "urls": { "type": "array", "items": { "type": "string", "format": "uri" }, "description": "Every page the data was taken from" },
+        "notes": { "type": "string", "description": "Anything odd about this site: missing prices, 'from' prices only, price on request, etc." }
+      }
+    },
+
+    "currency": { "type": "string", "description": "ISO 4217, e.g. BYN" },
+
+    "vehicle_types": {
+      "description": "The car categories exactly as this company defines them, each mapped to a common class so companies can be compared.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name_original", "class"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "description": "Local id used by prices[].vehicle_type_id" },
+          "name_original": { "type": "string", "description": "Label as written on the site" },
+          "class": {
+            "enum": ["small", "sedan", "crossover", "suv", "minivan", "van", "pickup", "truck", "any", "other"],
+            "description": "Normalized class. 'any' = one price for all cars."
+          },
+          "examples": { "type": "string", "description": "Example models if the site lists them" }
+        }
+      }
+    },
+
+    "services": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "category", "name_original", "prices"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "category": {
+            "enum": ["anticorrosion", "additional"],
+            "description": "anticorrosion = any rust-protection treatment; additional = everything else offered"
+          },
+          "name_original": { "type": "string", "description": "Service name as written on the site" },
+          "name_en": { "type": "string" },
+          "description": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "completion_time": {
+            "type": ["object", "null"],
+            "description": "null if the site does not say",
+            "additionalProperties": false,
+            "properties": {
+              "min": { "type": "number" },
+              "max": { "type": "number" },
+              "unit": { "enum": ["minutes", "hours", "days"] },
+              "text_original": { "type": "string" }
+            }
+          },
+          "prices": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["vehicle_type_id", "price_text_original"],
+              "additionalProperties": false,
+              "properties": {
+                "vehicle_type_id": { "type": "string" },
+                "price": { "type": ["number", "null"], "description": "Exact price; null if only a range or 'on request'" },
+                "price_min": { "type": ["number", "null"], "description": "Set for 'from X' or 'X–Y'" },
+                "price_max": { "type": ["number", "null"] },
+                "price_text_original": { "type": "string", "description": "Price text exactly as on the site, e.g. 'от 250 руб.'" },
+                "notes": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

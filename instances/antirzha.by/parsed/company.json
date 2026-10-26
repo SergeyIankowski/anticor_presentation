@@ -1,0 +1,414 @@
+{
+  "schema_version": "1.0",
+  "company": {
+    "name": "Частное унитарное предприятие «Першы антыкаразійны»",
+    "website": "https://antirzha.by/",
+    "country": "BY",
+    "locations": [
+      {
+        "city": "Барановичи",
+        "address": "Барановичи, ул. Декабристов, 7, бокс №99",
+        "phones": [
+          "+375 29 536-62-01"
+        ],
+        "working_hours": "ПН–СБ 9:00–21:00, ВС 10:00–18:00"
+      }
+    ]
+  },
+  "source": {
+    "scraped_at": "2026-10-26",
+    "urls": [
+      "https://antirzha.by/",
+      "https://antirzha.by/ceny/",
+      "https://antirzha.by/kontakty/",
+      "https://antirzha.by/o-kompanii/",
+      "https://antirzha.by/antikor/",
+      "https://antirzha.by/akvablasting/",
+      "https://antirzha.by/lazernaya-chistka/",
+      "https://antirzha.by/peskostruy/",
+      "https://antirzha.by/promyshlennaya-ochistka/",
+      "https://antirzha.by/vyezdnoy-peskostruy/",
+      "https://antirzha.by/svarochnye-raboty/",
+      "https://antirzha.by/shumoizolyaciya-avto/",
+      "https://antirzha.by/pokraska-avto/",
+      "https://antirzha.by/antikor-elektromobiley/",
+      "https://antirzha.by/antikor-vnedorozhnikov/",
+      "https://antirzha.by/akvablasting-gbc-detalej-dvs/",
+      "https://antirzha.by/akvablasting-supportov/",
+      "https://antirzha.by/peskostruy-ram-pritsepov/",
+      "https://antirzha.by/chistka-vin/",
+      "https://antirzha.by/moyka-dnishcha/",
+      "https://antirzha.by/antikor-dnishcha/",
+      "https://antirzha.by/raboty/",
+      "https://antirzha.by/spravochnik/",
+      "https://antirzha.by/antikor-novogo-avto/",
+      "https://antirzha.by/antikor-avto-s-probegom/",
+      "https://antirzha.by/antikor-belgee/",
+      "https://antirzha.by/antikor-lada/",
+      "https://antirzha.by/antikor-lada-vesta/",
+      "https://antirzha.by/antikor-geely/",
+      "https://antirzha.by/antikor-geely-atlas/",
+      "https://antirzha.by/antikor-geely-coolray/",
+      "https://antirzha.by/antikor-geely-monjaro/",
+      "https://antirzha.by/antikor-uaz-patriot/",
+      "https://antirzha.by/antikor-toyota/",
+      "https://antirzha.by/antikor-skoda/",
+      "https://antirzha.by/antikor-bmw/",
+      "https://antirzha.by/antikor-volkswagen/",
+      "https://antirzha.by/antikor-audi/",
+      "https://antirzha.by/antikor-mercedes/",
+      "https://antirzha.by/antikor-renault/",
+      "https://antirzha.by/antikor-opel/",
+      "https://antirzha.by/antikor-ford/",
+      "https://antirzha.by/antikor-kia/",
+      "https://antirzha.by/antikor-hyundai/",
+      "https://antirzha.by/antikor-nissan/",
+      "https://antirzha.by/antikor-peugeot/",
+      "https://antirzha.by/antikor-citroen/",
+      "https://antirzha.by/antikor-volvo/",
+      "https://antirzha.by/antikor-chevrolet/",
+      "https://antirzha.by/antikor-mazda/",
+      "https://antirzha.by/antikor-mitsubishi/",
+      "https://antirzha.by/antikor-byd/",
+      "https://antirzha.by/antikor-dongfeng/",
+      "https://antirzha.by/antikor-haval/",
+      "https://antirzha.by/antikor-li-auto/"
+    ],
+    "notes": "Сравнительные цены взяты со страницы /ceny/ после выбора каждого из трёх типов автомобиля. Все цены пакетов — «от», окончательный расчёт после осмотра. Категории «Кроссовер» и «Рамный» объединяют несколько типов кузова; исходные подписи сохранены. Ставка пескоструя указана за м², не за автомобиль. Другие услуги и специализированные страницы не имеют отдельного числового прайса: prices[] пуст. Повторные описания пакетов и ориентиры со страниц услуг сохранены в исходных страницах, а не продублированы как отдельные цены."
+  },
+  "currency": "BYN",
+  "vehicle_types": [
+    {
+      "id": "vehicle-1",
+      "name_original": "Легковой седан · хетчбек",
+      "class": "sedan",
+      "examples": "седан · хетчбек"
+    },
+    {
+      "id": "vehicle-2",
+      "name_original": "Кроссовер SUV · универсал",
+      "class": "crossover",
+      "examples": "SUV · универсал"
+    },
+    {
+      "id": "vehicle-3",
+      "name_original": "Рамный внедорожник · пикап",
+      "class": "suv",
+      "examples": "внедорожник · пикап"
+    },
+    {
+      "id": "any",
+      "name_original": "Категория автомобиля не указана",
+      "class": "any"
+    }
+  ],
+  "services": [
+    {
+      "id": "prof",
+      "category": "anticorrosion",
+      "name_original": "Базовый комплекс",
+      "description": "Полный комплекс антикоррозийной обработки с частичной разборкой автомобиля. ✓Днище ✓Колёсные арки ✓Скрытые полости ✓Сварные швы",
+      "url": "https://antirzha.by/ceny/",
+      "completion_time": {
+        "unit": "hours",
+        "text_original": "до 72 часов",
+        "max": 72
+      },
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-1",
+          "price": null,
+          "price_min": 1500,
+          "price_max": null,
+          "price_text_original": "от 1 500 BYN",
+          "notes": "гарантия до 7 лет с ежегодным обслуживанием · цена под ключ"
+        },
+        {
+          "vehicle_type_id": "vehicle-2",
+          "price": null,
+          "price_min": 1500,
+          "price_max": null,
+          "price_text_original": "от 1 500 BYN",
+          "notes": "гарантия до 7 лет с ежегодным обслуживанием · цена под ключ"
+        },
+        {
+          "vehicle_type_id": "vehicle-3",
+          "price": null,
+          "price_min": 2000,
+          "price_max": null,
+          "price_text_original": "от 2 000 BYN",
+          "notes": "гарантия до 7 лет с ежегодным обслуживанием · цена под ключ"
+        }
+      ]
+    },
+    {
+      "id": "standart",
+      "category": "anticorrosion",
+      "name_original": "Стандарт",
+      "description": "Полный цикл для машины, повидавшей наши зимы: зачистка очагов и обновление всей защиты. ✓Днище ✓Арки и пороги ✓Скрытые полости ✓Очаги ржавчины ✓Сварные швы",
+      "url": "https://antirzha.by/ceny/",
+      "completion_time": {
+        "unit": "days",
+        "text_original": "2–3 дня",
+        "min": 2,
+        "max": 3
+      },
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-1",
+          "price": null,
+          "price_min": 1900,
+          "price_max": null,
+          "price_text_original": "от 1 900 BYN",
+          "notes": "гарантия 5 лет · цена под ключ"
+        },
+        {
+          "vehicle_type_id": "vehicle-2",
+          "price": null,
+          "price_min": 2200,
+          "price_max": null,
+          "price_text_original": "от 2 200 BYN",
+          "notes": "гарантия 5 лет · цена под ключ"
+        },
+        {
+          "vehicle_type_id": "vehicle-3",
+          "price": null,
+          "price_min": 2600,
+          "price_max": null,
+          "price_text_original": "от 2 600 BYN",
+          "notes": "гарантия 5 лет · цена под ключ"
+        }
+      ]
+    },
+    {
+      "id": "restavr",
+      "category": "anticorrosion",
+      "name_original": "Реставрация",
+      "description": "Сначала лечим, потом защищаем: очистка до металла, сварка сквозных зон — и полный цикл защиты. ✓Рама и днище ✓Пороги и арки ✓Сквозные зоны ✓Скрытые полости",
+      "url": "https://antirzha.by/ceny/",
+      "completion_time": {
+        "unit": "days",
+        "text_original": "от 7 дней",
+        "min": 7
+      },
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-1",
+          "price": null,
+          "price_min": 2800,
+          "price_max": null,
+          "price_text_original": "от 2 800 BYN",
+          "notes": "гарантия 7 лет · цена под ключ"
+        },
+        {
+          "vehicle_type_id": "vehicle-2",
+          "price": null,
+          "price_min": 3200,
+          "price_max": null,
+          "price_text_original": "от 3 200 BYN",
+          "notes": "гарантия 7 лет · цена под ключ"
+        },
+        {
+          "vehicle_type_id": "vehicle-3",
+          "price": null,
+          "price_min": 3800,
+          "price_max": null,
+          "price_text_original": "от 3 800 BYN",
+          "notes": "гарантия 7 лет · цена под ключ"
+        }
+      ]
+    },
+    {
+      "id": "premium",
+      "category": "anticorrosion",
+      "name_original": "Премиум «10 лет»",
+      "description": "Максимум подготовки и материалов — для тех, кто берёт машину всерьёз и надолго. ✓Всё из «Стандарта» ✓Реактивный грунт ✓Акриловый грунт ✓Полиуретановая эмаль ✓Герметики ✓Скрытые полости",
+      "url": "https://antirzha.by/ceny/",
+      "completion_time": {
+        "unit": "days",
+        "text_original": "3–5 дней",
+        "min": 3,
+        "max": 5
+      },
+      "prices": [
+        {
+          "vehicle_type_id": "vehicle-1",
+          "price": null,
+          "price_min": 3500,
+          "price_max": null,
+          "price_text_original": "от 3 500 BYN",
+          "notes": "гарантия 10 лет · цена под ключ"
+        },
+        {
+          "vehicle_type_id": "vehicle-2",
+          "price": null,
+          "price_min": 4000,
+          "price_max": null,
+          "price_text_original": "от 4 000 BYN",
+          "notes": "гарантия 10 лет · цена под ключ"
+        },
+        {
+          "vehicle_type_id": "vehicle-3",
+          "price": null,
+          "price_min": 4800,
+          "price_max": null,
+          "price_text_original": "от 4 800 BYN",
+          "notes": "гарантия 10 лет · цена под ключ"
+        }
+      ]
+    },
+    {
+      "id": "akvablasting",
+      "category": "additional",
+      "name_original": "Аквабластинг деталей в Барановичах",
+      "description": "Аквабластинг алюминия, дисков, деталей двигателя и мототехники на камере Аквабласт ПРО. Принимаем заказы со всей Беларуси на станции в Барановичах.",
+      "url": "https://antirzha.by/akvablasting/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "lazernaya-chistka",
+      "category": "additional",
+      "name_original": "Лазерная очистка металла от ржавчины",
+      "description": "Лазерная очистка металла от ржавчины, краски и окалины на оборудовании 1000–3000 Вт: рамы, кузов, швы и детали. Заказы со всей Беларуси, расчёт по фото.",
+      "url": "https://antirzha.by/lazernaya-chistka/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "peskostruy",
+      "category": "additional",
+      "name_original": "Пескоструй",
+      "description": "Пескоструйная очистка рам, подрамников, деталей и металлоконструкций в Барановичах. Снимаем ржавчину, краску и окалину. Расчёт по фото.",
+      "url": "https://antirzha.by/ceny/",
+      "completion_time": null,
+      "prices": [
+        {
+          "vehicle_type_id": "any",
+          "price": null,
+          "price_min": 12,
+          "price_max": null,
+          "price_text_original": "от 12 BYN/м²",
+          "notes": "точно — после осмотра. Цена за квадратный метр, не за весь автомобиль."
+        }
+      ]
+    },
+    {
+      "id": "promyshlennaya-ochistka",
+      "category": "additional",
+      "name_original": "Очистка деталей по техническому заданию",
+      "description": "Пескоструй, лазерная и гидроабразивная очистка деталей и партий для предприятий Беларуси. Рамы, оснастка, ГБЦ, диски, корпуса. Расчёт по ТЗ.",
+      "url": "https://antirzha.by/promyshlennaya-ochistka/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "vyezdnoy-peskostruy",
+      "category": "additional",
+      "name_original": "Выездной пескоструй на вашем объекте",
+      "description": "Выездной пескоструй металлоконструкций, техники, рам и стальных поверхностей в Беларуси. Удаляем ржавчину и краску прямо на вашем объекте.",
+      "url": "https://antirzha.by/vyezdnoy-peskostruy/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "svarochnye-raboty",
+      "category": "additional",
+      "name_original": "Сварочные работы по авто в Барановичах",
+      "description": "Сварка порогов, арок, лонжеронов и рам автомобилей в Барановичах. Удаляем повреждённый металл, восстанавливаем узел и защищаем сварные швы.",
+      "url": "https://antirzha.by/svarochnye-raboty/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "shumoizolyaciya-avto",
+      "category": "additional",
+      "name_original": "Шумоизоляция авто в Барановичах",
+      "description": "Шумоизоляция пола, багажника и колёсных арок автомобиля в Барановичах. Разборка, подготовка металла, вибро- и шумопоглощающие материалы.",
+      "url": "https://antirzha.by/shumoizolyaciya-avto/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "pokraska-avto",
+      "category": "additional",
+      "name_original": "Покраска авто в Барановичах",
+      "description": "Локальная и полная покраска автомобиля в Барановичах: подготовка кузова, грунтование, подбор цвета и окраска после ремонта или реставрации.",
+      "url": "https://antirzha.by/pokraska-avto/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "antikor-elektromobiley",
+      "category": "anticorrosion",
+      "name_original": "Антикор электромобилей",
+      "description": "Антикор электромобилей: днище, арки и скрытые полости с защитой батареи, HV-разъёмов, кабелей, датчиков и дренажей. Расчёт по модели и фото.",
+      "url": "https://antirzha.by/antikor-elektromobiley/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "antikor-vnedorozhnikov",
+      "category": "anticorrosion",
+      "name_original": "Антикор внедорожников и рамных автомобилей",
+      "description": "Антикор внедорожников, пикапов и рамных автомобилей: рама снаружи и внутри, кузов, арки, крепления и скрытые полости. Для рамных авто — от 2000 BYN.",
+      "url": "https://antirzha.by/antikor-vnedorozhnikov/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "akvablasting-gbc-detalej-dvs",
+      "category": "additional",
+      "name_original": "Чистка ГБЦ и деталей ДВС аквабластингом",
+      "description": "Аквабластинг разобранных ГБЦ, блоков, поршней, коллекторов и корпусов турбин. Очистка нагара и окислов перед дефектовкой и моторным ремонтом. Расчёт по фото.",
+      "url": "https://antirzha.by/akvablasting-gbc-detalej-dvs/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "akvablasting-supportov",
+      "category": "additional",
+      "name_original": "Аквабластинг тормозных суппортов",
+      "description": "Аквабластинг разобранных тормозных суппортов и скоб: удаление окислов и загрязнений перед дефектовкой, окраской и сборкой с ремкомплектом. Расчёт по фото.",
+      "url": "https://antirzha.by/akvablasting-supportov/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "peskostruy-ram-pritsepov",
+      "category": "additional",
+      "name_original": "Пескоструй рам и прицепов",
+      "description": "Пескоструй рам внедорожников, прицепов и полуприцепов: удаляем ржавчину и старые покрытия, открываем металл под дефектовку, ремонт и защиту. Расчёт по фото.",
+      "url": "https://antirzha.by/peskostruy-ram-pritsepov/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "chistka-vin",
+      "category": "additional",
+      "name_original": "Чистка VIN-номера без изменения символов",
+      "description": "Бережно очищаем заводской VIN-код автомобиля от грязи, налёта и поверхностной коррозии без изменения символов. Осмотр и расчёт по фото в Барановичах.",
+      "url": "https://antirzha.by/chistka-vin/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "moyka-dnishcha",
+      "category": "additional",
+      "name_original": "Мойка днища автомобиля в Барановичах",
+      "description": "Мойка днища и колёсных арок на подъёмнике под давлением до 250 бар: перед осмотром, ремонтом или антикором. Сушка и оценка состояния в Барановичах.",
+      "url": "https://antirzha.by/moyka-dnishcha/",
+      "completion_time": null,
+      "prices": []
+    },
+    {
+      "id": "antikor-dnishcha",
+      "category": "anticorrosion",
+      "name_original": "Антикор днища и скрытых полостей",
+      "description": "Антикор днища, арок, порогов и скрытых полостей в Барановичах: частичная разборка, очистка до металла, грунты, эмаль и герметики. От 1500 BYN.",
+      "url": "https://antirzha.by/antikor-dnishcha/",
+      "completion_time": null,
+      "prices": []
+    }
+  ]
+}

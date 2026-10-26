@@ -266,6 +266,12 @@ importers:
         specifier: workspace:*
         version: link:../../packages/harvest-core
 
+  instances/antirzha.by:
+    dependencies:
+      "@anticor/harvest-core":
+        specifier: workspace:*
+        version: link:../../packages/harvest-core
+
   instances/etm.by:
     dependencies:
       "@anticor/harvest-core":

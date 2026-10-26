@@ -87,7 +87,7 @@ test('existing parsers use the template entry point and package structure', asyn
   const manifest = JSON.parse(
     await readFile(new URL('../../template/package.json', import.meta.url), 'utf8'),
   );
-  for (const domain of ['etm.by', 'krown.by', 'antikorr.by', 'antikorim.by']) {
+  for (const domain of ['etm.by', 'krown.by', 'antikorr.by', 'antikorim.by', 'antirzha.by']) {
     assert.equal(
       await readFile(new URL(`../../instances/${domain}/src/parse.js`, import.meta.url), 'utf8'),
       entry,

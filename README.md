@@ -87,4 +87,6 @@ The Antikorr parser reads each combination of the price page's material-brand an
 
 The Antikorim parser in `instances/antikorim.by` reads all three treatment packages across four vehicle selectors, plus film packages, sandblasting, welding, cleaning, and add-on prices. It preserves starting prices, per-arch/per-item units, and quote-only services, and stores materials, FAQs, videos, workshop contacts, and separate legal details. Refresh it with `npm run parse` inside that folder.
 
+The Antirzha parser in `instances/antirzha.by` reads four treatment packages across all three vehicle categories on `/ceny/`, waiting for each selector state before recording prices. It preserves duration limits, warranty text, and the sandblasting rate per square metre. Other services, brand/model guides, FAQs, process details, contacts, and legal information are harvested with source URLs; services without a separate numeric price retain empty price arrays. Refresh it with `npm run parse` inside that folder.
+
 After implementing extraction, run `npm run parse` inside the new folder. Use `--output-dir` to inspect a refresh in a temporary folder first. Future sites should always be created from `template/` using `pnpm site:new <domain>`.

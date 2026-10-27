@@ -1,19 +1,22 @@
 import Alert from '@mui/material/Alert';
 import Container from '@mui/material/Container';
+import Drawer from '@mui/material/Drawer';
+import Fab from '@mui/material/Fab';
+import IconButton from '@mui/material/IconButton';
 import Paper from '@mui/material/Paper';
 import Stack from '@mui/material/Stack';
-import ToggleButton from '@mui/material/ToggleButton';
-import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
+import SvgIcon from '@mui/material/SvgIcon';
 import Typography from '@mui/material/Typography';
+import useMediaQuery from '@mui/material/useMediaQuery';
 import { type ReactNode, useMemo, useState } from 'react';
 import AveragePriceSection from './components/AveragePriceSection.tsx';
 import CompanyFilter from './components/CompanyFilter.tsx';
 import CompanyPriceTable from './components/CompanyPriceTable.tsx';
 import CoverageTable from './components/CoverageTable.tsx';
 import ServicePointsTable from './components/ServicePointsTable.tsx';
+import ViewFilters, { type CategoryFilter } from './components/ViewFilters.tsx';
 import { companies, excludedSites } from './data/loadCompanies.ts';
 import {
-  categoryLabels,
   groupServices,
   priceRows,
   serviceCoverage,
@@ -21,9 +24,11 @@ import {
   vehicleClassLabels,
 } from './lib/comparison.ts';
 import { servicePoints } from './lib/servicePoints.ts';
-import type { Company, ServiceCategory, VehicleClass } from './types.ts';
+import type { Company, VehicleClass } from './types.ts';
 
-type CategoryFilter = ServiceCategory | 'all';
+// At this width and below, all filters move into a sidebar opened from a fixed menu button.
+// Keep in sync with the media queries in App.css.
+const COMPACT_MAX_WIDTH = 758;
 
 const hasPrices = (company: Company) => company.services.some((service) => service.prices.length);
 
@@ -59,10 +64,24 @@ function Section({ title, lead, children }: { title: string; lead: string; child
 
 const pointRows = servicePoints(companies);
 
+const MenuIcon = () => (
+  <SvgIcon>
+    <path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z" />
+  </SvgIcon>
+);
+
+const CloseIcon = () => (
+  <SvgIcon>
+    <path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+  </SvgIcon>
+);
+
 export default function App() {
   const [selected, setSelected] = useState(() => new Set(companies.map((c) => c.domain)));
   const [preferredClass, setVehicleClass] = useState<VehicleClass>('sedan');
   const [category, setCategory] = useState<CategoryFilter>('all');
+  const compact = useMediaQuery(`(max-width: ${COMPACT_MAX_WIDTH}px)`, { noSsr: true });
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const activeCompanies = useMemo(
     () => companies.filter((company) => selected.has(company.domain)),
@@ -84,10 +103,61 @@ export default function App() {
   );
   const coverageRows = coverage.filter((row) => category === 'all' || row.category === category);
 
+  const companyFilter = (
+    <CompanyFilter
+      companies={companies}
+      excluded={excludedSites}
+      selected={selected}
+      onChange={setSelected}
+    />
+  );
+  const viewFilters = activeCompanies.length > 0 && (
+    <ViewFilters
+      classes={classes}
+      vehicleClass={vehicleClass}
+      onVehicleClass={setVehicleClass}
+      category={category}
+      onCategory={setCategory}
+    />
+  );
+
   return (
     <Container maxWidth="lg" sx={{ py: 4, px: 2 }}>
+      {compact && (
+        <>
+          <Fab
+            size="medium"
+            color="primary"
+            className="sidebar-toggle"
+            sx={{ position: 'fixed', top: 12, left: 12, zIndex: 'appBar' }}
+            aria-label="Открыть фильтры"
+            aria-controls="filters-sidebar"
+            aria-expanded={sidebarOpen}
+            onClick={() => setSidebarOpen(true)}
+          >
+            <MenuIcon />
+          </Fab>
+          <Drawer
+            anchor="left"
+            open={sidebarOpen}
+            onClose={() => setSidebarOpen(false)}
+            slotProps={{ paper: { id: 'filters-sidebar', className: 'filters-sidebar' } }}
+          >
+            <Stack direction="row" sx={{ alignItems: 'center', justifyContent: 'space-between' }}>
+              <Typography variant="h6" component="h2">
+                Фильтры
+              </Typography>
+              <IconButton aria-label="Закрыть фильтры" onClick={() => setSidebarOpen(false)}>
+                <CloseIcon />
+              </IconButton>
+            </Stack>
+            {viewFilters}
+            {companyFilter}
+          </Drawer>
+        </>
+      )}
       <header>
-        <Typography variant="h4" component="h1">
+        <Typography variant="h4" component="h1" className="page-title">
           Сравнение цен на антикоррозийную обработку
         </Typography>
         <Typography color="text.secondary" sx={{ mt: 1 }}>
@@ -110,12 +180,7 @@ export default function App() {
         <ServicePointsTable rows={pointRows} />
       </Section>
 
-      <CompanyFilter
-        companies={companies}
-        excluded={excludedSites}
-        selected={selected}
-        onChange={setSelected}
-      />
+      {!compact && companyFilter}
 
       {activeCompanies.length === 0 ? (
         <Alert severity="warning" sx={{ mt: 3 }}>
@@ -123,45 +188,11 @@ export default function App() {
         </Alert>
       ) : (
         <>
-          <Paper className="filters" sx={{ mt: 3 }}>
-            <Stack sx={{ gap: 0.5 }}>
-              <Typography variant="caption" color="text.secondary">
-                Класс автомобиля
-              </Typography>
-              <ToggleButtonGroup
-                size="small"
-                exclusive
-                value={vehicleClass}
-                onChange={(_, value: VehicleClass | null) => value && setVehicleClass(value)}
-                aria-label="Класс автомобиля"
-              >
-                {classes.map((key) => (
-                  <ToggleButton key={key} value={key}>
-                    {vehicleClassLabels[key]}
-                  </ToggleButton>
-                ))}
-              </ToggleButtonGroup>
-            </Stack>
-            <Stack sx={{ gap: 0.5 }}>
-              <Typography variant="caption" color="text.secondary">
-                Категория услуг
-              </Typography>
-              <ToggleButtonGroup
-                size="small"
-                exclusive
-                value={category}
-                onChange={(_, value: CategoryFilter | null) => value && setCategory(value)}
-                aria-label="Категория услуг"
-              >
-                <ToggleButton value="all">Все</ToggleButton>
-                {(Object.keys(categoryLabels) as ServiceCategory[]).map((key) => (
-                  <ToggleButton key={key} value={key}>
-                    {categoryLabels[key]}
-                  </ToggleButton>
-                ))}
-              </ToggleButtonGroup>
-            </Stack>
-          </Paper>
+          {!compact && (
+            <Paper className="filters" sx={{ mt: 3 }}>
+              {viewFilters}
+            </Paper>
+          )}
 
           <Section
             title="Цены по компаниям"

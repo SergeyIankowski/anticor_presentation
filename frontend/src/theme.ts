@@ -24,6 +24,8 @@ export function buildTheme(mode: PaletteMode) {
     components: {
       MuiTableCell: { styleOverrides: { head: { fontWeight: 600 } } },
       MuiPaper: { defaultProps: { variant: 'outlined' } },
+      // Switch groups wrap instead of pushing the page wider than a phone screen.
+      MuiToggleButtonGroup: { styleOverrides: { root: { flexWrap: 'wrap' } } },
     },
   });
 }

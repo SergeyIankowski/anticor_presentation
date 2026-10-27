@@ -23,10 +23,6 @@
   padding: 12px 16px;
 }
 
-.filters .MuiToggleButtonGroup-root {
-  flex-wrap: wrap;
-}
-
 /* Keep filters in view while scrolling the tables, except on phones where the bar is too tall. */
 @media (min-width: 900px) {
   .filters {
@@ -69,4 +65,40 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 4px 16px;
+}
+
+/* Phones and narrow tablets (keep 758px in sync with COMPACT_MAX_WIDTH in App.tsx): filters live
+   in the left sidebar opened by the fixed menu button. */
+.filters-sidebar.MuiDrawer-paper {
+  width: min(340px, 88vw);
+  padding: 12px 16px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.filters-sidebar .company-filter {
+  margin-top: 0;
+  padding: 0;
+  border: 0;
+}
+
+.filters-sidebar .company-filter-options {
+  grid-template-columns: 1fr;
+}
+
+@media (max-width: 758px) {
+  /* Leave room for the fixed menu button beside the title. */
+  .page-title.MuiTypography-root {
+    padding-left: 52px;
+    font-size: 1.5rem;
+  }
+
+  .section {
+    margin-block: 28px;
+  }
+
+  .service-cell {
+    min-width: 160px;
+  }
 }

@@ -63,6 +63,10 @@ export interface PriceRow {
   isFrom: boolean;
   pricedCount: number;
   offeredCount: number;
+  /** Names of companies with a numeric price for the class. */
+  pricedBy: string[];
+  /** Names of companies offering the service. */
+  offeredBy: string[];
 }
 
 export interface CoverageRow {
@@ -188,6 +192,12 @@ export function priceRows(
       isFrom: priced.some((cell) => cell.isFrom),
       pricedCount: priced.length,
       offeredCount: group.services.size,
+      pricedBy: companies
+        .filter((company) => byCompany[company.domain].value != null)
+        .map((company) => company.company.name),
+      offeredBy: companies
+        .filter((company) => byCompany[company.domain].offered)
+        .map((company) => company.company.name),
     };
   });
 }

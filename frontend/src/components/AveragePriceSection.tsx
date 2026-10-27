@@ -40,6 +40,12 @@ function wrapLabel(label: string, width = 28): string[] {
   return lines;
 }
 
+// Several sites have their own packages with the same name ("Стандарт", "Премиум"), so a
+// price from a single company carries that company's name.
+function rowLabel(row: PriceRow): string {
+  return row.pricedBy.length === 1 ? `${row.label} · ${row.pricedBy[0]}` : row.label;
+}
+
 function AverageChart({ rows }: { rows: PriceRow[] }) {
   const theme = useTheme();
   const mode = theme.palette.mode;
@@ -51,11 +57,12 @@ function AverageChart({ rows }: { rows: PriceRow[] }) {
     plugins: {
       tooltip: {
         callbacks: {
-          title: (items) => rows[items[0].dataIndex].label,
+          title: (items) => rowLabel(rows[items[0].dataIndex]),
           label: (item) => {
             const row = rows[item.dataIndex];
             return `Средняя: ${formatPrice(row.avg, row.currency, row.isFrom)} (цена у ${row.pricedCount} из ${row.offeredCount})`;
           },
+          footer: (items) => rows[items[0].dataIndex].pricedBy.join(', '),
         },
       },
     },
@@ -80,7 +87,7 @@ function AverageChart({ rows }: { rows: PriceRow[] }) {
       <Bar
         options={options}
         data={{
-          labels: rows.map((row) => wrapLabel(row.label)),
+          labels: rows.map((row) => wrapLabel(rowLabel(row))),
           datasets: [
             {
               label: 'Средняя цена',
@@ -105,12 +112,20 @@ interface Props {
 export default function AveragePriceSection({ rows }: Props) {
   const priced = rows.filter((row) => row.avg != null).sort((a, b) => (b.avg ?? 0) - (a.avg ?? 0));
   const unpriced = rows.filter((row) => row.avg == null);
+  // An average of one price is not a market comparison; chart those only when nothing else exists.
+  const shared = priced.filter((row) => row.pricedCount > 1);
+  const chartRows = shared.length ? shared : priced;
 
   return (
     <>
       {priced.length > 0 ? (
         <Paper sx={{ p: 2, mb: 2 }}>
-          <AverageChart rows={priced} />
+          {shared.length > 0 && (
+            <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
+              На графике — услуги с ценой минимум у двух компаний. Остальные — в таблице ниже.
+            </Typography>
+          )}
+          <AverageChart rows={chartRows} />
         </Paper>
       ) : (
         <Typography color="text.secondary" sx={{ mb: 2 }}>
@@ -131,7 +146,14 @@ export default function AveragePriceSection({ rows }: Props) {
           <TableBody>
             {[...priced, ...unpriced].map((row) => (
               <TableRow key={row.id} hover className={`row-${row.category}`}>
-                <TableCell className="service-cell">{row.label}</TableCell>
+                <TableCell className="service-cell">
+                  {row.label}
+                  {row.pricedBy.length > 0 && (
+                    <Typography variant="caption" color="text.secondary" sx={{ display: 'block' }}>
+                      {row.pricedBy.join(', ')}
+                    </Typography>
+                  )}
+                </TableCell>
                 <TableCell align="right" className="num">
                   {row.avg == null ? '—' : formatPrice(row.avg, row.currency, row.isFrom)}
                 </TableCell>

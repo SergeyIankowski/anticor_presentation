@@ -12,15 +12,16 @@ import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import Typography from '@mui/material/Typography';
 import { useState } from 'react';
 import { type CoverageRow, categoryLabels } from '../lib/comparison.ts';
+import { companiesLabel } from '../lib/plural.ts';
 
-type CountFilter = '1' | '2' | '1-2' | 'all';
+// 'shared' = offered by two or more companies; a number = offered by exactly that many.
+type CountFilter = 'shared' | 'all' | number;
 
-const filters: Record<CountFilter, { label: string; test: (count: number) => boolean }> = {
-  '1': { label: '1 компания', test: (count) => count === 1 },
-  '2': { label: '2 компании', test: (count) => count === 2 },
-  '1-2': { label: '1–2 компании', test: (count) => count <= 2 },
-  all: { label: 'Все', test: () => true },
-};
+function matches(filter: CountFilter, count: number): boolean {
+  if (filter === 'all') return true;
+  if (filter === 'shared') return count > 1;
+  return count === filter;
+}
 
 interface Props {
   rows: CoverageRow[];
@@ -28,12 +29,19 @@ interface Props {
 }
 
 export default function CoverageTable({ rows, totalCompanies }: Props) {
-  const [filter, setFilter] = useState<CountFilter>('1-2');
+  const [chosen, setFilter] = useState<CountFilter>('shared');
+  // One option per number of companies that actually occurs, largest first.
+  const counts = [...new Set(rows.map((row) => row.count))].sort((a, b) => b - a);
+  const shared = rows.filter((row) => row.count > 1).length;
+  // Fall back when the company selection removes the chosen option.
+  const filter: CountFilter =
+    (chosen === 'shared' && shared === 0) ||
+    (typeof chosen === 'number' && !counts.includes(chosen))
+      ? 'all'
+      : chosen;
   const visible = rows
-    .filter((row) => filters[filter].test(row.count))
-    .sort((a, b) => a.count - b.count || a.label.localeCompare(b.label, 'ru'));
-  const onlyOne = rows.filter((row) => row.count === 1).length;
-  const onlyTwo = rows.filter((row) => row.count === 2).length;
+    .filter((row) => matches(filter, row.count))
+    .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label, 'ru'));
 
   return (
     <>
@@ -42,17 +50,22 @@ export default function CoverageTable({ rows, totalCompanies }: Props) {
           size="small"
           exclusive
           value={filter}
-          onChange={(_, value: CountFilter | null) => value && setFilter(value)}
+          onChange={(_, value: CountFilter | null) => value != null && setFilter(value)}
           aria-label="Сколько компаний оказывают услугу"
         >
-          {(Object.keys(filters) as CountFilter[]).map((key) => (
-            <ToggleButton key={key} value={key}>
-              {filters[key].label}
+          <ToggleButton value="shared" disabled={shared === 0}>
+            2 и больше
+          </ToggleButton>
+          {counts.map((count) => (
+            <ToggleButton key={count} value={count}>
+              {companiesLabel(count)}
             </ToggleButton>
           ))}
+          <ToggleButton value="all">Все</ToggleButton>
         </ToggleButtonGroup>
         <Typography variant="body2" color="text.secondary">
-          Только у одной компании: {onlyOne} · у двух: {onlyTwo} · всего компаний: {totalCompanies}
+          Услуг: {rows.length} · у нескольких компаний: {shared} · только у одной:{' '}
+          {rows.length - shared} · всего компаний: {totalCompanies}
         </Typography>
       </Stack>
       <TableContainer component={Paper}>

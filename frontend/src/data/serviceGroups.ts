@@ -12,12 +12,15 @@ export const serviceGroups: ServiceGroupRule[] = [
   {
     id: 'anticorrosion-full',
     label: 'Полная антикоррозийная обработка',
-    match: /^(полная обработка|антикорр?ози[йо]н+ая обработка автомобиля)/i,
+    // Whole-car treatment as each site names it: "Полная обработка", "Полный комплекс…",
+    // "Комплексная защита/обработка" or a bare "Антикоррозийная обработка (автомобиля)".
+    match:
+      /^(полная обработка|(базовый )?полный комплекс|комплексн(ая|ую) (защит|обработк)|антикорр?ози[йо]н+ая обработка(\s+автомобил(я|ей))?$)/i,
   },
   {
     id: 'anticorrosion-underbody',
     label: 'Антикор днища',
-    match: /^(обработка днища|антикорр?ози[йо]н+ая обработка днища)/i,
+    match: /^(обработка днища|антикорр?ози[йо]н+ая обработка днища|днище$)/i,
   },
   {
     id: 'anticorrosion-body',
@@ -25,15 +28,52 @@ export const serviceGroups: ServiceGroupRule[] = [
     match: /^антикорр?ози[йо]н+ая обработка кузова/i,
   },
   {
+    id: 'anticorrosion-sills-arches',
+    label: 'Антикор порогов и арок',
+    match: /^антикорр?ози[йо]н+ая обработка порогов и арок/i,
+  },
+  {
     id: 'anticorrosion-sills',
     label: 'Антикор порогов',
-    match: /^антикорр?ози[йо]н+ая обработка порогов/i,
+    match: /^(антикорр?ози[йо]н+ая обработка порогов|пороги$)/i,
   },
   {
     id: 'anticorrosion-arches',
     label: 'Антикор арок',
-    match: /^антикорр?ози[йо]н+ая обработка арок/i,
+    match: /^(антикорр?ози[йо]н+ая обработка арок|арки и крылья$)/i,
   },
+  {
+    id: 'anticorrosion-cavities',
+    label: 'Антикор скрытых полостей',
+    match: /^(антикорр?ози[йо]н+ая обработка скрытых полостей|скрытые полости$)/i,
+  },
+  {
+    id: 'anticorrosion-hood',
+    label: 'Антикор капота',
+    match: /^(антикорр?ози[йо]н+ая обработка капота|капот$)/i,
+  },
+  {
+    id: 'anticorrosion-ev',
+    label: 'Антикор электромобилей',
+    match: /^антикор(р?ози[йо]н+ая обработка)? электромобилей/i,
+  },
+  {
+    id: 'inspection',
+    label: 'Осмотр и оценка состояния днища',
+    match: /^(антикорр?ози[йо]н+ая экспертиза|бесплатная оценка стоимости|диагностик[уа] днища)/i,
+  },
+  {
+    id: 'sandblasting',
+    label: 'Пескоструйная обработка',
+    match:
+      /^((пескоструй|пескоструйная обработка)$|пескоструйная (очистка днища|обработка кузова))/i,
+  },
+  {
+    id: 'laser-cleaning',
+    label: 'Лазерная очистка от ржавчины',
+    match: /^лазерн(ая|ое) (чистка|очистка|удаление коррозии)(\s+(металла|кузова)|$)/i,
+  },
+  { id: 'welding', label: 'Сварочные работы', match: /^сварочн(ые|ых) работ/i },
   // antikorr.by sells the same four anticorrosion packages with two material brands.
   ...['Dinitrol', 'Noxudol'].flatMap((brand) =>
     [
@@ -66,17 +106,22 @@ export const serviceGroups: ServiceGroupRule[] = [
   },
   {
     id: 'underbody-wash',
-    label: 'Мойка днища на подъёмнике',
-    match: /^мойка днища (автомобиля )?на подъ[её]мнике/i,
+    label: 'Мойка днища',
+    match: /^мойка днища( и арок| автомобиля| на подъ[её]мнике)/i,
   },
   {
     id: 'body-wash-antisalt',
     label: 'Мойка кузова с антисолью',
     match: /^мойка кузова с "?антисолью/i,
   },
-  { id: 'wash-standard-plus', label: 'Мойка «Стандарт плюс»', match: /^стандарт плюс/i },
-  { id: 'wash-standard', label: 'Мойка «Стандарт»', match: /^стандарт\s/i },
-  // KROWN car-wash packages; the "Стандарт" check keeps them apart from anticorrosion packages.
+  // KROWN car-wash packages. Matching the wash description (or "Стандарт" inside "Комплекс")
+  // keeps them apart from anticorrosion packages that other sites also call "Стандарт".
+  {
+    id: 'wash-standard-plus',
+    label: 'Мойка «Стандарт плюс»',
+    match: /^стандарт плюс\s+двухфазная/i,
+  },
+  { id: 'wash-standard', label: 'Мойка «Стандарт»', match: /^стандарт\s+двухфазная/i },
   {
     id: 'wash-complex-1',
     label: 'Мойка «Комплекс №1»',

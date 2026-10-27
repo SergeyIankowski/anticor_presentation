@@ -10,7 +10,7 @@ import AveragePriceSection from './components/AveragePriceSection.tsx';
 import CompanyFilter from './components/CompanyFilter.tsx';
 import CompanyPriceTable from './components/CompanyPriceTable.tsx';
 import CoverageTable from './components/CoverageTable.tsx';
-import { companies } from './data/loadCompanies.ts';
+import { companies, excludedSites } from './data/loadCompanies.ts';
 import { serviceGroups } from './data/serviceGroups.ts';
 import {
   categoryLabels,
@@ -88,82 +88,97 @@ export default function App() {
           Сравнение цен на антикоррозийную обработку
         </Typography>
         <Typography color="text.secondary" sx={{ mt: 1 }}>
-          Данные с сайтов компаний: {companies.length}. Цены указаны так, как опубликованы на сайте.
+          Компаний с данными без ошибок парсинга: {companies.length}. Цены указаны так, как
+          опубликованы на сайте.
         </Typography>
-        {withoutPrices.map((company) => (
-          <Alert key={company.domain} severity="info" sx={{ mt: 2 }}>
-            {company.company.name} ({company.domain}) не публикует цены на сайте — услуги показаны с
+        {withoutPrices.length > 0 && (
+          <Alert severity="info" sx={{ mt: 2 }}>
+            Не публикуют цены на сайте:{' '}
+            {withoutPrices.map((company) => company.company.name).join(', ')}. Их услуги показаны с
             пометкой «цена не указана» и не входят в средние значения.
           </Alert>
-        ))}
+        )}
       </header>
 
-      <CompanyFilter companies={companies} selected={selected} onChange={setSelected} />
+      <CompanyFilter
+        companies={companies}
+        excluded={excludedSites}
+        selected={selected}
+        onChange={setSelected}
+      />
 
-      <Paper className="filters" sx={{ mt: 3 }}>
-        <Stack sx={{ gap: 0.5 }}>
-          <Typography variant="caption" color="text.secondary">
-            Класс автомобиля
-          </Typography>
-          <ToggleButtonGroup
-            size="small"
-            exclusive
-            value={vehicleClass}
-            onChange={(_, value: VehicleClass | null) => value && setVehicleClass(value)}
-            aria-label="Класс автомобиля"
+      {activeCompanies.length === 0 ? (
+        <Alert severity="warning" sx={{ mt: 3 }}>
+          Отметьте хотя бы одну компанию, чтобы увидеть сравнение.
+        </Alert>
+      ) : (
+        <>
+          <Paper className="filters" sx={{ mt: 3 }}>
+            <Stack sx={{ gap: 0.5 }}>
+              <Typography variant="caption" color="text.secondary">
+                Класс автомобиля
+              </Typography>
+              <ToggleButtonGroup
+                size="small"
+                exclusive
+                value={vehicleClass}
+                onChange={(_, value: VehicleClass | null) => value && setVehicleClass(value)}
+                aria-label="Класс автомобиля"
+              >
+                {classes.map((key) => (
+                  <ToggleButton key={key} value={key}>
+                    {vehicleClassLabels[key]}
+                  </ToggleButton>
+                ))}
+              </ToggleButtonGroup>
+            </Stack>
+            <Stack sx={{ gap: 0.5 }}>
+              <Typography variant="caption" color="text.secondary">
+                Категория услуг
+              </Typography>
+              <ToggleButtonGroup
+                size="small"
+                exclusive
+                value={category}
+                onChange={(_, value: CategoryFilter | null) => value && setCategory(value)}
+                aria-label="Категория услуг"
+              >
+                <ToggleButton value="all">Все</ToggleButton>
+                {(Object.keys(categoryLabels) as ServiceCategory[]).map((key) => (
+                  <ToggleButton key={key} value={key}>
+                    {categoryLabels[key]}
+                  </ToggleButton>
+                ))}
+              </ToggleButtonGroup>
+            </Stack>
+          </Paper>
+
+          <Section
+            title="Цены по компаниям"
+            lead={`Цены каждой компании для класса «${vehicleClassLabels[vehicleClass]}» в сравнении со средней по рынку. Если у компании несколько типов кузова в этом классе, показано среднее и диапазон; исходный текст цены — во всплывающей подсказке.`}
           >
-            {classes.map((key) => (
-              <ToggleButton key={key} value={key}>
-                {vehicleClassLabels[key]}
-              </ToggleButton>
-            ))}
-          </ToggleButtonGroup>
-        </Stack>
-        <Stack sx={{ gap: 0.5 }}>
-          <Typography variant="caption" color="text.secondary">
-            Категория услуг
-          </Typography>
-          <ToggleButtonGroup
-            size="small"
-            exclusive
-            value={category}
-            onChange={(_, value: CategoryFilter | null) => value && setCategory(value)}
-            aria-label="Категория услуг"
+            <Stack sx={{ gap: 4 }}>
+              {tableCompanies.map((company) => (
+                <CompanyPriceTable key={company.domain} company={company} rows={rows} />
+              ))}
+            </Stack>
+          </Section>
+
+          <Section
+            title="Средняя цена по услугам"
+            lead="Среднее по компаниям, у которых опубликована числовая цена. «от» — минимальная цена с сайта."
           >
-            <ToggleButton value="all">Все</ToggleButton>
-            {(Object.keys(categoryLabels) as ServiceCategory[]).map((key) => (
-              <ToggleButton key={key} value={key}>
-                {categoryLabels[key]}
-              </ToggleButton>
-            ))}
-          </ToggleButtonGroup>
-        </Stack>
-      </Paper>
+            <AveragePriceSection rows={rows} />
+          </Section>
 
-      <Section
-        title="Цены по компаниям"
-        lead={`Цены каждой компании для класса «${vehicleClassLabels[vehicleClass]}» в сравнении со средней по рынку. Если у компании несколько типов кузова в этом классе, показано среднее и диапазон; исходный текст цены — во всплывающей подсказке.`}
-      >
-        <Stack sx={{ gap: 4 }}>
-          {tableCompanies.map((company) => (
-            <CompanyPriceTable key={company.domain} company={company} rows={rows} />
-          ))}
-        </Stack>
-      </Section>
-
-      <Section
-        title="Средняя цена по услугам"
-        lead="Среднее по компаниям, у которых опубликована числовая цена. «от» — минимальная цена с сайта."
-      >
-        <AveragePriceSection rows={rows} />
-      </Section>
-
-      <Section
-        title="Услуги у одной или двух компаний"
-        lead="Сколько компаний оказывают услугу, независимо от того, опубликована ли цена."
-      >
-        <CoverageTable rows={coverageRows} totalCompanies={activeCompanies.length} />
-      </Section>
+          <Section
+            title="Сколько компаний оказывают услугу"
+            lead="Сначала услуги, которые есть у наибольшего числа компаний. Учитываются все услуги с сайтов, независимо от того, опубликована ли цена."
+          >
+            <CoverageTable rows={coverageRows} totalCompanies={activeCompanies.length} />
+          </Section>
+        </>
+      )}
     </Container>
   );
 }

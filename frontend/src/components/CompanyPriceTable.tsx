@@ -14,14 +14,19 @@ import { categoryLabels, type PriceCell, type PriceRow } from '../lib/comparison
 import { formatNumber, formatPrice } from '../lib/prices.ts';
 import type { Company } from '../types.ts';
 
+// Some sites price every car model separately (antikor-minsk.by has ~1000), so list a few.
+const TOOLTIP_ENTRIES = 12;
+
 function entriesTooltip(cell: PriceCell) {
+  const hidden = cell.entries.length - TOOLTIP_ENTRIES;
   return (
     <>
-      {cell.entries.map((entry) => (
+      {cell.entries.slice(0, TOOLTIP_ENTRIES).map((entry) => (
         <div key={`${entry.vehicle}-${entry.text}`}>
           {entry.vehicle}: {entry.text}
         </div>
       ))}
+      {hidden > 0 && <div>и ещё {hidden}</div>}
     </>
   );
 }

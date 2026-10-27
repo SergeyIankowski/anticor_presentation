@@ -121,3 +121,50 @@ test('antikorr.by anticorrosion packages are not grouped with KROWN car-wash pac
     [],
   );
 });
+
+test('anticorrosion packages named "Стандарт" are not grouped with the KROWN car wash', () => {
+  const service = (id: string, name: string) => ({
+    domain: id,
+    schema_version: '1.0',
+    company: { name: id, website: `https://${id}/` },
+    source: { scraped_at: '2026-10-26', urls: [] },
+    currency: 'BYN',
+    vehicle_types: [],
+    services: [{ id: 's', category: 'anticorrosion' as const, name_original: name, prices: [] }],
+  });
+  const grouped = groupServices(
+    [
+      service('wash.by', 'Стандарт Двухфазная ручная мойка кузова'),
+      service('a.by', 'Стандарт'),
+      service('b.by', 'Стандарт комплекс (новые авто)'),
+    ],
+    serviceGroups,
+  );
+  assert.deepEqual(
+    grouped.map((group) => group.id),
+    ['wash-standard', 'a.by:s', 'b.by:s'],
+  );
+});
+
+test('whole-car treatment is matched across differently named sites', () => {
+  const names = [
+    'Полная обработка',
+    'Полный комплекс обработки',
+    'Базовый полный комплекс',
+    'КОМПЛЕКСНАЯ ОБРАБОТКА',
+    'Комплексная защита автомобиля от коррозии',
+    'АНТИКОРРОЗИЙНАЯ ОБРАБОТКА',
+    'АНТИКОРРОЗИЙНАЯ ОБРАБОТКА АВТОМОБИЛЕЙ',
+  ];
+  for (const name of names) {
+    assert.equal(
+      serviceGroups.find((rule) => rule.match.test(name))?.id,
+      'anticorrosion-full',
+      name,
+    );
+  }
+  assert.equal(
+    serviceGroups.find((rule) => rule.match.test('Антикоррозийная обработка днища автомобиля'))?.id,
+    'anticorrosion-underbody',
+  );
+});

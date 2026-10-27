@@ -2,6 +2,7 @@ node_modules/
 .pnpm-store/
 **/.parse-staging-*/
 **/snapshots/
+**/.history/
 **/parse-report.json
 **/.parse.lock
 frontend/dist/

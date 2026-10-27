@@ -10,6 +10,7 @@ import AveragePriceSection from './components/AveragePriceSection.tsx';
 import CompanyFilter from './components/CompanyFilter.tsx';
 import CompanyPriceTable from './components/CompanyPriceTable.tsx';
 import CoverageTable from './components/CoverageTable.tsx';
+import ServicePointsTable from './components/ServicePointsTable.tsx';
 import { companies, excludedSites } from './data/loadCompanies.ts';
 import {
   categoryLabels,
@@ -19,6 +20,7 @@ import {
   vehicleClasses,
   vehicleClassLabels,
 } from './lib/comparison.ts';
+import { servicePoints } from './lib/servicePoints.ts';
 import type { Company, ServiceCategory, VehicleClass } from './types.ts';
 
 type CategoryFilter = ServiceCategory | 'all';
@@ -54,6 +56,8 @@ function Section({ title, lead, children }: { title: string; lead: string; child
     </section>
   );
 }
+
+const pointRows = servicePoints(companies);
 
 export default function App() {
   const [selected, setSelected] = useState(() => new Set(companies.map((c) => c.domain)));
@@ -98,6 +102,13 @@ export default function App() {
           </Alert>
         )}
       </header>
+
+      <Section
+        title="Точки обслуживания"
+        lead="Сколько адресов указано на сайте каждой компании. Если сайт не публикует адрес, точка не учитывается."
+      >
+        <ServicePointsTable rows={pointRows} />
+      </Section>
 
       <CompanyFilter
         companies={companies}

@@ -41,9 +41,16 @@ export interface VehicleType {
   examples?: string;
 }
 
+export interface Location {
+  city?: string;
+  address?: string;
+  phones?: string[];
+  working_hours?: string;
+}
+
 export interface CompanySheet {
   schema_version: string;
-  company: { name: string; website: string; country?: string };
+  company: { name: string; website: string; country?: string; locations?: Location[] };
   source: { scraped_at: string; urls: string[]; notes?: string };
   currency: string;
   vehicle_types: VehicleType[];

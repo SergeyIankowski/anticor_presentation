@@ -58,6 +58,7 @@
   "services": [
     {
       "id": "complex-1",
+      "service_key": "spec-antikor.by:complex-1",
       "category": "anticorrosion",
       "name_original": "ML комплекс (для машин с пробегом)",
       "description": "dinitrol: Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941 (3125 HS,482)\nnoxudol: Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Mercasol 831 ML(3)",
@@ -164,6 +165,7 @@
     },
     {
       "id": "complex-2",
+      "service_key": "spec-antikor.by:complex-2",
       "category": "anticorrosion",
       "name_original": "Стандарт комплекс (новые авто)",
       "description": "dinitrol: Cкрытые полости материалами DINITROL LT. Днище и колесн.арки DINITROL 4941 (482)\nnoxudol: Cкрытые полости материалами Mercasol 1 (Noxudol 750). Днище и колесн.арки Noxudol 900D(3)",
@@ -270,6 +272,7 @@
     },
     {
       "id": "complex-3",
+      "service_key": "spec-antikor.by:complex-3",
       "category": "anticorrosion",
       "name_original": "Антишум комплекс",
       "description": "dinitrol: Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479 (4479)\nnoxudol: Cкрытые полости материалами Mercasol 1 (750) . Днище и колесн.арки Noxudol Auto-Plastone (4s,1600)",
@@ -376,6 +379,7 @@
     },
     {
       "id": "lazernaja-chistka-metalla-i-avtomobilja-v-breste",
+      "service_key": "laser-cleaning",
       "category": "additional",
       "name_original": "Лазерная чистка",
       "description": "Услуга указана в меню главной страницы. Отдельная страница: https://spec-antikor.by/lazernaja-chistka-metalla-i-avtomobilja-v-breste/. Цена на доступной странице не указана.",
@@ -385,6 +389,7 @@
     },
     {
       "id": "peskostrujnaja-obrabotka-avtomobilja-diskov-i-dnishha-v-breste",
+      "service_key": "sandblasting",
       "category": "additional",
       "name_original": "Пескоструй",
       "description": "Услуга указана в меню главной страницы. Отдельная страница: https://spec-antikor.by/peskostrujnaja-obrabotka-avtomobilja-diskov-i-dnishha-v-breste/. Цена на доступной странице не указана.",
@@ -394,6 +399,7 @@
     },
     {
       "id": "shumoizolyacziya-avtomobilya",
+      "service_key": "soundproofing",
       "category": "additional",
       "name_original": "Шумоизоляция автомобиля",
       "description": "Услуга указана в меню главной страницы. Отдельная страница: https://spec-antikor.by/shumoizolyacziya-avtomobilya/. Цена на доступной странице не указана.",

@@ -6,9 +6,11 @@ import Ajv2020 from 'ajv/dist/2020.js';
 import addFormats from 'ajv-formats';
 import { crawlSite } from './browser.js';
 import { createPresentation, localDate } from './normalize.js';
+import { withServiceKeys } from './services.js';
 
 export { extractPage } from './browser.js';
 export * from './normalize.js';
+export * from './services.js';
 export const repositoryRoot = resolve(dirname(fileURLToPath(import.meta.url)), '../../..');
 
 export const isMain = (url) =>
@@ -125,7 +127,9 @@ export async function runSite(config, argv = process.argv.slice(2)) {
         'A required page failed; existing datasets were preserved. See parse-report.json.',
       );
     }
-    const { harvest, comparison, warnings = [] } = config.build(pages, localDate(startedAt));
+    const built = config.build(pages, localDate(startedAt));
+    const { harvest, warnings = [] } = built;
+    const comparison = withServiceKeys(config.domain, built.comparison);
     harvest.metadata.notes = [
       ...(harvest.metadata.notes || []),
       ...warnings,

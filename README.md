@@ -56,6 +56,8 @@ Each refresh writes:
 - `snapshots/<run-id>/*.json`: fetched page evidence, text, links, images, tables, and JSON-LD.
 - `.history/<run-id>/`: previous output files, saved before a successful replacement.
 
+Every service in `parsed/company.json` carries a `service_key` from the unified service list in `packages/harvest-core/src/services.js`. Sites that name the same service differently share one key, and the frontend compares them in one row; a service without a matching rule gets its own `<domain>:<service id>` key and is shown as offered only by that company. The shared runner adds the keys on every refresh. After editing the list, run `pnpm services:keys` to rewrite the keys in the published datasets without a live re-parse.
+
 The full harvest uses `schemas/site-harvest.schema.json`. Existing manual datasets are backed up on the first successful refresh. All numeric prices come from fresh pages; missing service prices are represented by empty arrays. In particular, ETM currently describes quote-dependent services without publishing numeric service prices on the parsed pages.
 
 Required pages or schema failures stop publication and return a nonzero exit code. Optional page failures are recorded as a partial run. The parsers retry navigation once, limit crawling to the relevant domain and sections, and preserve existing datasets if required pages cannot be fetched. Both sites require a working network/DNS connection; access challenges are reported as failures. A `.parse.lock` prevents simultaneous writes to the same output folder.

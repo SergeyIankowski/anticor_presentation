@@ -26,6 +26,7 @@
   "services": [
     {
       "id": "anti-kor-1",
+      "service_key": "anticorrosion-full",
       "category": "anticorrosion",
       "name_original": "Полный комплекс обработки",
       "description": "Днище, рама, арки, пороги, скрытые полости, двери, капот. Можем обработать отдельно любую часть.",
@@ -35,6 +36,7 @@
     },
     {
       "id": "anti-kor-2",
+      "service_key": "anti-kor.by:anti-kor-2",
       "category": "anticorrosion",
       "name_original": "Обработка элементов подвески",
       "description": "Подрамники крепления двигателя и подвесок, мосты, карданные валы, рычаги, пружины, крепёж.",
@@ -44,6 +46,7 @@
     },
     {
       "id": "anti-kor-3",
+      "service_key": "soundproofing",
       "category": "additional",
       "name_original": "Шумоизоляция колесных арок и днища",
       "description": "Напыляемая шумоизоляция. Значительное снижение посторонних шумов в салоне автомобиля.",
@@ -53,6 +56,7 @@
     },
     {
       "id": "anti-kor-4",
+      "service_key": "underbody-wash",
       "category": "additional",
       "name_original": "Мойка днища и арок",
       "description": "Нанесение антикоррозийных составов на силовые элементы кузова в подкапотном пространстве.",
@@ -62,6 +66,7 @@
     },
     {
       "id": "anti-kor-5",
+      "service_key": "sandblasting",
       "category": "additional",
       "name_original": "Пескоструйная очистка днища авто",
       "description": "Тщательная очистка для максимальной адгезии обрабатываемого покрытия без дефектов.",
@@ -71,6 +76,7 @@
     },
     {
       "id": "anti-kor-6",
+      "service_key": "anti-kor.by:anti-kor-6",
       "category": "additional",
       "name_original": "Ежегодное ТО авто после обработки",
       "description": "Техническая мойка днища, осмотр и бесплатное восполнение покрытия в течение гарантийного срока.",

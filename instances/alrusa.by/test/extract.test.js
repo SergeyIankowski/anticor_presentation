@@ -3,7 +3,7 @@ import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import test from 'node:test';
 import { pathToFileURL } from 'node:url';
-import { clean, repositoryRoot, validateJson } from '@anticor/harvest-core';
+import { clean, repositoryRoot, validateJson, withServiceKeys } from '@anticor/harvest-core';
 import {
   buildSite,
   parsePeriod,
@@ -100,7 +100,7 @@ test('quote services, conflicting source offers and all diagnostic variants surv
 
 test('comparison rebuild is deterministic, schema-valid and fully anchored to harvested pages', async () => {
   const rebuilt = buildSite(harvest.pages, harvest.metadata.retrieved_at);
-  assert.deepEqual(rebuilt.comparison, published);
+  assert.deepEqual(withServiceKeys('alrusa.by', rebuilt.comparison), published);
   await validateJson(rebuilt.comparison, `${repositoryRoot}/schema.json`);
   await validateJson(rebuilt.harvest, `${repositoryRoot}/schemas/site-harvest.schema.json`);
   const vehicles = new Set(rebuilt.comparison.vehicle_types.map((item) => item.id));

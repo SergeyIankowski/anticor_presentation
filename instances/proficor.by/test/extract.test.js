@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import test from 'node:test';
+import { withServiceKeys } from '@anticor/harvest-core';
 import { buildSite, parseServices } from '../src/extract.js';
 import site from '../src/site.js';
 
@@ -113,7 +114,10 @@ test('published snapshots rebuild the comparison exactly without network', async
   const harvest = JSON.parse(await readFile(new URL('../proficor.by.json', import.meta.url)));
   const input = harvest.pages;
   const published = JSON.parse(await readFile(new URL('../parsed/company.json', import.meta.url)));
-  assert.deepEqual(buildSite(input, published.source.scraped_at).comparison, published);
+  assert.deepEqual(
+    withServiceKeys('proficor.by', buildSite(input, published.source.scraped_at).comparison),
+    published,
+  );
   assert.equal(published.services.length, 9);
   assert.equal(
     published.services.reduce((n, s) => n + s.prices.length, 0),

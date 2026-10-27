@@ -11,7 +11,6 @@ import CompanyFilter from './components/CompanyFilter.tsx';
 import CompanyPriceTable from './components/CompanyPriceTable.tsx';
 import CoverageTable from './components/CoverageTable.tsx';
 import { companies, excludedSites } from './data/loadCompanies.ts';
-import { serviceGroups } from './data/serviceGroups.ts';
 import {
   categoryLabels,
   groupServices,
@@ -29,7 +28,7 @@ const hasPrices = (company: Company) => company.services.some((service) => servi
 // Everything below the company filter is computed from the selected companies only, so
 // averages and "offered by one or two companies" reflect the chosen comparison set.
 function compare(selected: Company[]) {
-  const groups = groupServices(selected, serviceGroups).sort(
+  const groups = groupServices(selected).sort(
     (a, b) => Number(a.category !== 'anticorrosion') - Number(b.category !== 'anticorrosion'),
   );
   return {

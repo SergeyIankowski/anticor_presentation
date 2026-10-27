@@ -60,6 +60,7 @@
   "services": [
     {
       "id": "anticorrosion-light",
+      "service_key": "proficor.by:anticorrosion-light",
       "category": "anticorrosion",
       "name_original": "Комплекс ЛАЙТ",
       "url": "https://proficor.by/",
@@ -99,6 +100,7 @@
     },
     {
       "id": "anticorrosion-standard",
+      "service_key": "proficor.by:anticorrosion-standard",
       "category": "anticorrosion",
       "name_original": "Комплекс СТАНДАРТ",
       "url": "https://proficor.by/",
@@ -138,6 +140,7 @@
     },
     {
       "id": "electric-anticorrosion",
+      "service_key": "anticorrosion-ev",
       "category": "anticorrosion",
       "name_original": "Антикоррозийная Обработка электромобилей в Минске",
       "url": "https://proficor.by/antikorrozijnaya-obrabotka-elektromobilej/",
@@ -147,6 +150,7 @@
     },
     {
       "id": "polishing-1",
+      "service_key": "headlight-polishing",
       "category": "additional",
       "name_original": "Полировка фар/задних фанарей авто",
       "description": "Цена указана за пару. Полировка решает проблему затертых и помутневших фар, позволяет вернуть прежнюю силу светового потока, улучишь видимость на дороге.",
@@ -165,6 +169,7 @@
     },
     {
       "id": "polishing-2",
+      "service_key": "proficor.by:polishing-2",
       "category": "additional",
       "name_original": "Легкая полировка кузова",
       "description": "Устраняет мелкие потертости и царапины. Коррекция ЛКП перед нанесением защитного покрытия.",
@@ -183,6 +188,7 @@
     },
     {
       "id": "polishing-3",
+      "service_key": "proficor.by:polishing-3",
       "category": "additional",
       "name_original": "Восстановительная полировка кузова",
       "description": "Устранение глубоких царапин. Стоимость зависит от размера автомобиля и состояния лакокрасочного покрытия кузова.",
@@ -201,6 +207,7 @@
     },
     {
       "id": "polishing-4",
+      "service_key": "proficor.by:polishing-4",
       "category": "additional",
       "name_original": "Полировка одного элемента кузова авто",
       "description": "Стоимость определяется на месте по согласованию с клиентом и зависит от размера элемента и состояния лакокрасочного покрытия кузова.",
@@ -219,6 +226,7 @@
     },
     {
       "id": "polishing-5",
+      "service_key": "proficor.by:polishing-5",
       "category": "additional",
       "name_original": "Полировка кузова с нанесением жидкого стекла",
       "description": "",
@@ -237,6 +245,7 @@
     },
     {
       "id": "polishing-6",
+      "service_key": "proficor.by:polishing-6",
       "category": "additional",
       "name_original": "Полировка кузова с нанесением керамики",
       "description": "",

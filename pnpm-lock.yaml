@@ -216,6 +216,9 @@ importers:
 
   frontend:
     dependencies:
+      "@anticor/harvest-core":
+        specifier: workspace:*
+        version: link:../packages/harvest-core
       "@emotion/react":
         specifier: ^11.14.0
         version: 11.14.0(@types/react@19.3.0)(react@19.3.1)

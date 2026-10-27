@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { test } from 'node:test';
-import { serviceGroups } from '../src/data/serviceGroups.ts';
+import { serviceKey } from '@anticor/harvest-core/services';
 import {
   groupServices,
   priceRows,
@@ -17,7 +17,7 @@ const companies: Company[] = harvestedDomains().map((domain) => ({
   ...JSON.parse(readFileSync(new URL(`${domain}/parsed/company.json`, instancesDir), 'utf8')),
   domain,
 }));
-const groups = groupServices(companies, serviceGroups);
+const groups = groupServices(companies);
 const rowFor = (vehicleClass: VehicleClass, id: string) => {
   const row = priceRows(groups, companies, vehicleClass).find((candidate) => candidate.id === id);
   assert.ok(row, `missing row ${id}`);
@@ -63,7 +63,7 @@ test('normalizePrice handles exact, range, from and text-only prices', () => {
 
 test('full anticorrosion treatment is matched across KROWN and ETM', () => {
   const pair = companies.filter((company) => ['krown.by', 'etm.by'].includes(company.domain));
-  const pairGroups = groupServices(pair, serviceGroups);
+  const pairGroups = groupServices(pair);
   const coverage = serviceCoverage(pairGroups, pair).find((row) => row.id === 'anticorrosion-full');
   assert.equal(coverage?.count, 2);
 
@@ -105,7 +105,7 @@ test('shortServiceName drops appended descriptions and table headings', () => {
 
 test('antikorr.by anticorrosion packages are not grouped with KROWN car-wash packages', () => {
   const pair = companies.filter((company) => ['krown.by', 'antikorr.by'].includes(company.domain));
-  const pairGroups = groupServices(pair, serviceGroups);
+  const pairGroups = groupServices(pair);
   const byId = new Map(pairGroups.map((group) => [group.id, group]));
   assert.deepEqual([...(byId.get('wash-complex-1')?.services.keys() ?? [])], ['krown.by']);
   assert.deepEqual(
@@ -122,49 +122,23 @@ test('antikorr.by anticorrosion packages are not grouped with KROWN car-wash pac
   );
 });
 
-test('anticorrosion packages named "Стандарт" are not grouped with the KROWN car wash', () => {
-  const service = (id: string, name: string) => ({
-    domain: id,
-    schema_version: '1.0',
-    company: { name: id, website: `https://${id}/` },
-    source: { scraped_at: '2026-10-26', urls: [] },
-    currency: 'BYN',
-    vehicle_types: [],
-    services: [{ id: 's', category: 'anticorrosion' as const, name_original: name, prices: [] }],
-  });
-  const grouped = groupServices(
-    [
-      service('wash.by', 'Стандарт Двухфазная ручная мойка кузова'),
-      service('a.by', 'Стандарт'),
-      service('b.by', 'Стандарт комплекс (новые авто)'),
-    ],
-    serviceGroups,
+test('parsed datasets carry the current unified service keys', () => {
+  const stale = companies.flatMap((company) =>
+    company.services
+      .filter((service) => service.service_key !== serviceKey(company.domain, service))
+      .map((service) => `${company.domain}:${service.id}`),
   );
-  assert.deepEqual(
-    grouped.map((group) => group.id),
-    ['wash-standard', 'a.by:s', 'b.by:s'],
-  );
+  assert.deepEqual(stale, [], 'run `pnpm services:keys` after changing the service catalog');
 });
 
-test('whole-car treatment is matched across differently named sites', () => {
-  const names = [
-    'Полная обработка',
-    'Полный комплекс обработки',
-    'Базовый полный комплекс',
-    'КОМПЛЕКСНАЯ ОБРАБОТКА',
-    'Комплексная защита автомобиля от коррозии',
-    'АНТИКОРРОЗИЙНАЯ ОБРАБОТКА',
-    'АНТИКОРРОЗИЙНАЯ ОБРАБОТКА АВТОМОБИЛЕЙ',
+test('unified keys join the same service across sites and leave the rest to one site', () => {
+  const sites = (id: string) => [
+    ...(groups.find((group) => group.id === id)?.services.keys() ?? []),
   ];
-  for (const name of names) {
-    assert.equal(
-      serviceGroups.find((rule) => rule.match.test(name))?.id,
-      'anticorrosion-full',
-      name,
-    );
-  }
-  assert.equal(
-    serviceGroups.find((rule) => rule.match.test('Антикоррозийная обработка днища автомобиля'))?.id,
-    'anticorrosion-underbody',
-  );
+  assert.deepEqual(sites('welding-sills').sort(), ['alrusa.by', 'antikorim.by']);
+  assert.deepEqual(sites('vin-cleaning').sort(), ['antikorim.by', 'antirzha.by']);
+  assert.ok(sites('sandblasting').includes('antikorim.by'));
+  const own = groups.find((group) => group.id === 'antirzha.by:standart');
+  assert.deepEqual([...(own?.services.keys() ?? [])], ['antirzha.by']);
+  assert.equal(rowFor('sedan', 'antirzha.by:standart').offeredCount, 1);
 });

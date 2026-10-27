@@ -84,6 +84,13 @@ function PriceValue({ cell }: { cell: PriceCell }) {
 }
 
 function MarketAverage({ row }: { row: PriceRow }) {
+  if (row.offeredCount === 1) {
+    return (
+      <Typography variant="body2" color="text.secondary">
+        нет у других компаний
+      </Typography>
+    );
+  }
   if (row.avg == null) return <Typography color="text.disabled">—</Typography>;
   return (
     <>
@@ -179,7 +186,14 @@ export default function CompanyPriceTable({ company, rows }: Props) {
               const cell = row.byCompany[company.domain];
               return (
                 <TableRow key={row.id} hover className={`row-${row.category}`}>
-                  <TableCell className="service-cell">{row.label}</TableCell>
+                  <TableCell className="service-cell">
+                    {row.label}
+                    {row.offeredCount === 1 && (
+                      <Tooltip title="Среди выбранных компаний эту услугу оказывает только эта">
+                        <Chip size="small" variant="outlined" label="только здесь" sx={{ ml: 1 }} />
+                      </Tooltip>
+                    )}
+                  </TableCell>
                   <TableCell>
                     <Typography variant="body2" color="text.secondary">
                       {categoryLabels[row.category]}

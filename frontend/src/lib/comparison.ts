@@ -1,4 +1,4 @@
-import type { ServiceGroupRule } from '../data/serviceGroups.ts';
+import { serviceLabel } from '@anticor/harvest-core/services';
 import type { Company, Service, ServiceCategory, VehicleClass } from '../types.ts';
 import { priceSourceUrl } from './links.ts';
 import { mean, normalizePrice } from './prices.ts';
@@ -84,18 +84,18 @@ export function shortServiceName(name: string): string {
   return head.length > 80 ? `${head.slice(0, 77)}…` : head;
 }
 
-// Groups every company's services into comparable services using the ordered `rules`.
-export function groupServices(companies: Company[], rules: ServiceGroupRule[]): ServiceGroup[] {
+// Groups every company's services by their unified `service_key`. Keys outside the catalog are a
+// site's own services and keep their (trimmed) name.
+export function groupServices(companies: Company[]): ServiceGroup[] {
   const groups = new Map<string, ServiceGroup>();
   for (const company of companies) {
     for (const service of company.services) {
-      const rule = rules.find(({ match }) => match.test(service.name_original.trim()));
-      const id = rule?.id ?? `${company.domain}:${service.id}`;
+      const id = service.service_key;
       let group = groups.get(id);
       if (!group) {
         group = {
           id,
-          label: rule?.label ?? shortServiceName(service.name_original),
+          label: serviceLabel(id) ?? shortServiceName(service.name_original),
           category: service.category,
           services: new Map(),
         };

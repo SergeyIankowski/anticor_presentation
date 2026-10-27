@@ -24,6 +24,7 @@ test('serviceAnchorText keeps the row label and drops descriptions and headings'
 test('priceSourceUrl adds a text fragment only when the service has prices', () => {
   const service = {
     id: 's',
+    service_key: 'krown.by:s',
     category: 'additional' as const,
     name_original: 'Мойка двигателя сверху Мойка двигателя',
     url: 'https://krown.by/price/',

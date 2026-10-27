@@ -24,6 +24,8 @@ export interface Price {
 
 export interface Service {
   id: string;
+  /** Unified key from `@anticor/harvest-core/services`; `<domain>:<id>` for a site's own service. */
+  service_key: string;
   category: ServiceCategory;
   name_original: string;
   name_en?: string;

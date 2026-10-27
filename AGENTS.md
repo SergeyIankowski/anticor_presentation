@@ -10,6 +10,7 @@ Create every new site under `instances/<domain>/` as an instance of `template/` 
 - Verify changes: `pnpm check`, `pnpm test`, `pnpm test:browser`, and a live run with `--output-dir` pointing at a temporary folder when appropriate.
 - Biome is configured at the workspace root. Use `pnpm lint` for linting, `pnpm lint:fix` for safe lint fixes, and `pnpm format` for formatting. Keep the template and site entry points consistently formatted.
 - The root `schema.json` is the company comparison contract; `schemas/site-harvest.schema.json` validates full harvests.
+- Unified service keys live in `packages/harvest-core/src/services.js`. When a site names an existing service differently, add or extend a rule there and run `pnpm services:keys`; services offered by one site only keep their own `<domain>:<id>` key.
 - Keep source URLs, original price text, qualified amounts, and per-page errors. Use current page content when refreshing data; do not fill missing prices from old JSON.
 - The local skill `.codex/skills/site-harvest-parser/SKILL.md` describes instance creation and JSON packaging. Live refreshes use the site-specific Node.js projects under `instances/`.
 

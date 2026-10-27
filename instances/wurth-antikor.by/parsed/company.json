@@ -71,6 +71,7 @@
   "services": [
     {
       "id": "standard-treatment",
+      "service_key": "anticorrosion-full",
       "category": "anticorrosion",
       "name_original": "АНТИКОРРОЗИЙНАЯ ОБРАБОТКА АВТОМОБИЛЕЙ",
       "url": "https://wurth-antikor.by/antikorrozijnaya-obrabotka-avto/",
@@ -129,6 +130,7 @@
     },
     {
       "id": "section-1-service-1",
+      "service_key": "wurth-antikor.by:section-1-service-1",
       "category": "additional",
       "name_original": "Лазерное удаление коррозии с кузовных элементов",
       "url": "https://wurth-antikor.by/lazernoe-udalenie-korrozii/",
@@ -138,6 +140,7 @@
     },
     {
       "id": "section-1-service-2",
+      "service_key": "wurth-antikor.by:section-1-service-2",
       "category": "additional",
       "name_original": "Лазерная очистка сварных швов",
       "url": "https://wurth-antikor.by/lazernoe-udalenie-korrozii/",
@@ -147,6 +150,7 @@
     },
     {
       "id": "section-1-service-3",
+      "service_key": "wurth-antikor.by:section-1-service-3",
       "category": "additional",
       "name_original": "Лазерное удаление ржавчины с рам и усилителей",
       "url": "https://wurth-antikor.by/lazernoe-udalenie-korrozii/",
@@ -156,6 +160,7 @@
     },
     {
       "id": "section-1-service-4",
+      "service_key": "wurth-antikor.by:section-1-service-4",
       "category": "additional",
       "name_original": "Лазерная очистка труднодоступных мест",
       "url": "https://wurth-antikor.by/lazernoe-udalenie-korrozii/",
@@ -165,6 +170,7 @@
     },
     {
       "id": "section-1-service-5",
+      "service_key": "wurth-antikor.by:section-1-service-5",
       "category": "additional",
       "name_original": "Лазерная очистка перед покраской",
       "url": "https://wurth-antikor.by/lazernoe-udalenie-korrozii/",
@@ -174,6 +180,7 @@
     },
     {
       "id": "section-1-service-6",
+      "service_key": "wurth-antikor.by:section-1-service-6",
       "category": "additional",
       "name_original": "Лазерное удаление старых покрытий и окалины",
       "url": "https://wurth-antikor.by/lazernoe-udalenie-korrozii/",
@@ -183,6 +190,7 @@
     },
     {
       "id": "section-1-service-7",
+      "service_key": "wurth-antikor.by:section-1-service-7",
       "category": "additional",
       "name_original": "Точечное лазерное удаление коррозии",
       "url": "https://wurth-antikor.by/lazernoe-udalenie-korrozii/",
@@ -192,6 +200,7 @@
     },
     {
       "id": "section-2-service-1",
+      "service_key": "wurth-antikor.by:section-2-service-1",
       "category": "anticorrosion",
       "name_original": "Газодинамическое удаление коррозии с кузова",
       "url": "https://wurth-antikor.by/gazodinamicheskoe-udalenie-luzhenie/",
@@ -201,6 +210,7 @@
     },
     {
       "id": "section-2-service-2",
+      "service_key": "wurth-antikor.by:section-2-service-2",
       "category": "anticorrosion",
       "name_original": "Газодинамическая очистка днища автомобиля",
       "url": "https://wurth-antikor.by/gazodinamicheskoe-udalenie-luzhenie/",
@@ -210,6 +220,7 @@
     },
     {
       "id": "section-2-service-3",
+      "service_key": "wurth-antikor.by:section-2-service-3",
       "category": "anticorrosion",
       "name_original": "Очистка колёсных арок от коррозии",
       "url": "https://wurth-antikor.by/gazodinamicheskoe-udalenie-luzhenie/",
@@ -219,6 +230,7 @@
     },
     {
       "id": "section-2-service-4",
+      "service_key": "wurth-antikor.by:section-2-service-4",
       "category": "anticorrosion",
       "name_original": "Газодинамическая очистка рам и лонжеронов",
       "url": "https://wurth-antikor.by/gazodinamicheskoe-udalenie-luzhenie/",
@@ -228,6 +240,7 @@
     },
     {
       "id": "section-2-service-5",
+      "service_key": "wurth-antikor.by:section-2-service-5",
       "category": "anticorrosion",
       "name_original": "Очистка сложных и рельефных поверхностей",
       "url": "https://wurth-antikor.by/gazodinamicheskoe-udalenie-luzhenie/",
@@ -237,6 +250,7 @@
     },
     {
       "id": "section-3-service-1",
+      "service_key": "wurth-antikor.by:section-3-service-1",
       "category": "anticorrosion",
       "name_original": "Газотермическое удаление коррозии с металлических деталей",
       "url": "https://wurth-antikor.by/gazotermicheskoe-udalenie-goryachee-cinkovanie/",
@@ -246,6 +260,7 @@
     },
     {
       "id": "section-3-service-2",
+      "service_key": "wurth-antikor.by:section-3-service-2",
       "category": "anticorrosion",
       "name_original": "Газотермическая очистка перед нанесением покрытий",
       "url": "https://wurth-antikor.by/gazotermicheskoe-udalenie-goryachee-cinkovanie/",
@@ -255,6 +270,7 @@
     },
     {
       "id": "section-3-service-3",
+      "service_key": "wurth-antikor.by:section-3-service-3",
       "category": "anticorrosion",
       "name_original": "Горячее цинкование металлических деталей",
       "url": "https://wurth-antikor.by/gazotermicheskoe-udalenie-goryachee-cinkovanie/",
@@ -264,6 +280,7 @@
     },
     {
       "id": "section-3-service-4",
+      "service_key": "wurth-antikor.by:section-3-service-4",
       "category": "anticorrosion",
       "name_original": "Горячее цинкование рам и элементов конструкции",
       "url": "https://wurth-antikor.by/gazotermicheskoe-udalenie-goryachee-cinkovanie/",
@@ -273,6 +290,7 @@
     },
     {
       "id": "section-3-service-5",
+      "service_key": "wurth-antikor.by:section-3-service-5",
       "category": "anticorrosion",
       "name_original": "Антикоррозийная защита методом горячего цинкования",
       "url": "https://wurth-antikor.by/gazotermicheskoe-udalenie-goryachee-cinkovanie/",
@@ -282,6 +300,7 @@
     },
     {
       "id": "section-3-service-6",
+      "service_key": "wurth-antikor.by:section-3-service-6",
       "category": "anticorrosion",
       "name_original": "Восстановление защитного цинкового слоя",
       "url": "https://wurth-antikor.by/gazotermicheskoe-udalenie-goryachee-cinkovanie/",
@@ -291,6 +310,7 @@
     },
     {
       "id": "section-3-service-7",
+      "service_key": "wurth-antikor.by:section-3-service-7",
       "category": "anticorrosion",
       "name_original": "Подготовка металла к горячему цинкованию",
       "url": "https://wurth-antikor.by/gazotermicheskoe-udalenie-goryachee-cinkovanie/",
@@ -300,6 +320,7 @@
     },
     {
       "id": "homepage-starting-price-1",
+      "service_key": "laser-cleaning",
       "category": "additional",
       "name_original": "ЛАЗЕРНОЕ УДАЛЕНИЕ КОРРОЗИИ",
       "url": "https://wurth-antikor.by/",
@@ -318,6 +339,7 @@
     },
     {
       "id": "homepage-starting-price-2",
+      "service_key": "wurth-antikor.by:homepage-starting-price-2",
       "category": "anticorrosion",
       "name_original": "ГАЗОДИНАМИЧЕСКОЕ УДАЛЕНИЕ И ЛУЖЕНИЕ",
       "url": "https://wurth-antikor.by/",
@@ -336,6 +358,7 @@
     },
     {
       "id": "homepage-starting-price-3",
+      "service_key": "wurth-antikor.by:homepage-starting-price-3",
       "category": "anticorrosion",
       "name_original": "ГАЗОТЕРМИЧЕСКОЕ УДАЛЕНИЕ И ГОРЯЧЕЕ ЦИНКОВАНИЕ",
       "url": "https://wurth-antikor.by/",

@@ -16,6 +16,7 @@
     "parse": "pnpm -r --workspace-concurrency=1 --filter './instances/*' run parse",
     "parse:krown": "pnpm --filter @anticor/krown-by run parse",
     "parse:etm": "pnpm --filter @anticor/etm-by run parse",
+    "services:keys": "node scripts/service-keys.js",
     "frontend:dev": "pnpm --filter @anticor/frontend dev",
     "frontend:build": "pnpm --filter @anticor/frontend build",
     "frontend:typecheck": "pnpm --filter @anticor/frontend typecheck",

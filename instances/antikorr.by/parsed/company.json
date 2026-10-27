@@ -88,6 +88,7 @@
   "services": [
     {
       "id": "complex-1-brand-1",
+      "service_key": "anticorrosion-complex-1-dinitrol",
       "category": "anticorrosion",
       "name_original": "Комплекс №1 (DINITROL)",
       "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941",
@@ -145,6 +146,7 @@
     },
     {
       "id": "complex-2-brand-1",
+      "service_key": "anticorrosion-complex-2-dinitrol",
       "category": "anticorrosion",
       "name_original": "Комплекс №2 (DINITROL)",
       "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 4941",
@@ -202,6 +204,7 @@
     },
     {
       "id": "complex-3-brand-1",
+      "service_key": "anticorrosion-complex-3-dinitrol",
       "category": "anticorrosion",
       "name_original": "КОМПЛЕКС №3 «БЕСШУМКА» ЭКО (DINITROL)",
       "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479",
@@ -259,6 +262,7 @@
     },
     {
       "id": "complex-4-brand-1",
+      "service_key": "anticorrosion-complex-4-dinitrol",
       "category": "anticorrosion",
       "name_original": "КОМПЛЕКС №4 «БЕСШУМКА» (DINITROL)",
       "description": "Cкрытые полости материалами DINITROL LT(ML). Днище и колесн.арки DINITROL 479",
@@ -316,6 +320,7 @@
     },
     {
       "id": "complex-1-brand-2",
+      "service_key": "anticorrosion-complex-1-noxudol",
       "category": "anticorrosion",
       "name_original": "Комплекс №1 (Noxudol)",
       "description": "скрытые полости материалами Mercasol 831ML/Noxudol 750, днище, колесн.арки Mercasol 845/Noxudol 900D",
@@ -373,6 +378,7 @@
     },
     {
       "id": "complex-2-brand-2",
+      "service_key": "anticorrosion-complex-2-noxudol",
       "category": "anticorrosion",
       "name_original": "Комплекс №2 (Noxudol)",
       "description": "скрытые полости материалами Mercasol 831ML/Noxudol 750, днище, колесн.арки Mercasol 845/Noxudol 900D",
@@ -430,6 +436,7 @@
     },
     {
       "id": "complex-3-brand-2",
+      "service_key": "anticorrosion-complex-3-noxudol",
       "category": "anticorrosion",
       "name_original": "КОМПЛЕКС №3 «БЕСШУМКА» ЭКО (Noxudol)",
       "description": "скрытые полости материалами Mercasol 831ML/Noxudol 750 , днище, колесн.арки Mercasol 4S",
@@ -487,6 +494,7 @@
     },
     {
       "id": "complex-4-brand-2",
+      "service_key": "anticorrosion-complex-4-noxudol",
       "category": "anticorrosion",
       "name_original": "КОМПЛЕКС №4 «БЕСШУМКА» (Noxudol)",
       "description": "скрытые полости материалами Mercasol 831ML/Noxudol 750 , днище, колесн.арки Mercasol 4S",
@@ -544,6 +552,7 @@
     },
     {
       "id": "service-1",
+      "service_key": "anticorrosion-full",
       "category": "anticorrosion",
       "name_original": "Антикоррозийная обработка автомобиля",
       "description": "Это комплексное мероприятие по защите Вашего авто от коррозии.",
@@ -553,6 +562,7 @@
     },
     {
       "id": "service-2",
+      "service_key": "anticorrosion-body",
       "category": "anticorrosion",
       "name_original": "Антикоррозийная обработка кузова в Минске недорого",
       "description": "Антикоррозийная обработка кузова – это основа защиты автомобиля, поскольку по-другому защитить свою машину и продлить его эксплуатационный период практически невозможно. Поэтому каждому владельцу необходимо обеспечить надежную защиту от коррозии, в чем помогут специалисты нашего сервиса. Но, для начала стоит разобраться, что собой представляет эта процедура, и зачем она так необходима.",
@@ -562,6 +572,7 @@
     },
     {
       "id": "service-3",
+      "service_key": "anticorrosion-underbody",
       "category": "anticorrosion",
       "name_original": "Антикоррозийная обработка днища автомобиля",
       "description": "Одним из наиболее страшных врагов автомобиля является ржавчина, которая возникает в процессе коррозии. И максимально подвержено ее возникновению днище автомобиля, поскольку именно оно оказывается под наиболее сильным воздействием агрессивной среды. И со временем эксплуатации этот элемент машины может прийти в негодность, а замена или ремонт внушительно «ударит по кошельку». Во избежание столь больших затрат мы предлагаем выполнить антикоррозийную обработку днища в нашем сервисе, что предоставит гарантию безопасности вашего авто.",
@@ -571,6 +582,7 @@
     },
     {
       "id": "service-4",
+      "service_key": "underbody-wash",
       "category": "additional",
       "name_original": "Мойка днища автомобиля на подъемнике",
       "description": "без снятия пластиковой защиты",
@@ -613,6 +625,7 @@
     },
     {
       "id": "service-5",
+      "service_key": "anticorrosion-sills",
       "category": "anticorrosion",
       "name_original": "Антикоррозийная обработка порогов",
       "description": "Пороги – одна из наиболее подверженных коррозии частей автомобиля. Из-за ударов гравия, щебня, перепадов температур на них образуются сколы и трещины. Места дефектов лакокрасочного покрытия начинают ржаветь. Особенно активно этот процесс протекает при попадании реагентов, которыми покрывают дорожное полотно, а также в условиях высокой влажности. Развитию ржавчины способствует также попадание влажной грязи в скрытые плохо вентилируемые полости, в которых она не успевает просыхать.",
@@ -622,6 +635,7 @@
     },
     {
       "id": "service-6",
+      "service_key": "anticorrosion-arches",
       "category": "anticorrosion",
       "name_original": "Антикоррозийная обработка арок",
       "description": "Поверхность колесных арок автомобиля максимально подвержена абразивному износу, поскольку с вращающихся колес на нее постоянно летят гравий, снег, мелкие камни. Ударяясь о покрытие, они разрушают его. В местах сколов и трещин развивается коррозия. Наличие влаги и реагентов, которыми покрывают дорожное покрытие, усиливает этот процесс.",

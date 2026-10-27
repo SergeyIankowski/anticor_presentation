@@ -32,6 +32,7 @@
   "services": [
     {
       "id": "treatment-1",
+      "service_key": "antikor.pozit.by:treatment-1",
       "category": "anticorrosion",
       "name_original": "БАЗОВАЯ ОБРАБОТКА",
       "description": "Подъём, мойка днища и арок; Сушка-продувка; Осмотр; Обезжиривание; Обработка днища; Обработка колесных арок",
@@ -61,6 +62,7 @@
     },
     {
       "id": "treatment-2",
+      "service_key": "anticorrosion-full",
       "category": "anticorrosion",
       "name_original": "КОМПЛЕКСНАЯ ОБРАБОТКА",
       "description": "Базовая обработка; Проливание скрытых полостей ML-составом:; Днища, порогов; Лонжеронов, стоек; 4-х дверей; Капота, крышки багажника",

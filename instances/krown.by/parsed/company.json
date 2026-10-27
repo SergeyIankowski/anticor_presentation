@@ -171,6 +171,7 @@
   "services": [
     {
       "id": "service-1",
+      "service_key": "anticorrosion-full",
       "category": "anticorrosion",
       "name_original": "Полная обработка",
       "url": "https://krown.by/price/",
@@ -263,6 +264,7 @@
     },
     {
       "id": "service-2",
+      "service_key": "anticorrosion-underbody",
       "category": "anticorrosion",
       "name_original": "Обработка днища",
       "url": "https://krown.by/price/",
@@ -355,6 +357,7 @@
     },
     {
       "id": "service-3",
+      "service_key": "anticorrosion-repeat",
       "category": "anticorrosion",
       "name_original": "Повторная обработка",
       "url": "https://krown.by/price/",
@@ -447,6 +450,7 @@
     },
     {
       "id": "service-4",
+      "service_key": "underbody-wash-antisalt",
       "category": "additional",
       "name_original": "Мойка днища с \"Антисолью\" Мойка днища на подъёмнике с применением состава \"KROWN Salt Eliminator\" Мойка днища с составом антисоль",
       "url": "https://krown.by/price/",
@@ -491,6 +495,7 @@
     },
     {
       "id": "service-5",
+      "service_key": "underbody-wash-heavy",
       "category": "additional",
       "name_original": "Мойка сильно загрязнённого днища Для рамных внедорожников, эксплуатируемых в тяжёлых условиях (спецоборудование) Мойка днища с составом антисоль",
       "url": "https://krown.by/price/",
@@ -506,6 +511,7 @@
     },
     {
       "id": "service-6",
+      "service_key": "body-wash-antisalt",
       "category": "additional",
       "name_original": "Мойка кузова с \"Антисолью\" Двухфазная ручная мойка кузова с применением специализированного состава \"KROWN Salt Eliminator\" ПРЕЙСКУРАНТ НА УСЛУГИ МОЙКИ",
       "url": "https://krown.by/price/",
@@ -556,6 +562,7 @@
     },
     {
       "id": "service-7",
+      "service_key": "wash-standard",
       "category": "additional",
       "name_original": "Стандарт Двухфазная ручная мойка кузова, мойка дверных проёмов, жидкий воск, сушка ПРЕЙСКУРАНТ НА УСЛУГИ МОЙКИ",
       "url": "https://krown.by/price/",
@@ -599,6 +606,7 @@
     },
     {
       "id": "service-8",
+      "service_key": "wash-standard-plus",
       "category": "additional",
       "name_original": "Стандарт плюс Двухфазная ручная мойка кузова, мойка дверных проёмов, жидкий воск, сушка , чистка ковриков 4 шт. ПРЕЙСКУРАНТ НА УСЛУГИ МОЙКИ",
       "url": "https://krown.by/price/",
@@ -642,6 +650,7 @@
     },
     {
       "id": "service-9",
+      "service_key": "wash-complex-1",
       "category": "additional",
       "name_original": "Комплекс №1 “Стандарт плюс” + пылесос ковролина, уборка пыли в салоне автомобиля ПРЕЙСКУРАНТ НА УСЛУГИ МОЙКИ",
       "url": "https://krown.by/price/",
@@ -685,6 +694,7 @@
     },
     {
       "id": "service-10",
+      "service_key": "wash-complex-2",
       "category": "additional",
       "name_original": "Комплекс №2 “Стандарт плюс” + пылесос ковролина в салоне и багажнике, уборка пыли, обработка пластиковых панелей cпецсредством, чистка стекол и зеркал салона, чистка педалей) ПРЕЙСКУРАНТ НА УСЛУГИ МОЙКИ",
       "url": "https://krown.by/price/",
@@ -728,6 +738,7 @@
     },
     {
       "id": "service-11",
+      "service_key": "underbody-wash",
       "category": "additional",
       "name_original": "Мойка днища на подъёмнике Мойка днища на подъёмнике с применением автошампуня для бесконтактной мойки ПРЕЙСКУРАНТ НА УСЛУГИ МОЙКИ",
       "url": "https://krown.by/price/",
@@ -772,6 +783,7 @@
     },
     {
       "id": "service-12",
+      "service_key": "engine-wash-top",
       "category": "additional",
       "name_original": "Мойка двигателя сверху Мойка двигателя и подкапотного пространства сверху (с применением спецсредств и последующим обдувом воздухом) ПРЕЙСКУРАНТ НА УСЛУГИ МОЙКИ",
       "url": "https://krown.by/price/",
@@ -822,6 +834,7 @@
     },
     {
       "id": "service-13",
+      "service_key": "engine-wash-bottom",
       "category": "additional",
       "name_original": "Мойка двигателя снизу Мойка двигателя и подкапотного пространства снизу (с применением спецсредств и последующим обдувом воздухом) ПРЕЙСКУРАНТ НА УСЛУГИ МОЙКИ",
       "url": "https://krown.by/price/",
@@ -865,6 +878,7 @@
     },
     {
       "id": "service-14",
+      "service_key": "underbody-wash-heavy",
       "category": "additional",
       "name_original": "Мойка сильно загрязнённого днища Мойка днища рамного внедорожника, эксплуатируемого по бездорожью, участвующего в экспедициях по пересечённой местности или в других сложных условиях, способствующих сильной степени загрязнения рамы, днища и колесных арок (с применением специального оборудования) ПРЕЙСКУРАНТ НА УСЛУГИ МОЙКИ",
       "url": "https://krown.by/price/",
@@ -880,6 +894,7 @@
     },
     {
       "id": "service-15",
+      "service_key": "antirain-glass",
       "category": "additional",
       "name_original": "Антидождь на лобовое/заднее стекло (создаёт мощный гидрофобный эффект, значительно улучшает видимость во время дождя. Срок службы до 6 месяцев) Нанесение покрытия Антидождь \"Aquapel\"",
       "url": "https://krown.by/price/",
@@ -930,6 +945,7 @@
     },
     {
       "id": "service-16",
+      "service_key": "antirain-front-hemisphere",
       "category": "additional",
       "name_original": "Антидождь (Aquapel) передняя полусфера Лобовое + 2 боковых Нанесение покрытия Антидождь \"Aquapel\"",
       "url": "https://krown.by/price/",
@@ -980,6 +996,7 @@
     },
     {
       "id": "service-17",
+      "service_key": "interior-cleaning",
       "category": "additional",
       "name_original": "Уборка салона (пылесос салона, мойка резиновых ковриков (спецсредством и щёткой с последующим обдувом воздухом, комплект - 4 шт.) или сухая чистка щеткой ковров ворсовых (комплект - 4 шт.), протирание пыли, чистка педалей) УБОРКА САЛОНА",
       "url": "https://krown.by/price/",
@@ -1030,6 +1047,7 @@
     },
     {
       "id": "service-18",
+      "service_key": "interior-cleaning-heavy",
       "category": "additional",
       "name_original": "Уборка салона от шерсти, ворса и других сложных загрязнений (пылесос салона, мойка резиновых ковриков (спецсредством и щёткой с последующим обдувом воздухом, комплект - 4 шт.) или сухая чистка щеткой ковров ворсовых (комплект - 4 шт.), протирание пыли, чистка педалей) УБОРКА САЛОНА",
       "url": "https://krown.by/price/",
@@ -1080,6 +1098,7 @@
     },
     {
       "id": "service-19",
+      "service_key": "mats-wash",
       "category": "additional",
       "name_original": "Мойка резиновых ковриков (4шт) (обмыв водой ковров резиновых с последующим обдувом воздухом или сухая чистка щеткой ковров ворсовых, комплект - 4 шт.) УБОРКА САЛОНА",
       "url": "https://krown.by/price/",
@@ -1095,6 +1114,7 @@
     },
     {
       "id": "service-20",
+      "service_key": "glass-wash",
       "category": "additional",
       "name_original": "Мойка стекол и зеркал Изнутри и снаружи УБОРКА САЛОНА",
       "url": "https://krown.by/price/",
@@ -1145,6 +1165,7 @@
     },
     {
       "id": "service-21",
+      "service_key": "ozonation",
       "category": "additional",
       "name_original": "Озонирование салона (удаление неприятных запахов, дезинфекция вентиляции и кондиционера) ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ",
       "url": "https://krown.by/price/",
@@ -1160,6 +1181,7 @@
     },
     {
       "id": "service-22",
+      "service_key": "paint-deep-cleaning",
       "category": "additional",
       "name_original": "Глубокая чистка ЛКП кузова (двухфазная мойка кузова, мойка дверных проемов, глубокая чистка ЛКП от металлических вкраплений и битумных пятен) ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ",
       "url": "https://krown.by/price/",
@@ -1203,6 +1225,7 @@
     },
     {
       "id": "service-23",
+      "service_key": "wheel-cleaning",
       "category": "additional",
       "name_original": "Отбеливание дисков (колпаков) в сборе на авто или отдельно (чистка дисков спецсредством - удаление налета от тормозных колодок и битума - за 1 диск) ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ",
       "url": "https://krown.by/price/",
@@ -1218,6 +1241,7 @@
     },
     {
       "id": "service-24",
+      "service_key": "bitumen-removal",
       "category": "additional",
       "name_original": "Удаление битумных загрязнений и металлических вкраплений За 1 элемент ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ",
       "url": "https://krown.by/price/",
@@ -1268,6 +1292,7 @@
     },
     {
       "id": "service-25",
+      "service_key": "midge-removal",
       "category": "additional",
       "name_original": "Удаление мошек ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ",
       "url": "https://krown.by/price/",
@@ -1283,6 +1308,7 @@
     },
     {
       "id": "service-26",
+      "service_key": "skid-plate-removal",
       "category": "additional",
       "name_original": "Снятие и установка защиты двигателя/днища За 1 элемент ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ",
       "url": "https://krown.by/price/",

@@ -95,6 +95,10 @@
         "additionalProperties": false,
         "properties": {
           "id": { "type": "string" },
+          "service_key": {
+            "type": "string",
+            "description": "Unified service key from packages/harvest-core/src/services.js, shared by every site offering the same service; '<domain>:<id>' when no other site offers it. Added by the shared runner."
+          },
           "category": {
             "enum": ["anticorrosion", "additional"],
             "description": "anticorrosion = any rust-protection treatment; additional = everything else offered"

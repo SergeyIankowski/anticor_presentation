@@ -43,6 +43,7 @@
   "services": [
     {
       "id": "antikorroziynaya-obrabotka-dverey",
+      "service_key": "protect-line.by:antikorroziynaya-obrabotka-dverey",
       "category": "anticorrosion",
       "name_original": "ДВЕРИ",
       "url": "https://protect-line.by/",
@@ -61,6 +62,7 @@
     },
     {
       "id": "antikorroziynaya-obrabotka-kapota",
+      "service_key": "anticorrosion-hood",
       "category": "anticorrosion",
       "name_original": "КАПОТ",
       "url": "https://protect-line.by/",
@@ -79,6 +81,7 @@
     },
     {
       "id": "antikorroziynaya-obrabotka-krishki-bagaqnika",
+      "service_key": "protect-line.by:antikorroziynaya-obrabotka-krishki-bagaqnika",
       "category": "anticorrosion",
       "name_original": "КРЫШКА БАГАЖНИКА",
       "url": "https://protect-line.by/",
@@ -97,6 +100,7 @@
     },
     {
       "id": "antikorroziynaya-obrabotka-skritih-polostey",
+      "service_key": "anticorrosion-cavities",
       "category": "anticorrosion",
       "name_original": "СКРЫТЫЕ ПОЛОСТИ",
       "url": "https://protect-line.by/",
@@ -115,6 +119,7 @@
     },
     {
       "id": "antikorroziynaya-obrabotka-dnischa",
+      "service_key": "anticorrosion-underbody",
       "category": "anticorrosion",
       "name_original": "ДНИЩЕ",
       "url": "https://protect-line.by/",
@@ -133,6 +138,7 @@
     },
     {
       "id": "antikorroziynaya-obrabotka-arok-krilev",
+      "service_key": "anticorrosion-arches",
       "category": "anticorrosion",
       "name_original": "АРКИ И КРЫЛЬЯ",
       "url": "https://protect-line.by/",
@@ -151,6 +157,7 @@
     },
     {
       "id": "antikorroziynaya-obrabotka-longeronov",
+      "service_key": "protect-line.by:antikorroziynaya-obrabotka-longeronov",
       "category": "anticorrosion",
       "name_original": "ЛОНЖЕРОНЫ",
       "url": "https://protect-line.by/",
@@ -169,6 +176,7 @@
     },
     {
       "id": "antikorroziynaya-obrabotka-porogov",
+      "service_key": "anticorrosion-sills",
       "category": "anticorrosion",
       "name_original": "ПОРОГИ",
       "url": "https://protect-line.by/",
@@ -187,6 +195,7 @@
     },
     {
       "id": "peskostruinaya-obrabotka",
+      "service_key": "sandblasting",
       "category": "additional",
       "name_original": "Пескоструйная обработка кузова от Protect-Line",
       "url": "https://protect-line.by/peskostruinaya-obrabotka/",
@@ -196,6 +205,7 @@
     },
     {
       "id": "gruntovanie-kuzova",
+      "service_key": "protect-line.by:gruntovanie-kuzova",
       "category": "additional",
       "name_original": "Грунтовка кузова: защита и долговечность Вашего автомобиля",
       "url": "https://protect-line.by/gruntovanie-kuzova/",
@@ -205,6 +215,7 @@
     },
     {
       "id": "svarka-avtomobila",
+      "service_key": "welding",
       "category": "additional",
       "name_original": "Переварка автомобиля: когда нужен сварочный ремонт и как его делают",
       "url": "https://protect-line.by/svarka-avtomobila/",
@@ -214,6 +225,7 @@
     },
     {
       "id": "antikorroziynaya-obrabotka-kapota-article",
+      "service_key": "anticorrosion-hood",
       "category": "anticorrosion",
       "name_original": "Антикоррозийная обработка капота авто в Гомеле",
       "url": "https://protect-line.by/antikorroziynaya-obrabotka-kapota/",
@@ -232,6 +244,7 @@
     },
     {
       "id": "complex-body-protection",
+      "service_key": "anticorrosion-full",
       "category": "anticorrosion",
       "name_original": "комплексную защиту кузова (днище, арки, скрытые полости)",
       "url": "https://protect-line.by/antikorroziynaya-obrabotka-kapota/",

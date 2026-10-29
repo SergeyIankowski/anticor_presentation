@@ -1,0 +1,18 @@
+.section {
+  margin-block: 40px;
+}
+
+.section-title {
+  margin-bottom: 4px;
+}
+
+.section-lead {
+  margin-bottom: 16px;
+}
+
+/* Keep 758px in sync with COMPACT_MAX_WIDTH in shared/config/layout.ts. */
+@media (max-width: 758px) {
+  .section {
+    margin-block: 28px;
+  }
+}

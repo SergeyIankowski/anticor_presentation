@@ -1,0 +1,21 @@
+.company-filter {
+  margin-top: 24px;
+  padding: 16px;
+}
+
+.company-filter .company-filter-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 4px 16px;
+}
+
+/* Inside the compact filters sidebar the filter drops its panel frame and uses one column. */
+.filters-sidebar .company-filter {
+  margin-top: 0;
+  padding: 0;
+  border: 0;
+}
+
+.filters-sidebar .company-filter-options {
+  grid-template-columns: 1fr;
+}

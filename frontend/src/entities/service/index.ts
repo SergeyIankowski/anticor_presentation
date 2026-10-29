@@ -1,0 +1,11 @@
+export { categoryLabels } from './model/category.ts';
+export { serviceCoverage } from './model/coverage.ts';
+export { groupServices } from './model/groupServices.ts';
+export { priceRows } from './model/priceRows.ts';
+export type { CoverageRow, PriceCell, PriceRow, ServiceGroup } from './model/types.ts';
+export { default as CategoryLabel } from './ui/CategoryLabel.tsx';
+export { default as MarketAverage } from './ui/MarketAverage.tsx';
+export { default as OnlyHereChip } from './ui/OnlyHereChip.tsx';
+export { default as PriceDifference } from './ui/PriceDifference.tsx';
+export { default as PriceValue } from './ui/PriceValue.tsx';
+export { default as SourceLink } from './ui/SourceLink.tsx';

@@ -1,8 +1,8 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { test } from 'node:test';
-import { priceSourceUrl, serviceAnchorText } from '../src/lib/links.ts';
-import type { CompanySheet } from '../src/types.ts';
+import { priceSourceUrl, serviceAnchorText } from '../src/entities/service/lib/sourceUrl.ts';
+import type { CompanySheet } from '../src/shared/api/harvest.ts';
 import { harvestedDomains, instancesDir } from './instances.ts';
 
 const readJson = (path: string) => JSON.parse(readFileSync(new URL(path, instancesDir), 'utf8'));

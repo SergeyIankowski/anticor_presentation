@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { servicePoints } from '../src/lib/servicePoints.ts';
-import type { Company, Location } from '../src/types.ts';
+import type { Company, Location } from '../src/shared/api/harvest.ts';
+import { servicePoints } from '../src/widgets/service-points/model/servicePoints.ts';
 
 const company = (domain: string, locations?: Location[]): Company => ({
   domain,

@@ -1,0 +1,8 @@
+/* Keep 758px in sync with COMPACT_MAX_WIDTH in shared/config/layout.ts. */
+@media (max-width: 758px) {
+  /* Leave room for the fixed menu button beside the title. */
+  .page-title.MuiTypography-root {
+    padding-left: 52px;
+    font-size: 1.5rem;
+  }
+}

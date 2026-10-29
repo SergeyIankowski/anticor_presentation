@@ -2,15 +2,13 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { test } from 'node:test';
 import { serviceKey } from '@anticor/harvest-core/services';
-import {
-  groupServices,
-  priceRows,
-  serviceCoverage,
-  shortServiceName,
-  vehicleClasses,
-} from '../src/lib/comparison.ts';
-import { normalizePrice } from '../src/lib/prices.ts';
-import type { Company, VehicleClass } from '../src/types.ts';
+import { normalizePrice } from '../src/entities/service/lib/normalizePrice.ts';
+import { shortServiceName } from '../src/entities/service/lib/serviceName.ts';
+import { serviceCoverage } from '../src/entities/service/model/coverage.ts';
+import { groupServices } from '../src/entities/service/model/groupServices.ts';
+import { priceRows } from '../src/entities/service/model/priceRows.ts';
+import { vehicleClasses } from '../src/entities/vehicle-class/model/vehicleClass.ts';
+import type { Company, VehicleClass } from '../src/shared/api/harvest.ts';
 import { harvestedDomains, instancesDir } from './instances.ts';
 
 const companies: Company[] = harvestedDomains().map((domain) => ({

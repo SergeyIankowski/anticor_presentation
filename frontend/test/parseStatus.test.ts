@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { hasParseErrors } from '../src/lib/parseStatus.ts';
+import { hasParseErrors } from '../src/entities/company/model/parseStatus.ts';
 
 test('only complete parses without page failures are error-free', () => {
   assert.equal(hasParseErrors({ status: 'complete', failures: [] }), false);

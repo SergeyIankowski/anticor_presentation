@@ -6,3 +6,4 @@ node_modules/
 **/parse-report.json
 **/.parse.lock
 frontend/dist/
+frontend/storybook-static/

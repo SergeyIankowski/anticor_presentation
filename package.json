@@ -20,6 +20,8 @@
     "frontend:dev": "pnpm --filter @anticor/frontend dev",
     "frontend:build": "pnpm --filter @anticor/frontend build",
     "frontend:typecheck": "pnpm --filter @anticor/frontend typecheck",
+    "frontend:storybook": "pnpm --filter @anticor/frontend storybook",
+    "frontend:storybook:build": "pnpm --filter @anticor/frontend build-storybook",
     "browser:install": "pnpm --filter @anticor/harvest-core exec playwright install chromium",
     "test": "node --test scripts/test/*.test.js packages/harvest-core/test/*.test.js instances/*/test/*.test.js frontend/test/*.test.ts",
     "test:browser": "node --test packages/harvest-core/integration/*.test.js"

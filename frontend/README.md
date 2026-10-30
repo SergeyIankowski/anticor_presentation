@@ -5,6 +5,23 @@ is bundled at build time from `../instances/*/parsed/company.json`.
 
 - `pnpm frontend:dev`, `pnpm frontend:build`, `pnpm frontend:typecheck` from the repo root.
 - Tests live in `test/` and run with the root `pnpm test`.
+- `pnpm frontend:storybook` opens Storybook at http://localhost:6006, and
+  `pnpm frontend:storybook:build` writes a static build to `storybook-static/`.
+
+## Storybook
+
+Every brick has a `*.stories.tsx` file next to it, so the Storybook sidebar mirrors the layers
+below: `shared` → `entities` → `features` → `widgets` → `pages`. Each story shows one display case,
+such as a price range, a "from" price, a service without a price or an empty table.
+
+- Stories use the fictional companies in `src/shared/api/fixtures.ts`. Together they cover every
+  case. Stories in the `service` entity get their rows and cells from
+  `src/entities/service/model/fixtures.ts`.
+- Only the `pages/comparison/ComparisonPage` stories use the real harvested data, like the app.
+- The toolbar switches between the light and dark app themes, and the viewport tool shows the
+  compact layout.
+- Switches and the company filter keep their state inside the story, so you can click them. The
+  Actions panel logs their `onChange` calls.
 
 ## Structure: Feature-Sliced Design
 

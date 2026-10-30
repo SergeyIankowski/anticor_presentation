@@ -3,3 +3,5 @@ packages:
   - "instances/*"
   - "frontend"
   - "!template"
+allowBuilds:
+  esbuild: false

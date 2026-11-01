@@ -48,12 +48,12 @@ A price connects **one service** to **one vehicle category**. For example, a pri
 
 These fictional examples illustrate price representation:
 
-| Website wording | `price` | `price_min` | `price_max` |
-| --- | ---: | ---: | ---: |
-| `250 BYN` | 250 | null | null |
-| `от 250 BYN` | null | 250 | null |
-| `250–400 BYN` | null | 250 | 400 |
-| `по запросу` (if an entry is retained) | null | null | null |
+| Website wording                        | `price` | `price_min` | `price_max` |
+| -------------------------------------- | ------: | ----------: | ----------: |
+| `250 BYN`                              |     250 |        null |        null |
+| `от 250 BYN`                           |    null |         250 |        null |
+| `250–400 BYN`                          |    null |         250 |         400 |
+| `по запросу` (if an entry is retained) |    null |        null |        null |
 
 ## Full harvest versus comparison data
 

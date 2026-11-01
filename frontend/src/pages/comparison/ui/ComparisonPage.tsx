@@ -13,6 +13,7 @@ import { FiltersBar } from '../../../widgets/filters-bar/index.ts';
 import { FiltersSidebar } from '../../../widgets/filters-sidebar/index.ts';
 import { CoverageTable } from '../../../widgets/service-coverage/index.ts';
 import { ServicePointsTable } from '../../../widgets/service-points/index.ts';
+import { WorkingHoursSection, workingHoursRows } from '../../../widgets/working-hours/index.ts';
 import { useComparison } from '../model/useComparison.ts';
 import PageHeader from './PageHeader.tsx';
 
@@ -32,6 +33,7 @@ export default function ComparisonPage() {
     coverageRows,
   } = useComparison();
   const compact = useCompactLayout();
+  const hoursRows = workingHoursRows(companies);
 
   const companyFilter = (
     <CompanyFilter
@@ -63,6 +65,13 @@ export default function ComparisonPage() {
         lead="Сколько адресов указано на сайте каждой компании. Если сайт не публикует адрес, точка не учитывается."
       >
         <ServicePointsTable companies={companies} />
+      </Section>
+
+      <Section
+        title="Часы работы"
+        lead={`Во сколько открывается и закрывается каждая компания в выбранный день, справа — часов работы за день. Ниже — сумма часов за неделю и месяц. Компании без опубликованного графика не показаны (${companies.length - hoursRows.length} из ${companies.length}). Если адресов несколько, взят самый длинный график.`}
+      >
+        <WorkingHoursSection companies={companies} />
       </Section>
 
       {!compact && companyFilter}

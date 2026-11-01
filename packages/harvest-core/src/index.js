@@ -1,30 +1,19 @@
-import { copyFile, mkdir, open, readFile, rename, rm, writeFile } from 'node:fs/promises';
+import { copyFile, mkdir, open, rename, rm, writeFile } from 'node:fs/promises';
 import { dirname, join, resolve } from 'node:path';
-import { fileURLToPath, pathToFileURL } from 'node:url';
+import { pathToFileURL } from 'node:url';
 import { parseArgs } from 'node:util';
-import Ajv2020 from 'ajv/dist/2020.js';
-import addFormats from 'ajv-formats';
 import { crawlSite } from './browser.js';
 import { createPresentation, localDate } from './normalize.js';
 import { withServiceKeys } from './services.js';
+import { repositoryRoot, validateJson } from './validate.js';
 
 export { extractPage } from './browser.js';
 export * from './normalize.js';
 export * from './services.js';
-export const repositoryRoot = resolve(dirname(fileURLToPath(import.meta.url)), '../../..');
+export * from './validate.js';
 
 export const isMain = (url) =>
   process.argv[1] && url === pathToFileURL(resolve(process.argv[1])).href;
-
-export async function validateJson(value, schemaPath) {
-  const ajv = new Ajv2020({ allErrors: true, strict: false });
-  addFormats(ajv);
-  const validate = ajv.compile(JSON.parse(await readFile(schemaPath, 'utf8')));
-  if (!validate(value))
-    throw new Error(
-      `Schema validation failed (${schemaPath}): ${ajv.errorsText(validate.errors, { separator: '; ' })}`,
-    );
-}
 
 async function jsonWrite(path, data) {
   await mkdir(dirname(path), { recursive: true });
